@@ -1,0 +1,427 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/hanzi-project/schema/radical.schema.json",
+  "title": "Kangxi radical record (Phase 2)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "kangxi_number",
+    "primary",
+    "radical_block",
+    "variants",
+    "stroke_count",
+    "stroke_count_standard",
+    "stroke_count_variants",
+    "names",
+    "readings",
+    "english_definition",
+    "definitions",
+    "semantic_field",
+    "shuowen",
+    "historical_forms",
+    "character_count_in_kangxi",
+    "character_count_in_kangxi_status",
+    "stroke_order",
+    "sources",
+    "gaps",
+    "conflicts"
+  ],
+  "properties": {
+    "kangxi_number": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 214
+    },
+    "primary": { "$ref": "#/$defs/codepointValue" },
+    "radical_block": { "$ref": "#/$defs/codepointValue" },
+    "variants": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/variant" }
+    },
+    "stroke_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "stroke_count_standard": {
+      "enum": ["TW-CNS11643", "Unicode-IRG-fallback"]
+    },
+    "stroke_count_variants": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/strokeCountVariant" }
+    },
+    "names": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "zh": { "$ref": "#/$defs/nonemptyStrings" },
+        "en": { "$ref": "#/$defs/nonemptyStrings" },
+        "ja": { "$ref": "#/$defs/nonemptyStrings" },
+        "ko": { "$ref": "#/$defs/nonemptyStrings" }
+      }
+    },
+    "readings": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "pinyin": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["reading", "context", "region", "standard"],
+            "properties": {
+              "reading": { "type": "string", "minLength": 1 },
+              "context": { "enum": ["primary", "additional"] },
+              "region": { "enum": ["TW", "und"] },
+              "standard": {
+                "enum": ["TW-CNS11643", "Unicode-kMandarin-fallback"]
+              }
+            }
+          }
+        },
+        "pinyin_variants": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/pinyinVariant" }
+        },
+        "zhuyin": { "$ref": "#/$defs/nonemptyStrings" },
+        "jyutping": { "$ref": "#/$defs/nonemptyStrings" },
+        "fanqie": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["text"],
+            "properties": {
+              "text": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "japanese_on": { "$ref": "#/$defs/nonemptyStrings" },
+        "japanese_kun": { "$ref": "#/$defs/nonemptyStrings" },
+        "korean": { "$ref": "#/$defs/nonemptyStrings" },
+        "hangul": { "$ref": "#/$defs/nonemptyStrings" }
+      }
+    },
+    "definitions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/definition" }
+    },
+    "english_definition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "semantic_field": {
+      "type": "null"
+    },
+    "shuowen": {
+      "oneOf": [
+        { "$ref": "#/$defs/shuowen" },
+        { "type": "null" }
+      ]
+    },
+    "historical_forms": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "oracle_bone_甲骨文",
+        "bronze_金文",
+        "shuowen_seal_說文解字",
+        "liushutong_六書通"
+      ],
+      "properties": {
+        "oracle_bone_甲骨文": { "$ref": "#/$defs/historicalFormAssets" },
+        "bronze_金文": { "$ref": "#/$defs/historicalFormAssets" },
+        "shuowen_seal_說文解字": { "$ref": "#/$defs/historicalFormAssets" },
+        "liushutong_六書通": { "$ref": "#/$defs/historicalFormAssets" }
+      }
+    },
+    "character_count_in_kangxi": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "character_count_in_kangxi_status": {
+      "enum": ["secondary_source_unverified", "primary_scan_verified"]
+    },
+    "stroke_order": { "$ref": "#/$defs/strokeOrder" },
+    "sources": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 1,
+        "uniqueItems": true,
+        "items": { "type": "string", "minLength": 1 }
+      }
+    },
+    "gaps": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/gap" }
+    },
+    "conflicts": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/conflict" }
+    }
+  },
+  "$defs": {
+    "codepoint": {
+      "type": "string",
+      "pattern": "^U\\+[0-9A-F]{4,6}$"
+    },
+    "singleCharacter": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1
+    },
+    "codepointValue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["char", "codepoint"],
+      "properties": {
+        "char": { "$ref": "#/$defs/singleCharacter" },
+        "codepoint": { "$ref": "#/$defs/codepoint" }
+      }
+    },
+    "nonemptyStrings": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "variant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["char", "codepoint", "role", "source_identifier"],
+      "properties": {
+        "char": { "$ref": "#/$defs/singleCharacter" },
+        "codepoint": { "$ref": "#/$defs/codepoint" },
+        "role": {
+          "enum": ["combining_form", "simplified", "orthographic"]
+        },
+        "script": {
+          "enum": ["traditional", "simplified", "both"]
+        },
+        "source_identifier": { "type": "string", "minLength": 1 }
+      }
+    },
+    "strokeCountVariant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["count", "region", "convention", "source_id"],
+      "properties": {
+        "count": { "type": "integer", "minimum": 1 },
+        "region": { "enum": ["CN", "JP", "und"] },
+        "convention": { "type": "string", "minLength": 1 },
+        "source_id": { "type": "string", "minLength": 1 },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "pinyinVariant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reading",
+        "region",
+        "classification",
+        "source_properties"
+      ],
+      "properties": {
+        "reading": { "type": "string", "minLength": 1 },
+        "region": { "enum": ["CN", "und"] },
+        "classification": {
+          "enum": [
+            "regional_preference",
+            "regional_attestation",
+            "unicode_attestation",
+            "dictionary_attestation"
+          ]
+        },
+        "source_properties": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": ["kMandarin", "kHanyuPinyin", "kTGHZ2013"]
+          }
+        }
+      }
+    },
+    "definition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["gloss", "lang", "register"],
+      "properties": {
+        "gloss": { "type": "string", "minLength": 1 },
+        "lang": { "const": "en" },
+        "register": { "const": "modern" }
+      }
+    },
+    "strokeType": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "name_zh"],
+      "properties": {
+        "code": { "enum": ["1", "2", "3", "4", "5"] },
+        "name_zh": { "enum": ["橫", "豎", "撇", "點", "折"] }
+      }
+    },
+    "strokeOrderConflict": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["field", "prc_path_count", "taiwan_count", "source_ids", "detail"],
+      "properties": {
+        "field": { "const": "stroke_count" },
+        "prc_path_count": { "type": "integer", "minimum": 1 },
+        "taiwan_count": { "type": "integer", "minimum": 1 },
+        "source_ids": {
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "detail": { "type": "string", "minLength": 1 }
+      }
+    },
+    "strokeOrder": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "svg_asset_id",
+        "standard",
+        "source_convention",
+        "formal_conformance",
+        "stroke_count",
+        "stroke_types",
+        "taiwan_cns_stroke_sequence",
+        "standard_conflicts"
+      ],
+      "properties": {
+        "svg_asset_id": { "type": "string", "pattern": "^stroke-order-U\\+[0-9A-F]{4,6}-mmah-bddc96d4$" },
+        "standard": { "const": "PRC GF 0023-2020 (provisional baseline)" },
+        "source_convention": { "const": "Make Me a Hanzi PRC stroke order" },
+        "formal_conformance": { "const": "not_verified" },
+        "stroke_count": { "type": "integer", "minimum": 1 },
+        "stroke_types": { "type": "null" },
+        "taiwan_cns_stroke_sequence": {
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": { "$ref": "#/$defs/strokeType" }
+            },
+            { "type": "null" }
+          ]
+        },
+        "standard_conflicts": {
+          "type": "array",
+          "maxItems": 1,
+          "items": { "$ref": "#/$defs/strokeOrderConflict" }
+        }
+      }
+    },
+    "historicalFormAsset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["asset_id", "path", "source_id", "source_file", "license_id"],
+      "properties": {
+        "asset_id": { "type": "string", "minLength": 1 },
+        "path": { "type": "string", "pattern": "^assets/" },
+        "source_id": { "type": "string", "minLength": 1 },
+        "source_file": { "type": "string", "minLength": 1 },
+        "license_id": { "type": "string", "minLength": 1 },
+        "locator": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "value"],
+          "properties": {
+            "kind": { "const": "shuowen_radical_number" },
+            "value": { "type": "integer", "minimum": 1, "maximum": 540 }
+          }
+        }
+      }
+    },
+    "historicalFormAssets": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/historicalFormAsset" }
+    },
+    "shuowen": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "radical_number",
+        "source_headword",
+        "mapping_type",
+        "entry_text",
+        "edition_notes",
+        "source_page",
+        "page_id",
+        "revision_id",
+        "revision_timestamp",
+        "seal_glyph"
+      ],
+      "properties": {
+        "radical_number": { "type": "integer", "minimum": 1, "maximum": 540 },
+        "source_headword": { "$ref": "#/$defs/singleCharacter" },
+        "mapping_type": { "enum": ["exact_heading", "unihan_semantic_variant"] },
+        "entry_text": { "type": "string", "minLength": 1 },
+        "edition_notes": {
+          "oneOf": [
+            { "type": "string", "minLength": 1 },
+            { "type": "null" }
+          ]
+        },
+        "source_page": { "type": "string", "pattern": "^說文解字/(?:0[1-9]|1[0-4])$" },
+        "page_id": { "type": "integer", "minimum": 1 },
+        "revision_id": { "type": "integer", "minimum": 1 },
+        "revision_timestamp": { "type": "string", "format": "date-time" },
+        "seal_glyph": {
+          "oneOf": [
+            { "$ref": "#/$defs/historicalFormAsset" },
+            { "type": "null" }
+          ]
+        }
+      }
+    },
+    "gap": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["field", "reason"],
+      "properties": {
+        "field": { "type": "string", "minLength": 1 },
+        "reason": {
+          "enum": [
+            "not_attested",
+            "source_unavailable",
+            "conflicting_sources",
+            "license_prohibits_use"
+          ]
+        },
+        "detail": { "type": "string", "minLength": 1 }
+      }
+    },
+    "conflictValue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "source_id"],
+      "properties": {
+        "value": {},
+        "source_id": { "type": "string", "minLength": 1 }
+      }
+    },
+    "conflict": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["field", "values", "review_required"],
+      "properties": {
+        "field": { "type": "string", "minLength": 1 },
+        "values": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "$ref": "#/$defs/conflictValue" }
+        },
+        "review_required": { "const": true },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

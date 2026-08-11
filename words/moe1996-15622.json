@@ -1,0 +1,108 @@
+{
+  "id": "moe1996-15622",
+  "traditional": "責無旁貸",
+  "simplified": "责无旁贷",
+  "constituent_chars": [
+    "U+8CAC",
+    "U+7121",
+    "U+65C1",
+    "U+8CB8"
+  ],
+  "pinyin": [
+    {
+      "reading": "zé wú páng dài",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        102987
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄗㄜˊ ㄨˊ ㄆㄤˊ ㄉㄞˋ",
+      "pinyin": "zé wú páng dài",
+      "source_entry_indices": [
+        102987
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to be duty bound",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        102987
+      ]
+    },
+    {
+      "gloss": "to be one's unshirkable responsibility",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        102987
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 15622,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 3,
+    "cumulative_count": 576346,
+    "percentage": 0.00048598,
+    "cumulative_percentage": 93.36471701,
+    "per_million": 4.859826,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    102987
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

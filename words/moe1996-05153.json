@@ -1,0 +1,288 @@
+{
+  "id": "moe1996-05153",
+  "traditional": "折",
+  "simplified": "折",
+  "constituent_chars": [
+    "U+6298"
+  ],
+  "pinyin": [
+    {
+      "reading": "shé",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        45514
+      ]
+    },
+    {
+      "reading": "zhē",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        45515
+      ]
+    },
+    {
+      "reading": "zhé",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        45516
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄕㄜˊ",
+      "pinyin": "shé",
+      "source_entry_indices": [
+        45514
+      ]
+    },
+    {
+      "reading": "ㄓㄜ",
+      "pinyin": "zhē",
+      "source_entry_indices": [
+        45515
+      ]
+    },
+    {
+      "reading": "ㄓㄜˊ",
+      "pinyin": "zhé",
+      "source_entry_indices": [
+        45516
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to snap",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45514,
+        45516
+      ]
+    },
+    {
+      "gloss": "to break (a stick, a bone etc)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45514
+      ]
+    },
+    {
+      "gloss": "(bound form) to sustain a loss (in business)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45514
+      ]
+    },
+    {
+      "gloss": "to turn sth over",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45515
+      ]
+    },
+    {
+      "gloss": "to turn upside down",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45515
+      ]
+    },
+    {
+      "gloss": "to tip sth out (of a container)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45515
+      ]
+    },
+    {
+      "gloss": "to break",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45516
+      ]
+    },
+    {
+      "gloss": "to fracture",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45516
+      ]
+    },
+    {
+      "gloss": "to suffer loss",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45516
+      ]
+    },
+    {
+      "gloss": "to bend",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45516
+      ]
+    },
+    {
+      "gloss": "to twist",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45516
+      ]
+    },
+    {
+      "gloss": "to turn",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45516
+      ]
+    },
+    {
+      "gloss": "to change direction",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45516
+      ]
+    },
+    {
+      "gloss": "convinced",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45516
+      ]
+    },
+    {
+      "gloss": "to convert into (currency)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45516
+      ]
+    },
+    {
+      "gloss": "discount",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45516
+      ]
+    },
+    {
+      "gloss": "rebate",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45516
+      ]
+    },
+    {
+      "gloss": "tenth (in price)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45516
+      ]
+    },
+    {
+      "gloss": "classifier for theatrical scenes",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45516
+      ]
+    },
+    {
+      "gloss": "to fold",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45516
+      ]
+    },
+    {
+      "gloss": "accounts book",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        45516
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 5153,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 12,
+    "cumulative_count": 516895,
+    "percentage": 0.00194393,
+    "cumulative_percentage": 83.73399902,
+    "per_million": 19.439306,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    45514,
+    45515,
+    45516
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

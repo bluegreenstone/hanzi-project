@@ -1,0 +1,115 @@
+{
+  "id": "moe1996-30460",
+  "traditional": "秀才",
+  "simplified": "秀才",
+  "constituent_chars": [
+    "U+79C0",
+    "U+624D"
+  ],
+  "pinyin": [
+    {
+      "reading": "xiù cai",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        80833
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "a person who has passed the county level imperial exam (historical)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        80833
+      ]
+    },
+    {
+      "gloss": "scholar",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        80833
+      ]
+    },
+    {
+      "gloss": "skillful writer",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        80833
+      ]
+    },
+    {
+      "gloss": "fine talent",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        80833
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 30460,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 1,
+    "cumulative_count": 601045,
+    "percentage": 0.00016199,
+    "cumulative_percentage": 97.36581209,
+    "per_million": 1.619942,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    80833
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

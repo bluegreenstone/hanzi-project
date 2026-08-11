@@ -1,0 +1,220 @@
+{
+  "id": "moe1996-00532",
+  "traditional": "方",
+  "simplified": "方",
+  "constituent_chars": [
+    "U+65B9"
+  ],
+  "pinyin": [
+    {
+      "reading": "fāng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        52031,
+        52032
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄈㄤ",
+      "pinyin": "fāng",
+      "source_entry_indices": [
+        52031,
+        52032
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "surname Fang",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        52031
+      ]
+    },
+    {
+      "gloss": "square",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        52032
+      ]
+    },
+    {
+      "gloss": "power or involution (math.)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        52032
+      ]
+    },
+    {
+      "gloss": "upright",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        52032
+      ]
+    },
+    {
+      "gloss": "honest",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        52032
+      ]
+    },
+    {
+      "gloss": "fair and square",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        52032
+      ]
+    },
+    {
+      "gloss": "direction",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        52032
+      ]
+    },
+    {
+      "gloss": "side",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        52032
+      ]
+    },
+    {
+      "gloss": "party (to a contract, dispute etc)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        52032
+      ]
+    },
+    {
+      "gloss": "place",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        52032
+      ]
+    },
+    {
+      "gloss": "method",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        52032
+      ]
+    },
+    {
+      "gloss": "prescription (medicine)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        52032
+      ]
+    },
+    {
+      "gloss": "just when",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        52032
+      ]
+    },
+    {
+      "gloss": "only or just",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        52032
+      ]
+    },
+    {
+      "gloss": "classifier for square things",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        52032
+      ]
+    },
+    {
+      "gloss": "abbr. for square or cubic meter",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        52032
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 532,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 149,
+    "cumulative_count": 347048,
+    "percentage": 0.02413714,
+    "cumulative_percentage": 56.21976783,
+    "per_million": 241.371378,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    52031,
+    52032
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,115 @@
+{
+  "id": "moe1996-06326",
+  "traditional": "心思",
+  "simplified": "心思",
+  "constituent_chars": [
+    "U+5FC3",
+    "U+601D"
+  ],
+  "pinyin": [
+    {
+      "reading": "xīn si",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        40709
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "mind",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40709
+      ]
+    },
+    {
+      "gloss": "thoughts",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40709
+      ]
+    },
+    {
+      "gloss": "inclination",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40709
+      ]
+    },
+    {
+      "gloss": "mood",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40709
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 6326,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 9,
+    "cumulative_count": 529524,
+    "percentage": 0.00145795,
+    "cumulative_percentage": 85.77982394,
+    "per_million": 14.579479,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    40709
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

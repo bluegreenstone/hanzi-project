@@ -1,0 +1,98 @@
+{
+  "id": "moe1996-02717",
+  "traditional": "航線",
+  "simplified": "航线",
+  "constituent_chars": [
+    "U+822A",
+    "U+7DDA"
+  ],
+  "pinyin": [
+    {
+      "reading": "háng xiàn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        92392
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄏㄤˊ ㄒㄧㄢˋ",
+      "pinyin": "háng xiàn",
+      "source_entry_indices": [
+        92392
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "air or shipping route",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        92392
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 2717,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 26,
+    "cumulative_count": 473972,
+    "percentage": 0.00421185,
+    "cumulative_percentage": 76.78072139,
+    "per_million": 42.118496,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    92392
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

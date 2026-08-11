@@ -1,0 +1,98 @@
+{
+  "id": "moe1996-03690",
+  "traditional": "行駛",
+  "simplified": "行驶",
+  "constituent_chars": [
+    "U+884C",
+    "U+99DB"
+  ],
+  "pinyin": [
+    {
+      "reading": "xíng shǐ",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        97864
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄒㄧㄥˊ ㄕˇ",
+      "pinyin": "xíng shǐ",
+      "source_entry_indices": [
+        97864
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to travel along a route (of vehicles etc)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        97864
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 3690,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 18,
+    "cumulative_count": 495146,
+    "percentage": 0.0029159,
+    "cumulative_percentage": 80.21078687,
+    "per_million": 29.158958,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    97864
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,140 @@
+{
+  "id": "moe1996-00234",
+  "traditional": "達",
+  "simplified": "达",
+  "constituent_chars": [
+    "U+9054"
+  ],
+  "pinyin": [
+    {
+      "reading": "dá",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        108431,
+        108432
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄚˊ",
+      "pinyin": "dá",
+      "source_entry_indices": [
+        108431,
+        108432
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "surname Da",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        108431
+      ]
+    },
+    {
+      "gloss": "to attain",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        108432
+      ]
+    },
+    {
+      "gloss": "to reach",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        108432
+      ]
+    },
+    {
+      "gloss": "to amount to",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        108432
+      ]
+    },
+    {
+      "gloss": "to communicate",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        108432
+      ]
+    },
+    {
+      "gloss": "eminent",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        108432
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 234,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 312,
+    "cumulative_count": 283289,
+    "percentage": 0.05054219,
+    "cumulative_percentage": 45.89117877,
+    "per_million": 505.421946,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    108431,
+    108432
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,98 @@
+{
+  "id": "moe1996-02715",
+  "traditional": "海洋",
+  "simplified": "海洋",
+  "constituent_chars": [
+    "U+6D77",
+    "U+6D0B"
+  ],
+  "pinyin": [
+    {
+      "reading": "hǎi yáng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        65191
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄏㄞˇ ㄧㄤˊ",
+      "pinyin": "hǎi yáng",
+      "source_entry_indices": [
+        65191
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "ocean",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        65191
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 2715,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 26,
+    "cumulative_count": 473920,
+    "percentage": 0.00421185,
+    "cumulative_percentage": 76.77229769,
+    "per_million": 42.118496,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    65191
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

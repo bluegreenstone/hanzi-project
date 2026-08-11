@@ -1,0 +1,144 @@
+{
+  "id": "moe1996-00530",
+  "traditional": "價",
+  "simplified": "价",
+  "constituent_chars": [
+    "U+50F9"
+  ],
+  "pinyin": [
+    {
+      "reading": "jià",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        10051
+      ]
+    },
+    {
+      "reading": "jie",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        10052
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄐㄧㄚˋ",
+      "pinyin": "jià",
+      "source_entry_indices": [
+        10051
+      ]
+    },
+    {
+      "reading": "˙ㄐㄧㄝ",
+      "pinyin": "jie",
+      "source_entry_indices": [
+        10052
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "price",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        10051
+      ]
+    },
+    {
+      "gloss": "value",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        10051
+      ]
+    },
+    {
+      "gloss": "(chemistry) valence",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        10051
+      ]
+    },
+    {
+      "gloss": "particle used between an adverb and a verb or adjective",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        10052
+      ]
+    },
+    {
+      "gloss": "(dialect) particle used after a negative adverb such as 不[bu4] or 別|别[bie2] without any other following element",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        10052
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 530,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 150,
+    "cumulative_count": 346750,
+    "percentage": 0.02429913,
+    "cumulative_percentage": 56.17149355,
+    "per_million": 242.99132,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    10051,
+    10052
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

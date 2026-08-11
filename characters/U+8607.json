@@ -1,0 +1,443 @@
+{
+  "codepoint": "U+8607",
+  "traditional": "蘇",
+  "simplified": "苏",
+  "simplification_note": {
+    "mapping_type": "many_traditional_to_one_simplified",
+    "simplified": "U+82CF",
+    "traditional_origins": [
+      "U+56CC",
+      "U+7526",
+      "U+82CF",
+      "U+8607",
+      "U+8613"
+    ]
+  },
+  "variants_異體字": [],
+  "radical": {
+    "kangxi_number": 140,
+    "residual_strokes": 16,
+    "source_assignment": "140.16",
+    "additional_assignments": []
+  },
+  "total_strokes": 20,
+  "total_strokes_standard": "TW-MOE-1996",
+  "stroke_count_variants": [
+    {
+      "count": 19,
+      "region": "und",
+      "convention": "Unicode IRG kTotalStrokes",
+      "source_id": "unicode-unihan-17.0.0"
+    }
+  ],
+  "ids_decomposition": "⿱艹穌",
+  "components": null,
+  "liushu_六書": {
+    "source_type": "ideographic",
+    "type": null,
+    "semantic_component": null,
+    "phonetic_component": null,
+    "hint": "A perennial 穌 grass 艹; 穌 also provides the pronunciation"
+  },
+  "readings": {
+    "pinyin": [
+      {
+        "reading": "sū",
+        "context": "primary",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      }
+    ],
+    "zhuyin": [
+      "ㄙㄨ"
+    ],
+    "jyutping": [
+      "sou1"
+    ],
+    "japanese_on": [
+      "SO",
+      "SU"
+    ],
+    "japanese_kun": [
+      "YOMIGAERU"
+    ],
+    "korean": [
+      "SO"
+    ],
+    "fanqie": [
+      "素姑"
+    ],
+    "hangul": [
+      "소"
+    ]
+  },
+  "definitions": [
+    {
+      "gloss": "revive, resurrect; a species of thyme; transliteration of 'Soviet'",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "unicode-unihan-17.0.0"
+    },
+    {
+      "gloss": "surname Su",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "abbr. for Soviet Union 蘇維埃|苏维埃[Su1 wei2 ai1] or 蘇聯|苏联[Su1 lian2]",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "abbr. for Jiangsu 江蘇|江苏[Jiang1 su1]",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "abbr. for Suzhou 蘇州|苏州[Su1 zhou1]",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "Perilla frutescens (Chinese basil or wild red basil)",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "place name",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "to revive",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "used as phonetic in transliteration",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    }
+  ],
+  "frequency": {
+    "rank": 1043,
+    "selection_rank": 1042,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 151,
+    "cumulative_count": 909531,
+    "cumulative_percentage": 90.42357952,
+    "per_million": 150.120892,
+    "corpus_total_count": 1005856
+  },
+  "grading": {
+    "hsk": null,
+    "tocfl": null
+  },
+  "confusable_with": null,
+  "kangxi_citation": "1068.070",
+  "sources": {
+    "codepoint": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996"
+    ],
+    "variants_異體字": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical": [
+      "unicode-unihan-17.0.0"
+    ],
+    "total_strokes": [
+      "moe-tw-common-terms-1996"
+    ],
+    "total_strokes_standard": [
+      "moe-tw-common-terms-1996"
+    ],
+    "stroke_count_variants": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0",
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "simplified": [
+      "unicode-unihan-17.0.0",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplification_note": [
+      "unicode-unihan-17.0.0",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "ids_decomposition": [
+      "makemeahanzi-dictionary-master-audit"
+    ],
+    "liushu_六書": [
+      "makemeahanzi-dictionary-master-audit"
+    ],
+    "readings.pinyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.zhuyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.jyutping": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_on": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_kun": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.korean": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.fanqie": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.hangul": [
+      "unicode-unihan-17.0.0"
+    ],
+    "definitions": [
+      "unicode-unihan-17.0.0",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "kangxi_citation": [
+      "unicode-unihan-17.0.0"
+    ],
+    "english_translation": [
+      "unicode-unihan-17.0.0"
+    ],
+    "common_words": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "stroke_order.svg_asset_id": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.standard": [
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.source_convention": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.formal_conformance": [
+      "makemeahanzi-graphics-master-audit",
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.stroke_count": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.taiwan_cns_stroke_sequence": [
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "components",
+      "reason": "source_unavailable",
+      "detail": "Component references outside the Phase 3 top-2,000 set are not emitted as dangling record references: U+8279, U+7A4C"
+    },
+    {
+      "field": "liushu_六書.type",
+      "reason": "source_unavailable",
+      "detail": "The source's broad category is preserved but not forced into a more specific traditional 六書 category."
+    },
+    {
+      "field": "liushu_六書.semantic_component",
+      "reason": "not_attested",
+      "detail": "The source category does not attest a separate semantic component."
+    },
+    {
+      "field": "liushu_六書.phonetic_component",
+      "reason": "not_attested",
+      "detail": "The source category does not attest a separate phonetic component."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK character-level source passed the Phase 0 audit."
+    },
+    {
+      "field": "grading.tocfl",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved TOCFL character-level source passed the Phase 0 audit."
+    },
+    {
+      "field": "confusable_with",
+      "reason": "source_unavailable",
+      "detail": "No approved curated visual-confusables source passed the Phase 0 audit."
+    },
+    {
+      "field": "stroke_order.stroke_types",
+      "reason": "source_unavailable",
+      "detail": "Make Me a Hanzi supplies ordered paths but no authoritative per-path stroke-type names; Taiwan CNS types are retained separately and are not assigned to PRC path indices."
+    },
+    {
+      "field": "stroke_order.formal_standard_verification",
+      "reason": "source_unavailable",
+      "detail": "The GF 0023-2020 publication is reference-only and the path source claims PRC convention without formal per-character conformance evidence."
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "total_strokes",
+      "resolution": "tw_canonical_variant_retained",
+      "values": [
+        {
+          "value": 20,
+          "source_ids": [
+            "moe-tw-common-terms-1996"
+          ]
+        },
+        {
+          "value": 19,
+          "source_ids": [
+            "unicode-unihan-17.0.0"
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE frequency-table count remains canonical; differing CNS, Unicode IRG, or PRC path counts remain explicit variants."
+    },
+    {
+      "field": "radical.total_strokes_equation",
+      "resolution": "recorded_no_value_change",
+      "values": [
+        {
+          "value": {
+            "radical_strokes": 6,
+            "residual_strokes": 16,
+            "sum": 22
+          },
+          "source_ids": [
+            "unicode-unihan-17.0.0",
+            "cns11643-attributes-2026-08-05"
+          ]
+        },
+        {
+          "value": 20,
+          "source_ids": [
+            "moe-tw-common-terms-1996"
+          ]
+        }
+      ],
+      "detail": "The Unihan radical assignment and delivered radical count do not add to the Taiwan MOE total; both values are retained for review."
+    }
+  ],
+  "english_translation": "revive, resurrect; a species of thyme; transliteration of 'Soviet'",
+  "common_words": [
+    "moe1996-05821",
+    "moe1996-08375",
+    "moe1996-08376",
+    "moe1996-09532",
+    "moe1996-09533",
+    "moe1996-11046",
+    "moe1996-11580",
+    "moe1996-16962",
+    "moe1996-18554",
+    "moe1996-31568"
+  ],
+  "stroke_order": {
+    "svg_asset_id": "stroke-order-U+8607-mmah-bddc96d4",
+    "standard": "PRC GF 0023-2020 (provisional baseline)",
+    "source_convention": "Make Me a Hanzi PRC stroke order",
+    "formal_conformance": "not_verified",
+    "stroke_count": 20,
+    "stroke_types": null,
+    "taiwan_cns_stroke_sequence": [
+      {
+        "code": "2",
+        "name_zh": "豎"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "2",
+        "name_zh": "豎"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "2",
+        "name_zh": "豎"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "2",
+        "name_zh": "豎"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "2",
+        "name_zh": "豎"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      }
+    ],
+    "standard_conflicts": []
+  }
+}

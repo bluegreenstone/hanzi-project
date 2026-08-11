@@ -1,0 +1,93 @@
+{
+  "id": "moe1996-12326",
+  "traditional": "動彈不得",
+  "simplified": "动弹不得",
+  "constituent_chars": [
+    "U+52D5",
+    "U+5F48",
+    "U+4E0D",
+    "U+5F97"
+  ],
+  "pinyin": [
+    {
+      "reading": "dòng tan bu dé",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        15538
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "to be unable to move a single step",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15538
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 12326,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 4,
+    "cumulative_count": 565367,
+    "percentage": 0.00064798,
+    "cumulative_percentage": 91.58618254,
+    "per_million": 6.479769,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    15538
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

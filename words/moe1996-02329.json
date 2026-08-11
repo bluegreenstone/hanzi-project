@@ -1,0 +1,114 @@
+{
+  "id": "moe1996-02329",
+  "traditional": "美食",
+  "simplified": "美食",
+  "constituent_chars": [
+    "U+7F8E",
+    "U+98DF"
+  ],
+  "pinyin": [
+    {
+      "reading": "měi shí",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        87764
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄇㄟˇ ㄕˊ",
+      "pinyin": "měi shí",
+      "source_entry_indices": [
+        87764
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "culinary delicacy",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        87764
+      ]
+    },
+    {
+      "gloss": "fine food",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        87764
+      ]
+    },
+    {
+      "gloss": "gourmet food",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        87764
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 2329,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 31,
+    "cumulative_count": 462978,
+    "percentage": 0.00502182,
+    "cumulative_percentage": 74.99975701,
+    "per_million": 50.218206,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    87764
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

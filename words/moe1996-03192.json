@@ -1,0 +1,131 @@
+{
+  "id": "moe1996-03192",
+  "traditional": "厲害",
+  "simplified": "厉害",
+  "constituent_chars": [
+    "U+53B2",
+    "U+5BB3"
+  ],
+  "pinyin": [
+    {
+      "reading": "lì hai",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        17984
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "(used to describe sb or sth that makes a very strong impression, whether favorable or unfavorable) terrible; intense; severe; devastating; amazing; awesome; outstanding",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        17984
+      ]
+    },
+    {
+      "gloss": "(of a person) stern; strict; harsh; shrewd; tough",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        17984
+      ]
+    },
+    {
+      "gloss": "(of an animal) fierce",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        17984
+      ]
+    },
+    {
+      "gloss": "(of a resemblance) striking",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        17984
+      ]
+    },
+    {
+      "gloss": "(of liquor or chili pepper) strong",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        17984
+      ]
+    },
+    {
+      "gloss": "(of bacteria) virulent",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        17984
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 3192,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 22,
+    "cumulative_count": 485259,
+    "percentage": 0.00356387,
+    "cumulative_percentage": 78.60915008,
+    "per_million": 35.638727,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    17984
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

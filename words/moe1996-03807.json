@@ -1,0 +1,153 @@
+{
+  "id": "moe1996-03807",
+  "traditional": "嚇",
+  "simplified": "吓",
+  "constituent_chars": [
+    "U+5687"
+  ],
+  "pinyin": [
+    {
+      "reading": "hè",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        23436
+      ]
+    },
+    {
+      "reading": "xià",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        23437
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄏㄜˋ",
+      "pinyin": "hè",
+      "source_entry_indices": [
+        23436
+      ]
+    },
+    {
+      "reading": "ㄒㄧㄚˋ",
+      "pinyin": "xià",
+      "source_entry_indices": [
+        23437
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to scare",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        23436,
+        23437
+      ]
+    },
+    {
+      "gloss": "to intimidate",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        23436
+      ]
+    },
+    {
+      "gloss": "to threaten",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        23436
+      ]
+    },
+    {
+      "gloss": "(interjection showing disapproval) tut-tut",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        23436
+      ]
+    },
+    {
+      "gloss": "(interjection showing astonishment)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        23436
+      ]
+    },
+    {
+      "gloss": "to frighten",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        23437
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 3807,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 18,
+    "cumulative_count": 497252,
+    "percentage": 0.0029159,
+    "cumulative_percentage": 80.55194668,
+    "per_million": 29.158958,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    23436,
+    23437
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,135 @@
+{
+  "id": "moe1996-00421",
+  "traditional": "出來",
+  "simplified": "出来",
+  "constituent_chars": [
+    "U+51FA",
+    "U+4F86"
+  ],
+  "pinyin": [
+    {
+      "reading": "chū lái",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        13046
+      ]
+    },
+    {
+      "reading": "chu lai",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        13047
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄔㄨ ㄌㄞˊ",
+      "pinyin": "chū lái",
+      "source_entry_indices": [
+        13046
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to come out",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        13046
+      ]
+    },
+    {
+      "gloss": "to appear",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        13046
+      ]
+    },
+    {
+      "gloss": "to arise",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        13046
+      ]
+    },
+    {
+      "gloss": "(after a verb, indicates coming out, completion of an action, or ability to discern or detect)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        13047
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 421,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 190,
+    "cumulative_count": 328464,
+    "percentage": 0.0307789,
+    "cumulative_percentage": 53.20926736,
+    "per_million": 307.789006,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    13046,
+    13047
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin.partial",
+      "reason": "not_attested",
+      "detail": "The pinned CNS syllable table has no unique full conversion for: chu lai"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

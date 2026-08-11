@@ -1,0 +1,138 @@
+{
+  "id": "moe1996-13331",
+  "traditional": "勸告",
+  "simplified": "劝告",
+  "constituent_chars": [
+    "U+52F8",
+    "U+544A"
+  ],
+  "pinyin": [
+    {
+      "reading": "quàn gào",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        15822
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄑㄩㄢˋ ㄍㄠˋ",
+      "pinyin": "quàn gào",
+      "source_entry_indices": [
+        15822
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to advise",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15822
+      ]
+    },
+    {
+      "gloss": "to urge",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15822
+      ]
+    },
+    {
+      "gloss": "to exhort",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15822
+      ]
+    },
+    {
+      "gloss": "exhortation",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15822
+      ]
+    },
+    {
+      "gloss": "advice",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15822
+      ]
+    },
+    {
+      "gloss": "CL:席[xi2]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15822
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 13331,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 4,
+    "cumulative_count": 569387,
+    "percentage": 0.00064798,
+    "cumulative_percentage": 92.23739928,
+    "per_million": 6.479769,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    15822
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,106 @@
+{
+  "id": "moe1996-02649",
+  "traditional": "農業",
+  "simplified": "农业",
+  "constituent_chars": [
+    "U+8FB2",
+    "U+696D"
+  ],
+  "pinyin": [
+    {
+      "reading": "nóng yè",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        106564
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄋㄨㄥˊ ㄧㄝˋ",
+      "pinyin": "nóng yè",
+      "source_entry_indices": [
+        106564
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "agriculture",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        106564
+      ]
+    },
+    {
+      "gloss": "farming",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        106564
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 2649,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 27,
+    "cumulative_count": 472188,
+    "percentage": 0.00437384,
+    "cumulative_percentage": 76.49172372,
+    "per_million": 43.738438,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    106564
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

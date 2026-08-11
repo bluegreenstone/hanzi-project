@@ -1,0 +1,171 @@
+{
+  "id": "moe1996-03030",
+  "traditional": "冠",
+  "simplified": "冠",
+  "constituent_chars": [
+    "U+51A0"
+  ],
+  "pinyin": [
+    {
+      "reading": "guàn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        12418,
+        12420
+      ]
+    },
+    {
+      "reading": "guān",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        12419
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄍㄨㄢˋ",
+      "pinyin": "guàn",
+      "source_entry_indices": [
+        12418,
+        12420
+      ]
+    },
+    {
+      "reading": "ㄍㄨㄢ",
+      "pinyin": "guān",
+      "source_entry_indices": [
+        12419
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "surname Guan",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        12418
+      ]
+    },
+    {
+      "gloss": "hat",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        12419
+      ]
+    },
+    {
+      "gloss": "crown",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        12419
+      ]
+    },
+    {
+      "gloss": "crest",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        12419
+      ]
+    },
+    {
+      "gloss": "cap",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        12419
+      ]
+    },
+    {
+      "gloss": "to put on a hat",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        12420
+      ]
+    },
+    {
+      "gloss": "to be first",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        12420
+      ]
+    },
+    {
+      "gloss": "to dub",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        12420
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 3030,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 23,
+    "cumulative_count": 481623,
+    "percentage": 0.00372587,
+    "cumulative_percentage": 78.02013912,
+    "per_million": 37.258669,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    12418,
+    12419,
+    12420
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

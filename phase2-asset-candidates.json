@@ -1,0 +1,714 @@
+{
+  "generated_at": "2026-08-11T04:59:35Z",
+  "source_id": "commons-shuowen-seal-files-2026-08-10",
+  "candidate_count": 101,
+  "candidates": [
+    {
+      "kangxi_number": 1,
+      "primary": "一",
+      "source_page": "說文解字/01",
+      "revision_id": 2665967,
+      "source_file": "一-小篆.png"
+    },
+    {
+      "kangxi_number": 2,
+      "primary": "丨",
+      "source_page": "說文解字/01",
+      "revision_id": 2665967,
+      "source_file": "丨-zhuanwen.png"
+    },
+    {
+      "kangxi_number": 7,
+      "primary": "二",
+      "source_page": "說文解字/13",
+      "revision_id": 1870769,
+      "source_file": "二-seal.svg"
+    },
+    {
+      "kangxi_number": 9,
+      "primary": "人",
+      "source_page": "說文解字/08",
+      "revision_id": 1566246,
+      "source_file": "人-seal.svg"
+    },
+    {
+      "kangxi_number": 10,
+      "primary": "儿",
+      "source_page": "說文解字/08",
+      "revision_id": 1566246,
+      "source_file": "儿-seal.svg"
+    },
+    {
+      "kangxi_number": 12,
+      "primary": "八",
+      "source_page": "說文解字/02",
+      "revision_id": 1559144,
+      "source_file": "八-seal.svg"
+    },
+    {
+      "kangxi_number": 16,
+      "primary": "几",
+      "source_page": "說文解字/14",
+      "revision_id": 1957454,
+      "source_file": "几-seal.svg"
+    },
+    {
+      "kangxi_number": 17,
+      "primary": "凵",
+      "source_page": "說文解字/02",
+      "revision_id": 1559144,
+      "source_file": "凵-seal.svg"
+    },
+    {
+      "kangxi_number": 19,
+      "primary": "力",
+      "source_page": "說文解字/13",
+      "revision_id": 1870769,
+      "source_file": "力-seal.svg"
+    },
+    {
+      "kangxi_number": 23,
+      "primary": "匸",
+      "source_page": "說文解字/12",
+      "revision_id": 1559174,
+      "source_file": "匸-seal.svg"
+    },
+    {
+      "kangxi_number": 24,
+      "primary": "十",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "十-seal.svg"
+    },
+    {
+      "kangxi_number": 25,
+      "primary": "卜",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "卜-seal.svg"
+    },
+    {
+      "kangxi_number": 26,
+      "primary": "卩",
+      "source_page": "說文解字/09",
+      "revision_id": 2025949,
+      "source_file": "卩-seal.svg"
+    },
+    {
+      "kangxi_number": 28,
+      "primary": "厶",
+      "source_page": "說文解字/09",
+      "revision_id": 2025949,
+      "source_file": "厶-seal.svg"
+    },
+    {
+      "kangxi_number": 29,
+      "primary": "又",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "又-seal.svg"
+    },
+    {
+      "kangxi_number": 30,
+      "primary": "口",
+      "source_page": "說文解字/02",
+      "revision_id": 1559144,
+      "source_file": "口-seal.svg"
+    },
+    {
+      "kangxi_number": 32,
+      "primary": "土",
+      "source_page": "說文解字/13",
+      "revision_id": 1870769,
+      "source_file": "土-seal.svg"
+    },
+    {
+      "kangxi_number": 33,
+      "primary": "士",
+      "source_page": "說文解字/01",
+      "revision_id": 2665967,
+      "source_file": "士-zhuanwen.png"
+    },
+    {
+      "kangxi_number": 34,
+      "primary": "夂",
+      "source_page": "說文解字/05",
+      "revision_id": 1870764,
+      "source_file": "夂-seal.svg"
+    },
+    {
+      "kangxi_number": 35,
+      "primary": "夊",
+      "source_page": "說文解字/05",
+      "revision_id": 1870764,
+      "source_file": "夊-seal.svg"
+    },
+    {
+      "kangxi_number": 37,
+      "primary": "大",
+      "source_page": "說文解字/10",
+      "revision_id": 2026004,
+      "source_file": "大-seal.svg"
+    },
+    {
+      "kangxi_number": 40,
+      "primary": "宀",
+      "source_page": "說文解字/07",
+      "revision_id": 1870775,
+      "source_file": "宀-seal.svg"
+    },
+    {
+      "kangxi_number": 41,
+      "primary": "寸",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "寸-seal.svg"
+    },
+    {
+      "kangxi_number": 42,
+      "primary": "小",
+      "source_page": "說文解字/02",
+      "revision_id": 1559144,
+      "source_file": "小-seal.svg"
+    },
+    {
+      "kangxi_number": 44,
+      "primary": "尸",
+      "source_page": "說文解字/08",
+      "revision_id": 1566246,
+      "source_file": "尸-seal.svg"
+    },
+    {
+      "kangxi_number": 45,
+      "primary": "屮",
+      "source_page": "說文解字/01",
+      "revision_id": 2665967,
+      "source_file": "屮-zhuanwen.png"
+    },
+    {
+      "kangxi_number": 46,
+      "primary": "山",
+      "source_page": "說文解字/09",
+      "revision_id": 2025949,
+      "source_file": "山-seal.svg"
+    },
+    {
+      "kangxi_number": 47,
+      "primary": "巛",
+      "source_page": "說文解字/11",
+      "revision_id": 1870771,
+      "source_file": "川-seal.svg"
+    },
+    {
+      "kangxi_number": 48,
+      "primary": "工",
+      "source_page": "說文解字/05",
+      "revision_id": 1870764,
+      "source_file": "工-seal.svg"
+    },
+    {
+      "kangxi_number": 49,
+      "primary": "己",
+      "source_page": "說文解字/14",
+      "revision_id": 1957454,
+      "source_file": "己-seal.svg"
+    },
+    {
+      "kangxi_number": 51,
+      "primary": "干",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "干-seal.svg"
+    },
+    {
+      "kangxi_number": 54,
+      "primary": "廴",
+      "source_page": "說文解字/02",
+      "revision_id": 1559144,
+      "source_file": "廴-seal.svg"
+    },
+    {
+      "kangxi_number": 60,
+      "primary": "彳",
+      "source_page": "說文解字/02",
+      "revision_id": 1559144,
+      "source_file": "彳-seal.svg"
+    },
+    {
+      "kangxi_number": 61,
+      "primary": "心",
+      "source_page": "說文解字/10",
+      "revision_id": 2026004,
+      "source_file": "心-seal.svg"
+    },
+    {
+      "kangxi_number": 64,
+      "primary": "手",
+      "source_page": "說文解字/12",
+      "revision_id": 1559174,
+      "source_file": "手-seal.svg"
+    },
+    {
+      "kangxi_number": 65,
+      "primary": "支",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "支-seal.svg"
+    },
+    {
+      "kangxi_number": 66,
+      "primary": "攴",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "攴-seal.svg"
+    },
+    {
+      "kangxi_number": 68,
+      "primary": "斗",
+      "source_page": "說文解字/14",
+      "revision_id": 1957454,
+      "source_file": "斗-seal.svg"
+    },
+    {
+      "kangxi_number": 72,
+      "primary": "日",
+      "source_page": "說文解字/07",
+      "revision_id": 1870775,
+      "source_file": "日-seal.svg"
+    },
+    {
+      "kangxi_number": 75,
+      "primary": "木",
+      "source_page": "說文解字/06",
+      "revision_id": 1962671,
+      "source_file": "木-seal.svg"
+    },
+    {
+      "kangxi_number": 77,
+      "primary": "止",
+      "source_page": "說文解字/02",
+      "revision_id": 1559144,
+      "source_file": "止-seal.svg"
+    },
+    {
+      "kangxi_number": 79,
+      "primary": "殳",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "殳-seal.svg"
+    },
+    {
+      "kangxi_number": 84,
+      "primary": "气",
+      "source_page": "說文解字/01",
+      "revision_id": 2665967,
+      "source_file": "气-zhuanwen.png"
+    },
+    {
+      "kangxi_number": 85,
+      "primary": "水",
+      "source_page": "說文解字/11",
+      "revision_id": 1870771,
+      "source_file": "水-seal.svg"
+    },
+    {
+      "kangxi_number": 86,
+      "primary": "火",
+      "source_page": "說文解字/10",
+      "revision_id": 2026004,
+      "source_file": "火-seal.svg"
+    },
+    {
+      "kangxi_number": 87,
+      "primary": "爪",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "爪-seal.svg"
+    },
+    {
+      "kangxi_number": 89,
+      "primary": "爻",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "爻-seal.svg"
+    },
+    {
+      "kangxi_number": 92,
+      "primary": "牙",
+      "source_page": "說文解字/02",
+      "revision_id": 1559144,
+      "source_file": "牙-seal.svg"
+    },
+    {
+      "kangxi_number": 93,
+      "primary": "牛",
+      "source_page": "說文解字/02",
+      "revision_id": 1559144,
+      "source_file": "牛-seal.svg"
+    },
+    {
+      "kangxi_number": 94,
+      "primary": "犬",
+      "source_page": "說文解字/10",
+      "revision_id": 2026004,
+      "source_file": "犬-seal.svg"
+    },
+    {
+      "kangxi_number": 96,
+      "primary": "玉",
+      "source_page": "說文解字/01",
+      "revision_id": 2665967,
+      "source_file": "玉-zhuanwen.png"
+    },
+    {
+      "kangxi_number": 101,
+      "primary": "用",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "用-seal.svg"
+    },
+    {
+      "kangxi_number": 102,
+      "primary": "田",
+      "source_page": "說文解字/13",
+      "revision_id": 1870769,
+      "source_file": "田-seal.svg"
+    },
+    {
+      "kangxi_number": 103,
+      "primary": "疋",
+      "source_page": "說文解字/02",
+      "revision_id": 1559144,
+      "source_file": "疋-seal.svg"
+    },
+    {
+      "kangxi_number": 104,
+      "primary": "疒",
+      "source_page": "說文解字/07",
+      "revision_id": 1870775,
+      "source_file": "疒-seal.svg"
+    },
+    {
+      "kangxi_number": 105,
+      "primary": "癶",
+      "source_page": "說文解字/02",
+      "revision_id": 1559144,
+      "source_file": "癶-seal.svg"
+    },
+    {
+      "kangxi_number": 107,
+      "primary": "皮",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "皮-seal.svg"
+    },
+    {
+      "kangxi_number": 109,
+      "primary": "目",
+      "source_page": "說文解字/04",
+      "revision_id": 1566990,
+      "source_file": "目-seal.svg"
+    },
+    {
+      "kangxi_number": 113,
+      "primary": "示",
+      "source_page": "說文解字/01",
+      "revision_id": 2665967,
+      "source_file": "示-zhuanwen.png"
+    },
+    {
+      "kangxi_number": 115,
+      "primary": "禾",
+      "source_page": "說文解字/07",
+      "revision_id": 1870775,
+      "source_file": "禾-seal.svg"
+    },
+    {
+      "kangxi_number": 118,
+      "primary": "竹",
+      "source_page": "說文解字/05",
+      "revision_id": 1870764,
+      "source_file": "竹-seal.svg"
+    },
+    {
+      "kangxi_number": 119,
+      "primary": "米",
+      "source_page": "說文解字/07",
+      "revision_id": 1870775,
+      "source_file": "米-seal.svg"
+    },
+    {
+      "kangxi_number": 120,
+      "primary": "糸",
+      "source_page": "說文解字/13",
+      "revision_id": 1870769,
+      "source_file": "糸-seal.svg"
+    },
+    {
+      "kangxi_number": 122,
+      "primary": "网",
+      "source_page": "說文解字/07",
+      "revision_id": 1870775,
+      "source_file": "网-seal.svg"
+    },
+    {
+      "kangxi_number": 123,
+      "primary": "羊",
+      "source_page": "說文解字/04",
+      "revision_id": 1566990,
+      "source_file": "羊-seal.svg"
+    },
+    {
+      "kangxi_number": 128,
+      "primary": "耳",
+      "source_page": "說文解字/12",
+      "revision_id": 1559174,
+      "source_file": "耳-seal.svg"
+    },
+    {
+      "kangxi_number": 129,
+      "primary": "聿",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "聿-seal.svg"
+    },
+    {
+      "kangxi_number": 131,
+      "primary": "臣",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "臣-seal.svg"
+    },
+    {
+      "kangxi_number": 135,
+      "primary": "舌",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "舌-seal.svg"
+    },
+    {
+      "kangxi_number": 140,
+      "primary": "艸",
+      "source_page": "說文解字/01",
+      "revision_id": 2665967,
+      "source_file": "艸-seal.svg"
+    },
+    {
+      "kangxi_number": 144,
+      "primary": "行",
+      "source_page": "說文解字/02",
+      "revision_id": 1559144,
+      "source_file": "行-seal.svg"
+    },
+    {
+      "kangxi_number": 149,
+      "primary": "言",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "言-seal.svg"
+    },
+    {
+      "kangxi_number": 155,
+      "primary": "赤",
+      "source_page": "說文解字/10",
+      "revision_id": 2026004,
+      "source_file": "赤-seal.svg"
+    },
+    {
+      "kangxi_number": 156,
+      "primary": "走",
+      "source_page": "說文解字/02",
+      "revision_id": 1559144,
+      "source_file": "走-seal.svg"
+    },
+    {
+      "kangxi_number": 157,
+      "primary": "足",
+      "source_page": "說文解字/02",
+      "revision_id": 1559144,
+      "source_file": "足-seal.svg"
+    },
+    {
+      "kangxi_number": 159,
+      "primary": "車",
+      "source_page": "說文解字/14",
+      "revision_id": 1957454,
+      "source_file": "車-seal.svg"
+    },
+    {
+      "kangxi_number": 162,
+      "primary": "辵",
+      "source_page": "說文解字/02",
+      "revision_id": 1559144,
+      "source_file": "辵-seal.svg"
+    },
+    {
+      "kangxi_number": 163,
+      "primary": "邑",
+      "source_page": "說文解字/06",
+      "revision_id": 1962671,
+      "source_file": "邑-seal.svg"
+    },
+    {
+      "kangxi_number": 164,
+      "primary": "酉",
+      "source_page": "說文解字/14",
+      "revision_id": 1957454,
+      "source_file": "酉-seal.svg"
+    },
+    {
+      "kangxi_number": 165,
+      "primary": "釆",
+      "source_page": "說文解字/02",
+      "revision_id": 1559144,
+      "source_file": "釆-seal.svg"
+    },
+    {
+      "kangxi_number": 169,
+      "primary": "門",
+      "source_page": "說文解字/12",
+      "revision_id": 1559174,
+      "source_file": "門-seal.svg"
+    },
+    {
+      "kangxi_number": 173,
+      "primary": "雨",
+      "source_page": "說文解字/11",
+      "revision_id": 1870771,
+      "source_file": "雨-seal.svg"
+    },
+    {
+      "kangxi_number": 177,
+      "primary": "革",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "革-seal.svg"
+    },
+    {
+      "kangxi_number": 178,
+      "primary": "韋",
+      "source_page": "說文解字/05",
+      "revision_id": 1870764,
+      "source_file": "韋-seal.svg"
+    },
+    {
+      "kangxi_number": 180,
+      "primary": "音",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "音-seal.svg"
+    },
+    {
+      "kangxi_number": 184,
+      "primary": "食",
+      "source_page": "說文解字/05",
+      "revision_id": 1870764,
+      "source_file": "食-seal.svg"
+    },
+    {
+      "kangxi_number": 187,
+      "primary": "馬",
+      "source_page": "說文解字/10",
+      "revision_id": 2026004,
+      "source_file": "馬-seal.svg"
+    },
+    {
+      "kangxi_number": 188,
+      "primary": "骨",
+      "source_page": "說文解字/04",
+      "revision_id": 1566990,
+      "source_file": "骨-seal.svg"
+    },
+    {
+      "kangxi_number": 189,
+      "primary": "高",
+      "source_page": "說文解字/05",
+      "revision_id": 1870764,
+      "source_file": "高-seal.svg"
+    },
+    {
+      "kangxi_number": 190,
+      "primary": "髟",
+      "source_page": "說文解字/09",
+      "revision_id": 2025949,
+      "source_file": "髟-seal.svg"
+    },
+    {
+      "kangxi_number": 191,
+      "primary": "鬥",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "鬥-seal.svg"
+    },
+    {
+      "kangxi_number": 193,
+      "primary": "鬲",
+      "source_page": "說文解字/03",
+      "revision_id": 2012003,
+      "source_file": "鬲-seal.svg"
+    },
+    {
+      "kangxi_number": 197,
+      "primary": "鹵",
+      "source_page": "說文解字/12",
+      "revision_id": 1559174,
+      "source_file": "鹵-seal.svg"
+    },
+    {
+      "kangxi_number": 203,
+      "primary": "黑",
+      "source_page": "說文解字/10",
+      "revision_id": 2026004,
+      "source_file": "黑-seal.svg"
+    },
+    {
+      "kangxi_number": 204,
+      "primary": "黹",
+      "source_page": "說文解字/07",
+      "revision_id": 1870775,
+      "source_file": "黹-seal.svg"
+    },
+    {
+      "kangxi_number": 208,
+      "primary": "鼠",
+      "source_page": "說文解字/10",
+      "revision_id": 2026004,
+      "source_file": "鼠-seal.svg"
+    },
+    {
+      "kangxi_number": 210,
+      "primary": "齊",
+      "source_page": "說文解字/07",
+      "revision_id": 1870775,
+      "source_file": "齊-seal.svg"
+    },
+    {
+      "kangxi_number": 211,
+      "primary": "齒",
+      "source_page": "說文解字/02",
+      "revision_id": 1559144,
+      "source_file": "齒-seal.svg"
+    },
+    {
+      "kangxi_number": 212,
+      "primary": "龍",
+      "source_page": "說文解字/11",
+      "revision_id": 1870771,
+      "source_file": "龍-seal.svg"
+    },
+    {
+      "kangxi_number": 213,
+      "primary": "龜",
+      "source_page": "說文解字/13",
+      "revision_id": 1870769,
+      "source_file": "龜-seal.svg"
+    },
+    {
+      "kangxi_number": 214,
+      "primary": "龠",
+      "source_page": "說文解字/02",
+      "revision_id": 1559144,
+      "source_file": "龠-seal.svg"
+    }
+  ]
+}

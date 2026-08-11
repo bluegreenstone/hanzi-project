@@ -1,0 +1,117 @@
+{
+  "id": "moe1996-09608",
+  "traditional": "大廠",
+  "simplified": "大厂",
+  "constituent_chars": [
+    "U+5927",
+    "U+5EE0"
+  ],
+  "pinyin": [
+    {
+      "reading": "dà chǎng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        27864,
+        27865
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄚˋ ㄔㄤˇ",
+      "pinyin": "dà chǎng",
+      "source_entry_indices": [
+        27864,
+        27865
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "see 大廠回族自治縣|大厂回族自治县[Da4 chang3 Hui2 zu2 Zi4 zhi4 xian4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        27864
+      ]
+    },
+    {
+      "gloss": "large factory; major manufacturer",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        27865
+      ]
+    },
+    {
+      "gloss": "(coll.) major tech company",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        27865
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 9608,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 5,
+    "cumulative_count": 553007,
+    "percentage": 0.00080997,
+    "cumulative_percentage": 89.58393406,
+    "per_million": 8.099711,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    27864,
+    27865
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

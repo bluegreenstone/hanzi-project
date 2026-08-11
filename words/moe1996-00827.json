@@ -1,0 +1,146 @@
+{
+  "id": "moe1996-00827",
+  "traditional": "感受",
+  "simplified": "感受",
+  "constituent_chars": [
+    "U+611F",
+    "U+53D7"
+  ],
+  "pinyin": [
+    {
+      "reading": "gǎn shòu",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        42735
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄍㄢˇ ㄕㄡˋ",
+      "pinyin": "gǎn shòu",
+      "source_entry_indices": [
+        42735
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to sense",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42735
+      ]
+    },
+    {
+      "gloss": "perception",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42735
+      ]
+    },
+    {
+      "gloss": "to feel (through the senses)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42735
+      ]
+    },
+    {
+      "gloss": "to experience",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42735
+      ]
+    },
+    {
+      "gloss": "a feeling",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42735
+      ]
+    },
+    {
+      "gloss": "an impression",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42735
+      ]
+    },
+    {
+      "gloss": "an experience",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42735
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 827,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 98,
+    "cumulative_count": 382369,
+    "percentage": 0.01587543,
+    "cumulative_percentage": 61.94156545,
+    "per_million": 158.754329,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    42735
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

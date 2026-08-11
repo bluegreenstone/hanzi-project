@@ -1,0 +1,104 @@
+{
+  "id": "moe1996-29961",
+  "traditional": "希拉蕊",
+  "simplified": "希拉蕊",
+  "constituent_chars": [
+    "U+5E0C",
+    "U+62C9",
+    "U+854A"
+  ],
+  "pinyin": [
+    {
+      "reading": "xī lā ruǐ",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        37092
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄒㄧ ㄌㄚ ㄖㄨㄟˇ",
+      "pinyin": "xī lā ruǐ",
+      "source_entry_indices": [
+        37092
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "Taiwan equivalent of 希拉里[Xi1 la1 li3]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        37092
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 29961,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 1,
+    "cumulative_count": 600546,
+    "percentage": 0.00016199,
+    "cumulative_percentage": 97.28497698,
+    "per_million": 1.619942,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    37092
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+854A"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

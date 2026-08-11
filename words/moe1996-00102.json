@@ -1,0 +1,114 @@
+{
+  "id": "moe1996-00102",
+  "traditional": "就是",
+  "simplified": "就是",
+  "constituent_chars": [
+    "U+5C31",
+    "U+662F"
+  ],
+  "pinyin": [
+    {
+      "reading": "jiù shì",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        34933
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄐㄧㄡˋ ㄕˋ",
+      "pinyin": "jiù shì",
+      "source_entry_indices": [
+        34933
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "exactly; precisely",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        34933
+      ]
+    },
+    {
+      "gloss": "only; simply; just",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        34933
+      ]
+    },
+    {
+      "gloss": "(used correlatively with 也[ye3]) even; even if",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        34933
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 102,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 750,
+    "cumulative_count": 223467,
+    "percentage": 0.12149566,
+    "cumulative_percentage": 36.20036092,
+    "per_million": 1214.956602,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    34933
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

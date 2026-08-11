@@ -1,0 +1,170 @@
+{
+  "id": "moe1996-14631",
+  "traditional": "放縱",
+  "simplified": "放纵",
+  "constituent_chars": [
+    "U+653E",
+    "U+7E31"
+  ],
+  "pinyin": [
+    {
+      "reading": "fàng zòng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        50276
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄈㄤˋ ㄗㄨㄥˋ",
+      "pinyin": "fàng zòng",
+      "source_entry_indices": [
+        50276
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to indulge",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        50276
+      ]
+    },
+    {
+      "gloss": "to pamper",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        50276
+      ]
+    },
+    {
+      "gloss": "to connive at",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        50276
+      ]
+    },
+    {
+      "gloss": "permissive",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        50276
+      ]
+    },
+    {
+      "gloss": "indulgent",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        50276
+      ]
+    },
+    {
+      "gloss": "self-indulgent",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        50276
+      ]
+    },
+    {
+      "gloss": "unrestrained",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        50276
+      ]
+    },
+    {
+      "gloss": "undisciplined",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        50276
+      ]
+    },
+    {
+      "gloss": "uncultured",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        50276
+      ]
+    },
+    {
+      "gloss": "boorish",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        50276
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 14631,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 3,
+    "cumulative_count": 573373,
+    "percentage": 0.00048598,
+    "cumulative_percentage": 92.88310822,
+    "per_million": 4.859826,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    50276
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

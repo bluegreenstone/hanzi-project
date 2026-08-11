@@ -1,0 +1,105 @@
+{
+  "id": "moe1996-01920",
+  "traditional": "烤",
+  "simplified": "烤",
+  "constituent_chars": [
+    "U+70E4"
+  ],
+  "pinyin": [
+    {
+      "reading": "kǎo",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        69430
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄎㄠˇ",
+      "pinyin": "kǎo",
+      "source_entry_indices": [
+        69430
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to roast; to grill; to broil; to bake; to toast (bread)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        69430
+      ]
+    },
+    {
+      "gloss": "to warm oneself by a fire",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        69430
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1920,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 39,
+    "cumulative_count": 448745,
+    "percentage": 0.00631777,
+    "cumulative_percentage": 72.69409337,
+    "per_million": 63.177743,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    69430
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,193 @@
+{
+  "id": "moe1996-02926",
+  "traditional": "頂",
+  "simplified": "顶",
+  "constituent_chars": [
+    "U+9802"
+  ],
+  "pinyin": [
+    {
+      "reading": "dǐng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        118135
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄧㄥˇ",
+      "pinyin": "dǐng",
+      "source_entry_indices": [
+        118135
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "apex",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118135
+      ]
+    },
+    {
+      "gloss": "crown of the head",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118135
+      ]
+    },
+    {
+      "gloss": "top",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118135
+      ]
+    },
+    {
+      "gloss": "roof",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118135
+      ]
+    },
+    {
+      "gloss": "most",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118135
+      ]
+    },
+    {
+      "gloss": "to carry on the head",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118135
+      ]
+    },
+    {
+      "gloss": "to push to the top",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118135
+      ]
+    },
+    {
+      "gloss": "to go against",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118135
+      ]
+    },
+    {
+      "gloss": "to replace",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118135
+      ]
+    },
+    {
+      "gloss": "to substitute",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118135
+      ]
+    },
+    {
+      "gloss": "to be subjected to (an aerial bombing, hailstorm etc)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118135
+      ]
+    },
+    {
+      "gloss": "(slang) to \"bump\" a forum thread to raise its profile",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118135
+      ]
+    },
+    {
+      "gloss": "classifier for headwear, hats, veils etc",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118135
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 2926,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 24,
+    "cumulative_count": 479187,
+    "percentage": 0.00388786,
+    "cumulative_percentage": 77.62552122,
+    "per_million": 38.878611,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    118135
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

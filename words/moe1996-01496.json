@@ -1,0 +1,138 @@
+{
+  "id": "moe1996-01496",
+  "traditional": "主動",
+  "simplified": "主动",
+  "constituent_chars": [
+    "U+4E3B",
+    "U+52D5"
+  ],
+  "pinyin": [
+    {
+      "reading": "zhǔ dòng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        3894
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄓㄨˇ ㄉㄨㄥˋ",
+      "pinyin": "zhǔ dòng",
+      "source_entry_indices": [
+        3894
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to take the initiative",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        3894
+      ]
+    },
+    {
+      "gloss": "to do sth of one's own accord",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        3894
+      ]
+    },
+    {
+      "gloss": "spontaneous",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        3894
+      ]
+    },
+    {
+      "gloss": "active",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        3894
+      ]
+    },
+    {
+      "gloss": "opposite: passive 被動|被动[bei4 dong4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        3894
+      ]
+    },
+    {
+      "gloss": "drive (of gears and shafts etc)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        3894
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1496,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 51,
+    "cumulative_count": 429717,
+    "percentage": 0.0082617,
+    "cumulative_percentage": 69.61166747,
+    "per_million": 82.617049,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    3894
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

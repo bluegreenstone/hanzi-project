@@ -1,0 +1,116 @@
+{
+  "id": "moe1996-10209",
+  "traditional": "突如其來",
+  "simplified": "突如其来",
+  "constituent_chars": [
+    "U+7A81",
+    "U+5982",
+    "U+5176",
+    "U+4F86"
+  ],
+  "pinyin": [
+    {
+      "reading": "tū rú qí lái",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        81969
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄊㄨ ㄖㄨˊ ㄑㄧˊ ㄌㄞˊ",
+      "pinyin": "tū rú qí lái",
+      "source_entry_indices": [
+        81969
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to arise abruptly",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        81969
+      ]
+    },
+    {
+      "gloss": "to arrive suddenly",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        81969
+      ]
+    },
+    {
+      "gloss": "happening suddenly",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        81969
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 10209,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 5,
+    "cumulative_count": 556012,
+    "percentage": 0.00080997,
+    "cumulative_percentage": 90.07072667,
+    "per_million": 8.099711,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    81969
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

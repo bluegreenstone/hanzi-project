@@ -1,0 +1,139 @@
+{
+  "id": "moe1996-00992",
+  "traditional": "下來",
+  "simplified": "下来",
+  "constituent_chars": [
+    "U+4E0B",
+    "U+4F86"
+  ],
+  "pinyin": [
+    {
+      "reading": "xià lai",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        1879
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "to come down",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        1879
+      ]
+    },
+    {
+      "gloss": "(completed action marker)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        1879
+      ]
+    },
+    {
+      "gloss": "(after verb of motion, indicates motion down and towards us, also fig.)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        1879
+      ]
+    },
+    {
+      "gloss": "(indicates continuation from the past towards us)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        1879
+      ]
+    },
+    {
+      "gloss": "to be harvested (of crops)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        1879
+      ]
+    },
+    {
+      "gloss": "to be over (of a period of time)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        1879
+      ]
+    },
+    {
+      "gloss": "to go among the masses (said of leaders)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        1879
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 992,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 82,
+    "cumulative_count": 397162,
+    "percentage": 0.01328353,
+    "cumulative_percentage": 64.33794585,
+    "per_million": 132.835255,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    1879
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

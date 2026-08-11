@@ -1,0 +1,135 @@
+{
+  "id": "moe1996-01300",
+  "traditional": "便宜",
+  "simplified": "便宜",
+  "constituent_chars": [
+    "U+4FBF",
+    "U+5B9C"
+  ],
+  "pinyin": [
+    {
+      "reading": "biàn yí",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        7910
+      ]
+    },
+    {
+      "reading": "pián yi",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        7911
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄅㄧㄢˋ ㄧˊ",
+      "pinyin": "biàn yí",
+      "source_entry_indices": [
+        7910
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "convenient",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7910
+      ]
+    },
+    {
+      "gloss": "cheap; inexpensive",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7911
+      ]
+    },
+    {
+      "gloss": "a petty advantage",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7911
+      ]
+    },
+    {
+      "gloss": "to let sb off lightly",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7911
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1300,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 60,
+    "cumulative_count": 418798,
+    "percentage": 0.00971965,
+    "cumulative_percentage": 67.84285265,
+    "per_million": 97.196528,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    7910,
+    7911
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin.partial",
+      "reason": "not_attested",
+      "detail": "The pinned CNS syllable table has no unique full conversion for: pián yi"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

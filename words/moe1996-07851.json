@@ -1,0 +1,98 @@
+{
+  "id": "moe1996-07851",
+  "traditional": "便捷",
+  "simplified": "便捷",
+  "constituent_chars": [
+    "U+4FBF",
+    "U+6377"
+  ],
+  "pinyin": [
+    {
+      "reading": "biàn jié",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        7919
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄅㄧㄢˋ ㄐㄧㄝˊ",
+      "pinyin": "biàn jié",
+      "source_entry_indices": [
+        7919
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "convenient and fast",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7919
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 7851,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 7,
+    "cumulative_count": 541955,
+    "percentage": 0.00113396,
+    "cumulative_percentage": 87.79357401,
+    "per_million": 11.339595,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    7919
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "moe1996-02866",
+  "traditional": "不在",
+  "simplified": "不在",
+  "constituent_chars": [
+    "U+4E0D",
+    "U+5728"
+  ],
+  "pinyin": [
+    {
+      "reading": "bù zài",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        2334
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄅㄨˋ ㄗㄞˋ",
+      "pinyin": "bù zài",
+      "source_entry_indices": [
+        2334
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "not to be present",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        2334
+      ]
+    },
+    {
+      "gloss": "to be out",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        2334
+      ]
+    },
+    {
+      "gloss": "(euphemism) to pass away",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        2334
+      ]
+    },
+    {
+      "gloss": "to be deceased",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        2334
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 2866,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 24,
+    "cumulative_count": 477747,
+    "percentage": 0.00388786,
+    "cumulative_percentage": 77.39224955,
+    "per_million": 38.878611,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    2334
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

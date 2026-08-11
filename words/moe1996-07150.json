@@ -1,0 +1,135 @@
+{
+  "id": "moe1996-07150",
+  "traditional": "虐待",
+  "simplified": "虐待",
+  "constituent_chars": [
+    "U+8650",
+    "U+5F85"
+  ],
+  "pinyin": [
+    {
+      "reading": "nüè dài",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        96433
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄋㄩㄝˋ ㄉㄞˋ",
+      "pinyin": "nüè dài",
+      "source_entry_indices": [
+        96433
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to mistreat",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        96433
+      ]
+    },
+    {
+      "gloss": "to maltreat",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        96433
+      ]
+    },
+    {
+      "gloss": "to abuse",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        96433
+      ]
+    },
+    {
+      "gloss": "mistreatment",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        96433
+      ]
+    },
+    {
+      "gloss": "maltreatment",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        96433
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 7150,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 8,
+    "cumulative_count": 536677,
+    "percentage": 0.00129595,
+    "cumulative_percentage": 86.93856855,
+    "per_million": 12.959537,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    96433
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+8650"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

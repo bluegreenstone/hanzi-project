@@ -1,0 +1,108 @@
+{
+  "id": "moe1996-20309",
+  "traditional": "哥倫比亞",
+  "simplified": "哥伦比亚",
+  "constituent_chars": [
+    "U+54E5",
+    "U+502B",
+    "U+6BD4",
+    "U+4E9E"
+  ],
+  "pinyin": [
+    {
+      "reading": "gē lún bǐ yà",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        21670
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄍㄜ ㄌㄨㄣˊ ㄅㄧˇ ㄧㄚˋ",
+      "pinyin": "gē lún bǐ yà",
+      "source_entry_indices": [
+        21670
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "Colombia (country in South America)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        21670
+      ]
+    },
+    {
+      "gloss": "Columbia (name of various entities, mostly in the USA)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        21670
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 20309,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 2,
+    "cumulative_count": 587156,
+    "percentage": 0.00032399,
+    "cumulative_percentage": 95.11587446,
+    "per_million": 3.239884,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    21670
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

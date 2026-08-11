@@ -1,0 +1,356 @@
+{
+  "kangxi_number": 110,
+  "primary": {
+    "char": "矛",
+    "codepoint": "U+77DB"
+  },
+  "radical_block": {
+    "char": "⽭",
+    "codepoint": "U+2F6D"
+  },
+  "variants": [],
+  "stroke_count": 5,
+  "stroke_count_standard": "TW-CNS11643",
+  "stroke_count_variants": [],
+  "names": {
+    "en": [
+      "halberd"
+    ],
+    "ja": [
+      "ほこ"
+    ]
+  },
+  "readings": {
+    "pinyin": [
+      {
+        "reading": "máo",
+        "context": "primary",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      }
+    ],
+    "zhuyin": [
+      "ㄇㄠˊ"
+    ],
+    "jyutping": [
+      "maau4"
+    ],
+    "japanese_on": [
+      "MU",
+      "BOU"
+    ],
+    "japanese_kun": [
+      "HOKO"
+    ],
+    "korean": [
+      "MO"
+    ],
+    "hangul": [
+      "모"
+    ],
+    "fanqie": [
+      {
+        "text": "莫浮"
+      }
+    ]
+  },
+  "sources": {
+    "kangxi_number": [
+      "unicode-cjk-radicals-17.0.0"
+    ],
+    "primary": [
+      "unicode-cjk-radicals-17.0.0"
+    ],
+    "radical_block": [
+      "unicode-cjk-radicals-17.0.0"
+    ],
+    "variants": [
+      "unicode-cjk-radicals-17.0.0",
+      "unicode-unihan-17.0.0"
+    ],
+    "stroke_count": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "stroke_count_standard": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "names.en": [
+      "kanji-alive-radicals-master-audit"
+    ],
+    "names.ja": [
+      "kanji-alive-radicals-master-audit"
+    ],
+    "readings.pinyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.zhuyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.jyutping": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_on": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_kun": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.korean": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.hangul": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.fanqie": [
+      "unicode-unihan-17.0.0"
+    ],
+    "stroke_count_variants": [
+      "makemeahanzi-graphics-master-audit",
+      "unicode-unihan-17.0.0",
+      "kanji-alive-radicals-master-audit"
+    ],
+    "definitions": [
+      "unicode-unihan-17.0.0"
+    ],
+    "character_count_in_kangxi": [
+      "enwiki-kangxi-radicals-2026-08-10"
+    ],
+    "character_count_in_kangxi_status": [
+      "enwiki-kangxi-radicals-2026-08-10"
+    ],
+    "shuowen": [
+      "zhwikisource-shuowen-2026-08-10"
+    ],
+    "shuowen.seal_glyph": [
+      "commons-shuowen-540-svg-series-2026-08-10"
+    ],
+    "historical_forms.shuowen_seal_說文解字": [
+      "commons-shuowen-540-svg-series-2026-08-10"
+    ],
+    "historical_forms.bronze_金文": [
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+      "commons-ancient-chinese-historical-form-files-2026-08-10"
+    ],
+    "historical_forms.liushutong_六書通": [
+      "commons-ancient-chinese-historical-form-files-2026-08-10",
+      "codh-henrui-liushutong-te00008-21-series-2026-08-11"
+    ],
+    "english_definition": [
+      "unicode-unihan-17.0.0"
+    ],
+    "stroke_order.svg_asset_id": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.standard": [
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.source_convention": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.formal_conformance": [
+      "makemeahanzi-graphics-master-audit",
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.stroke_count": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.taiwan_cns_stroke_sequence": [
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "character_count_in_kangxi.primary_scan_verification",
+      "reason": "source_unavailable",
+      "detail": "The count is pinned secondary-source evidence; a single internally complete 1716 Kangxi scan has not yet been selected and counted."
+    },
+    {
+      "field": "historical_forms.oracle_bone_甲骨文",
+      "reason": "source_unavailable",
+      "detail": "The exact Traditional-primary 小學堂 oracle-bone query returned no candidate, and no deliverable from the pinned Commons radical index was acquired. These source absences are not proof of historical non-attestation."
+    },
+    {
+      "field": "names.ko",
+      "reason": "source_unavailable",
+      "detail": "No approved Phase 1 source supplies a systematic Korean learner-style radical name."
+    },
+    {
+      "field": "names.zh",
+      "reason": "source_unavailable",
+      "detail": "No approved Phase 1 source supplies a systematic Traditional-Chinese colloquial radical name."
+    },
+    {
+      "field": "semantic_field",
+      "reason": "source_unavailable",
+      "detail": "No approved Phase 2 source provides a systematic semantic-field taxonomy for all 214 radicals."
+    },
+    {
+      "field": "stroke_order.stroke_types",
+      "reason": "source_unavailable",
+      "detail": "Make Me a Hanzi supplies ordered paths but no authoritative per-path stroke-type names; Taiwan CNS types are retained separately and are not assigned to PRC path indices."
+    },
+    {
+      "field": "stroke_order.formal_standard_verification",
+      "reason": "source_unavailable",
+      "detail": "The GF 0023-2020 publication is reference-only and the path source claims PRC convention without formal per-character conformance evidence."
+    }
+  ],
+  "conflicts": [],
+  "definitions": [
+    {
+      "gloss": "spear, lance; Kangxi radical 110",
+      "lang": "en",
+      "register": "modern"
+    }
+  ],
+  "semantic_field": null,
+  "historical_forms": {
+    "oracle_bone_甲骨文": [],
+    "bronze_金文": [
+      {
+        "asset_id": "sinica-bronze-U+77DB-representative",
+        "path": "assets/bronze/U+77DB/sinica-bronze-U+77DB-representative.png",
+        "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+        "source_file": "34.E36F",
+        "license_id": "CC0-1.0"
+      },
+      {
+        "asset_id": "bronze-U+77DB-commons-index",
+        "path": "assets/bronze/U+77DB/bronze-U+77DB-commons-index.svg",
+        "source_id": "commons-ancient-chinese-historical-form-files-2026-08-10",
+        "source_file": "矛-bronze.svg",
+        "license_id": "pd"
+      }
+    ],
+    "shuowen_seal_說文解字": [
+      {
+        "asset_id": "shuowen-540-U+77DB",
+        "path": "assets/shuowen_seal/U+77DB/shuowen-540-U+77DB.svg",
+        "source_id": "commons-shuowen-540-svg-series-2026-08-10",
+        "source_file": "Shuowen Seal Radical 441.svg",
+        "license_id": "cc-by-sa-3.0"
+      }
+    ],
+    "liushutong_六書通": [
+      {
+        "asset_id": "liushutong-U+77DB-commons-index",
+        "path": "assets/liushutong/U+77DB/liushutong-U+77DB-commons-index.svg",
+        "source_id": "commons-ancient-chinese-historical-form-files-2026-08-10",
+        "source_file": "矛-bigseal.svg",
+        "license_id": "pd"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00008-U+77DB-001",
+        "path": "assets/liushutong/U+77DB/codh-liushutong-TE00008-U+77DB-001.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+77DB_TE00008_0055_2_X2337_Y1122.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00015-U+77DB-001",
+        "path": "assets/liushutong/U+77DB/codh-liushutong-TE00015-U+77DB-001.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+77DB_TE00015_0055_2_X2337_Y1122.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00008-U+77DB-002",
+        "path": "assets/liushutong/U+77DB/codh-liushutong-TE00008-U+77DB-002.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+77DB_TE00008_0055_2_X2356_Y2992.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00015-U+77DB-002",
+        "path": "assets/liushutong/U+77DB/codh-liushutong-TE00015-U+77DB-002.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+77DB_TE00015_0055_2_X2356_Y2992.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00008-U+77DB-003",
+        "path": "assets/liushutong/U+77DB/codh-liushutong-TE00008-U+77DB-003.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+77DB_TE00008_0055_2_X2366_Y0852.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00015-U+77DB-003",
+        "path": "assets/liushutong/U+77DB/codh-liushutong-TE00015-U+77DB-003.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+77DB_TE00015_0055_2_X2366_Y0852.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00008-U+77DB-004",
+        "path": "assets/liushutong/U+77DB/codh-liushutong-TE00008-U+77DB-004.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+77DB_TE00008_0055_2_X2385_Y2581.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00015-U+77DB-004",
+        "path": "assets/liushutong/U+77DB/codh-liushutong-TE00015-U+77DB-004.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+77DB_TE00015_0055_2_X2385_Y2581.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "character_count_in_kangxi": 65,
+  "character_count_in_kangxi_status": "secondary_source_unverified",
+  "shuowen": {
+    "radical_number": 441,
+    "source_headword": "矛",
+    "mapping_type": "exact_heading",
+    "entry_text": "酋矛也。建於兵車，長二丈。象形。凡矛之屬皆从矛。",
+    "edition_notes": null,
+    "source_page": "說文解字/14",
+    "page_id": 99572,
+    "revision_id": 1957454,
+    "revision_timestamp": "2020-07-14T11:34:22Z",
+    "seal_glyph": {
+      "asset_id": "shuowen-540-U+77DB",
+      "path": "assets/shuowen_seal/U+77DB/shuowen-540-U+77DB.svg",
+      "source_id": "commons-shuowen-540-svg-series-2026-08-10",
+      "source_file": "Shuowen Seal Radical 441.svg",
+      "license_id": "cc-by-sa-3.0"
+    }
+  },
+  "english_definition": "spear, lance; Kangxi radical 110",
+  "stroke_order": {
+    "svg_asset_id": "stroke-order-U+77DB-mmah-bddc96d4",
+    "standard": "PRC GF 0023-2020 (provisional baseline)",
+    "source_convention": "Make Me a Hanzi PRC stroke order",
+    "formal_conformance": "not_verified",
+    "stroke_count": 5,
+    "stroke_types": null,
+    "taiwan_cns_stroke_sequence": [
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      }
+    ],
+    "standard_conflicts": []
+  }
+}

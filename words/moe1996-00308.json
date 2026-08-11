@@ -1,0 +1,239 @@
+{
+  "id": "moe1996-00308",
+  "traditional": "令",
+  "simplified": "令",
+  "constituent_chars": [
+    "U+4EE4"
+  ],
+  "pinyin": [
+    {
+      "reading": "líng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        6354
+      ]
+    },
+    {
+      "reading": "lǐng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        6355
+      ]
+    },
+    {
+      "reading": "lìng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        6356
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄌㄧㄥˊ",
+      "pinyin": "líng",
+      "source_entry_indices": [
+        6354
+      ]
+    },
+    {
+      "reading": "ㄌㄧㄥˇ",
+      "pinyin": "lǐng",
+      "source_entry_indices": [
+        6355
+      ]
+    },
+    {
+      "reading": "ㄌㄧㄥˋ",
+      "pinyin": "lìng",
+      "source_entry_indices": [
+        6356
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "used in 脊令[ji2 ling2]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6354
+      ]
+    },
+    {
+      "gloss": "used in 令狐[Ling2 hu2] (Taiwan pr. [ling4])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6354
+      ]
+    },
+    {
+      "gloss": "classifier for a ream of paper",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6355
+      ]
+    },
+    {
+      "gloss": "to order",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6356
+      ]
+    },
+    {
+      "gloss": "to command",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6356
+      ]
+    },
+    {
+      "gloss": "an order",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6356
+      ]
+    },
+    {
+      "gloss": "warrant",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6356
+      ]
+    },
+    {
+      "gloss": "writ",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6356
+      ]
+    },
+    {
+      "gloss": "to cause",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6356
+      ]
+    },
+    {
+      "gloss": "to make sth happen",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6356
+      ]
+    },
+    {
+      "gloss": "virtuous",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6356
+      ]
+    },
+    {
+      "gloss": "honorific title",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6356
+      ]
+    },
+    {
+      "gloss": "season",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6356
+      ]
+    },
+    {
+      "gloss": "government position (old)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6356
+      ]
+    },
+    {
+      "gloss": "type of short song or poem",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6356
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 308,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 248,
+    "cumulative_count": 303836,
+    "percentage": 0.04017456,
+    "cumulative_percentage": 49.21967387,
+    "per_million": 401.74565,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    6354,
+    6355,
+    6356
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

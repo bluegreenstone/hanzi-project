@@ -1,0 +1,99 @@
+{
+  "id": "moe1996-02766",
+  "traditional": "聰明",
+  "simplified": "聪明",
+  "constituent_chars": [
+    "U+8070",
+    "U+660E"
+  ],
+  "pinyin": [
+    {
+      "reading": "cōng ming",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        89238
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "intelligent; clever; bright",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        89238
+      ]
+    },
+    {
+      "gloss": "acute (of sight and hearing)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        89238
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 2766,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 26,
+    "cumulative_count": 475246,
+    "percentage": 0.00421185,
+    "cumulative_percentage": 76.98710202,
+    "per_million": 42.118496,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    89238
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

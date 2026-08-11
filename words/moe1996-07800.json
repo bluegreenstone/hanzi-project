@@ -1,0 +1,99 @@
+{
+  "id": "moe1996-07800",
+  "traditional": "底下",
+  "simplified": "底下",
+  "constituent_chars": [
+    "U+5E95",
+    "U+4E0B"
+  ],
+  "pinyin": [
+    {
+      "reading": "dǐ xia",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        38140
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "the location below sth",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        38140
+      ]
+    },
+    {
+      "gloss": "afterwards",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        38140
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 7800,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 7,
+    "cumulative_count": 541598,
+    "percentage": 0.00113396,
+    "cumulative_percentage": 87.73574208,
+    "per_million": 11.339595,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    38140
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

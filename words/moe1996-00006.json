@@ -1,0 +1,160 @@
+{
+  "id": "moe1996-00006",
+  "traditional": "了",
+  "simplified": "了",
+  "constituent_chars": [
+    "U+4E86"
+  ],
+  "pinyin": [
+    {
+      "reading": "le",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        4553
+      ]
+    },
+    {
+      "reading": "liǎo",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        4554
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "˙ㄌㄜ",
+      "pinyin": "le",
+      "source_entry_indices": [
+        4553
+      ]
+    },
+    {
+      "reading": "ㄌㄧㄠˇ",
+      "pinyin": "liǎo",
+      "source_entry_indices": [
+        4554
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "(completed action marker)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        4553
+      ]
+    },
+    {
+      "gloss": "(modal particle indicating change of state, situation now)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        4553
+      ]
+    },
+    {
+      "gloss": "(modal particle intensifying preceding clause)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        4553
+      ]
+    },
+    {
+      "gloss": "to finish",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        4554
+      ]
+    },
+    {
+      "gloss": "(used with 得[de2] or 不[bu4] after a verb to express (im)possibility, as in 忘不了[wang4 bu5 liao3] \"cannot forget\")",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        4554
+      ]
+    },
+    {
+      "gloss": "(literary) (usually followed by a negative such as 無|无[wu2] or 不[bu4]) completely (not); entirely (not); (not) in the least",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        4554
+      ]
+    },
+    {
+      "gloss": "to understand clearly (variant of 瞭|了[liao3])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        4554
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 6,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 4719,
+    "cumulative_count": 73719,
+    "percentage": 0.76445069,
+    "cumulative_percentage": 11.94205143,
+    "per_million": 7644.506938,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    4553,
+    4554
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

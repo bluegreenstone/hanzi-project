@@ -1,0 +1,176 @@
+{
+  "id": "moe1996-01383",
+  "traditional": "體",
+  "simplified": "体",
+  "constituent_chars": [
+    "U+9AD4"
+  ],
+  "pinyin": [
+    {
+      "reading": "tī",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        121150
+      ]
+    },
+    {
+      "reading": "tǐ",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        121151
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄊㄧ",
+      "pinyin": "tī",
+      "source_entry_indices": [
+        121150
+      ]
+    },
+    {
+      "reading": "ㄊㄧˇ",
+      "pinyin": "tǐ",
+      "source_entry_indices": [
+        121151
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "used in 體己|体己[ti1 ji5]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        121150
+      ]
+    },
+    {
+      "gloss": "Taiwan pr. [ti3]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        121150
+      ]
+    },
+    {
+      "gloss": "body",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        121151
+      ]
+    },
+    {
+      "gloss": "form",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        121151
+      ]
+    },
+    {
+      "gloss": "style",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        121151
+      ]
+    },
+    {
+      "gloss": "system",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        121151
+      ]
+    },
+    {
+      "gloss": "substance",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        121151
+      ]
+    },
+    {
+      "gloss": "to experience",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        121151
+      ]
+    },
+    {
+      "gloss": "aspect (linguistics)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        121151
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1383,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 57,
+    "cumulative_count": 423633,
+    "percentage": 0.00923367,
+    "cumulative_percentage": 68.62609468,
+    "per_million": 92.336702,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    121150,
+    121151
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,164 @@
+{
+  "id": "moe1996-00715",
+  "traditional": "門",
+  "simplified": "门",
+  "constituent_chars": [
+    "U+9580"
+  ],
+  "pinyin": [
+    {
+      "reading": "mén",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        112899,
+        112900
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄇㄣˊ",
+      "pinyin": "mén",
+      "source_entry_indices": [
+        112899,
+        112900
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "surname Men",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        112899
+      ]
+    },
+    {
+      "gloss": "gate; door; doorway; gateway; opening (CL:扇[shan4])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        112900
+      ]
+    },
+    {
+      "gloss": "valve; switch; other door-like or gate-like structure",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        112900
+      ]
+    },
+    {
+      "gloss": "way to do sth; knack; method; approach",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        112900
+      ]
+    },
+    {
+      "gloss": "family; household; lineage",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        112900
+      ]
+    },
+    {
+      "gloss": "(bound form) sect; school; faction (religious or academic)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        112900
+      ]
+    },
+    {
+      "gloss": "(bound form) class; category; division; phylum",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        112900
+      ]
+    },
+    {
+      "gloss": "classifier for courses, fields of study, branches of technology, relatives by marriage, guns etc",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        112900
+      ]
+    },
+    {
+      "gloss": "(suffix) -gate (scandal)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        112900
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 715,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 112,
+    "cumulative_count": 370658,
+    "percentage": 0.01814335,
+    "cumulative_percentage": 60.04445121,
+    "per_million": 181.433519,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    112899,
+    112900
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

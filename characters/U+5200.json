@@ -1,0 +1,305 @@
+{
+  "codepoint": "U+5200",
+  "traditional": "刀",
+  "simplified": "刀",
+  "simplification_note": null,
+  "variants_異體字": [
+    {
+      "char": "刂",
+      "codepoint": "U+5202",
+      "relationship": "semantic",
+      "source_property": "kSemanticVariant"
+    }
+  ],
+  "radical": {
+    "kangxi_number": 18,
+    "residual_strokes": 0,
+    "source_assignment": "18.0",
+    "additional_assignments": []
+  },
+  "total_strokes": 2,
+  "total_strokes_standard": "TW-MOE-1996",
+  "stroke_count_variants": [],
+  "ids_decomposition": null,
+  "components": null,
+  "liushu_六書": null,
+  "readings": {
+    "pinyin": [
+      {
+        "reading": "dāo",
+        "context": "primary",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      }
+    ],
+    "zhuyin": [
+      "ㄉㄠ"
+    ],
+    "pinyin_variants": [
+      {
+        "reading": "diāo",
+        "region": "und",
+        "classification": "dictionary_attestation",
+        "source_id": "unicode-unihan-17.0.0",
+        "source_property": "kHanyuPinyin"
+      }
+    ],
+    "jyutping": [
+      "dou1"
+    ],
+    "japanese_on": [
+      "TOU"
+    ],
+    "japanese_kun": [
+      "KATANA"
+    ],
+    "korean": [
+      "TO"
+    ],
+    "fanqie": [
+      "都勞"
+    ],
+    "hangul": [
+      "도"
+    ]
+  },
+  "definitions": [
+    {
+      "gloss": "knife; old coin; measure",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "unicode-unihan-17.0.0"
+    },
+    {
+      "gloss": "surname Dao",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "knife; blade; single-edged sword; cutlass (CL:把[ba3])",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "(slang) (loanword) dollar",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "classifier for sets of one hundred sheets (of paper)",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "classifier for knife cuts or stabs",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "(Internet slang) to bargain; to ask for a small discount (esp. on second-hand marketplaces)",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "(Internet slang) to knife (sb) (often used hyperbolically, as in 想刀他[xiang3 dao1 ta1] \"I could kill him!\")",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    }
+  ],
+  "frequency": {
+    "rank": 1150,
+    "selection_rank": 1149,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 123,
+    "cumulative_count": 924107,
+    "cumulative_percentage": 91.87269351,
+    "per_million": 122.283905,
+    "corpus_total_count": 1005856
+  },
+  "grading": {
+    "hsk": null,
+    "tocfl": null
+  },
+  "confusable_with": null,
+  "kangxi_citation": "0135.240",
+  "sources": {
+    "codepoint": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996"
+    ],
+    "variants_異體字": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical": [
+      "unicode-unihan-17.0.0"
+    ],
+    "total_strokes": [
+      "moe-tw-common-terms-1996"
+    ],
+    "total_strokes_standard": [
+      "moe-tw-common-terms-1996"
+    ],
+    "stroke_count_variants": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0",
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "readings.pinyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.zhuyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.pinyin_variants": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.jyutping": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_on": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_kun": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.korean": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.fanqie": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.hangul": [
+      "unicode-unihan-17.0.0"
+    ],
+    "definitions": [
+      "unicode-unihan-17.0.0",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "kangxi_citation": [
+      "unicode-unihan-17.0.0"
+    ],
+    "english_translation": [
+      "unicode-unihan-17.0.0"
+    ],
+    "common_words": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "stroke_order.svg_asset_id": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.standard": [
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.source_convention": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.formal_conformance": [
+      "makemeahanzi-graphics-master-audit",
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.stroke_count": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.taiwan_cns_stroke_sequence": [
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "simplification_note",
+      "reason": "not_attested",
+      "detail": "The approved mapping sources do not attest multiple Traditional origins for the selected Simplified character."
+    },
+    {
+      "field": "ids_decomposition",
+      "reason": "not_attested",
+      "detail": "Make Me a Hanzi marks the decomposition as wholly or partly unknown."
+    },
+    {
+      "field": "components",
+      "reason": "not_attested",
+      "detail": "Components are not emitted from an unknown decomposition."
+    },
+    {
+      "field": "liushu_六書",
+      "reason": "not_attested",
+      "detail": "Make Me a Hanzi supplies no usable etymology classification."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK character-level source passed the Phase 0 audit."
+    },
+    {
+      "field": "grading.tocfl",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved TOCFL character-level source passed the Phase 0 audit."
+    },
+    {
+      "field": "confusable_with",
+      "reason": "source_unavailable",
+      "detail": "No approved curated visual-confusables source passed the Phase 0 audit."
+    },
+    {
+      "field": "stroke_order.stroke_types",
+      "reason": "source_unavailable",
+      "detail": "Make Me a Hanzi supplies ordered paths but no authoritative per-path stroke-type names; Taiwan CNS types are retained separately and are not assigned to PRC path indices."
+    },
+    {
+      "field": "stroke_order.formal_standard_verification",
+      "reason": "source_unavailable",
+      "detail": "The GF 0023-2020 publication is reference-only and the path source claims PRC convention without formal per-character conformance evidence."
+    }
+  ],
+  "conflicts": [],
+  "english_translation": "knife; old coin; measure",
+  "common_words": [
+    "moe1996-03221",
+    "moe1996-04001",
+    "moe1996-04849",
+    "moe1996-05701",
+    "moe1996-08414",
+    "moe1996-09889",
+    "moe1996-13757",
+    "moe1996-17132",
+    "moe1996-19148",
+    "moe1996-19884"
+  ],
+  "stroke_order": {
+    "svg_asset_id": "stroke-order-U+5200-mmah-bddc96d4",
+    "standard": "PRC GF 0023-2020 (provisional baseline)",
+    "source_convention": "Make Me a Hanzi PRC stroke order",
+    "formal_conformance": "not_verified",
+    "stroke_count": 2,
+    "stroke_types": null,
+    "taiwan_cns_stroke_sequence": [
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      }
+    ],
+    "standard_conflicts": []
+  }
+}

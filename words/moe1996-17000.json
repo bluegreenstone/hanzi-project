@@ -1,0 +1,162 @@
+{
+  "id": "moe1996-17000",
+  "traditional": "霸道",
+  "simplified": "霸道",
+  "constituent_chars": [
+    "U+9738",
+    "U+9053"
+  ],
+  "pinyin": [
+    {
+      "reading": "bà dào",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        117121
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄅㄚˋ ㄉㄠˋ",
+      "pinyin": "bà dào",
+      "source_entry_indices": [
+        117121
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "the Way of the Hegemon",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        117121
+      ]
+    },
+    {
+      "gloss": "abbr. for 霸王之道",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        117121
+      ]
+    },
+    {
+      "gloss": "despotic rule",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        117121
+      ]
+    },
+    {
+      "gloss": "rule by might",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        117121
+      ]
+    },
+    {
+      "gloss": "evil as opposed to the Way of the King 王道",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        117121
+      ]
+    },
+    {
+      "gloss": "overbearing",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        117121
+      ]
+    },
+    {
+      "gloss": "tyranny",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        117121
+      ]
+    },
+    {
+      "gloss": "(of liquor, medicine etc) strong",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        117121
+      ]
+    },
+    {
+      "gloss": "potent",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        117121
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 17000,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 3,
+    "cumulative_count": 580480,
+    "percentage": 0.00048598,
+    "cumulative_percentage": 94.03440109,
+    "per_million": 4.859826,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    117121
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

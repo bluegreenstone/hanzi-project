@@ -1,0 +1,268 @@
+{
+  "id": "moe1996-01114",
+  "traditional": "啊",
+  "simplified": "啊",
+  "constituent_chars": [
+    "U+554A"
+  ],
+  "pinyin": [
+    {
+      "reading": "ā",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        22176
+      ]
+    },
+    {
+      "reading": "á",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        22177
+      ]
+    },
+    {
+      "reading": "ǎ",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        22178
+      ]
+    },
+    {
+      "reading": "à",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        22179
+      ]
+    },
+    {
+      "reading": "a",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        22180
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄚ",
+      "pinyin": "ā",
+      "source_entry_indices": [
+        22176
+      ]
+    },
+    {
+      "reading": "ㄚˊ",
+      "pinyin": "á",
+      "source_entry_indices": [
+        22177
+      ]
+    },
+    {
+      "reading": "ㄚˋ",
+      "pinyin": "à",
+      "source_entry_indices": [
+        22179
+      ]
+    },
+    {
+      "reading": "˙ㄚ",
+      "pinyin": "a",
+      "source_entry_indices": [
+        22180
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "interjection of surprise",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22176
+      ]
+    },
+    {
+      "gloss": "Ah!",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22176
+      ]
+    },
+    {
+      "gloss": "Oh!",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22176
+      ]
+    },
+    {
+      "gloss": "interjection expressing doubt or requiring answer",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22177
+      ]
+    },
+    {
+      "gloss": "Eh?",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22177,
+        22178
+      ]
+    },
+    {
+      "gloss": "what?",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22177
+      ]
+    },
+    {
+      "gloss": "interjection of surprise or doubt",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22178
+      ]
+    },
+    {
+      "gloss": "My!",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22178
+      ]
+    },
+    {
+      "gloss": "what's up?",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22178
+      ]
+    },
+    {
+      "gloss": "interjection or grunt of agreement",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22179
+      ]
+    },
+    {
+      "gloss": "uhm",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22179
+      ]
+    },
+    {
+      "gloss": "Ah, OK",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22179
+      ]
+    },
+    {
+      "gloss": "expression of recognition",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22179
+      ]
+    },
+    {
+      "gloss": "Oh, it's you!",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22179
+      ]
+    },
+    {
+      "gloss": "modal particle ending sentence, showing affirmation, approval, or consent",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22180
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1114,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 72,
+    "cumulative_count": 406614,
+    "percentage": 0.01166358,
+    "cumulative_percentage": 65.86911516,
+    "per_million": 116.635834,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    22176,
+    22177,
+    22178,
+    22179,
+    22180
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin.partial",
+      "reason": "not_attested",
+      "detail": "The pinned CNS syllable table has no unique full conversion for: ǎ"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

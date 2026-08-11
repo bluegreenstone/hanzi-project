@@ -1,0 +1,1678 @@
+{
+  "schema_version": "1.3.0",
+  "phase": 5,
+  "audit_date": "2026-08-11",
+  "project_decisions": {
+    "script_variant_priority": "Traditional-primary",
+    "secondary_script_variant": "Simplified",
+    "frequency_corpus_id": "moe-tw-common-terms-1996",
+    "secondary_frequency_corpus_id": "subtlex-ch-2010",
+    "words_per_character": 10,
+    "word_segmentation": "Reuse the MOE-published word-frequency rows; no local segmentation. The source does not disclose a named segmentation tool.",
+    "stroke_order_standard": "PRC GF 0023-2020 (provisional and independent of script priority)",
+    "pinyin_conflict_precedence": "Taiwan MOE-aligned CNS11643 readings are canonical; PRC TGHZ2013 and other Unihan readings are retained as explicit variants.",
+    "stroke_count_conflict_precedence": "For Phase 3 characters, the Taiwan MOE 1996 table's published stroke count is canonical; CNS11643 sequence length, PRC-convention Make Me a Hanzi, Unicode IRG, and Japanese counts are retained as explicit variants. The Phase 1 radical spine retains its separately validated CNS-first rule."
+  },
+  "license_gate": {
+    "approved": "May populate delivered records, subject to the stated constraints and acquisition-time pinning.",
+    "reference_only": "May support a standard identifier or an audit comparison, but its files or extracted content may not be redistributed.",
+    "quarantine": "Must not populate delivered records or assets until an explicit redistribution license is verified.",
+    "rejected": "Must not be acquired or used for this public corpus under the audited terms."
+  },
+  "sources": {
+    "unicode-unihan-17.0.0": {
+      "id": "unicode-unihan-17.0.0",
+      "full_name": "Unicode Han Database (Unihan), Unicode 17.0.0",
+      "url": "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "documentation_url": "https://www.unicode.org/reports/tr38/tr38-39.html",
+      "access_date": "2026-08-10",
+      "version": "17.0.0",
+      "acquisition": {
+        "retrieved_at": "2026-08-11T03:10:01Z",
+        "local_path": "source-data/unicode-17.0.0/Unihan.zip",
+        "sha256": "f7a48b2b545acfaa77b2d607ae28747404ce02baefee16396c5d2d7a8ef34b5e"
+      },
+      "status": "approved",
+      "license": {
+        "id": "Unicode-3.0",
+        "name": "Unicode License v3",
+        "url": "https://www.unicode.org/license.txt",
+        "verified": true
+      },
+      "redistribution": "Use, modification, and redistribution of Unicode data files are permitted, including commercially, provided the Unicode license and notices are retained.",
+      "coverage": [
+        "radical and residual-stroke assignments via kRSUnicode",
+        "total stroke counts via kTotalStrokes",
+        "Mandarin, Cantonese, Japanese, Korean, Hangul, Hanyu Pinyin, PRC TGHZ2013, and fanqie readings where present",
+        "English definitions where present",
+        "Kangxi dictionary citations via kIRGKangXi and kKangXi",
+        "simplified, traditional, semantic, specialized-semantic, spoofing, and Z-variant relationships",
+        "PRC grade-level data via kGradeLevel"
+      ],
+      "schema_fields": [
+        "radicals.*.stroke_count",
+        "radicals.*.stroke_count_variants",
+        "radicals.*.readings",
+        "radicals.*.english_definition",
+        "radicals.*.definitions",
+        "characters.*.radical",
+        "characters.*.total_strokes",
+        "characters.*.traditional",
+        "characters.*.simplified",
+        "characters.*.variants_異體字",
+        "characters.*.readings",
+        "characters.*.english_translation",
+        "characters.*.definitions",
+        "characters.*.kangxi_citation"
+      ],
+      "constraints": [
+        "kRSKangXi was removed from Unihan in Unicode 15.1; use kRSUnicode and retain source conflicts.",
+        "Unicode 17.0.0 defines kTotalStrokes using IRG conventions; it is comparison evidence and a fallback when the Taiwan CNS stroke sequence is absent, not the canonical source when Taiwan and Unicode differ.",
+        "kTGHZ2013 readings come from the PRC 通用规范汉字字典 and are retained as CN variants when they differ from Taiwan CNS readings.",
+        "Properties are incomplete and some are provisional or informative; absence is not evidence of non-attestation."
+      ]
+    },
+    "unicode-cjk-radicals-17.0.0": {
+      "id": "unicode-cjk-radicals-17.0.0",
+      "full_name": "Unicode CJK Radicals mapping data, Unicode 17.0.0",
+      "url": "https://www.unicode.org/Public/17.0.0/ucd/CJKRadicals.txt",
+      "documentation_url": "https://www.unicode.org/reports/tr38/tr38-39.html",
+      "access_date": "2026-08-10",
+      "version": "17.0.0",
+      "acquisition": {
+        "retrieved_at": "2026-08-11T03:10:01Z",
+        "local_path": "source-data/unicode-17.0.0/CJKRadicals.txt",
+        "sha256": "826f83be25cd18fb8a5015a514704504e1982e840ea14d058bf583e1cc620c83"
+      },
+      "status": "approved",
+      "license": {
+        "id": "Unicode-3.0",
+        "name": "Unicode License v3",
+        "url": "https://www.unicode.org/license.txt",
+        "verified": true
+      },
+      "redistribution": "Use, modification, and redistribution are permitted with the Unicode license and notices retained.",
+      "coverage": [
+        "Kangxi radical number",
+        "Kangxi Radicals block codepoint",
+        "corresponding unified ideograph codepoint",
+        "numbered radical variants represented by apostrophe-suffixed identifiers"
+      ],
+      "schema_fields": [
+        "radicals.*.kangxi_number",
+        "radicals.*.primary",
+        "radicals.*.radical_block"
+      ],
+      "constraints": [
+        "This UCD data file is the authoritative machine-readable identity mapping; Unihan itself does not provide the radical-block mapping required by the schema.",
+        "It does not provide colloquial names, component positions, or semantic roles."
+      ]
+    },
+    "unicode-equivalent-unified-ideograph-17.0.0": {
+      "id": "unicode-equivalent-unified-ideograph-17.0.0",
+      "full_name": "Unicode Equivalent Unified Ideograph data, Unicode 17.0.0",
+      "url": "https://www.unicode.org/Public/17.0.0/ucd/EquivalentUnifiedIdeograph.txt",
+      "documentation_url": "https://www.unicode.org/reports/tr44/",
+      "access_date": "2026-08-11",
+      "version": "17.0.0",
+      "acquisition": {
+        "retrieved_at": "2026-08-11T14:51:21Z",
+        "local_path": "source-data/unicode-17.0.0/EquivalentUnifiedIdeograph.txt",
+        "sha256": "38619c05a17e771554000fe604afee92e10eb49e0616ecf0c87af3c1eb0f4320",
+        "expected_bytes": 18371
+      },
+      "status": "approved",
+      "license": {
+        "id": "Unicode-3.0",
+        "name": "Unicode License v3",
+        "url": "https://www.unicode.org/license.txt",
+        "verified": true
+      },
+      "redistribution": "Use, modification, and redistribution are permitted with the Unicode license and notices retained.",
+      "coverage": [
+        "Equivalent_Unified_Ideograph mappings for CJK radical characters not covered by CJKRadicals.txt"
+      ],
+      "schema_fields": [
+        "characters.*.ids_decomposition",
+        "characters.*.components",
+        "characters.*.liushu_六書"
+      ],
+      "constraints": [
+        "Use only explicit Equivalent_Unified_Ideograph mappings; an unmapped radical-form character remains a gap rather than being normalized by visual similarity."
+      ]
+    },
+    "unicode-cldr-48.2": {
+      "id": "unicode-cldr-48.2",
+      "full_name": "Unicode Common Locale Data Repository (CLDR) 48.2 transform data",
+      "url": "https://unicode.org/Public/cldr/48.2/",
+      "documentation_url": "https://cldr.unicode.org/index/downloads",
+      "access_date": "2026-08-10",
+      "version": "48.2",
+      "status": "approved",
+      "license": {
+        "id": "Unicode-3.0",
+        "name": "Unicode License v3",
+        "url": "https://www.unicode.org/license.txt",
+        "verified": true
+      },
+      "redistribution": "Use, modification, and redistribution of the data and transform rules are permitted with the Unicode license and notices retained.",
+      "coverage": [
+        "Latin/Pinyin to Bopomofo transliteration rules",
+        "the reproducible syllable-conversion table used for pinyin/zhuyin validation"
+      ],
+      "schema_fields": [
+        "radicals.*.readings.zhuyin",
+        "characters.*.readings.zhuyin",
+        "words.*.zhuyin"
+      ],
+      "constraints": [
+        "A generated zhuyin value must cite both its pinyin source and this transform source.",
+        "Lexical readings and tone-sandhi exceptions cannot be invented by the transform and remain gaps when not attested."
+      ]
+    },
+    "cc-cedict-editor-2026-08-11": {
+      "id": "cc-cedict-editor-2026-08-11",
+      "full_name": "CC-CEDICT Chinese-English dictionary editor snapshot",
+      "url": "https://cc-cedict.org/editor/editor_export_cedict.php?c=gz",
+      "documentation_url": "https://cc-cedict.org/wiki/",
+      "access_date": "2026-08-11",
+      "version": "1.0 ts editor snapshot 2026-08-11T14:10:23Z; 124816 entries",
+      "acquisition": {
+        "retrieved_at": "2026-08-11T14:31:12Z",
+        "local_path": "source-data/cc-cedict-2026-08-11/cedict_1_0_ts_utf-8_editor_20260811.txt.gz",
+        "sha256": "73af18e207d9ae969e8f5d6b13c777bed64246268efb218e8df6d2f20563618f",
+        "expected_bytes": 3967602,
+        "uncompressed_sha256": "147f106712fe0787741530a77f86f02b8ddd8929c2796f323eba705384064bae",
+        "uncompressed_bytes": 9830336,
+        "upstream_header": {
+          "version": "1",
+          "subversion": "0",
+          "format": "ts",
+          "charset": "UTF-8",
+          "entries": 124816,
+          "publisher": "MDBG",
+          "date": "2026-08-11T14:10:23Z",
+          "time": 1786457423
+        },
+        "route_note": "Acquired from the CC-CEDICT project's own editor-export endpoint. The separately advertised MDBG stable-release route was not automated because its page prohibits scripted access."
+      },
+      "status": "approved",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verified": true
+      },
+      "redistribution": "Commercial and non-commercial reuse, adaptation, and redistribution are permitted with attribution and ShareAlike for adapted CC-CEDICT material.",
+      "coverage": [
+        "traditional and simplified headword pairs",
+        "word and character pinyin",
+        "English definitions",
+        "word-entry membership"
+      ],
+      "schema_fields": [
+        "radicals.*.definitions",
+        "characters.*.traditional",
+        "characters.*.simplified",
+        "characters.*.readings.pinyin",
+        "characters.*.definitions",
+        "characters.*.common_words",
+        "words.*.traditional",
+        "words.*.simplified",
+        "words.*.pinyin",
+        "words.*.definitions",
+        "words.*.cc_cedict_entry_indices"
+      ],
+      "constraints": [
+        "The exact release file, retrieval timestamp, SHA-256, and upstream version header must be pinned before parsing.",
+        "CC-CEDICT is a lexical dictionary, not a frequency source; canonical Traditional entries must be joined to the MOE 1996 word-frequency table rather than treated as ranked. SUBTLEX-CH may support only a separately labeled Simplified comparison.",
+        "ShareAlike obligations must be reflected in attribution.md and the published data license notice."
+      ]
+    },
+    "subtlex-ch-2010": {
+      "id": "subtlex-ch-2010",
+      "full_name": "SUBTLEX-CH: Chinese Word and Character Frequencies Based on Film Subtitles",
+      "url": "https://doi.org/10.1371/journal.pone.0010729.s002",
+      "documentation_url": "https://doi.org/10.1371/journal.pone.0010729",
+      "access_date": "2026-08-10",
+      "version": "2010 supporting-information release",
+      "status": "approved",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verified": true
+      },
+      "redistribution": "PLOS content may be copied, redistributed, reused, and modified for any purpose, including commercial use, when the authors and original source are credited.",
+      "coverage": [
+        "simplified-Chinese character counts, per-million frequencies, ranks, and contextual diversity for 5,936 characters",
+        "simplified-Chinese word counts, per-million frequencies, ranks, and contextual diversity for 99,121 words",
+        "word segmentation and POS methodology: ICTCLAS 2009Share with the PKU POS tag set"
+      ],
+      "schema_fields": [
+        "characters.*.frequency",
+        "characters.*.common_words",
+        "words.*.frequency"
+      ],
+      "constraints": [
+        "The corpus is Simplified Chinese and subtitle-based; its ranks must not be mixed with traditional-corpus ranks.",
+        "It reflects 2010 film and television language, not a contemporary general-web or balanced written corpus.",
+        "Under the Traditional-primary policy this source does not select the canonical top 2,000 and does not populate the canonical frequency rank; it is retained only for separately labeled Simplified comparisons."
+      ]
+    },
+    "moe-tw-common-terms-1996": {
+      "id": "moe-tw-common-terms-1996",
+      "full_name": "Taiwan Ministry of Education 1996 Common Terms Survey statistical tables (八十五年常用語詞調查報告之各項統計表)",
+      "url": "https://data.gov.tw/dataset/45518",
+      "documentation_url": "https://language.moe.gov.tw/001/Upload/files/SITE_CONTENT/M0001/85NEWS/",
+      "access_date": "2026-08-10",
+      "version": "ROC year 85 (1996) survey; open-data release published 2017-05-24",
+      "acquisition": {
+        "retrieved_at": "2026-08-11T14:31:12Z",
+        "local_path": "source-data/moe-tw-common-terms-1996/85restal-csv.zip",
+        "sha256": "aae5a194644bea6f47491aa80076133afe666a7099af4fe2ecb55c696d970765",
+        "expected_bytes": 1848072,
+        "source_encoding": "BIG5",
+        "encoding_note": "The legacy CSV contains Taiwan vendor-extension bytes not accepted by Python's strict big5/cp950 codecs; the build uses the platform iconv BIG5 mapping and fails rather than substituting undecodable bytes.",
+        "members": {
+          "character_frequency": {
+            "path": "85rest01.csv",
+            "sha256": "f50f0f17ff5c4240b955be84a74408fad0659ff5c17bf63c849a7efa5a831b61",
+            "bytes": 172549,
+            "phase": 3
+          },
+          "word_frequency": {
+            "path": "85rest02.csv",
+            "sha256": "8ade7cd812e50ed9d0acc396f5b493d40014e00571b6cd424ae9d812bd1042de",
+            "bytes": 2113547,
+            "phase": 4
+          }
+        }
+      },
+      "status": "approved",
+      "license": {
+        "id": "OGDL-Taiwan-1.0",
+        "name": "Taiwan Open Government Data License, version 1.0",
+        "url": "https://data.gov.tw/license",
+        "verified": true
+      },
+      "redistribution": "The CSV data may be reproduced, modified, redistributed, sublicensed, and used commercially with the required attribution statement; the license is compatible with CC BY 4.0.",
+      "coverage": [
+        "Traditional-Chinese character-frequency table with source rank, count, cumulative count, and cumulative percentage",
+        "Traditional-Chinese word-frequency table with source rank, frequency, cumulative frequency, and cumulative percentage",
+        "published word rows that can be reused without locally segmenting source texts",
+        "comparison tables against the Taiwan MOE Commonly Used Standard Characters list"
+      ],
+      "schema_fields": [
+        "characters.*.frequency",
+        "characters.*.common_words",
+        "words.*.traditional",
+        "words.*.constituent_chars",
+        "words.*.frequency",
+        "words.*.segmentation_tool"
+      ],
+      "constraints": [
+        "This is a 1996 Taiwan usage survey of approximately 1.5 million sampled characters across magazines, bestselling books, newspapers, online material, and speech; its rank is historical and Taiwan-specific, not a contemporary global-Chinese rank.",
+        "Use the source-published character rank to select the canonical top 2,000; reject non-Han rows and radical/compatibility codepoints without backfilling from a Simplified corpus.",
+        "Reuse the published word-frequency rows directly. No named automatic segmentation tool is disclosed, so record segmentation_tool as null with a source_unavailable gap rather than inventing one.",
+        "Pin the character and word CSVs separately with retrieval timestamps and SHA-256 before Phase 3 or Phase 4 parsing."
+      ]
+    },
+    "makemeahanzi-dictionary-master-audit": {
+      "id": "makemeahanzi-dictionary-master-audit",
+      "full_name": "Make Me a Hanzi dictionary.txt",
+      "url": "https://github.com/skishore/makemeahanzi/blob/master/dictionary.txt",
+      "documentation_url": "https://github.com/skishore/makemeahanzi",
+      "access_date": "2026-08-10",
+      "version": "commit bddc96d41bef78427ed0e034e9f7e31d71fd1b92 (resolved 2026-08-10)",
+      "acquisition": {
+        "retrieved_at": "2026-08-11T14:31:12Z",
+        "local_path": "source-data/makemeahanzi-bddc96d4/dictionary.txt",
+        "sha256": "744bb05d5b0742e9ee35c37791f94d56a173349b3367569e7ca11e510364d203",
+        "expected_bytes": 2570140,
+        "commit": "bddc96d41bef78427ed0e034e9f7e31d71fd1b92"
+      },
+      "status": "approved",
+      "license": {
+        "id": "LGPL-3.0-or-later",
+        "name": "GNU Lesser General Public License v3.0 or later",
+        "url": "https://github.com/skishore/makemeahanzi/blob/master/LGPL",
+        "verified": true
+      },
+      "redistribution": "The file may be modified and redistributed under LGPL-3.0-or-later; the license, notices, source availability, and modification requirements must be honored.",
+      "coverage": [
+        "IDS-like decomposition",
+        "component-to-stroke matches",
+        "radical character",
+        "pinyin and learner definition as secondary evidence",
+        "pictographic, ideographic, or pictophonetic etymology with semantic and phonetic components where present"
+      ],
+      "schema_fields": [
+        "characters.*.ids_decomposition",
+        "characters.*.components",
+        "characters.*.liushu_六書",
+        "characters.*.radical"
+      ],
+      "constraints": [
+        "Pin a commit hash and SHA-256 before use.",
+        "Do not force the source's three etymology categories into a more specific traditional 六書 category when the mapping is not exact.",
+        "Decompositions containing the full-width unknown marker must produce gaps, not guessed components."
+      ]
+    },
+    "makemeahanzi-graphics-master-audit": {
+      "id": "makemeahanzi-graphics-master-audit",
+      "full_name": "Make Me a Hanzi graphics.txt and generated SVG stroke data",
+      "url": "https://github.com/skishore/makemeahanzi/blob/master/graphics.txt",
+      "documentation_url": "https://github.com/skishore/makemeahanzi",
+      "access_date": "2026-08-10",
+      "version": "commit bddc96d41bef78427ed0e034e9f7e31d71fd1b92 (resolved 2026-08-10)",
+      "acquisition": {
+        "retrieved_at": "2026-08-11T03:40:52Z",
+        "local_path": "source-data/makemeahanzi-bddc96d4/graphics.txt",
+        "sha256": "a28c478b5178e98f67f510b2d52fde08a69dc664654ef43498253b9b764d46ee",
+        "expected_bytes": 30778076,
+        "commit": "bddc96d41bef78427ed0e034e9f7e31d71fd1b92"
+      },
+      "status": "approved",
+      "license": {
+        "id": "Arphic-1999",
+        "name": "Arphic Public License",
+        "url": "https://github.com/skishore/makemeahanzi/blob/master/APL/english/ARPHICPL.TXT",
+        "verified": true
+      },
+      "redistribution": "Stroke graphics and modifications may be redistributed when the Arphic license is retained, modifications are prominently identified, and modified data remains freely available under the same license.",
+      "coverage": [
+        "ordered SVG path data for more than 9,000 simplified and traditional characters",
+        "stroke medians",
+        "PRC stroke-order convention as declared by the project"
+      ],
+      "schema_fields": [
+        "radicals.*.stroke_order.svg_asset_id",
+        "radicals.*.stroke_order.stroke_count",
+        "radicals.*.stroke_order.source_convention",
+        "radicals.*.stroke_order.formal_conformance",
+        "radicals.*.stroke_count_variants",
+        "characters.*.stroke_order.svg_asset_id",
+        "characters.*.stroke_order.stroke_count",
+        "characters.*.stroke_order.source_convention",
+        "characters.*.stroke_order.formal_conformance"
+      ],
+      "constraints": [
+        "Pin a commit hash and SHA-256 before use.",
+        "The project says it follows PRC stroke order but does not claim formal conformance to every entry of GF 0023-2020; mismatches must be conflicts or gaps.",
+        "The data does not supply authoritative stroke-type names for every path.",
+        "Generated SVGs are modified files under the Arphic license and must carry modification notices and source availability."
+      ]
+    },
+    "cns11643-attributes-2026-08-05": {
+      "id": "cns11643-attributes-2026-08-05",
+      "full_name": "CNS11643 Chinese Standard Interchange Code Full Character Library attribute dataset",
+      "url": "https://data.gov.tw/dataset/5961",
+      "documentation_url": "https://www.cns11643.gov.tw/",
+      "access_date": "2026-08-10",
+      "version": "server Last-Modified 2026-08-05; portal metadata updated 2026-07-14",
+      "acquisition": {
+        "retrieved_at": "2026-08-11T03:20:52Z",
+        "local_path": "source-data/cns11643-2026-08-05/Properties.zip",
+        "sha256": "4f736afb7b4e4588840c0d08e284f11216b13ff835423e965f77f7ef3b612c56",
+        "expected_bytes": 3158491,
+        "archive_integrity": "partial_failure",
+        "used_members": {
+          "CNS_phonetic.txt": {
+            "sha256": "adc2f2e71270e7b971fa5b51fb4dff49ddced986e6e9f06de1ee88394449c8e2",
+            "crc32": "passed"
+          },
+          "CNS_pinyin_2.txt": {
+            "sha256": "9db66b4fe44d94a5d5193f850b8de6e2a1620b63e21fc5d1e46b76527e844c67",
+            "crc32": "passed"
+          },
+          "CNS_strokes_sequence.txt": {
+            "sha256": "444b89e5774819a05b17196c8c4c4b69563ae79c6d4bd38b4527c8475d60029d",
+            "crc32": "passed"
+          }
+        },
+        "documentation_member": {
+          "sha256": "85e549c2ae092e51530c8e5a739ad5e62670fe478b4b1c820c22692b2249f638",
+          "bytes": 4481,
+          "encoding": "UTF-8",
+          "heading": "全字庫屬性資料說明文件",
+          "stroke_type_mapping": "1=橫, 2=豎, 3=撇, 4=點, 5=折"
+        }
+      },
+      "status": "approved",
+      "license": {
+        "id": "OGDL-Taiwan-1.0",
+        "name": "Taiwan Open Government Data License, version 1.0",
+        "url": "https://data.gov.tw/license",
+        "verified": true
+      },
+      "redistribution": "The data may be reproduced, modified, redistributed, sublicensed, and used commercially with the required attribution statement; the license is compatible with CC BY 4.0.",
+      "coverage": [
+        "zhuyin",
+        "pinyin",
+        "Bopomofo-to-Hanyu-Pinyin syllable conversion table",
+        "stroke counts",
+        "radical assignments",
+        "components",
+        "stroke-order attributes",
+        "CNS and Unicode mappings"
+      ],
+      "schema_fields": [
+        "radicals.*.readings.zhuyin",
+        "radicals.*.readings.pinyin",
+        "radicals.*.stroke_count",
+        "radicals.*.stroke_order.taiwan_cns_stroke_sequence",
+        "radicals.*.stroke_order.standard_conflicts",
+        "characters.*.readings.zhuyin",
+        "characters.*.components",
+        "characters.*.total_strokes",
+        "characters.*.stroke_order.taiwan_cns_stroke_sequence",
+        "characters.*.stroke_order.standard_conflicts"
+      ],
+      "constraints": [
+        "This is Taiwan-oriented traditional-character data. Its CNS code mapping and forms are based on Taiwan Ministry of Education standard-character tables, so its reading and stroke-sequence attributes are canonical when Taiwan and comparison sources differ.",
+        "Taiwan/PRC stroke-order disagreements must be recorded in stroke_order.standard_conflicts and must never silently replace the selected PRC value.",
+        "Use the OGDL option for data; do not treat the alternative OFL option as applying simultaneously.",
+        "The 2026-08-05 Properties.zip transfer has a valid central directory and CRC-valid CNS_phonetic.txt, CNS_pinyin_2.txt, and CNS_strokes_sequence.txt members. Other members, including CNS_source.txt and CNS_stroke.txt, fail full-archive testing and remain excluded pending a clean reacquisition."
+      ]
+    },
+    "kanjivg-u6c59-gap-audit-2026-08-11": {
+      "id": "kanjivg-u6c59-gap-audit-2026-08-11",
+      "full_name": "KanjiVG official index exact-codepoint coverage audit",
+      "url": "https://github.com/KanjiVG/kanjivg",
+      "documentation_url": "https://kanjivg.tagaini.net/",
+      "access_date": "2026-08-11",
+      "version": "commit 61e39cfc29724132a6f8823b166296932985a0ff (2026-07-26)",
+      "acquisition": {
+        "retrieved_at": "2026-08-11T15:59:00Z",
+        "local_path": "source-data/kanjivg-61e39cfc/kvg-index.json",
+        "sha256": "0fcf17e85f1ec8baefcbc8e84d58ba8a0b9cc144838e4926a65e3ce6418b21d8",
+        "bytes": 293828,
+        "commit": "61e39cfc29724132a6f8823b166296932985a0ff",
+        "commit_metadata_path": "source-data/kanjivg-61e39cfc/commit.json",
+        "commit_metadata_sha256": "3bd8cbd99f1351f8de71935fd0332c2c68f2f650b281ee0799e886a7a570265f",
+        "commit_metadata_bytes": 9629
+      },
+      "status": "approved",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verified": true
+      },
+      "redistribution": "KanjiVG data may be reused and adapted with attribution and ShareAlike under CC BY-SA 3.0.",
+      "coverage": [
+        "exact-codepoint index audit for the sole Make Me a Hanzi gap U+6C59"
+      ],
+      "schema_fields": [
+        "characters.U+6C59.stroke_order"
+      ],
+      "constraints": [
+        "The pinned official index contains no 汙 or U+6C59 entry, so it supports only the explicit source gap and does not populate an SVG.",
+        "KanjiVG follows Japanese stroke conventions and must not be substituted into the selected PRC baseline without an explicit regional label and exact codepoint match."
+      ]
+    },
+    "kanji-alive-radicals-master-audit": {
+      "id": "kanji-alive-radicals-master-audit",
+      "full_name": "Kanji alive Japanese radical language data",
+      "url": "https://github.com/kanjialive/kanji-data-media",
+      "documentation_url": "https://kanjialive.com/",
+      "access_date": "2026-08-10",
+      "version": "commit 2d2a4931eec6e0cb532d5102766273c2323f96db (resolved 2026-08-10)",
+      "acquisition": {
+        "retrieved_at": "2026-08-11T03:10:01Z",
+        "local_path": "source-data/kanji-alive-2d2a4931/japanese-radicals.csv",
+        "sha256": "50d5c1264e938ff008ac4e9e9ed2c7ef3ea7584622d6b73866279a9b98830630"
+      },
+      "status": "approved",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verified": true
+      },
+      "redistribution": "Reuse and adaptation, including commercial use, are permitted with attribution and an indication of changes.",
+      "coverage": [
+        "Japanese radical names, meanings, readings, variants, and positions"
+      ],
+      "schema_fields": [
+        "radicals.*.names.ja",
+        "radicals.*.variants.*.position"
+      ],
+      "constraints": [
+        "Use only for Japanese-language enrichment and cross-checking positions, never as the structural or PRC stroke-order authority.",
+        "Use japanese-radicals.csv from commit 2d2a4931eec6e0cb532d5102766273c2323f96db and identify the exact CSV rows used."
+      ]
+    },
+    "zhwikisource-shuowen-2026-08-10": {
+      "id": "zhwikisource-shuowen-2026-08-10",
+      "full_name": "Chinese Wikisource transcription of 說文解字",
+      "url": "https://zh.wikisource.org/wiki/說文解字",
+      "documentation_url": "https://wikisource.org/wiki/Wikisource:Copyright_policy",
+      "access_date": "2026-08-10",
+      "version": "main page revision 2392932; volume revisions pinned in acquisition.revisions",
+      "acquisition": {
+        "retrieved_at": "2026-08-11T03:49:47Z",
+        "local_path": "source-data/wikimedia-2026-08-10/zhwikisource-shuowen-api.json",
+        "sha256": "a8c6f519482a54abe667abd435c362891d8ea0c5866fde3714014a4e0ad4f5e8",
+        "bytes": 668395,
+        "api": "MediaWiki action=query, prop=revisions, rvprop=ids|timestamp|content, rvslots=main, formatversion=2",
+        "revisions": {
+          "說文解字": {
+            "page_id": 52680,
+            "revision_id": 2392932,
+            "timestamp": "2024-04-16T09:10:20Z"
+          },
+          "說文解字/01": {
+            "page_id": 52683,
+            "revision_id": 2665967,
+            "timestamp": "2026-03-04T10:43:29Z"
+          },
+          "說文解字/02": {
+            "page_id": 52684,
+            "revision_id": 1559144,
+            "timestamp": "2019-04-22T05:38:39Z"
+          },
+          "說文解字/03": {
+            "page_id": 99562,
+            "revision_id": 2012003,
+            "timestamp": "2021-01-04T12:18:46Z"
+          },
+          "說文解字/04": {
+            "page_id": 99563,
+            "revision_id": 1566990,
+            "timestamp": "2019-05-26T02:13:08Z"
+          },
+          "說文解字/05": {
+            "page_id": 99564,
+            "revision_id": 1870764,
+            "timestamp": "2020-06-05T17:12:28Z"
+          },
+          "說文解字/06": {
+            "page_id": 99565,
+            "revision_id": 1962671,
+            "timestamp": "2020-08-31T07:08:06Z"
+          },
+          "說文解字/07": {
+            "page_id": 99574,
+            "revision_id": 1870775,
+            "timestamp": "2020-06-05T17:40:35Z"
+          },
+          "說文解字/08": {
+            "page_id": 99566,
+            "revision_id": 1566246,
+            "timestamp": "2019-05-21T10:47:48Z"
+          },
+          "說文解字/09": {
+            "page_id": 99567,
+            "revision_id": 2025949,
+            "timestamp": "2021-04-12T07:11:14Z"
+          },
+          "說文解字/10": {
+            "page_id": 99568,
+            "revision_id": 2026004,
+            "timestamp": "2021-04-13T02:58:06Z"
+          },
+          "說文解字/11": {
+            "page_id": 99569,
+            "revision_id": 1870771,
+            "timestamp": "2020-06-05T17:35:04Z"
+          },
+          "說文解字/12": {
+            "page_id": 99570,
+            "revision_id": 1559174,
+            "timestamp": "2019-04-22T06:13:38Z"
+          },
+          "說文解字/13": {
+            "page_id": 99571,
+            "revision_id": 1870769,
+            "timestamp": "2020-06-05T17:33:25Z"
+          },
+          "說文解字/14": {
+            "page_id": 99572,
+            "revision_id": 1957454,
+            "timestamp": "2020-07-14T11:34:22Z"
+          },
+          "說文解字/15": {
+            "page_id": 99573,
+            "revision_id": 2607988,
+            "timestamp": "2025-10-19T05:02:11Z"
+          }
+        }
+      },
+      "status": "approved",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verified": true
+      },
+      "redistribution": "The public-domain source text and copyrightable transcription contributions may be reused with attribution; adapted transcription content must be shared alike.",
+      "coverage": [
+        "fifteen-volume Shuowen transcription",
+        "Shuowen entry text",
+        "Shuowen 540-radical headings"
+      ],
+      "schema_fields": [
+        "radicals.*.shuowen.radical_number",
+        "radicals.*.shuowen.entry_text",
+        "radicals.*.readings.fanqie"
+      ],
+      "constraints": [
+        "Pin a revision ID for every cited page or use a dated Wikimedia dump.",
+        "Map Shuowen's 540-radical system to Kangxi's 214 only when an attested mapping exists; otherwise record a gap.",
+        "Do not conflate editorial punctuation or later-edition fanqie with Xu Shen's original wording."
+      ]
+    },
+    "commons-shuowen-seal-files-2026-08-10": {
+      "id": "commons-shuowen-seal-files-2026-08-10",
+      "full_name": "Wikimedia Commons seal-form files embedded by the pinned Chinese Wikisource 說文解字 transcription",
+      "url": "https://commons.wikimedia.org/",
+      "documentation_url": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
+      "access_date": "2026-08-10",
+      "version": "exact file revisions and metadata pinned per asset in assets/manifest.json",
+      "acquisition": {
+        "retrieved_at": "2026-08-11T04:01:15Z",
+        "local_path": "source-data/wikimedia-2026-08-10/commons-shuowen-seal-metadata.json",
+        "sha256": "f00f91e1767afa9d8082d787ae4f0cefb006aca6a938d06f6a691aa871a1c76a",
+        "bytes": 738348,
+        "requested_file_count": 101,
+        "api": "MediaWiki action=query, prop=imageinfo, iiprop=url|size|mime|sha1|timestamp|mediatype|extmetadata, formatversion=2",
+        "per_asset_manifest": "assets/manifest.json"
+      },
+      "status": "approved",
+      "license": {
+        "id": "per-file",
+        "name": "Conditional allowlist: verified public-domain or Creative Commons file license",
+        "url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "verified": true
+      },
+      "redistribution": "Acquire only original files whose Commons API extmetadata reports a verified free license. Preserve each exact file page, revision metadata, license identifier, attribution, dimensions, MIME type, and SHA-256 in the asset manifest.",
+      "coverage": [
+        "individual Shuowen seal-form images embedded in the pinned Wikisource entries"
+      ],
+      "schema_fields": [
+        "radicals.*.shuowen.seal_glyph",
+        "radicals.*.historical_forms.shuowen_seal_說文解字"
+      ],
+      "constraints": [
+        "The Wikisource page license does not license the embedded files; validate every Commons file independently before download.",
+        "Allow only verified PDM, CC0, PD, CC BY, or CC BY-SA licenses; reject noncommercial, no-derivatives, fair-use, or unknown terms.",
+        "Download the original Commons file without cropping, re-encoding, upscaling, or other transformation.",
+        "A missing, deleted, unlicensed, or metadata-incomplete file remains an explicit gap."
+      ]
+    },
+    "commons-shuowen-540-svg-series-2026-08-10": {
+      "id": "commons-shuowen-540-svg-series-2026-08-10",
+      "full_name": "Wikimedia Commons: numbered SVG series of the 540 Shuowen seal-script radicals",
+      "url": "https://commons.wikimedia.org/wiki/Category:Shuowen_seal_script_radicals_(SVG)",
+      "documentation_url": "https://commons.wikimedia.org/wiki/Category:Seal_script_characters_by_radical",
+      "access_date": "2026-08-10",
+      "version": "Shuowen Seal Radical NNN.svg; exact file revisions pinned per asset",
+      "acquisition": {
+        "retrieved_at": "2026-08-11T04:17:04Z",
+        "local_path": "source-data/wikimedia-2026-08-10/commons-shuowen-540-series-metadata.json",
+        "sha256": "c84c0a25d7bfe6f9961dc09c7bd2a35bfe6b8a2a7c8dd5537e500d4daf496da6",
+        "bytes": 780236,
+        "requested_file_count": 204,
+        "resolved_file_count": 204,
+        "license_result": "204 CC BY-SA 3.0 original SVG files by LiliCharlie",
+        "api": "MediaWiki action=query, prop=imageinfo, iiprop=url|size|mime|sha1|timestamp|mediatype|extmetadata, formatversion=2",
+        "per_asset_manifest": "assets/manifest.json"
+      },
+      "status": "approved",
+      "license": {
+        "id": "per-file",
+        "name": "Conditional allowlist: verified CC BY-SA file license",
+        "url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "verified": true
+      },
+      "redistribution": "Acquire only original numbered SVG files whose Commons API metadata verifies a free license. Preserve the exact file, attribution, license URL, dimensions, timestamps, Commons SHA-1, and project SHA-256 in the manifest.",
+      "coverage": [
+        "modern vector renderings of all 540 Shuowen seal-script radical forms",
+        "deterministic mapping from the three-digit filename number to Shuowen's radical number"
+      ],
+      "schema_fields": [
+        "radicals.*.shuowen.seal_glyph",
+        "radicals.*.historical_forms.shuowen_seal_說文解字"
+      ],
+      "constraints": [
+        "Describe these as modern vector renderings of Shuowen forms, not photographs or facsimile crops from an ancient edition.",
+        "The filename number must exactly equal the pinned Shuowen radical_number; do not map by visual similarity.",
+        "Validate every file's own license metadata before download.",
+        "Download the original SVG without cropping, re-encoding, upscaling, or other transformation.",
+        "Preserve creator attribution and ShareAlike obligations in the website attribution block."
+      ]
+    },
+    "commons-shuowen-540-numbered-composite-2026-08-10": {
+      "id": "commons-shuowen-540-numbered-composite-2026-08-10",
+      "full_name": "Wikimedia Commons: The 540 Shuowen Seal Radicals — numbered composite SVG",
+      "url": "https://commons.wikimedia.org/wiki/File:The_540_Shuowen_Seal_Radicals_-_numbered.svg",
+      "documentation_url": "https://commons.wikimedia.org/wiki/Category:Shuowen_seal_script_radicals_(SVG)",
+      "access_date": "2026-08-10",
+      "version": "Commons original timestamp 2020-09-16T10:08:10Z; SHA-1 1993f15f2987fb5552780294b9d6444e0669b3ae",
+      "acquisition": {
+        "retrieved_at": "2026-08-11T04:25:34Z",
+        "local_path": "source-data/wikimedia-2026-08-10/commons-shuowen-540-numbered-composite-metadata.json",
+        "sha256": "c1c01759b66a042b43b8f21b81877d0adc62f9fb83d2804e72436f2b6f193373",
+        "bytes": 4509,
+        "page_id": 37744677,
+        "original_bytes": 2261415,
+        "original_commons_sha1": "1993f15f2987fb5552780294b9d6444e0669b3ae",
+        "original_timestamp": "2020-09-16T10:08:10Z",
+        "api": "MediaWiki action=query, prop=imageinfo, iiprop=url|size|mime|sha1|timestamp|mediatype|extmetadata, formatversion=2",
+        "per_asset_manifest": "assets/manifest.json"
+      },
+      "status": "approved",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verified": true
+      },
+      "redistribution": "The original numbered composite SVG may be copied and redistributed with attribution and ShareAlike. Store it unchanged once and reference radicals through non-destructive Shuowen-number locators.",
+      "coverage": [
+        "all 540 Shuowen seal-script radical forms in one numbered original SVG",
+        "fallback local coverage when an individual numbered original is temporarily rate-limited"
+      ],
+      "schema_fields": [
+        "radicals.*.shuowen.seal_glyph",
+        "radicals.*.historical_forms.shuowen_seal_說文解字"
+      ],
+      "constraints": [
+        "Preserve the original composite file without cropping or re-encoding.",
+        "A record reference must include the already-pinned Shuowen radical number as a non-destructive locator.",
+        "Describe this as a modern vector rendering; it is not a facsimile scan.",
+        "Prefer the exact individual numbered SVG when it has been acquired and integrity-verified."
+      ]
+    },
+    "commons-ancient-chinese-character-seal-files-2026-08-10": {
+      "id": "commons-ancient-chinese-character-seal-files-2026-08-10",
+      "full_name": "Wikimedia Commons Ancient Chinese Characters project: exact-character seal-script SVG files",
+      "url": "https://commons.wikimedia.org/wiki/Commons:Ancient_Chinese_characters/seal",
+      "documentation_url": "https://commons.wikimedia.org/wiki/Commons:Ancient_Chinese_characters_project",
+      "access_date": "2026-08-10",
+      "version": "exact File:{character}-seal.svg revisions pinned per asset",
+      "acquisition": {
+        "retrieved_at": "2026-08-11T04:31:36Z",
+        "local_path": "source-data/wikimedia-2026-08-10/commons-unmapped-kangxi-seal-metadata.json",
+        "sha256": "8dd17e21b7b6bc13df1549b7a180a0e6c8c5a8a688c29a6a79fdc298c858379a",
+        "bytes": 105799,
+        "requested_file_count": 10,
+        "resolved_file_count": 10,
+        "license_result": "10 public-domain original SVG files",
+        "api": "MediaWiki action=query, prop=imageinfo, iiprop=url|size|mime|sha1|timestamp|mediatype|extmetadata, iilimit=max, formatversion=2",
+        "per_asset_manifest": "assets/manifest.json"
+      },
+      "status": "approved",
+      "license": {
+        "id": "per-file",
+        "name": "Conditional allowlist: verified public-domain or Creative Commons file license",
+        "url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "verified": true
+      },
+      "redistribution": "Acquire only exact-character original SVG files whose Commons API metadata independently verifies a free license. Preserve every file's title, page, creator/credit, license, dimensions, timestamps, Commons SHA-1, and project SHA-256.",
+      "coverage": [
+        "exact-character seal-script renderings for Kangxi radicals that are not themselves mapped Shuowen section headings"
+      ],
+      "schema_fields": [
+        "radicals.*.historical_forms.shuowen_seal_說文解字"
+      ],
+      "constraints": [
+        "The source filename must contain the record's exact primary ideograph; do not infer a cross-character mapping by appearance.",
+        "These files attest a seal-script representation, not membership among Shuowen's 540 section headings.",
+        "Validate each file's own license before download; reject unknown, noncommercial, no-derivatives, or fair-use terms.",
+        "Download the original SVG without cropping, re-encoding, upscaling, or other transformation."
+      ]
+    },
+    "internet-archive-wayback-commons-mirror-2026-08-10": {
+      "id": "internet-archive-wayback-commons-mirror-2026-08-10",
+      "full_name": "Internet Archive Wayback Machine byte-for-byte acquisition mirror for Wikimedia Commons originals",
+      "url": "https://web.archive.org/",
+      "documentation_url": "https://archivesupport.zendesk.com/hc/en-us/articles/360018359991-How-to-download-files-from-the-Internet-Archive",
+      "access_date": "2026-08-10",
+      "version": "capture timestamp pinned per mirrored asset",
+      "status": "approved",
+      "license": {
+        "id": "inherits-origin-file-license",
+        "name": "Transport mirror only; content license remains the verified Commons file license",
+        "url": null,
+        "verified": true
+      },
+      "redistribution": "This source may be used only as a byte-transport fallback for a separately license-verified Commons original. The downloaded bytes must exactly match the Commons-published SHA-1 before admission.",
+      "coverage": [
+        "alternate acquisition route when Wikimedia's upload edge returns HTTP 429"
+      ],
+      "schema_fields": [
+        "assets.*.acquisition_route"
+      ],
+      "constraints": [
+        "Never use a Wayback capture as independent content or license provenance.",
+        "Require a byte-for-byte SHA-1 match to the current Commons imageinfo record; otherwise reject the capture.",
+        "Record the exact Wayback capture timestamp and URL in the asset manifest.",
+        "If no matching capture exists, retain an access gap rather than using a stale or transformed copy."
+      ]
+    },
+    "github-hanzi-etymology-commons-mirror-2026-08-10": {
+      "id": "github-hanzi-etymology-commons-mirror-2026-08-10",
+      "full_name": "Hanzi / Kanji Etymology Dictionary pinned byte-for-byte mirror of Wikimedia Commons seal SVGs",
+      "url": "https://github.com/lbm364dl/hanzi-etymology-dict",
+      "documentation_url": "https://github.com/lbm364dl/hanzi-etymology-dict/tree/caada9c8ec6f51e59158e9633598230d9e23a9c8/docs/glyphs/wikimedia_seal",
+      "access_date": "2026-08-10",
+      "version": "Git commit caada9c8ec6f51e59158e9633598230d9e23a9c8",
+      "status": "approved",
+      "license": {
+        "id": "inherits-origin-file-license",
+        "name": "Transport mirror only; content license remains the verified Commons file license",
+        "url": null,
+        "verified": true
+      },
+      "redistribution": "This repository may be used only as a byte-transport fallback for a separately license-verified Commons original. A downloaded file is admitted only when its SHA-1 exactly matches a Commons imageinfo revision.",
+      "coverage": [
+        "alternate acquisition route for numbered Shuowen-series and exact-character seal SVG originals when Wikimedia's upload edge returns HTTP 429"
+      ],
+      "schema_fields": [
+        "assets.*.acquisition_route"
+      ],
+      "constraints": [
+        "Never use the repository as independent content or license provenance.",
+        "Pin the repository commit and exact raw-file URL in the asset manifest.",
+        "Require a byte-for-byte SHA-1 match to a Commons imageinfo revision; reject every mismatch.",
+        "Retain the Commons source ID, file page, creator metadata, and per-file license as the asset's substantive provenance."
+      ]
+    },
+    "github-analects-data-commons-mirror-2026-08-10": {
+      "id": "github-analects-data-commons-mirror-2026-08-10",
+      "full_name": "plexus/analects-data pinned byte-for-byte mirror of Wikimedia Commons ancient-character SVGs",
+      "url": "https://github.com/plexus/analects-data",
+      "documentation_url": "https://github.com/plexus/analects-data/tree/c1efa0bbd30d3a74acad756efe401977edc501ce/commons_ancient_characters",
+      "access_date": "2026-08-10",
+      "version": "Git commit c1efa0bbd30d3a74acad756efe401977edc501ce",
+      "status": "approved",
+      "license": {
+        "id": "inherits-origin-file-license",
+        "name": "Transport mirror only; content license remains the verified Commons file license",
+        "url": null,
+        "verified": true
+      },
+      "redistribution": "The repository declares no repository-wide license, so it is not independent content or license provenance. It may be used only as a byte-transport fallback for a separately mapped and license-verified Commons original, and a file is admitted only when its bytes match the pinned Commons SHA-1 exactly.",
+      "coverage": [
+        "alternate acquisition route for Oracle, bronze, Liushutong, and seal SVG originals mirrored from Wikimedia Commons"
+      ],
+      "schema_fields": [
+        "assets.*.acquisition_route"
+      ],
+      "constraints": [
+        "Never infer a license from the repository; use the per-file Commons license already recorded before acquisition.",
+        "Pin commit c1efa0bbd30d3a74acad756efe401977edc501ce and the exact raw path.",
+        "Require a byte-for-byte SHA-1 match to the pinned Commons imageinfo revision and reject every mismatch.",
+        "Retain Commons as substantive content provenance and this repository only as acquisition-route provenance."
+      ],
+      "acquisition": {
+        "retrieved_at": "2026-08-11T06:27:01Z",
+        "tree_path": "source-data/github-analects-data-2026-08-10/tree.json",
+        "tree_sha256": "e50c9635414c83709fb8a1da539ed94c44d527dd26070a6c3a7eb94e938facac",
+        "tree_bytes": 170299,
+        "log_path": "source-data/github-analects-data-2026-08-10/mirror-acquisition-log.json",
+        "log_sha256": "08dd3345451e956a8afe96050ab439f63b5c1c7da8b27d400756abaf439dc364",
+        "log_bytes": 577166,
+        "archive_url": "https://codeload.github.com/plexus/analects-data/tar.gz/c1efa0bbd30d3a74acad756efe401977edc501ce",
+        "archive_sha256": "921f26c7d298222f1ed60ea24ccc2a0109133ab6e9e6096e603091f84eebc45a",
+        "archive_bytes": 13975907,
+        "archive_retained": false,
+        "matched_candidate_count": 401,
+        "integrity_note": "The archive was processed in memory. Only separately licensed files matching a pinned current or historical Commons SHA-1 were written to disk."
+      }
+    },
+    "github-hanzi-origin-commons-discovery-2026-08-10": {
+      "id": "github-hanzi-origin-commons-discovery-2026-08-10",
+      "full_name": "vtsen/hanzi_origin pinned Wikimedia historical-script filename manifest",
+      "url": "https://github.com/vtsen/hanzi_origin",
+      "documentation_url": "https://github.com/vtsen/hanzi_origin/blob/309ccc3c6349357e6ece0181228e3fb2ad28b5cd/data/oracle_manifest.json",
+      "access_date": "2026-08-10",
+      "version": "Git commit 309ccc3c6349357e6ece0181228e3fb2ad28b5cd",
+      "status": "approved",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": "https://github.com/vtsen/hanzi_origin/blob/309ccc3c6349357e6ece0181228e3fb2ad28b5cd/LICENSE",
+        "verified": true
+      },
+      "redistribution": "The pinned JSON filename indexes may be redistributed under the repository's MIT license. They are discovery evidence only; every referenced media file still requires separate Commons mapping, metadata, license, and byte-integrity verification.",
+      "coverage": [
+        "current snapshot of Commons Oracle filenames keyed by unified ideograph",
+        "current snapshot of Commons bronze filenames, including period-specific series, keyed by unified ideograph",
+        "curated non-standard ACC and numbered filename mappings"
+      ],
+      "schema_fields": [
+        "phase2-historical-asset-candidates.discovery_routes"
+      ],
+      "constraints": [
+        "Use only exact Traditional-primary key matches or separately sourced variant relationships.",
+        "Do not use this manifest as image-content or media-license provenance.",
+        "Resolve every discovered title through current Commons imageinfo and the per-file license gate before acquisition.",
+        "Preserve the repository commit and snapshot hashes."
+      ],
+      "acquisition": {
+        "retrieved_at": "2026-08-11T06:15:23Z",
+        "path": "source-data/github-hanzi-origin-2026-08-10/acquisition.json",
+        "files": [
+          {
+            "path": "source-data/github-hanzi-origin-2026-08-10/oracle_manifest.json",
+            "sha256": "7eca5bb198853cff0ac29cc7f53fcbc82f44bcbee99ce6c12e8acc28d392c60e",
+            "bytes": 69511
+          },
+          {
+            "path": "source-data/github-hanzi-origin-2026-08-10/oracle_manifest_extra.json",
+            "sha256": "20615fd4f3171caa0022f47b426f83e530986eabd8aaa3503f379f71ee6515fd",
+            "bytes": 892
+          }
+        ]
+      }
+    },
+    "commons-acc-radical-historical-indexes-2026-08-10": {
+      "id": "commons-acc-radical-historical-indexes-2026-08-10",
+      "full_name": "Wikimedia Commons Ancient Chinese Characters project: Kangxi radical oracle, bronze, and Liushutong index pages",
+      "url": "https://commons.wikimedia.org/wiki/Commons:Ancient_Chinese_characters",
+      "documentation_url": "https://commons.wikimedia.org/wiki/Commons:Ancient_Chinese_characters_project",
+      "access_date": "2026-08-10",
+      "version": "oracle, bronze, and bigseal project-page revisions pinned in the acquisition snapshot",
+      "status": "approved",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verified": true
+      },
+      "redistribution": "The project-page mappings may be copied and adapted with attribution and ShareAlike. Every referenced media file remains subject to its own separately verified license.",
+      "coverage": [
+        "project-maintained radical-by-radical candidate mappings for oracle script",
+        "project-maintained radical-by-radical candidate mappings for bronze script",
+        "project-maintained radical-by-radical candidate mappings for Liushutong big-seal script"
+      ],
+      "schema_fields": [
+        "radicals.*.historical_forms.oracle_bone_甲骨文",
+        "radicals.*.historical_forms.bronze_金文",
+        "radicals.*.historical_forms.liushutong_六書通"
+      ],
+      "constraints": [
+        "Use explicit file links and radical-number table positions; do not infer a mapping from visual similarity.",
+        "A blank or incomplete project cell is not by itself evidence that a historical form never existed.",
+        "Pin page and revision IDs before parsing.",
+        "Preserve every candidate file and per-file license decision in the acquisition audit."
+      ],
+      "acquisition": {
+        "retrieved_at": "2026-08-11T05:05:27Z",
+        "path": "source-data/wikimedia-2026-08-10/commons-acc-radical-historical-indexes.json",
+        "sha256": "f3d3dd328c8974533eba3ba13ac7b709a409ccb1f7dc69ea45c3d6daaead6327",
+        "bytes": 696489,
+        "request_method": "MediaWiki API query revisions followed by parse at pinned oldid, with at least 1.1 seconds between same-host requests",
+        "pinned_pages": [
+          {
+            "title": "Commons:Ancient Chinese characters/bigseal",
+            "page_id": 38502009,
+            "revision_id": 884225372,
+            "revision_timestamp": "2024-06-15T15:05:39Z"
+          },
+          {
+            "title": "Commons:Ancient Chinese characters/bronze",
+            "page_id": 38501975,
+            "revision_id": 884225694,
+            "revision_timestamp": "2024-06-15T15:06:43Z"
+          },
+          {
+            "title": "Commons:Ancient Chinese characters/oracle",
+            "page_id": 38501983,
+            "revision_id": 884225617,
+            "revision_timestamp": "2024-06-15T15:06:16Z"
+          }
+        ]
+      }
+    },
+    "commons-ancient-chinese-historical-form-files-2026-08-10": {
+      "id": "commons-ancient-chinese-historical-form-files-2026-08-10",
+      "full_name": "Wikimedia Commons Ancient Chinese Characters project: oracle, bronze, and Liushutong original SVG files",
+      "url": "https://commons.wikimedia.org/wiki/Commons:Ancient_Chinese_characters_project",
+      "documentation_url": "https://commons.wikimedia.org/wiki/Commons:Ancient_Chinese_characters",
+      "access_date": "2026-08-10",
+      "version": "per-file Commons revisions pinned in assets/manifest.json",
+      "status": "approved",
+      "license": {
+        "id": "per-file",
+        "name": "Conditional allowlist: verified public-domain or Creative Commons file license",
+        "url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "verified": true
+      },
+      "redistribution": "Acquire only original files whose Commons API extmetadata verifies a public-domain or Creative Commons license. Preserve every file page, revision timestamp, creator/credit, license, dimensions, Commons SHA-1, and project SHA-256.",
+      "coverage": [
+        "oracle-bone and oracle-script radical images",
+        "bronze-inscription radical images by attested period",
+        "Liushutong big-seal radical images"
+      ],
+      "schema_fields": [
+        "radicals.*.historical_forms.oracle_bone_甲骨文",
+        "radicals.*.historical_forms.bronze_金文",
+        "radicals.*.historical_forms.liushutong_六書通"
+      ],
+      "constraints": [
+        "Admit only candidates explicitly mapped by a pinned project page or another registered source.",
+        "Reject unknown, noncommercial, no-derivatives, or fair-use terms.",
+        "Preserve each original without cropping, upscaling, lossy re-encoding, or other transformation.",
+        "Treat `-bigseal.svg` as 六書通 only when the file metadata or Liushutong category verifies that classification.",
+        "A missing file is a source gap unless an authoritative source explicitly records non-attestation."
+      ],
+      "acquisition": {
+        "retrieved_at": "2026-08-11T05:11:01Z",
+        "path": "source-data/wikimedia-2026-08-10/commons-acc-historical-file-metadata.json",
+        "sha256": "1c976664e0c914effc1aa2ef19594af02e06fe16e1499227e633efad5fd74510",
+        "bytes": 3670014,
+        "requested_file_count": 511,
+        "returned_file_count": 511,
+        "missing_file_count": 0,
+        "request_method": "MediaWiki API imageinfo and categories in batches of 25, with at least 1.1 seconds between same-host requests",
+        "metadata_license_result": "All 511 current originals report License=pd, LicenseShortName=Public domain, UsageTerms=Public domain, and Copyrighted=False.",
+        "revision_history": {
+          "retrieved_at": "2026-08-11T06:25:05Z",
+          "path": "source-data/wikimedia-2026-08-10/commons-acc-historical-file-revisions.json",
+          "sha256": "d8a0d286f651c94e86bf2add16f9c809b4673d247a7e70f3806a3078d1c0eaab",
+          "bytes": 146283,
+          "queried_file_count": 150,
+          "exact_historical_revision_matches": 143,
+          "unresolved_count": 7
+        },
+        "originals": {
+          "updated_at": "2026-08-11T08:32:34Z",
+          "path": "source-data/wikimedia-2026-08-10/commons-acc-historical-original-acquisition-log.json",
+          "sha256": "9e5af7bc2f0d7e0ae970e3e0a003c7419fd578623aae0f01c5aeaaa5d01f5e1d",
+          "bytes": 802188,
+          "completed_count": 455,
+          "oracle_count": 141,
+          "bronze_count": 150,
+          "liushutong_count": 164,
+          "integrity_policy": "Every stored SVG exactly matches a current or uniquely pinned historical Commons content SHA-1."
+        }
+      }
+    },
+    "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10": {
+      "id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+      "full_name": "中央研究院小學堂文字學資料庫（甲骨文、金文）字形圖片與字形屬性",
+      "url": "https://xiaoxue.iis.sinica.edu.tw/guide/",
+      "documentation_url": "https://xiaoxue.iis.sinica.edu.tw/License/License",
+      "access_date": "2026-08-10",
+      "version": "live query-interface snapshot pinned by response hashes and glyph codes",
+      "status": "approved",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verified": true
+      },
+      "redistribution": "The official license page expressly applies CC0 1.0 to glyph images at every resolution returned by the query interface and to glyph attribute information, permitting reuse and redistribution.",
+      "coverage": [
+        "all exact-character oracle-script glyph variants returned for the 214 Traditional-primary Kangxi radical headings",
+        "all exact-character bronze-inscription glyph variants returned for the 214 Traditional-primary Kangxi radical headings",
+        "source glyph code, displayed bibliographic reference, and query-to-character mapping"
+      ],
+      "schema_fields": [
+        "radicals.*.historical_forms.oracle_bone_甲骨文",
+        "radicals.*.historical_forms.bronze_金文",
+        "assets.*.source_glyph_code",
+        "assets.*.source_reference"
+      ],
+      "constraints": [
+        "Query the Traditional-primary unified ideograph exactly; do not map a visually similar glyph or a Simplified heading without explicit variant evidence.",
+        "Preserve every returned glyph variant's code, displayed source reference, and radical/form mapping in the complete candidate index. If only a representative image subset is acquired, record the deterministic selection policy and do not describe it as all image variants.",
+        "Acquire the official 300-point image option, the highest size offered by the source interface, without local resizing, cropping, or re-encoding.",
+        "Throttle all requests to no more than one per second to xiaoxue.iis.sinica.edu.tw.",
+        "A zero-result exact-character query is a source gap, not proof that the form never existed historically."
+      ],
+      "license_evidence": {
+        "url": "https://xiaoxue.iis.sinica.edu.tw/License/License",
+        "statement_zh": "使用者操作本網站查詢介面所得之各解析度「字形圖片」及字形屬性資訊，權利人特於此明示主張以CC0 1.0通用方式，在法律許可的範圍內，拋棄該字形圖片及字形屬性資訊依著作權法可得享有之權利，使用者當可安心再行利用該查詢字形圖片及字形屬性資訊。"
+      },
+      "acquisition": {
+        "retrieved_at": "2026-08-11T05:52:08Z",
+        "path": "source-data/sinica-xiaoxuetang-2026-08-10/radical-historical-glyph-index.json",
+        "sha256": "7ae428e087fad26aa2d201e0b8e034dc82c40db08ed046402b3d02254f9eff48",
+        "bytes": 9064594,
+        "query_count": 428,
+        "mapping_count": 9487,
+        "unique_glyph_code_count": 9331,
+        "oracle_mapping_count": 3127,
+        "bronze_mapping_count": 6360,
+        "request_method": "One exact Traditional-primary character POST query per radical to each of the 甲骨文 and 金文 interfaces, with at least 1.1 seconds between same-host requests; every raw response retained and hashed.",
+        "representative_originals": {
+          "path": "source-data/sinica-xiaoxuetang-2026-08-10/representative-original-acquisition-log.json",
+          "sha256": "6a52e1d5ede84cdd0fc8ff1762edea54fc215d574a678f7582a822a10141d2e1",
+          "bytes": 468434,
+          "mapping_count": 325,
+          "unique_source_glyph_count": 322,
+          "oracle_count": 159,
+          "bronze_count": 166,
+          "selection_policy": "First source-ordered glyph for each exact Traditional-primary radical/form query with results; every discovered variant remains indexed in the full candidate snapshot.",
+          "image_policy": "Unchanged official 300-point, 96-dpi PNG response, the highest size offered by the source interface; all 325 responses are 413 by 401 pixels."
+        },
+        "license_evidence_files": [
+          {
+            "path": "source-data/sinica-xiaoxuetang-2026-08-10/license.html",
+            "sha256": "95664e7e16436aa8120aa969c99fca3044c7b197805bb1bedc4a4f603d513135",
+            "bytes": 538
+          },
+          {
+            "path": "source-data/sinica-xiaoxuetang-2026-08-10/guide.html",
+            "sha256": "26cf39926bc4b533be1d402918da7b7944f5525f05bf3f581a368868f4e8d6c2",
+            "bytes": 8126
+          }
+        ]
+      }
+    },
+    "commons-shuowen-ncl-00915": {
+      "id": "commons-shuowen-ncl-00915",
+      "full_name": "Wikimedia Commons scan: NCL-00915 說文解字",
+      "url": "https://commons.wikimedia.org/wiki/File:NCL-00915_說文解字.pdf",
+      "documentation_url": "https://commons.wikimedia.org/wiki/Category:說文解字",
+      "access_date": "2026-08-10",
+      "version": "Ming-period Jiguge edition with early-Qing repairs",
+      "status": "approved",
+      "license": {
+        "id": "PDM-1.0",
+        "name": "Public Domain Mark 1.0 / PD-scan",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verified": true
+      },
+      "redistribution": "The scan is marked as a mechanical reproduction of a public-domain original and free of known copyright restrictions.",
+      "coverage": [
+        "page images containing Shuowen seal forms and entry text"
+      ],
+      "schema_fields": [
+        "radicals.*.shuowen.seal_glyph",
+        "radicals.*.historical_forms.shuowen_seal_說文解字"
+      ],
+      "constraints": [
+        "Preserve the full-resolution original page without cropping or lossy re-encoding.",
+        "The asset manifest must retain the exact Commons file page, original dimensions, page number, and license tag.",
+        "A bounding-box locator may be stored as metadata, but no cropped derivative may replace the original asset."
+      ]
+    },
+    "commons-liushutong-harvard-1795": {
+      "id": "commons-liushutong-harvard-1795",
+      "full_name": "Wikimedia Commons scans: 六書通, Min Qiji / Bi Hongshu, 1795 edition",
+      "url": "https://commons.wikimedia.org/wiki/Category:六書通",
+      "documentation_url": "https://commons.wikimedia.org/wiki/File:Harvard_drs_17394945_六書通_v.1.pdf",
+      "access_date": "2026-08-10",
+      "version": "Qianlong 60 (1795) edition; Harvard-Yenching Library digitization",
+      "status": "approved",
+      "license": {
+        "id": "PDM-1.0",
+        "name": "Public Domain Mark 1.0 / PD-scan",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verified": true
+      },
+      "redistribution": "The scans are marked as mechanical reproductions of a public-domain original and free of known copyright restrictions.",
+      "coverage": [
+        "六書通 seal-form page images"
+      ],
+      "schema_fields": [
+        "radicals.*.historical_forms.liushutong_六書通",
+        "characters.*.historical_forms.liushutong_六書通"
+      ],
+      "constraints": [
+        "This source is 六書通 associated with Min Qiji, not 六書統 by Yang Huan.",
+        "Verify and register the license on each volume's file-description page before acquisition.",
+        "Preserve original page files and dimensions; do not crop or upscale."
+      ]
+    },
+    "codh-henrui-liushutong-te00010-2026-08-10": {
+      "id": "codh-henrui-liushutong-te00010-2026-08-10",
+      "full_name": "ROIS-DS CODH 篆書字体データセット: 偏類六書通 [TE00010]",
+      "url": "https://codh.rois.ac.jp/tensho/book/TE00010/index.html.ja",
+      "documentation_url": "https://codh.rois.ac.jp/tensho/",
+      "access_date": "2026-08-10",
+      "version": "TE00010; pinned page and per-glyph URLs recorded in the acquisition snapshot",
+      "status": "approved",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verified": true
+      },
+      "redistribution": "The TE00010 book page explicitly publishes the Seal Script Typeface Dataset under CC BY-SA 4.0. Preserve attribution to the National Institute of Japanese Literature, CODH, and DHII, include DOI 10.20676/00000390, and apply ShareAlike to redistributed adaptations.",
+      "required_attribution": "『篆書字体データセット』（国文学研究資料館が複数の機関から収集／ROIS-DS人文学オープンデータ共同利用センター・一般財団法人人文情報学研究所加工）, doi:10.20676/00000390, CC BY-SA 4.0.",
+      "coverage": [
+        "source-supplied individual glyph images from 偏類六書通 TE00010",
+        "exact Traditional-primary Unicode character index and scan-region locator for each glyph"
+      ],
+      "schema_fields": [
+        "radicals.*.historical_forms.liushutong_六書通"
+      ],
+      "constraints": [
+        "偏類六書通 is a later radical/stroke reorganization of the 閔齊伋/畢弘述 六書通 tradition; retain the edition label on every asset and do not silently identify it with the Harvard 1795 edition.",
+        "Use only exact Traditional-primary character matches from the pinned TE00010 index.",
+        "Acquire the source-published glyph JPEG unchanged; do not crop, resize, upscale, or re-encode it.",
+        "Retain the book page, source image URL, page/canvas region locator, license, and required attribution."
+      ],
+      "acquisition": {
+        "retrieved_at": "2026-08-11T06:41:00Z",
+        "index_path": "source-data/codh-liushutong-2026-08-10/TE00010-index.html",
+        "index_sha256": "d51f58f7e996efbdea3df43b70ff02280aa3c0e328b15d33f5c5ae1285aeacab",
+        "index_bytes": 363903,
+        "candidate_path": "source-data/codh-liushutong-2026-08-10/radical-candidates.json",
+        "candidate_sha256": "1d53f46f94836a8da9b08f7e3dc9751d58089ea9c929c9309b74e450c4e6fa37",
+        "candidate_bytes": 40119,
+        "original_log_path": "source-data/codh-liushutong-2026-08-10/original-acquisition-log.json",
+        "original_log_sha256": "8b9b313c84bb4216d7aea0904ef569898f33f1e1a4a1c27aa10ca03aa52bd8ac",
+        "original_log_bytes": 230968,
+        "indexed_character_count": 890,
+        "exact_radical_count": 14,
+        "original_image_count": 125,
+        "failure_count": 0
+      }
+    },
+    "codh-henrui-liushutong-te00008-21-series-2026-08-11": {
+      "id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+      "full_name": "ROIS-DS CODH 篆書字体データセット: 偏類六書通 [TE00008–TE00021, excluding separately pinned TE00010]",
+      "url": "https://codh.rois.ac.jp/tensho/book/",
+      "documentation_url": "https://codh.rois.ac.jp/tensho/note/",
+      "access_date": "2026-08-11",
+      "version": "TE00008–TE00009 and TE00011–TE00021; exact book pages and per-glyph URLs to be pinned in the acquisition snapshot",
+      "status": "approved",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verified": true
+      },
+      "redistribution": "The official CODH book catalog marks every 偏類六書通 volume TE00008 through TE00021 as CC BY-SA. Preserve attribution to the National Institute of Japanese Literature, CODH, and DHII, include DOI 10.20676/00000390, and apply ShareAlike to redistributed adaptations.",
+      "required_attribution": "『篆書字体データセット』（国文学研究資料館が複数の機関から収集／ROIS-DS人文学オープンデータ共同利用センター・一般財団法人人文情報学研究所加工）, doi:10.20676/00000390, CC BY-SA 4.0.",
+      "coverage": [
+        "source-supplied individual glyph images from 偏類六書通 TE00008–TE00009 and TE00011–TE00021",
+        "exact Traditional-primary Unicode character index and scan-region locator for each glyph"
+      ],
+      "schema_fields": [
+        "radicals.*.historical_forms.liushutong_六書通"
+      ],
+      "constraints": [
+        "Register and hash every book index before downloading any glyph image.",
+        "偏類六書通 is a later radical/stroke reorganization of the 閔齊伋/畢弘述 六書通 tradition; retain the exact TE volume label on every asset and do not silently identify it with the Harvard 1795 edition.",
+        "Use only exact Traditional-primary Unicode character matches from each pinned book index.",
+        "Acquire every source-published glyph JPEG for each exact match unchanged; do not crop, resize, upscale, or re-encode it.",
+        "Retain the book page, source image URL, page/canvas region locator, license, and required attribution."
+      ],
+      "license_evidence": {
+        "url": "https://codh.rois.ac.jp/tensho/book/",
+        "statement": "The official book list labels TE00008 through TE00021 偏類六書通 as CC BY-SA."
+      },
+      "acquisition": {
+        "retrieved_at": "2026-08-11T07:06:58Z",
+        "catalog_path": "source-data/codh-liushutong-series-2026-08-11/book-list.html",
+        "catalog_sha256": "6777cdcf809ca234efce13c91efff392514e7af6446b59156fb221f526f929dc",
+        "catalog_bytes": 22182,
+        "candidate_path": "source-data/codh-liushutong-series-2026-08-11/radical-candidates-series.json",
+        "candidate_sha256": "e66586c98330eae1107fc8713a3146797728541a7a88db84ffe67e02b935206b",
+        "candidate_bytes": 633108,
+        "volume_ids": [
+          "TE00008",
+          "TE00009",
+          "TE00011",
+          "TE00012",
+          "TE00013",
+          "TE00014",
+          "TE00015",
+          "TE00016",
+          "TE00017",
+          "TE00018",
+          "TE00019",
+          "TE00020",
+          "TE00021"
+        ],
+        "indexed_character_total": 10066,
+        "radical_candidate_count": 378,
+        "covered_radical_count": 196,
+        "declared_original_image_count": 3338,
+        "request_method": "Official book catalog plus one pinned UTF-8 HTML index per volume, with at least 1.1 seconds between same-host requests; each page was checked for CC BY-SA and DOI 10.20676/00000390 before image acquisition.",
+        "original_log_path": "source-data/codh-liushutong-series-2026-08-11/original-acquisition-log.json",
+        "original_log_sha256": "7cc93aa8332f147d5ef37c45a6a8dc515d7f50fe8f097ee679896a2840b9c9a4",
+        "original_log_bytes": 6279088,
+        "original_image_count": 3338,
+        "failure_count": 0,
+        "originals_retrieved_at": "2026-08-11T08:27:25Z"
+      }
+    },
+    "commons-kangxi-dictionary-1716": {
+      "id": "commons-kangxi-dictionary-1716",
+      "full_name": "Wikimedia Commons scans of the 1716 御定康熙字典",
+      "url": "https://commons.wikimedia.org/wiki/Category:御定康熙字典",
+      "documentation_url": "https://commons.wikimedia.org/wiki/Category:康熙字典",
+      "access_date": "2026-08-10",
+      "version": "1716 editions; exact volume files to be pinned",
+      "status": "approved",
+      "license": {
+        "id": "PDM-1.0",
+        "name": "Public Domain Mark 1.0 / PD-scan",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verified": true
+      },
+      "redistribution": "Only files individually marked as public-domain mechanical scans may be acquired and redistributed.",
+      "coverage": [
+        "Kangxi radical headings and original entries",
+        "evidence for character counts per radical",
+        "page-level audit of Unihan Kangxi citations"
+      ],
+      "schema_fields": [
+        "radicals.*.character_count_in_kangxi",
+        "characters.*.kangxi_citation"
+      ],
+      "constraints": [
+        "Select one internally complete edition for counts; do not combine counts from different editions.",
+        "OCR output is untrusted until reconciled against page images and must be review-flagged.",
+        "Register every acquired volume and its file-page license separately in assets/manifest.json."
+      ]
+    },
+    "enwiki-kangxi-radicals-2026-08-10": {
+      "id": "enwiki-kangxi-radicals-2026-08-10",
+      "full_name": "English Wikipedia: Kangxi radicals",
+      "url": "https://en.wikipedia.org/wiki/Kangxi_radicals",
+      "documentation_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+      "access_date": "2026-08-10",
+      "version": "revision 1362962863",
+      "acquisition": {
+        "retrieved_at": "2026-08-11T03:50:02Z",
+        "local_path": "source-data/wikimedia-2026-08-10/enwiki-kangxi-radicals-api.json",
+        "sha256": "5dfef9951f7466e075f899ac94d50c61722c22ec059920557a89b37baf641ca8",
+        "bytes": 78581,
+        "page_id": 1709013,
+        "revision_id": 1362962863,
+        "revision_timestamp": "2026-07-07T05:49:52Z",
+        "api": "MediaWiki action=query, prop=revisions, rvprop=ids|timestamp|content, rvslots=main, formatversion=2"
+      },
+      "status": "approved",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verified": true
+      },
+      "redistribution": "Text may be reused with attribution and ShareAlike; the exact revision and contributors must be linked in attribution.",
+      "coverage": [
+        "learner-facing English radical glosses",
+        "cross-language radical readings and names",
+        "variants",
+        "published Kangxi character-count claims"
+      ],
+      "schema_fields": [
+        "radicals.*.names",
+        "radicals.*.variants",
+        "radicals.*.character_count_in_kangxi"
+      ],
+      "constraints": [
+        "This is a secondary source: structural data must come from Unicode and counts must be checked against the selected Kangxi scan.",
+        "Pin an immutable revision and preserve any disagreement as a conflict."
+      ]
+    },
+    "prc-stroke-order-gf0023-2020": {
+      "id": "prc-stroke-order-gf0023-2020",
+      "full_name": "通用规范汉字笔顺规范 (GF 0023-2020)",
+      "url": "https://www.moe.gov.cn/jyb_sjzl/ziliao/A19/202103/t20210318_520473.html",
+      "documentation_url": "https://www.moe.gov.cn/jyb_sjzl/ziliao/A19/202103/W020210318300204215237.pdf",
+      "access_date": "2026-08-10",
+      "version": "GF 0023-2020, effective 2021-03-01",
+      "status": "reference_only",
+      "license": {
+        "id": null,
+        "name": "No explicit open redistribution license identified on the publication page",
+        "url": null,
+        "verified": false
+      },
+      "redistribution": "The standard identifier and factual status may be cited. Do not redistribute the PDF or copy its tables into the corpus without a verified permission basis.",
+      "coverage": [
+        "current PRC stroke-order standard identifier and scope for 8,105 standard characters",
+        "audit reference for conflicts with Make Me a Hanzi and regional standards"
+      ],
+      "schema_fields": [
+        "radicals.*.stroke_order.standard",
+        "characters.*.stroke_order.standard"
+      ],
+      "constraints": [
+        "The standard superseded the 1997 现代汉语通用字笔顺规范 named in the original objective.",
+        "No PDF or extracted table may enter assets or delivered records under the present license audit."
+      ]
+    },
+    "prc-stroke-order-1997": {
+      "id": "prc-stroke-order-1997",
+      "full_name": "现代汉语通用字笔顺规范 (1997)",
+      "url": "https://www.moe.gov.cn/jyb_sjzl/ziliao/A19/201001/t20100115_75615.html",
+      "documentation_url": "https://www.moe.gov.cn/jyb_sjzl/ziliao/A19/201001/W020181228294361117660.pdf",
+      "access_date": "2026-08-10",
+      "version": "1997-04-07",
+      "status": "reference_only",
+      "license": {
+        "id": null,
+        "name": "No explicit open redistribution license identified on the publication page",
+        "url": null,
+        "verified": false
+      },
+      "redistribution": "May be cited as the historical standard. Do not redistribute the PDF or copy its tables without a verified permission basis.",
+      "coverage": [
+        "historical PRC stroke-order standard named in the original objective"
+      ],
+      "schema_fields": [
+        "radicals.*.stroke_order.standard_conflicts",
+        "characters.*.stroke_order.standard_conflicts"
+      ],
+      "constraints": [
+        "Superseded by GF 0023-2020; it is retained only to explain legacy conflicts."
+      ]
+    },
+    "cjkvi-ids-master-audit": {
+      "id": "cjkvi-ids-master-audit",
+      "full_name": "CJKVI IDS data",
+      "url": "https://github.com/cjkvi/cjkvi-ids",
+      "documentation_url": "https://www.chise.org/ids/index.ja.html",
+      "access_date": "2026-08-10",
+      "version": "master; not acquired",
+      "status": "quarantine",
+      "license": {
+        "id": null,
+        "name": "Mixed: README says GPL-2.0 for most files; ids.txt follows separately referenced CHISE terms",
+        "url": "https://github.com/cjkvi/cjkvi-ids#licenses",
+        "verified": false
+      },
+      "redistribution": "Do not acquire or use ids.txt until the exact CHISE license and downstream database obligations are verified. Other files require file-by-file GPL-2.0 review.",
+      "coverage": [
+        "IDS decompositions for CJK unified ideographs"
+      ],
+      "schema_fields": [
+        "characters.*.ids_decomposition",
+        "characters.*.components"
+      ],
+      "constraints": [
+        "Make Me a Hanzi is the approved primary decomposition source for the in-scope 2,000 characters; CJKVI may only be added later as an explicitly licensed conflict source."
+      ]
+    },
+    "sinica-balanced-corpus-4.0": {
+      "id": "sinica-balanced-corpus-4.0",
+      "full_name": "Academia Sinica Balanced Corpus of Modern Chinese 4.0",
+      "url": "https://www.aclclp.org.tw/use_asbc_c.php",
+      "documentation_url": "https://www.aclclp.org.tw/doc/asbc_agr_e.pdf",
+      "access_date": "2026-08-10",
+      "version": "4.0",
+      "status": "rejected",
+      "license": {
+        "id": null,
+        "name": "Custom academic-use contract",
+        "url": "https://www.aclclp.org.tw/doc/asbc_agr_e.pdf",
+        "verified": true
+      },
+      "redistribution": "Use is limited to academic research, commercial activity is prohibited, and transfer of all or any part of the corpus to third parties is prohibited.",
+      "coverage": [
+        "traditional-Chinese balanced-corpus frequencies and segmentation"
+      ],
+      "schema_fields": [
+        "characters.*.frequency",
+        "words.*.frequency"
+      ],
+      "constraints": [
+        "Incompatible with a redistributable public website corpus; no files may be downloaded into the project."
+      ]
+    },
+    "moe-tw-dictionaries-public-license": {
+      "id": "moe-tw-dictionaries-public-license",
+      "full_name": "Taiwan Ministry of Education public-licensed Mandarin dictionaries",
+      "url": "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/index.html",
+      "documentation_url": "https://creativecommons.org/licenses/by-nd/3.0/tw/",
+      "access_date": "2026-08-10",
+      "version": "portal updated 2026-07-07",
+      "status": "rejected",
+      "license": {
+        "id": "CC-BY-ND-3.0-TW",
+        "name": "Creative Commons Attribution-NoDerivatives 3.0 Taiwan",
+        "url": "https://creativecommons.org/licenses/by-nd/3.0/tw/",
+        "verified": true
+      },
+      "redistribution": "Verbatim redistribution is permitted with attribution, including commercially, but adaptation is prohibited. Extracting and restructuring entries into this corpus is not approved by this audit.",
+      "coverage": [
+        "Mandarin definitions, pronunciations, and zhuyin"
+      ],
+      "schema_fields": [
+        "characters.*.readings.zhuyin",
+        "characters.*.definitions",
+        "words.*.zhuyin"
+      ],
+      "constraints": [
+        "Do not ingest or restructure the dictionary datasets without separate permission."
+      ]
+    },
+    "moe-tw-stroke-order-learning": {
+      "id": "moe-tw-stroke-order-learning",
+      "full_name": "Taiwan MOE Standard Character Stroke Order Learning website data",
+      "url": "https://stroke-order.learningweb.moe.edu.tw/",
+      "documentation_url": "https://language.moe.gov.tw/001/Upload/files/site_content/M0001/juyin/",
+      "access_date": "2026-08-10",
+      "version": "website data; not acquired",
+      "status": "rejected",
+      "license": {
+        "id": "CC-BY-NC-ND-3.0-TW",
+        "name": "Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Taiwan",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/3.0/tw/",
+        "verified": true
+      },
+      "redistribution": "Commercial use and derivative works are prohibited; the animation/XML data cannot be transformed into the requested SVG corpus.",
+      "coverage": [
+        "Taiwan MOE stroke-order animations"
+      ],
+      "schema_fields": [
+        "radicals.*.stroke_order",
+        "characters.*.stroke_order"
+      ],
+      "constraints": [
+        "Do not download into the project. CNS11643 open data is the approved MOE-aligned source for canonical Taiwan readings and stroke-sequence counts, and may be used for Taiwan-oriented stroke-order cross-checks."
+      ]
+    },
+    "xiaoxue-database": {
+      "id": "xiaoxue-database",
+      "full_name": "Academia Sinica 小學堂文字學資料庫",
+      "url": "https://xiaoxue.iis.sinica.edu.tw/",
+      "documentation_url": "https://xiaoxue.iis.sinica.edu.tw/guide/policy/",
+      "access_date": "2026-08-10",
+      "version": "live service; not acquired",
+      "status": "quarantine",
+      "license": {
+        "id": null,
+        "name": "No explicit bulk redistribution license identified",
+        "url": null,
+        "verified": false
+      },
+      "redistribution": "No historical-form image or database record may be acquired or referenced by delivered records until explicit reuse and redistribution permission is documented.",
+      "coverage": [
+        "oracle-bone, bronze, seal, and other palaeographic forms"
+      ],
+      "schema_fields": [
+        "radicals.*.historical_forms",
+        "characters.*.historical_forms"
+      ],
+      "constraints": [
+        "Query pages may be consulted during future source discovery, at no more than one request per second, but content remains quarantined."
+      ]
+    },
+    "cuhk-multifunction-character-database": {
+      "id": "cuhk-multifunction-character-database",
+      "full_name": "CUHK Multi-function Chinese Character Database 漢語多功能字庫",
+      "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/",
+      "documentation_url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/guide.php",
+      "access_date": "2026-08-10",
+      "version": "live service; not acquired",
+      "status": "quarantine",
+      "license": {
+        "id": null,
+        "name": "No explicit bulk redistribution license identified",
+        "url": null,
+        "verified": false
+      },
+      "redistribution": "Do not acquire or redistribute text, images, or bulk records until explicit permission is obtained.",
+      "coverage": [
+        "historical forms, component trees, etymologies, Shuowen text, Cantonese, and cross-regional frequency data"
+      ],
+      "schema_fields": [
+        "radicals.*.historical_forms",
+        "characters.*.liushu_六書",
+        "characters.*.readings.jyutping"
+      ],
+      "constraints": [
+        "The site documents coverage and functionality but does not supply an audited redistribution grant."
+      ]
+    },
+    "tocfl-reference-vocabulary": {
+      "id": "tocfl-reference-vocabulary",
+      "full_name": "TOCFL reference vocabulary lists",
+      "url": "https://tocfl.edu.tw/tocfl/index.php/teach/download",
+      "documentation_url": "https://tocfl.edu.tw/",
+      "access_date": "2026-08-10",
+      "version": "current download page; not acquired",
+      "status": "quarantine",
+      "license": {
+        "id": null,
+        "name": "No explicit open redistribution license identified on the download page",
+        "url": null,
+        "verified": false
+      },
+      "redistribution": "Do not populate TOCFL grading fields until the exact list version and a redistribution permission are documented.",
+      "coverage": [
+        "TOCFL vocabulary levels"
+      ],
+      "schema_fields": [
+        "characters.*.grading.tocfl",
+        "words.*.grading.tocfl"
+      ],
+      "constraints": [
+        "A downloadable file is not by itself a redistribution license."
+      ]
+    },
+    "prc-international-chinese-level-standard-2021": {
+      "id": "prc-international-chinese-level-standard-2021",
+      "full_name": "国际中文教育中文水平等级标准 (GF 0025-2021)",
+      "url": "https://www.moe.gov.cn/jyb_sjzl/ziliao/A19/202111/t20211118_580755.html",
+      "documentation_url": "https://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202103/t20210329_523304.html",
+      "access_date": "2026-08-10",
+      "version": "GF 0025-2021",
+      "status": "quarantine",
+      "license": {
+        "id": null,
+        "name": "No explicit open redistribution license identified on the publication page",
+        "url": null,
+        "verified": false
+      },
+      "redistribution": "The standard may be cited, but its character and vocabulary tables must not be copied into the public corpus until redistribution permission and the intended HSK-version mapping are verified.",
+      "coverage": [
+        "three-stage, nine-level international Chinese proficiency standard with graded character and vocabulary tables"
+      ],
+      "schema_fields": [
+        "characters.*.grading.hsk",
+        "words.*.grading.hsk"
+      ],
+      "constraints": [
+        "The schema's single numeric hsk field is underspecified for the nine-level standard and for later HSK examination syllabi.",
+        "A versioned grading model must be chosen before this field is populated."
+      ]
+    }
+  }
+}

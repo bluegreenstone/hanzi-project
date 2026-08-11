@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img">
+  <title>广 U+5E7F ordered strokes</title>
+  <metadata>Derived without path alteration from Make Me a Hanzi graphics.txt commit bddc96d41bef78427ed0e034e9f7e31d71fd1b92; Arphic Public License; generated wrapper adds path indices and the source coordinate transform. Stroke-type names are unavailable in the path source.</metadata>
+  <g fill="#000" transform="scale(1,-1) translate(0,-900)">
+    <path id="stroke-U+5E7F-1" data-stroke-index="1" data-stroke-type-status="source-unavailable" d="M 476 765 Q 516 741 562 711 Q 578 701 595 703 Q 605 704 609 720 Q 610 736 597 766 Q 581 802 462 814 Q 446 815 439 811 Q 435 807 439 793 Q 445 783 476 765 Z"/>
+    <path id="stroke-U+5E7F-2" data-stroke-index="2" data-stroke-type-status="source-unavailable" d="M 336 539 Q 352 557 789 606 Q 801 603 811 618 Q 812 631 788 644 Q 749 668 661 645 Q 466 608 401 600 Q 356 597 310 590 C 280 586 308 527 336 539 Z"/>
+    <path id="stroke-U+5E7F-3" data-stroke-index="3" data-stroke-type-status="source-unavailable" d="M 310 590 Q 271 617 251 609 Q 238 602 245 587 Q 261 568 262 511 Q 261 496 260 479 Q 254 320 216 211 Q 183 118 111 5 Q 107 -2 104 -9 Q 101 -21 112 -18 Q 151 -11 225 112 Q 234 130 244 148 Q 304 283 325 479 Q 328 513 336 539 C 344 568 336 574 310 590 Z"/>
+  </g>
+</svg>

@@ -1,0 +1,146 @@
+{
+  "id": "moe1996-00403",
+  "traditional": "代表",
+  "simplified": "代表",
+  "constituent_chars": [
+    "U+4EE3",
+    "U+8868"
+  ],
+  "pinyin": [
+    {
+      "reading": "dài biǎo",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        6332
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄞˋ ㄅㄧㄠˇ",
+      "pinyin": "dài biǎo",
+      "source_entry_indices": [
+        6332
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "representative",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6332
+      ]
+    },
+    {
+      "gloss": "delegate",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6332
+      ]
+    },
+    {
+      "gloss": "CL:位[wei4],個|个[ge4],名[ming2]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6332
+      ]
+    },
+    {
+      "gloss": "to represent",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6332
+      ]
+    },
+    {
+      "gloss": "to stand for",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6332
+      ]
+    },
+    {
+      "gloss": "on behalf of",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6332
+      ]
+    },
+    {
+      "gloss": "in the name of",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        6332
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 403,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 198,
+    "cumulative_count": 324969,
+    "percentage": 0.03207485,
+    "cumulative_percentage": 52.64309759,
+    "per_million": 320.748543,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    6332
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

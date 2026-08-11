@@ -1,0 +1,475 @@
+{
+  "codepoint": "U+53C3",
+  "traditional": "參",
+  "simplified": null,
+  "simplification_note": null,
+  "variants_異體字": [
+    {
+      "char": "叅",
+      "codepoint": "U+53C5",
+      "relationship": "semantic",
+      "source_property": "kSemanticVariant"
+    },
+    {
+      "char": "叅",
+      "codepoint": "U+53C5",
+      "relationship": "specialized_semantic",
+      "source_property": "kSpecializedSemanticVariant"
+    },
+    {
+      "char": "薓",
+      "codepoint": "U+8593",
+      "relationship": "specialized_semantic",
+      "source_property": "kSpecializedSemanticVariant"
+    }
+  ],
+  "radical": {
+    "kangxi_number": 28,
+    "residual_strokes": 9,
+    "source_assignment": "28.9",
+    "additional_assignments": []
+  },
+  "total_strokes": 11,
+  "total_strokes_standard": "TW-MOE-1996",
+  "stroke_count_variants": [],
+  "ids_decomposition": "⿳厽人彡",
+  "components": null,
+  "liushu_六書": {
+    "source_type": "pictophonetic",
+    "type": "形聲",
+    "semantic_component": null,
+    "phonetic_component": "U+5F61",
+    "hint": null
+  },
+  "readings": {
+    "pinyin": [
+      {
+        "reading": "shēn",
+        "context": "primary",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      },
+      {
+        "reading": "cān",
+        "context": "additional",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      },
+      {
+        "reading": "cēn",
+        "context": "additional",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      },
+      {
+        "reading": "sān",
+        "context": "additional",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      }
+    ],
+    "zhuyin": [
+      "ㄕㄣ",
+      "ㄘㄢ",
+      "ㄘㄣ",
+      "ㄙㄢ"
+    ],
+    "pinyin_variants": [
+      {
+        "reading": "càn",
+        "region": "und",
+        "classification": "dictionary_attestation",
+        "source_id": "unicode-unihan-17.0.0",
+        "source_property": "kHanyuPinyin"
+      },
+      {
+        "reading": "sǎn",
+        "region": "und",
+        "classification": "dictionary_attestation",
+        "source_id": "unicode-unihan-17.0.0",
+        "source_property": "kHanyuPinyin"
+      }
+    ],
+    "jyutping": [
+      "caam1"
+    ],
+    "japanese_on": [
+      "SAN"
+    ],
+    "japanese_kun": [
+      "MAIRU"
+    ],
+    "korean": [
+      "CHAM",
+      "SAM"
+    ],
+    "fanqie": [
+      "所今",
+      "楚簪",
+      "倉含",
+      "蘇甘",
+      "七紺"
+    ],
+    "hangul": [
+      "삼",
+      "참"
+    ]
+  },
+  "definitions": [
+    {
+      "gloss": "take part in, intervene; ginseng",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "unicode-unihan-17.0.0"
+    },
+    {
+      "gloss": "three (banker's anti-fraud numeral)",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "to take part in",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "to participate",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "to join",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "to attend",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "to counsel",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "unequal",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "varied",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "irregular",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "uneven",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "not uniform",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "abbr. for 參議院|参议院 Senate, Upper House",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "used in 參差|参差[cen1 ci1]",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "ginseng",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "one of the 28 constellations",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    }
+  ],
+  "frequency": {
+    "rank": 458,
+    "selection_rank": 458,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 542,
+    "cumulative_count": 738773,
+    "cumulative_percentage": 73.44719324,
+    "per_million": 538.844526,
+    "corpus_total_count": 1005856
+  },
+  "grading": {
+    "hsk": null,
+    "tocfl": null
+  },
+  "confusable_with": null,
+  "kangxi_citation": "0164.280",
+  "sources": {
+    "codepoint": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996"
+    ],
+    "variants_異體字": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical": [
+      "unicode-unihan-17.0.0"
+    ],
+    "total_strokes": [
+      "moe-tw-common-terms-1996"
+    ],
+    "total_strokes_standard": [
+      "moe-tw-common-terms-1996"
+    ],
+    "stroke_count_variants": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0",
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "ids_decomposition": [
+      "makemeahanzi-dictionary-master-audit"
+    ],
+    "liushu_六書": [
+      "makemeahanzi-dictionary-master-audit"
+    ],
+    "readings.pinyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.zhuyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.pinyin_variants": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.jyutping": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_on": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_kun": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.korean": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.fanqie": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.hangul": [
+      "unicode-unihan-17.0.0"
+    ],
+    "definitions": [
+      "unicode-unihan-17.0.0",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "kangxi_citation": [
+      "unicode-unihan-17.0.0"
+    ],
+    "english_translation": [
+      "unicode-unihan-17.0.0"
+    ],
+    "common_words": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "stroke_order.svg_asset_id": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.standard": [
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.source_convention": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.formal_conformance": [
+      "makemeahanzi-graphics-master-audit",
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.stroke_count": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.taiwan_cns_stroke_sequence": [
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "simplified",
+      "reason": "conflicting_sources",
+      "detail": "The approved mapping sources do not yield one unambiguous Simplified character."
+    },
+    {
+      "field": "simplification_note",
+      "reason": "conflicting_sources",
+      "detail": "A many-to-one note cannot be computed while the Simplified mapping itself remains unresolved."
+    },
+    {
+      "field": "components",
+      "reason": "source_unavailable",
+      "detail": "Component references outside the Phase 3 top-2,000 set are not emitted as dangling record references: U+53BD, U+5F61"
+    },
+    {
+      "field": "liushu_六書.semantic_component",
+      "reason": "not_attested",
+      "detail": "The source does not identify a single resolvable semantic component."
+    },
+    {
+      "field": "liushu_六書.hint",
+      "reason": "not_attested",
+      "detail": "Make Me a Hanzi supplies no explanatory hint for this etymology row."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK character-level source passed the Phase 0 audit."
+    },
+    {
+      "field": "grading.tocfl",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved TOCFL character-level source passed the Phase 0 audit."
+    },
+    {
+      "field": "confusable_with",
+      "reason": "source_unavailable",
+      "detail": "No approved curated visual-confusables source passed the Phase 0 audit."
+    },
+    {
+      "field": "stroke_order.stroke_types",
+      "reason": "source_unavailable",
+      "detail": "Make Me a Hanzi supplies ordered paths but no authoritative per-path stroke-type names; Taiwan CNS types are retained separately and are not assigned to PRC path indices."
+    },
+    {
+      "field": "stroke_order.formal_standard_verification",
+      "reason": "source_unavailable",
+      "detail": "The GF 0023-2020 publication is reference-only and the path source claims PRC convention without formal per-character conformance evidence."
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "simplified",
+      "resolution": "unresolved",
+      "values": [
+        {
+          "value": "U+53C2",
+          "source_ids": [
+            "unicode-unihan-17.0.0"
+          ]
+        },
+        {
+          "value": "U+53C1",
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ]
+        },
+        {
+          "value": "U+53C2",
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ]
+        }
+      ],
+      "detail": "Multiple or disagreeing Simplified mappings are preserved without selecting one."
+    }
+  ],
+  "english_translation": "take part in, intervene; ginseng",
+  "common_words": [
+    "moe1996-00455",
+    "moe1996-00796",
+    "moe1996-01046",
+    "moe1996-01507",
+    "moe1996-04467",
+    "moe1996-05252",
+    "moe1996-05643",
+    "moe1996-06071",
+    "moe1996-06602",
+    "moe1996-06604"
+  ],
+  "stroke_order": {
+    "svg_asset_id": "stroke-order-U+53C3-mmah-bddc96d4",
+    "standard": "PRC GF 0023-2020 (provisional baseline)",
+    "source_convention": "Make Me a Hanzi PRC stroke order",
+    "formal_conformance": "not_verified",
+    "stroke_count": 11,
+    "stroke_types": null,
+    "taiwan_cns_stroke_sequence": [
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      }
+    ],
+    "standard_conflicts": []
+  }
+}

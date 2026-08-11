@@ -1,0 +1,106 @@
+{
+  "id": "moe1996-07857",
+  "traditional": "南京",
+  "simplified": "南京",
+  "constituent_chars": [
+    "U+5357",
+    "U+4EAC"
+  ],
+  "pinyin": [
+    {
+      "reading": "nán jīng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        16976
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄋㄢˊ ㄐㄧㄥ",
+      "pinyin": "nán jīng",
+      "source_entry_indices": [
+        16976
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "see 南京市[Nan2 jing1 Shi4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        16976
+      ]
+    },
+    {
+      "gloss": "Nanjing, capital of the Ming dynasty (1368–1421) and of the Republic of China (1927–1937 and 1946–1949)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        16976
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 7857,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 7,
+    "cumulative_count": 541997,
+    "percentage": 0.00113396,
+    "cumulative_percentage": 87.80037777,
+    "per_million": 11.339595,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    16976
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,376 @@
+{
+  "codepoint": "U+8108",
+  "traditional": "脈",
+  "simplified": "脉",
+  "simplification_note": {
+    "mapping_type": "many_traditional_to_one_simplified",
+    "simplified": "U+8109",
+    "traditional_origins": [
+      "U+4611",
+      "U+8108",
+      "U+8109",
+      "U+8847"
+    ]
+  },
+  "variants_異體字": [
+    {
+      "char": "衇",
+      "codepoint": "U+8847",
+      "relationship": "semantic",
+      "source_property": "kSemanticVariant"
+    },
+    {
+      "char": "脉",
+      "codepoint": "U+8109",
+      "relationship": "semantic",
+      "source_property": "kSemanticVariant"
+    },
+    {
+      "char": "衇",
+      "codepoint": "U+8847",
+      "relationship": "specialized_semantic",
+      "source_property": "kSpecializedSemanticVariant"
+    }
+  ],
+  "radical": {
+    "kangxi_number": 130,
+    "residual_strokes": 6,
+    "source_assignment": "130.6",
+    "additional_assignments": []
+  },
+  "total_strokes": 10,
+  "total_strokes_standard": "TW-MOE-1996",
+  "stroke_count_variants": [],
+  "ids_decomposition": "⿰肉永",
+  "components": [
+    "U+8089",
+    "U+6C38"
+  ],
+  "liushu_六書": {
+    "source_type": "ideographic",
+    "type": null,
+    "semantic_component": null,
+    "phonetic_component": null,
+    "hint": "Long 永 vessels through one's body 肉"
+  },
+  "readings": {
+    "pinyin": [
+      {
+        "reading": "mò",
+        "context": "primary",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      },
+      {
+        "reading": "mài",
+        "context": "additional",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      }
+    ],
+    "zhuyin": [
+      "ㄇㄛˋ",
+      "ㄇㄞˋ"
+    ],
+    "jyutping": [
+      "mak6"
+    ],
+    "japanese_on": [
+      "MYAKU",
+      "BAKU"
+    ],
+    "japanese_kun": [
+      "SUJI"
+    ],
+    "korean": [
+      "MAYK"
+    ],
+    "fanqie": [
+      "莫獲"
+    ],
+    "hangul": [
+      "맥"
+    ]
+  },
+  "definitions": [
+    {
+      "gloss": "blood vessels, veins, arteries",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "unicode-unihan-17.0.0"
+    },
+    {
+      "gloss": "arteries and veins",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "vein (on a leaf, insect wing etc)",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "see 脈脈|脉脉[mo4 mo4]",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    }
+  ],
+  "frequency": {
+    "rank": 1403,
+    "selection_rank": 1399,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 82,
+    "cumulative_count": 949891,
+    "cumulative_percentage": 94.4360823,
+    "per_million": 81.522604,
+    "corpus_total_count": 1005856
+  },
+  "grading": {
+    "hsk": null,
+    "tocfl": null
+  },
+  "confusable_with": null,
+  "kangxi_citation": "0982.050",
+  "sources": {
+    "codepoint": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996"
+    ],
+    "variants_異體字": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical": [
+      "unicode-unihan-17.0.0"
+    ],
+    "total_strokes": [
+      "moe-tw-common-terms-1996"
+    ],
+    "total_strokes_standard": [
+      "moe-tw-common-terms-1996"
+    ],
+    "stroke_count_variants": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0",
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "simplified": [
+      "unicode-unihan-17.0.0",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplification_note": [
+      "unicode-unihan-17.0.0",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "ids_decomposition": [
+      "makemeahanzi-dictionary-master-audit",
+      "unicode-equivalent-unified-ideograph-17.0.0"
+    ],
+    "components": [
+      "makemeahanzi-dictionary-master-audit",
+      "unicode-equivalent-unified-ideograph-17.0.0"
+    ],
+    "liushu_六書": [
+      "makemeahanzi-dictionary-master-audit",
+      "unicode-equivalent-unified-ideograph-17.0.0"
+    ],
+    "readings.pinyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.zhuyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.jyutping": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_on": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_kun": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.korean": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.fanqie": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.hangul": [
+      "unicode-unihan-17.0.0"
+    ],
+    "definitions": [
+      "unicode-unihan-17.0.0",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "kangxi_citation": [
+      "unicode-unihan-17.0.0"
+    ],
+    "english_translation": [
+      "unicode-unihan-17.0.0"
+    ],
+    "common_words": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "stroke_order.svg_asset_id": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.standard": [
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.source_convention": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.formal_conformance": [
+      "makemeahanzi-graphics-master-audit",
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.stroke_count": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.taiwan_cns_stroke_sequence": [
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "liushu_六書.type",
+      "reason": "source_unavailable",
+      "detail": "The source's broad category is preserved but not forced into a more specific traditional 六書 category."
+    },
+    {
+      "field": "liushu_六書.semantic_component",
+      "reason": "not_attested",
+      "detail": "The source category does not attest a separate semantic component."
+    },
+    {
+      "field": "liushu_六書.phonetic_component",
+      "reason": "not_attested",
+      "detail": "The source category does not attest a separate phonetic component."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK character-level source passed the Phase 0 audit."
+    },
+    {
+      "field": "grading.tocfl",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved TOCFL character-level source passed the Phase 0 audit."
+    },
+    {
+      "field": "confusable_with",
+      "reason": "source_unavailable",
+      "detail": "No approved curated visual-confusables source passed the Phase 0 audit."
+    },
+    {
+      "field": "stroke_order.stroke_types",
+      "reason": "source_unavailable",
+      "detail": "Make Me a Hanzi supplies ordered paths but no authoritative per-path stroke-type names; Taiwan CNS types are retained separately and are not assigned to PRC path indices."
+    },
+    {
+      "field": "stroke_order.formal_standard_verification",
+      "reason": "source_unavailable",
+      "detail": "The GF 0023-2020 publication is reference-only and the path source claims PRC convention without formal per-character conformance evidence."
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "radical.total_strokes_equation",
+      "resolution": "recorded_no_value_change",
+      "values": [
+        {
+          "value": {
+            "radical_strokes": 6,
+            "residual_strokes": 6,
+            "sum": 12
+          },
+          "source_ids": [
+            "unicode-unihan-17.0.0",
+            "cns11643-attributes-2026-08-05"
+          ]
+        },
+        {
+          "value": 10,
+          "source_ids": [
+            "moe-tw-common-terms-1996"
+          ]
+        }
+      ],
+      "detail": "The Unihan radical assignment and delivered radical count do not add to the Taiwan MOE total; both values are retained for review."
+    }
+  ],
+  "english_translation": "blood vessels, veins, arteries",
+  "common_words": [
+    "moe1996-07530",
+    "moe1996-07984",
+    "moe1996-09628",
+    "moe1996-10329",
+    "moe1996-13201",
+    "moe1996-14497",
+    "moe1996-15283",
+    "moe1996-19204",
+    "moe1996-22249",
+    "moe1996-23399"
+  ],
+  "stroke_order": {
+    "svg_asset_id": "stroke-order-U+8108-mmah-bddc96d4",
+    "standard": "PRC GF 0023-2020 (provisional baseline)",
+    "source_convention": "Make Me a Hanzi PRC stroke order",
+    "formal_conformance": "not_verified",
+    "stroke_count": 10,
+    "stroke_types": null,
+    "taiwan_cns_stroke_sequence": [
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      }
+    ],
+    "standard_conflicts": []
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "id": "moe1996-05622",
+  "traditional": "粉",
+  "simplified": "粉",
+  "constituent_chars": [
+    "U+7C89"
+  ],
+  "pinyin": [
+    {
+      "reading": "fěn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        83652
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄈㄣˇ",
+      "pinyin": "fěn",
+      "source_entry_indices": [
+        83652
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "powder",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        83652
+      ]
+    },
+    {
+      "gloss": "cosmetic face powder",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        83652
+      ]
+    },
+    {
+      "gloss": "food prepared from starch; noodles or pasta made from any kind of flour",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        83652
+      ]
+    },
+    {
+      "gloss": "to turn to powder",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        83652
+      ]
+    },
+    {
+      "gloss": "(dialect) to whitewash",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        83652
+      ]
+    },
+    {
+      "gloss": "white",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        83652
+      ]
+    },
+    {
+      "gloss": "pink",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        83652
+      ]
+    },
+    {
+      "gloss": "(suffix) fan (abbr. for 粉絲|粉丝[fen3 si1])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        83652
+      ]
+    },
+    {
+      "gloss": "to be a fan of",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        83652
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 5622,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 11,
+    "cumulative_count": 522311,
+    "percentage": 0.00178194,
+    "cumulative_percentage": 84.61135968,
+    "per_million": 17.819363,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    83652
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,138 @@
+{
+  "id": "moe1996-13834",
+  "traditional": "加蓋",
+  "simplified": "加盖",
+  "constituent_chars": [
+    "U+52A0",
+    "U+84CB"
+  ],
+  "pinyin": [
+    {
+      "reading": "jiā gài",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        15267
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄐㄧㄚ ㄍㄞˋ",
+      "pinyin": "jiā gài",
+      "source_entry_indices": [
+        15267
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to seal (with an official stamp)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15267
+      ]
+    },
+    {
+      "gloss": "to stamp",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15267
+      ]
+    },
+    {
+      "gloss": "(fig.) to ratify",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15267
+      ]
+    },
+    {
+      "gloss": "to put a lid on (a cooking pot)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15267
+      ]
+    },
+    {
+      "gloss": "to cap",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15267
+      ]
+    },
+    {
+      "gloss": "to build an extension or additional story",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15267
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 13834,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 3,
+    "cumulative_count": 570982,
+    "percentage": 0.00048598,
+    "cumulative_percentage": 92.49578005,
+    "per_million": 4.859826,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    15267
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

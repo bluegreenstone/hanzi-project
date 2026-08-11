@@ -1,0 +1,136 @@
+{
+  "id": "moe1996-01984",
+  "traditional": "嘛",
+  "simplified": "嘛",
+  "constituent_chars": [
+    "U+561B"
+  ],
+  "pinyin": [
+    {
+      "reading": "má",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        23118
+      ]
+    },
+    {
+      "reading": "ma",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        23119
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄇㄚˊ",
+      "pinyin": "má",
+      "source_entry_indices": [
+        23118
+      ]
+    },
+    {
+      "reading": "˙ㄇㄚ",
+      "pinyin": "ma",
+      "source_entry_indices": [
+        23119
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "used in 唵嘛呢叭咪吽[an3 ma2 ni2 ba1 mi1 hong1]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        23118
+      ]
+    },
+    {
+      "gloss": "(Tw) (coll.) what?",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        23118
+      ]
+    },
+    {
+      "gloss": "modal particle indicating that sth is obvious",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        23119
+      ]
+    },
+    {
+      "gloss": "particle indicating a pause for emphasis",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        23119
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1984,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 38,
+    "cumulative_count": 451195,
+    "percentage": 0.00615578,
+    "cumulative_percentage": 73.09097919,
+    "per_million": 61.557801,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    23118,
+    23119
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

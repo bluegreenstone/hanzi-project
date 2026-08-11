@@ -1,0 +1,106 @@
+{
+  "id": "moe1996-00794",
+  "traditional": "股價",
+  "simplified": "股价",
+  "constituent_chars": [
+    "U+80A1",
+    "U+50F9"
+  ],
+  "pinyin": [
+    {
+      "reading": "gǔ jià",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        89670
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄍㄨˇ ㄐㄧㄚˋ",
+      "pinyin": "gǔ jià",
+      "source_entry_indices": [
+        89670
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "stock price",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        89670
+      ]
+    },
+    {
+      "gloss": "share price",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        89670
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 794,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 101,
+    "cumulative_count": 379097,
+    "percentage": 0.01636142,
+    "cumulative_percentage": 61.41152038,
+    "per_million": 163.614156,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    89670
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

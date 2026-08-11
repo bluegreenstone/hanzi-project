@@ -1,0 +1,113 @@
+{
+  "id": "moe1996-42822",
+  "traditional": "劍拔弩張",
+  "simplified": "剑拔弩张",
+  "constituent_chars": [
+    "U+528D",
+    "U+62D4",
+    "U+5F29",
+    "U+5F35"
+  ],
+  "pinyin": [
+    {
+      "reading": "jiàn bá nǔ zhāng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        14964
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄐㄧㄢˋ ㄅㄚˊ ㄋㄨˇ ㄓㄤ",
+      "pinyin": "jiàn bá nǔ zhāng",
+      "source_entry_indices": [
+        14964
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "lit. with swords drawn and bows bent (idiom); fig. a state of mutual hostility",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        14964
+      ]
+    },
+    {
+      "gloss": "at daggers drawn",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        14964
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 42822,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 1,
+    "cumulative_count": 613407,
+    "percentage": 0.00016199,
+    "cumulative_percentage": 99.36838456,
+    "per_million": 1.619942,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    14964
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+5F29"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

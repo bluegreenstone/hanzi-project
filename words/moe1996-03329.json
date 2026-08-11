@@ -1,0 +1,129 @@
+{
+  "id": "moe1996-03329",
+  "traditional": "臨",
+  "simplified": "临",
+  "constituent_chars": [
+    "U+81E8"
+  ],
+  "pinyin": [
+    {
+      "reading": "lín",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        91203
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄌㄧㄣˊ",
+      "pinyin": "lín",
+      "source_entry_indices": [
+        91203
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to face",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        91203
+      ]
+    },
+    {
+      "gloss": "to overlook",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        91203
+      ]
+    },
+    {
+      "gloss": "to arrive",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        91203
+      ]
+    },
+    {
+      "gloss": "to be (just) about to",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        91203
+      ]
+    },
+    {
+      "gloss": "just before",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        91203
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 3329,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 21,
+    "cumulative_count": 488162,
+    "percentage": 0.00340188,
+    "cumulative_percentage": 79.07941928,
+    "per_million": 34.018785,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    91203
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

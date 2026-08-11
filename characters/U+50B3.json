@@ -1,0 +1,367 @@
+{
+  "codepoint": "U+50B3",
+  "traditional": "傳",
+  "simplified": "传",
+  "simplification_note": null,
+  "variants_異體字": [],
+  "radical": {
+    "kangxi_number": 9,
+    "residual_strokes": 11,
+    "source_assignment": "9.11",
+    "additional_assignments": []
+  },
+  "total_strokes": 13,
+  "total_strokes_standard": "TW-MOE-1996",
+  "stroke_count_variants": [],
+  "ids_decomposition": "⿰亻專",
+  "components": null,
+  "liushu_六書": {
+    "source_type": "pictophonetic",
+    "type": "形聲",
+    "semantic_component": "U+4EBB",
+    "phonetic_component": "U+5C08",
+    "hint": "people"
+  },
+  "readings": {
+    "pinyin": [
+      {
+        "reading": "zhuàn",
+        "context": "primary",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      },
+      {
+        "reading": "chuán",
+        "context": "additional",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      }
+    ],
+    "zhuyin": [
+      "ㄓㄨㄢˋ",
+      "ㄔㄨㄢˊ"
+    ],
+    "jyutping": [
+      "cyun4"
+    ],
+    "japanese_on": [
+      "DEN",
+      "TEN"
+    ],
+    "japanese_kun": [
+      "TSUTAERU"
+    ],
+    "korean": [
+      "CEN"
+    ],
+    "fanqie": [
+      "直攣",
+      "直戀",
+      "知戀"
+    ],
+    "hangul": [
+      "전"
+    ]
+  },
+  "definitions": [
+    {
+      "gloss": "summon; propagate, transmit",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "unicode-unihan-17.0.0"
+    },
+    {
+      "gloss": "to pass on",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "to spread",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "to transmit",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "to infect",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "to transfer",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "to circulate",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "to conduct (electricity)",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "biography",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "historical narrative",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "commentaries",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "relay station",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    }
+  ],
+  "frequency": {
+    "rank": 341,
+    "selection_rank": 341,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 742,
+    "cumulative_count": 665539,
+    "cumulative_percentage": 66.16642939,
+    "per_million": 737.680145,
+    "corpus_total_count": 1005856
+  },
+  "grading": {
+    "hsk": null,
+    "tocfl": null
+  },
+  "confusable_with": null,
+  "kangxi_citation": "0114.230",
+  "sources": {
+    "codepoint": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996"
+    ],
+    "variants_異體字": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical": [
+      "unicode-unihan-17.0.0"
+    ],
+    "total_strokes": [
+      "moe-tw-common-terms-1996"
+    ],
+    "total_strokes_standard": [
+      "moe-tw-common-terms-1996"
+    ],
+    "stroke_count_variants": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0",
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "simplified": [
+      "unicode-unihan-17.0.0",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "ids_decomposition": [
+      "makemeahanzi-dictionary-master-audit"
+    ],
+    "liushu_六書": [
+      "makemeahanzi-dictionary-master-audit"
+    ],
+    "readings.pinyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.zhuyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.jyutping": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_on": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_kun": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.korean": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.fanqie": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.hangul": [
+      "unicode-unihan-17.0.0"
+    ],
+    "definitions": [
+      "unicode-unihan-17.0.0",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "kangxi_citation": [
+      "unicode-unihan-17.0.0"
+    ],
+    "english_translation": [
+      "unicode-unihan-17.0.0"
+    ],
+    "common_words": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "stroke_order.svg_asset_id": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.standard": [
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.source_convention": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.formal_conformance": [
+      "makemeahanzi-graphics-master-audit",
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.stroke_count": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.taiwan_cns_stroke_sequence": [
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "simplification_note",
+      "reason": "not_attested",
+      "detail": "The approved mapping sources do not attest multiple Traditional origins for the selected Simplified character."
+    },
+    {
+      "field": "components",
+      "reason": "source_unavailable",
+      "detail": "Component references outside the Phase 3 top-2,000 set are not emitted as dangling record references: U+4EBB"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK character-level source passed the Phase 0 audit."
+    },
+    {
+      "field": "grading.tocfl",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved TOCFL character-level source passed the Phase 0 audit."
+    },
+    {
+      "field": "confusable_with",
+      "reason": "source_unavailable",
+      "detail": "No approved curated visual-confusables source passed the Phase 0 audit."
+    },
+    {
+      "field": "stroke_order.stroke_types",
+      "reason": "source_unavailable",
+      "detail": "Make Me a Hanzi supplies ordered paths but no authoritative per-path stroke-type names; Taiwan CNS types are retained separately and are not assigned to PRC path indices."
+    },
+    {
+      "field": "stroke_order.formal_standard_verification",
+      "reason": "source_unavailable",
+      "detail": "The GF 0023-2020 publication is reference-only and the path source claims PRC convention without formal per-character conformance evidence."
+    }
+  ],
+  "conflicts": [],
+  "english_translation": "summon; propagate, transmit",
+  "common_words": [
+    "moe1996-00418",
+    "moe1996-01578",
+    "moe1996-02348",
+    "moe1996-02460",
+    "moe1996-02554",
+    "moe1996-03073",
+    "moe1996-03178",
+    "moe1996-03301",
+    "moe1996-03944",
+    "moe1996-03945"
+  ],
+  "stroke_order": {
+    "svg_asset_id": "stroke-order-U+50B3-mmah-bddc96d4",
+    "standard": "PRC GF 0023-2020 (provisional baseline)",
+    "source_convention": "Make Me a Hanzi PRC stroke order",
+    "formal_conformance": "not_verified",
+    "stroke_count": 13,
+    "stroke_types": null,
+    "taiwan_cns_stroke_sequence": [
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "2",
+        "name_zh": "豎"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "2",
+        "name_zh": "豎"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "2",
+        "name_zh": "豎"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      }
+    ],
+    "standard_conflicts": []
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "moe1996-16954",
+  "traditional": "籌募",
+  "simplified": "筹募",
+  "constituent_chars": [
+    "U+7C4C",
+    "U+52DF"
+  ],
+  "pinyin": [
+    {
+      "reading": "chóu mù",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        83500
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄔㄡˊ ㄇㄨˋ",
+      "pinyin": "chóu mù",
+      "source_entry_indices": [
+        83500
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to raise funds; to collect money",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        83500
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 16954,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 3,
+    "cumulative_count": 580342,
+    "percentage": 0.00048598,
+    "cumulative_percentage": 94.01204589,
+    "per_million": 4.859826,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    83500
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+52DF"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

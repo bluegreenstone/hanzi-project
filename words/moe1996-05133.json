@@ -1,0 +1,99 @@
+{
+  "id": "moe1996-05133",
+  "traditional": "在乎",
+  "simplified": "在乎",
+  "constituent_chars": [
+    "U+5728",
+    "U+4E4E"
+  ],
+  "pinyin": [
+    {
+      "reading": "zài hu",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        24824
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "to rest with; to lie in; to be due to (a certain attribute)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        24824
+      ]
+    },
+    {
+      "gloss": "(often used in the negative) to care about",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        24824
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 5133,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 12,
+    "cumulative_count": 516655,
+    "percentage": 0.00194393,
+    "cumulative_percentage": 83.69512041,
+    "per_million": 19.439306,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    24824
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

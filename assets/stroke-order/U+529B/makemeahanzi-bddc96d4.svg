@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img">
+  <title>力 U+529B ordered strokes</title>
+  <metadata>Derived without path alteration from Make Me a Hanzi graphics.txt commit bddc96d41bef78427ed0e034e9f7e31d71fd1b92; Arphic Public License; generated wrapper adds path indices and the source coordinate transform. Stroke-type names are unavailable in the path source.</metadata>
+  <g fill="#000" transform="scale(1,-1) translate(0,-900)">
+    <path id="stroke-U+529B-1" data-stroke-index="1" data-stroke-type-status="source-unavailable" d="M 521 525 Q 600 540 679 548 Q 704 549 709 537 Q 718 518 712 470 Q 693 293 656 200 Q 637 142 617 124 Q 604 111 576 120 Q 539 132 505 144 Q 480 151 497 129 Q 546 74 573 33 Q 583 9 606 16 Q 628 17 654 47 Q 732 122 767 421 Q 774 488 801 526 Q 820 551 810 563 Q 792 585 751 603 Q 723 619 691 605 Q 621 580 527 561 L 468 550 Q 303 531 241 532 Q 216 536 216 522 Q 215 510 240 492 Q 271 468 303 478 Q 382 499 461 514 L 521 525 Z"/>
+    <path id="stroke-U+529B-2" data-stroke-index="2" data-stroke-type-status="source-unavailable" d="M 461 514 Q 392 231 161 88 Q 142 75 123 60 Q 107 48 123 46 Q 139 45 182 62 Q 267 101 330 161 Q 402 224 449 318 Q 507 445 521 525 L 527 561 Q 558 717 573 745 Q 585 767 565 778 Q 507 820 474 810 Q 458 804 466 786 Q 496 723 468 550 L 461 514 Z"/>
+  </g>
+</svg>

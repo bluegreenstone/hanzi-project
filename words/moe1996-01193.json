@@ -1,0 +1,172 @@
+{
+  "id": "moe1996-01193",
+  "traditional": "金",
+  "simplified": "金",
+  "constituent_chars": [
+    "U+91D1"
+  ],
+  "pinyin": [
+    {
+      "reading": "jīn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        110738,
+        110739
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄐㄧㄣ",
+      "pinyin": "jīn",
+      "source_entry_indices": [
+        110738,
+        110739
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "surname Jin",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        110738
+      ]
+    },
+    {
+      "gloss": "surname Kim (Korean)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        110738
+      ]
+    },
+    {
+      "gloss": "Jurchen Jin dynasty (1115–1234)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        110738
+      ]
+    },
+    {
+      "gloss": "gold",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        110739
+      ]
+    },
+    {
+      "gloss": "chemical element Au",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        110739
+      ]
+    },
+    {
+      "gloss": "generic term for lustrous and ductile metals",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        110739
+      ]
+    },
+    {
+      "gloss": "money",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        110739
+      ]
+    },
+    {
+      "gloss": "golden",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        110739
+      ]
+    },
+    {
+      "gloss": "highly respected",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        110739
+      ]
+    },
+    {
+      "gloss": "one of the eight categories of ancient musical instruments 八音[ba1 yin1]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        110739
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1193,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 66,
+    "cumulative_count": 412073,
+    "percentage": 0.01069162,
+    "cumulative_percentage": 66.75344157,
+    "per_million": 106.916181,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    110738,
+    110739
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

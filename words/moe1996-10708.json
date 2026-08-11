@@ -1,0 +1,138 @@
+{
+  "id": "moe1996-10708",
+  "traditional": "載入",
+  "simplified": "载入",
+  "constituent_chars": [
+    "U+8F09",
+    "U+5165"
+  ],
+  "pinyin": [
+    {
+      "reading": "zǎi rù",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        105792
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄗㄞˇ ㄖㄨˋ",
+      "pinyin": "zǎi rù",
+      "source_entry_indices": [
+        105792
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to load into",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        105792
+      ]
+    },
+    {
+      "gloss": "to record",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        105792
+      ]
+    },
+    {
+      "gloss": "to write into",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        105792
+      ]
+    },
+    {
+      "gloss": "to enter (data)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        105792
+      ]
+    },
+    {
+      "gloss": "to go into (the records)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        105792
+      ]
+    },
+    {
+      "gloss": "to go down (in history)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        105792
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 10708,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 5,
+    "cumulative_count": 558507,
+    "percentage": 0.00080997,
+    "cumulative_percentage": 90.47490224,
+    "per_million": 8.099711,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    105792
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

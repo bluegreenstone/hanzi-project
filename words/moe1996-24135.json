@@ -1,0 +1,114 @@
+{
+  "id": "moe1996-24135",
+  "traditional": "一塌糊塗",
+  "simplified": "一塌糊涂",
+  "constituent_chars": [
+    "U+4E00",
+    "U+584C",
+    "U+7CCA",
+    "U+5857"
+  ],
+  "pinyin": [
+    {
+      "reading": "yī tā hú tu",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        479
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "muddled and completely collapsing (idiom); in an awful condition",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        479
+      ]
+    },
+    {
+      "gloss": "complete shambles",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        479
+      ]
+    },
+    {
+      "gloss": "a total mess",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        479
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 24135,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 1,
+    "cumulative_count": 594720,
+    "percentage": 0.00016199,
+    "cumulative_percentage": 96.34119869,
+    "per_million": 1.619942,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    479
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+584C"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

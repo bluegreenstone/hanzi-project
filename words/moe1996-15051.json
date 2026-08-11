@@ -1,0 +1,106 @@
+{
+  "id": "moe1996-15051",
+  "traditional": "訂做",
+  "simplified": "订做",
+  "constituent_chars": [
+    "U+8A02",
+    "U+505A"
+  ],
+  "pinyin": [
+    {
+      "reading": "dìng zuò",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        100056
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄧㄥˋ ㄗㄨㄛˋ",
+      "pinyin": "dìng zuò",
+      "source_entry_indices": [
+        100056
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to make to order",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        100056
+      ]
+    },
+    {
+      "gloss": "to have sth made to order",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        100056
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 15051,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 3,
+    "cumulative_count": 574633,
+    "percentage": 0.00048598,
+    "cumulative_percentage": 93.08722092,
+    "per_million": 4.859826,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    100056
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,161 @@
+{
+  "id": "moe1996-00313",
+  "traditional": "股",
+  "simplified": "股",
+  "constituent_chars": [
+    "U+80A1"
+  ],
+  "pinyin": [
+    {
+      "reading": "gǔ",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        89663
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄍㄨˇ",
+      "pinyin": "gǔ",
+      "source_entry_indices": [
+        89663
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "thigh",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        89663
+      ]
+    },
+    {
+      "gloss": "part of a whole; portion of a sum",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        89663
+      ]
+    },
+    {
+      "gloss": "(finance) stock; share",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        89663
+      ]
+    },
+    {
+      "gloss": "strand of a thread",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        89663
+      ]
+    },
+    {
+      "gloss": "low-level administrative unit, translated as \"section\" or \"department\" etc, ranked below 科[ke1]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        89663
+      ]
+    },
+    {
+      "gloss": "classifier for long winding things like ropes, rivers etc",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        89663
+      ]
+    },
+    {
+      "gloss": "classifier for smoke, smells etc: thread, puff, whiff",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        89663
+      ]
+    },
+    {
+      "gloss": "classifier for bands of people, gangs etc",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        89663
+      ]
+    },
+    {
+      "gloss": "classifier for sudden forceful actions",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        89663
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 313,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 246,
+    "cumulative_count": 305070,
+    "percentage": 0.03985058,
+    "cumulative_percentage": 49.41957473,
+    "per_million": 398.505765,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    89663
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,97 @@
+{
+  "id": "moe1996-19017",
+  "traditional": "豆腐皮",
+  "simplified": "豆腐皮",
+  "constituent_chars": [
+    "U+8C46",
+    "U+8150",
+    "U+76AE"
+  ],
+  "pinyin": [
+    {
+      "reading": "dòu fu pí",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        102292
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "tofu skin (made by drying the skin that forms on the surface of soymilk during cooking, and therefore not actually made from tofu)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        102292
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 19017,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 2,
+    "cumulative_count": 584572,
+    "percentage": 0.00032399,
+    "cumulative_percentage": 94.69728141,
+    "per_million": 3.239884,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    102292
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+8150"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

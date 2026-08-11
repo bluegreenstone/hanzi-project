@@ -1,0 +1,122 @@
+{
+  "id": "moe1996-43088",
+  "traditional": "撐開",
+  "simplified": "撑开",
+  "constituent_chars": [
+    "U+6490",
+    "U+958B"
+  ],
+  "pinyin": [
+    {
+      "reading": "chēng kāi",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        48973
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄔㄥ ㄎㄞ",
+      "pinyin": "chēng kāi",
+      "source_entry_indices": [
+        48973
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to stretch taut",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        48973
+      ]
+    },
+    {
+      "gloss": "to open (an umbrella)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        48973
+      ]
+    },
+    {
+      "gloss": "to hold (a bag etc) open",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        48973
+      ]
+    },
+    {
+      "gloss": "to prop open",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        48973
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 43088,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 1,
+    "cumulative_count": 613673,
+    "percentage": 0.00016199,
+    "cumulative_percentage": 99.41147502,
+    "per_million": 1.619942,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    48973
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

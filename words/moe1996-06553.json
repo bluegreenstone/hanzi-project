@@ -1,0 +1,107 @@
+{
+  "id": "moe1996-06553",
+  "traditional": "師父",
+  "simplified": "师父",
+  "constituent_chars": [
+    "U+5E2B",
+    "U+7236"
+  ],
+  "pinyin": [
+    {
+      "reading": "shī fu",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        37251
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "used for 師傅|师傅 (in Taiwan)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        37251
+      ]
+    },
+    {
+      "gloss": "master",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        37251
+      ]
+    },
+    {
+      "gloss": "qualified worker",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        37251
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 6553,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 9,
+    "cumulative_count": 531567,
+    "percentage": 0.00145795,
+    "cumulative_percentage": 86.11077812,
+    "per_million": 14.579479,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    37251
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

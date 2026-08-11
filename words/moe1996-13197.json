@@ -1,0 +1,99 @@
+{
+  "id": "moe1996-13197",
+  "traditional": "鋼琴家",
+  "simplified": "钢琴家",
+  "constituent_chars": [
+    "U+92FC",
+    "U+7434",
+    "U+5BB6"
+  ],
+  "pinyin": [
+    {
+      "reading": "gāng qín jiā",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        111702
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄍㄤ ㄑㄧㄣˊ ㄐㄧㄚ",
+      "pinyin": "gāng qín jiā",
+      "source_entry_indices": [
+        111702
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "pianist",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        111702
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 13197,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 4,
+    "cumulative_count": 568851,
+    "percentage": 0.00064798,
+    "cumulative_percentage": 92.15057038,
+    "per_million": 6.479769,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    111702
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

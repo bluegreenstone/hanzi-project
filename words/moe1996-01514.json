@@ -1,0 +1,171 @@
+{
+  "id": "moe1996-01514",
+  "traditional": "意思",
+  "simplified": "意思",
+  "constituent_chars": [
+    "U+610F",
+    "U+601D"
+  ],
+  "pinyin": [
+    {
+      "reading": "yì si",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        42510
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "idea",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42510
+      ]
+    },
+    {
+      "gloss": "opinion",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42510
+      ]
+    },
+    {
+      "gloss": "meaning",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42510
+      ]
+    },
+    {
+      "gloss": "wish",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42510
+      ]
+    },
+    {
+      "gloss": "desire",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42510
+      ]
+    },
+    {
+      "gloss": "interest",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42510
+      ]
+    },
+    {
+      "gloss": "fun",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42510
+      ]
+    },
+    {
+      "gloss": "token of appreciation, affection etc",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42510
+      ]
+    },
+    {
+      "gloss": "CL:個|个[ge4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42510
+      ]
+    },
+    {
+      "gloss": "to give as a small token",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42510
+      ]
+    },
+    {
+      "gloss": "to do sth as a gesture of goodwill etc",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42510
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1514,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 51,
+    "cumulative_count": 430635,
+    "percentage": 0.0082617,
+    "cumulative_percentage": 69.76037816,
+    "per_million": 82.617049,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    42510
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

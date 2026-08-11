@@ -1,0 +1,128 @@
+{
+  "id": "moe1996-06126",
+  "traditional": "椎",
+  "simplified": "椎",
+  "constituent_chars": [
+    "U+690E"
+  ],
+  "pinyin": [
+    {
+      "reading": "chuí",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        58208
+      ]
+    },
+    {
+      "reading": "zhuī",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        58209
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄔㄨㄟˊ",
+      "pinyin": "chuí",
+      "source_entry_indices": [
+        58208
+      ]
+    },
+    {
+      "reading": "ㄓㄨㄟ",
+      "pinyin": "zhuī",
+      "source_entry_indices": [
+        58209
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "hammer; mallet (variant of 槌[chui2])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        58208
+      ]
+    },
+    {
+      "gloss": "variant of 捶[chui2]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        58208
+      ]
+    },
+    {
+      "gloss": "(bound form) vertebra",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        58209
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 6126,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 10,
+    "cumulative_count": 527562,
+    "percentage": 0.00161994,
+    "cumulative_percentage": 85.4619913,
+    "per_million": 16.199421,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    58208,
+    58209
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

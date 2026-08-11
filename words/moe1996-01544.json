@@ -1,0 +1,103 @@
+{
+  "id": "moe1996-01544",
+  "traditional": "推薦",
+  "simplified": "推荐",
+  "constituent_chars": [
+    "U+63A8",
+    "U+85A6"
+  ],
+  "pinyin": [
+    {
+      "reading": "tuī jiàn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        47919
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄊㄨㄟ ㄐㄧㄢˋ",
+      "pinyin": "tuī jiàn",
+      "source_entry_indices": [
+        47919
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to recommend",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        47919
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1544,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 50,
+    "cumulative_count": 432140,
+    "percentage": 0.00809971,
+    "cumulative_percentage": 70.00417945,
+    "per_million": 80.997107,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    47919
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+85A6"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

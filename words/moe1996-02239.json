@@ -1,0 +1,99 @@
+{
+  "id": "moe1996-02239",
+  "traditional": "檢察官",
+  "simplified": "检察官",
+  "constituent_chars": [
+    "U+6AA2",
+    "U+5BDF",
+    "U+5B98"
+  ],
+  "pinyin": [
+    {
+      "reading": "jiǎn chá guān",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        59576
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄐㄧㄢˇ ㄔㄚˊ ㄍㄨㄢ",
+      "pinyin": "jiǎn chá guān",
+      "source_entry_indices": [
+        59576
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "public prosecutor; public procurator (judicial officer whose job may involve both criminal investigation and public prosecution)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        59576
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 2239,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 33,
+    "cumulative_count": 460126,
+    "percentage": 0.00534581,
+    "cumulative_percentage": 74.53774951,
+    "per_million": 53.45809,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    59576
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

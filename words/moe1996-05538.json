@@ -1,0 +1,99 @@
+{
+  "id": "moe1996-05538",
+  "traditional": "官司",
+  "simplified": "官司",
+  "constituent_chars": [
+    "U+5B98",
+    "U+53F8"
+  ],
+  "pinyin": [
+    {
+      "reading": "guān si",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        32222
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "lawsuit",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        32222
+      ]
+    },
+    {
+      "gloss": "CL:場|场[chang2]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        32222
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 5538,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 11,
+    "cumulative_count": 521387,
+    "percentage": 0.00178194,
+    "cumulative_percentage": 84.46167703,
+    "per_million": 17.819363,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    32222
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

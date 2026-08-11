@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img">
+  <title>小 U+5C0F ordered strokes</title>
+  <metadata>Derived without path alteration from Make Me a Hanzi graphics.txt commit bddc96d41bef78427ed0e034e9f7e31d71fd1b92; Arphic Public License; generated wrapper adds path indices and the source coordinate transform. Stroke-type names are unavailable in the path source.</metadata>
+  <g fill="#000" transform="scale(1,-1) translate(0,-900)">
+    <path id="stroke-U+5C0F-1" data-stroke-index="1" data-stroke-type-status="source-unavailable" d="M 499 695 Q 503 661 501 132 Q 500 110 488 101 Q 478 92 448 100 Q 414 107 383 113 Q 347 123 351 112 Q 352 105 375 91 Q 456 42 479 10 Q 504 -26 523 -25 Q 538 -26 552 11 Q 568 57 564 133 Q 531 583 572 723 Q 590 754 532 778 Q 498 797 477 789 Q 459 782 475 759 Q 497 731 499 695 Z"/>
+    <path id="stroke-U+5C0F-2" data-stroke-index="2" data-stroke-type-status="source-unavailable" d="M 266 475 Q 223 408 170 349 Q 160 339 155 320 Q 148 292 154 273 Q 158 251 185 261 Q 213 274 237 308 Q 273 357 284 404 Q 297 441 293 470 Q 289 480 283 484 Q 273 484 266 475 Z"/>
+    <path id="stroke-U+5C0F-3" data-stroke-index="3" data-stroke-type-status="source-unavailable" d="M 706 472 Q 769 411 842 323 Q 860 299 878 293 Q 888 292 897 303 Q 913 318 900 370 Q 887 431 709 508 Q 699 515 696 500 Q 695 484 706 472 Z"/>
+  </g>
+</svg>

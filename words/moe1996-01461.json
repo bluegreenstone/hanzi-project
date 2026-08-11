@@ -1,0 +1,199 @@
+{
+  "id": "moe1996-01461",
+  "traditional": "單",
+  "simplified": "单",
+  "constituent_chars": [
+    "U+55AE"
+  ],
+  "pinyin": [
+    {
+      "reading": "shàn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        22671
+      ]
+    },
+    {
+      "reading": "chán",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        22672
+      ]
+    },
+    {
+      "reading": "dān",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        22673
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄕㄢˋ",
+      "pinyin": "shàn",
+      "source_entry_indices": [
+        22671
+      ]
+    },
+    {
+      "reading": "ㄔㄢˊ",
+      "pinyin": "chán",
+      "source_entry_indices": [
+        22672
+      ]
+    },
+    {
+      "reading": "ㄉㄢ",
+      "pinyin": "dān",
+      "source_entry_indices": [
+        22673
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "surname Shan",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22671
+      ]
+    },
+    {
+      "gloss": "used in 單于|单于[chan2 yu2]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22672
+      ]
+    },
+    {
+      "gloss": "bill",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22673
+      ]
+    },
+    {
+      "gloss": "list",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22673
+      ]
+    },
+    {
+      "gloss": "form",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22673
+      ]
+    },
+    {
+      "gloss": "single",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22673
+      ]
+    },
+    {
+      "gloss": "only",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22673
+      ]
+    },
+    {
+      "gloss": "sole",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22673
+      ]
+    },
+    {
+      "gloss": "odd number",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22673
+      ]
+    },
+    {
+      "gloss": "CL:個|个[ge4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22673
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1461,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 53,
+    "cumulative_count": 427896,
+    "percentage": 0.00858569,
+    "cumulative_percentage": 69.31667601,
+    "per_million": 85.856933,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    22671,
+    22672,
+    22673
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

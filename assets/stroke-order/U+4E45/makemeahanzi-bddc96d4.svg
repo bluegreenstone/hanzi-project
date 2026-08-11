@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img">
+  <title>久 U+4E45 ordered strokes</title>
+  <metadata>Derived without path alteration from Make Me a Hanzi graphics.txt commit bddc96d41bef78427ed0e034e9f7e31d71fd1b92; Arphic Public License; generated wrapper adds path indices and the source coordinate transform. Stroke-type names are unavailable in the path source.</metadata>
+  <g fill="#000" transform="scale(1,-1) translate(0,-900)">
+    <path id="stroke-U+4E45-1" data-stroke-index="1" data-stroke-type-status="source-unavailable" d="M 407 578 Q 443 633 489 712 Q 498 728 505 735 Q 512 741 510 753 Q 507 763 493 776 Q 451 807 418 799 Q 408 796 412 782 Q 431 688 299 515 Q 296 514 294 509 Q 255 460 157 361 Q 147 355 160 353 Q 224 365 342 491 Q 357 510 375 531 Q 385 544 397 562 L 407 578 Z"/>
+    <path id="stroke-U+4E45-2" data-stroke-index="2" data-stroke-type-status="source-unavailable" d="M 539 331 Q 585 406 631 503 Q 650 537 679 558 Q 697 568 697 579 Q 696 594 662 612 Q 619 637 603 638 Q 590 637 577 627 Q 507 596 439 581 Q 418 581 407 578 C 377 575 371 575 397 562 Q 442 528 518 564 Q 554 582 568 572 Q 577 566 555 503 Q 533 430 485 356 Q 418 244 320 159 Q 235 86 127 31 Q 117 25 118 20 Q 119 14 128 15 Q 261 21 424 183 Q 467 231 523 306 L 539 331 Z"/>
+    <path id="stroke-U+4E45-3" data-stroke-index="3" data-stroke-type-status="source-unavailable" d="M 523 306 Q 628 137 741 18 Q 766 -12 792 -11 Q 864 -1 925 7 Q 952 10 951 17 Q 952 24 922 39 Q 763 105 722 143 Q 610 245 539 331 C 520 354 507 331 523 306 Z"/>
+  </g>
+</svg>

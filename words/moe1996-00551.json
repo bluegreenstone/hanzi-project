@@ -1,0 +1,122 @@
+{
+  "id": "moe1996-00551",
+  "traditional": "成立",
+  "simplified": "成立",
+  "constituent_chars": [
+    "U+6210",
+    "U+7ACB"
+  ],
+  "pinyin": [
+    {
+      "reading": "chéng lì",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        43697
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄔㄥˊ ㄌㄧˋ",
+      "pinyin": "chéng lì",
+      "source_entry_indices": [
+        43697
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to establish",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        43697
+      ]
+    },
+    {
+      "gloss": "to set up",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        43697
+      ]
+    },
+    {
+      "gloss": "to be tenable",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        43697
+      ]
+    },
+    {
+      "gloss": "to hold water",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        43697
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 551,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 144,
+    "cumulative_count": 349835,
+    "percentage": 0.02332717,
+    "cumulative_percentage": 56.6712457,
+    "per_million": 233.271668,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    43697
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

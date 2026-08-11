@@ -1,0 +1,122 @@
+{
+  "id": "moe1996-01704",
+  "traditional": "財產",
+  "simplified": "财产",
+  "constituent_chars": [
+    "U+8CA1",
+    "U+7522"
+  ],
+  "pinyin": [
+    {
+      "reading": "cái chǎn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        102779
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄘㄞˊ ㄔㄢˇ",
+      "pinyin": "cái chǎn",
+      "source_entry_indices": [
+        102779
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "property",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        102779
+      ]
+    },
+    {
+      "gloss": "assets",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        102779
+      ]
+    },
+    {
+      "gloss": "estate",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        102779
+      ]
+    },
+    {
+      "gloss": "CL:筆|笔[bi3]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        102779
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1704,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 45,
+    "cumulative_count": 439697,
+    "percentage": 0.00728974,
+    "cumulative_percentage": 71.22836972,
+    "per_million": 72.897396,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    102779
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

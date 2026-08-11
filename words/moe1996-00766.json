@@ -1,0 +1,176 @@
+{
+  "id": "moe1996-00766",
+  "traditional": "省",
+  "simplified": "省",
+  "constituent_chars": [
+    "U+7701"
+  ],
+  "pinyin": [
+    {
+      "reading": "shěng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        77851
+      ]
+    },
+    {
+      "reading": "xǐng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        77852
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄕㄥˇ",
+      "pinyin": "shěng",
+      "source_entry_indices": [
+        77851
+      ]
+    },
+    {
+      "reading": "ㄒㄧㄥˇ",
+      "pinyin": "xǐng",
+      "source_entry_indices": [
+        77852
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to save; to economize; to be frugal",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        77851
+      ]
+    },
+    {
+      "gloss": "to omit; to delete; to leave out",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        77851
+      ]
+    },
+    {
+      "gloss": "province",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        77851
+      ]
+    },
+    {
+      "gloss": "provincial capital",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        77851
+      ]
+    },
+    {
+      "gloss": "a ministry (of the Japanese government)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        77851
+      ]
+    },
+    {
+      "gloss": "(bound form) to scrutinize",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        77852
+      ]
+    },
+    {
+      "gloss": "(bound form) to reflect (on one's conduct)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        77852
+      ]
+    },
+    {
+      "gloss": "(bound form) to come to realize",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        77852
+      ]
+    },
+    {
+      "gloss": "(bound form) to pay a visit (to one's parents or elders)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        77852
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 766,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 105,
+    "cumulative_count": 376204,
+    "percentage": 0.01700939,
+    "cumulative_percentage": 60.94287112,
+    "per_million": 170.093924,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    77851,
+    77852
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

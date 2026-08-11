@@ -1,0 +1,106 @@
+{
+  "id": "moe1996-11938",
+  "traditional": "侵略",
+  "simplified": "侵略",
+  "constituent_chars": [
+    "U+4FB5",
+    "U+7565"
+  ],
+  "pinyin": [
+    {
+      "reading": "qīn lüè",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        7879
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄑㄧㄣ ㄌㄩㄝˋ",
+      "pinyin": "qīn lüè",
+      "source_entry_indices": [
+        7879
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to invade",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7879
+      ]
+    },
+    {
+      "gloss": "invasion",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7879
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 11938,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 4,
+    "cumulative_count": 563815,
+    "percentage": 0.00064798,
+    "cumulative_percentage": 91.33476752,
+    "per_million": 6.479769,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    7879
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

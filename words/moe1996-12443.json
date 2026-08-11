@@ -1,0 +1,99 @@
+{
+  "id": "moe1996-12443",
+  "traditional": "理監事",
+  "simplified": "理监事",
+  "constituent_chars": [
+    "U+7406",
+    "U+76E3",
+    "U+4E8B"
+  ],
+  "pinyin": [
+    {
+      "reading": "lǐ jiān shì",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        73329
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄌㄧˇ ㄐㄧㄢ ㄕˋ",
+      "pinyin": "lǐ jiān shì",
+      "source_entry_indices": [
+        73329
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "member of a board of directors",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        73329
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 12443,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 4,
+    "cumulative_count": 565835,
+    "percentage": 0.00064798,
+    "cumulative_percentage": 91.66199583,
+    "per_million": 6.479769,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    73329
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

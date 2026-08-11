@@ -1,0 +1,130 @@
+{
+  "id": "moe1996-00895",
+  "traditional": "擔心",
+  "simplified": "担心",
+  "constituent_chars": [
+    "U+64D4",
+    "U+5FC3"
+  ],
+  "pinyin": [
+    {
+      "reading": "dān xīn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        49422
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄢ ㄒㄧㄣ",
+      "pinyin": "dān xīn",
+      "source_entry_indices": [
+        49422
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "anxious",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        49422
+      ]
+    },
+    {
+      "gloss": "worried",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        49422
+      ]
+    },
+    {
+      "gloss": "uneasy",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        49422
+      ]
+    },
+    {
+      "gloss": "to worry",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        49422
+      ]
+    },
+    {
+      "gloss": "to be anxious",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        49422
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 895,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 92,
+    "cumulative_count": 388780,
+    "percentage": 0.01490347,
+    "cumulative_percentage": 62.98011035,
+    "per_million": 149.034676,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    49422
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

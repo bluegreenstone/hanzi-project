@@ -1,0 +1,418 @@
+{
+  "codepoint": "U+74CA",
+  "traditional": "瓊",
+  "simplified": "琼",
+  "simplification_note": {
+    "mapping_type": "many_traditional_to_one_simplified",
+    "simplified": "U+743C",
+    "traditional_origins": [
+      "U+743C",
+      "U+74CA"
+    ]
+  },
+  "variants_異體字": [],
+  "radical": {
+    "kangxi_number": 96,
+    "residual_strokes": 15,
+    "source_assignment": "96.15",
+    "additional_assignments": []
+  },
+  "total_strokes": 19,
+  "total_strokes_standard": "TW-MOE-1996",
+  "stroke_count_variants": [
+    {
+      "count": 18,
+      "region": "und",
+      "convention": "Unicode IRG kTotalStrokes",
+      "source_id": "unicode-unihan-17.0.0"
+    }
+  ],
+  "ids_decomposition": "⿰王敻",
+  "components": null,
+  "liushu_六書": {
+    "source_type": "pictophonetic",
+    "type": "形聲",
+    "semantic_component": "U+738B",
+    "phonetic_component": "U+657B",
+    "hint": "jade"
+  },
+  "readings": {
+    "pinyin": [
+      {
+        "reading": "qióng",
+        "context": "primary",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      }
+    ],
+    "zhuyin": [
+      "ㄑㄩㄥˊ"
+    ],
+    "pinyin_variants": [
+      {
+        "reading": "xuán",
+        "region": "und",
+        "classification": "dictionary_attestation",
+        "source_id": "unicode-unihan-17.0.0",
+        "source_property": "kHanyuPinyin"
+      }
+    ],
+    "jyutping": [
+      "king4"
+    ],
+    "japanese_on": [
+      "KEI"
+    ],
+    "japanese_kun": [
+      "TAMA"
+    ],
+    "korean": [
+      "KYENG"
+    ],
+    "fanqie": [
+      "渠營"
+    ],
+    "hangul": [
+      "경"
+    ]
+  },
+  "definitions": [
+    {
+      "gloss": "jade; rare, precious; elegant",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "unicode-unihan-17.0.0"
+    },
+    {
+      "gloss": "short name for Hainan 海南[Hai3 nan2]",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "jasper",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "fine jade",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "beautiful",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "exquisite (e.g. wine, food)",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "abbr. for Hainan province",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    }
+  ],
+  "frequency": {
+    "rank": 1804,
+    "selection_rank": 1797,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 46,
+    "cumulative_count": 974910,
+    "cumulative_percentage": 96.92341647,
+    "per_million": 45.732192,
+    "corpus_total_count": 1005856
+  },
+  "grading": {
+    "hsk": null,
+    "tocfl": null
+  },
+  "confusable_with": null,
+  "kangxi_citation": "0744.360",
+  "sources": {
+    "codepoint": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996"
+    ],
+    "variants_異體字": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical": [
+      "unicode-unihan-17.0.0"
+    ],
+    "total_strokes": [
+      "moe-tw-common-terms-1996"
+    ],
+    "total_strokes_standard": [
+      "moe-tw-common-terms-1996"
+    ],
+    "stroke_count_variants": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0",
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "simplified": [
+      "unicode-unihan-17.0.0",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplification_note": [
+      "unicode-unihan-17.0.0",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "ids_decomposition": [
+      "makemeahanzi-dictionary-master-audit"
+    ],
+    "liushu_六書": [
+      "makemeahanzi-dictionary-master-audit"
+    ],
+    "readings.pinyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.zhuyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.pinyin_variants": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.jyutping": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_on": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_kun": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.korean": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.fanqie": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.hangul": [
+      "unicode-unihan-17.0.0"
+    ],
+    "definitions": [
+      "unicode-unihan-17.0.0",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "kangxi_citation": [
+      "unicode-unihan-17.0.0"
+    ],
+    "english_translation": [
+      "unicode-unihan-17.0.0"
+    ],
+    "common_words": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "stroke_order.svg_asset_id": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.standard": [
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.source_convention": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.formal_conformance": [
+      "makemeahanzi-graphics-master-audit",
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.stroke_count": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.taiwan_cns_stroke_sequence": [
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "components",
+      "reason": "source_unavailable",
+      "detail": "Component references outside the Phase 3 top-2,000 set are not emitted as dangling record references: U+657B"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK character-level source passed the Phase 0 audit."
+    },
+    {
+      "field": "grading.tocfl",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved TOCFL character-level source passed the Phase 0 audit."
+    },
+    {
+      "field": "confusable_with",
+      "reason": "source_unavailable",
+      "detail": "No approved curated visual-confusables source passed the Phase 0 audit."
+    },
+    {
+      "field": "common_words",
+      "reason": "not_attested",
+      "detail": "Only 3 distinct MOE-ranked rows with an exact CC-CEDICT Traditional headword were available."
+    },
+    {
+      "field": "stroke_order.stroke_types",
+      "reason": "source_unavailable",
+      "detail": "Make Me a Hanzi supplies ordered paths but no authoritative per-path stroke-type names; Taiwan CNS types are retained separately and are not assigned to PRC path indices."
+    },
+    {
+      "field": "stroke_order.formal_standard_verification",
+      "reason": "source_unavailable",
+      "detail": "The GF 0023-2020 publication is reference-only and the path source claims PRC convention without formal per-character conformance evidence."
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "total_strokes",
+      "resolution": "tw_canonical_variant_retained",
+      "values": [
+        {
+          "value": 19,
+          "source_ids": [
+            "moe-tw-common-terms-1996"
+          ]
+        },
+        {
+          "value": 18,
+          "source_ids": [
+            "unicode-unihan-17.0.0"
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE frequency-table count remains canonical; differing CNS, Unicode IRG, or PRC path counts remain explicit variants."
+    },
+    {
+      "field": "radical.total_strokes_equation",
+      "resolution": "recorded_no_value_change",
+      "values": [
+        {
+          "value": {
+            "radical_strokes": 5,
+            "residual_strokes": 15,
+            "sum": 20
+          },
+          "source_ids": [
+            "unicode-unihan-17.0.0",
+            "cns11643-attributes-2026-08-05"
+          ]
+        },
+        {
+          "value": 19,
+          "source_ids": [
+            "moe-tw-common-terms-1996"
+          ]
+        }
+      ],
+      "detail": "The Unihan radical assignment and delivered radical count do not add to the Taiwan MOE total; both values are retained for review."
+    }
+  ],
+  "english_translation": "jade; rare, precious; elegant",
+  "common_words": [
+    "moe1996-16229",
+    "moe1996-45679",
+    "moe1996-45684"
+  ],
+  "stroke_order": {
+    "svg_asset_id": "stroke-order-U+74CA-mmah-bddc96d4",
+    "standard": "PRC GF 0023-2020 (provisional baseline)",
+    "source_convention": "Make Me a Hanzi PRC stroke order",
+    "formal_conformance": "not_verified",
+    "stroke_count": 19,
+    "stroke_types": null,
+    "taiwan_cns_stroke_sequence": [
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "2",
+        "name_zh": "豎"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "2",
+        "name_zh": "豎"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      },
+      {
+        "code": "2",
+        "name_zh": "豎"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      }
+    ],
+    "standard_conflicts": []
+  }
+}

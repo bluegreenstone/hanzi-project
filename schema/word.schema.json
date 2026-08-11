@@ -1,0 +1,215 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/hanzi-project/schema/word.schema.json",
+  "title": "Traditional-primary common word record (Phase 4)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "traditional",
+    "simplified",
+    "constituent_chars",
+    "pinyin",
+    "zhuyin",
+    "definitions",
+    "frequency",
+    "grading",
+    "segmentation_tool",
+    "cc_cedict_entry_indices",
+    "sources",
+    "gaps",
+    "conflicts"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^moe1996-[0-9]{5}$"
+    },
+    "traditional": { "type": "string", "minLength": 1 },
+    "simplified": {
+      "oneOf": [
+        { "type": "string", "minLength": 1 },
+        { "type": "null" }
+      ]
+    },
+    "constituent_chars": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/codepoint" }
+    },
+    "pinyin": {
+      "oneOf": [
+        {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/pinyinReading" }
+        },
+        { "type": "null" }
+      ]
+    },
+    "zhuyin": {
+      "oneOf": [
+        {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/zhuyinReading" }
+        },
+        { "type": "null" }
+      ]
+    },
+    "definitions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/definition" }
+    },
+    "frequency": { "$ref": "#/$defs/frequency" },
+    "grading": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hsk"],
+      "properties": {
+        "hsk": { "type": "null" }
+      }
+    },
+    "segmentation_tool": { "type": "null" },
+    "cc_cedict_entry_indices": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "integer", "minimum": 1 }
+    },
+    "sources": { "$ref": "#/$defs/sourceMap" },
+    "gaps": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/gap" }
+    },
+    "conflicts": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/conflict" }
+    }
+  },
+  "$defs": {
+    "codepoint": {
+      "type": "string",
+      "pattern": "^U\\+[0-9A-F]{4,6}$"
+    },
+    "entryIndices": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "integer", "minimum": 1 }
+    },
+    "pinyinReading": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reading", "context", "source_entry_indices"],
+      "properties": {
+        "reading": { "type": "string", "minLength": 1 },
+        "context": { "const": "dictionary_entry" },
+        "source_entry_indices": { "$ref": "#/$defs/entryIndices" }
+      }
+    },
+    "zhuyinReading": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reading", "pinyin", "source_entry_indices"],
+      "properties": {
+        "reading": { "type": "string", "minLength": 1 },
+        "pinyin": { "type": "string", "minLength": 1 },
+        "source_entry_indices": { "$ref": "#/$defs/entryIndices" }
+      }
+    },
+    "definition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["gloss", "lang", "register", "source_entry_indices"],
+      "properties": {
+        "gloss": { "type": "string", "minLength": 1 },
+        "lang": { "const": "en" },
+        "register": { "const": "modern" },
+        "source_entry_indices": { "$ref": "#/$defs/entryIndices" }
+      }
+    },
+    "frequency": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "rank",
+        "corpus_id",
+        "count",
+        "cumulative_count",
+        "percentage",
+        "cumulative_percentage",
+        "per_million",
+        "corpus_total_count"
+      ],
+      "properties": {
+        "rank": { "type": "integer", "minimum": 1, "maximum": 46721 },
+        "corpus_id": { "const": "moe-tw-common-terms-1996" },
+        "count": { "type": "integer", "minimum": 1 },
+        "cumulative_count": { "type": "integer", "minimum": 1 },
+        "percentage": { "type": "number", "exclusiveMinimum": 0, "maximum": 100 },
+        "cumulative_percentage": { "type": "number", "minimum": 0, "maximum": 100 },
+        "per_million": { "type": "number", "exclusiveMinimum": 0 },
+        "corpus_total_count": { "const": 617306 }
+      }
+    },
+    "sourceMap": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 1,
+        "uniqueItems": true,
+        "items": { "type": "string", "minLength": 1 }
+      }
+    },
+    "gap": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["field", "reason", "detail"],
+      "properties": {
+        "field": { "type": "string", "minLength": 1 },
+        "reason": {
+          "enum": [
+            "not_attested",
+            "source_unavailable",
+            "conflicting_sources",
+            "license_prohibits_use"
+          ]
+        },
+        "detail": { "type": "string", "minLength": 1 }
+      }
+    },
+    "conflictValue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "source_ids", "source_entry_indices"],
+      "properties": {
+        "value": true,
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "source_entry_indices": { "$ref": "#/$defs/entryIndices" }
+      }
+    },
+    "conflict": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["field", "resolution", "values", "detail"],
+      "properties": {
+        "field": { "type": "string", "minLength": 1 },
+        "resolution": { "const": "unresolved" },
+        "values": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "$ref": "#/$defs/conflictValue" }
+        },
+        "detail": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "id": "moe1996-01120",
+  "traditional": "集中",
+  "simplified": "集中",
+  "constituent_chars": [
+    "U+96C6",
+    "U+4E2D"
+  ],
+  "pinyin": [
+    {
+      "reading": "jí zhōng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        115513
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄐㄧˊ ㄓㄨㄥ",
+      "pinyin": "jí zhōng",
+      "source_entry_indices": [
+        115513
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to concentrate",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        115513
+      ]
+    },
+    {
+      "gloss": "to centralize",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        115513
+      ]
+    },
+    {
+      "gloss": "to focus",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        115513
+      ]
+    },
+    {
+      "gloss": "centralized",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        115513
+      ]
+    },
+    {
+      "gloss": "concentrated",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        115513
+      ]
+    },
+    {
+      "gloss": "to put together",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        115513
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1120,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 72,
+    "cumulative_count": 407046,
+    "percentage": 0.01166358,
+    "cumulative_percentage": 65.93909666,
+    "per_million": 116.635834,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    115513
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

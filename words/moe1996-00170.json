@@ -1,0 +1,184 @@
+{
+  "id": "moe1996-00170",
+  "traditional": "作",
+  "simplified": "作",
+  "constituent_chars": [
+    "U+4F5C"
+  ],
+  "pinyin": [
+    {
+      "reading": "zuō",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        7379
+      ]
+    },
+    {
+      "reading": "zuò",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        7380
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄗㄨㄛ",
+      "pinyin": "zuō",
+      "source_entry_indices": [
+        7379
+      ]
+    },
+    {
+      "reading": "ㄗㄨㄛˋ",
+      "pinyin": "zuò",
+      "source_entry_indices": [
+        7380
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "(bound form) worker",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7379
+      ]
+    },
+    {
+      "gloss": "(bound form) workshop",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7379
+      ]
+    },
+    {
+      "gloss": "(slang) troublesome; high-maintenance (person)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7379
+      ]
+    },
+    {
+      "gloss": "to do; to engage in",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7380
+      ]
+    },
+    {
+      "gloss": "to write; to compose",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7380
+      ]
+    },
+    {
+      "gloss": "to pretend; to feign",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7380
+      ]
+    },
+    {
+      "gloss": "to regard as; to consider to be",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7380
+      ]
+    },
+    {
+      "gloss": "to be; to act the part of",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7380
+      ]
+    },
+    {
+      "gloss": "to feel (itchy, nauseous etc)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7380
+      ]
+    },
+    {
+      "gloss": "writings; works",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7380
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 170,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 416,
+    "cumulative_count": 260438,
+    "percentage": 0.06738959,
+    "cumulative_percentage": 42.18944899,
+    "per_million": 673.895928,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    7379,
+    7380
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

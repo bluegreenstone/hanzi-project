@@ -1,0 +1,98 @@
+{
+  "id": "moe1996-01272",
+  "traditional": "合理",
+  "simplified": "合理",
+  "constituent_chars": [
+    "U+5408",
+    "U+7406"
+  ],
+  "pinyin": [
+    {
+      "reading": "hé lǐ",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        19729
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄏㄜˊ ㄌㄧˇ",
+      "pinyin": "hé lǐ",
+      "source_entry_indices": [
+        19729
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "rational; reasonable; sensible; fair",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        19729
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1272,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 61,
+    "cumulative_count": 417104,
+    "percentage": 0.00988165,
+    "cumulative_percentage": 67.56843446,
+    "per_million": 98.81647,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    19729
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

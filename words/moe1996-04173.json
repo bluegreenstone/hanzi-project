@@ -1,0 +1,153 @@
+{
+  "id": "moe1996-04173",
+  "traditional": "撥",
+  "simplified": "拨",
+  "constituent_chars": [
+    "U+64A5"
+  ],
+  "pinyin": [
+    {
+      "reading": "bō",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        49113
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄅㄛ",
+      "pinyin": "bō",
+      "source_entry_indices": [
+        49113
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to push aside with the hand, foot, a stick etc",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        49113
+      ]
+    },
+    {
+      "gloss": "to dial",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        49113
+      ]
+    },
+    {
+      "gloss": "to allocate",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        49113
+      ]
+    },
+    {
+      "gloss": "to set aside (money)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        49113
+      ]
+    },
+    {
+      "gloss": "to poke (the fire)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        49113
+      ]
+    },
+    {
+      "gloss": "to pluck (a string instrument)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        49113
+      ]
+    },
+    {
+      "gloss": "to turn round",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        49113
+      ]
+    },
+    {
+      "gloss": "classifier: group, batch",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        49113
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 4173,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 16,
+    "cumulative_count": 503317,
+    "percentage": 0.00259191,
+    "cumulative_percentage": 81.53444159,
+    "per_million": 25.919074,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    49113
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

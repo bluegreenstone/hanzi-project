@@ -1,0 +1,122 @@
+{
+  "id": "moe1996-01331",
+  "traditional": "測試",
+  "simplified": "测试",
+  "constituent_chars": [
+    "U+6E2C",
+    "U+8A66"
+  ],
+  "pinyin": [
+    {
+      "reading": "cè shì",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        66530
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄘㄜˋ ㄕˋ",
+      "pinyin": "cè shì",
+      "source_entry_indices": [
+        66530
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to test (machinery etc)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        66530
+      ]
+    },
+    {
+      "gloss": "to test (a person's skill in a particular area)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        66530
+      ]
+    },
+    {
+      "gloss": "a test",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        66530
+      ]
+    },
+    {
+      "gloss": "(computing) beta (version of software)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        66530
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1331,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 59,
+    "cumulative_count": 420640,
+    "percentage": 0.00955766,
+    "cumulative_percentage": 68.14124599,
+    "per_million": 95.576586,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    66530
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

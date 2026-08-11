@@ -1,0 +1,356 @@
+{
+  "codepoint": "U+51B0",
+  "traditional": "冰",
+  "simplified": "冰",
+  "simplification_note": {
+    "mapping_type": "many_traditional_to_one_simplified",
+    "simplified": "U+51B0",
+    "traditional_origins": [
+      "U+51B0",
+      "U+6C37"
+    ]
+  },
+  "variants_異體字": [
+    {
+      "char": "冫",
+      "codepoint": "U+51AB",
+      "relationship": "semantic",
+      "source_property": "kSemanticVariant"
+    },
+    {
+      "char": "氷",
+      "codepoint": "U+6C37",
+      "relationship": "semantic",
+      "source_property": "kSemanticVariant"
+    },
+    {
+      "char": "𣲝",
+      "codepoint": "U+23C9D",
+      "relationship": "semantic",
+      "source_property": "kSemanticVariant"
+    }
+  ],
+  "radical": {
+    "kangxi_number": 15,
+    "residual_strokes": 4,
+    "source_assignment": "15.4",
+    "additional_assignments": []
+  },
+  "total_strokes": 6,
+  "total_strokes_standard": "TW-MOE-1996",
+  "stroke_count_variants": [],
+  "ids_decomposition": "⿰冫水",
+  "components": null,
+  "liushu_六書": {
+    "source_type": "ideographic",
+    "type": null,
+    "semantic_component": null,
+    "phonetic_component": null,
+    "hint": "Ice-cold冫 water 水"
+  },
+  "readings": {
+    "pinyin": [
+      {
+        "reading": "bīng",
+        "context": "primary",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      }
+    ],
+    "zhuyin": [
+      "ㄅㄧㄥ"
+    ],
+    "pinyin_variants": [
+      {
+        "reading": "níng",
+        "region": "und",
+        "classification": "dictionary_attestation",
+        "source_id": "unicode-unihan-17.0.0",
+        "source_property": "kHanyuPinyin"
+      }
+    ],
+    "jyutping": [
+      "bing1"
+    ],
+    "japanese_on": [
+      "HYOU"
+    ],
+    "japanese_kun": [
+      "KOORI",
+      "HI"
+    ],
+    "korean": [
+      "PING"
+    ],
+    "fanqie": [
+      "筆陵"
+    ],
+    "hangul": [
+      "빙"
+    ]
+  },
+  "definitions": [
+    {
+      "gloss": "ice; ice-cold",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "unicode-unihan-17.0.0"
+    },
+    {
+      "gloss": "ice",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "CL:塊|块[kuai4]",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "to chill sth",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "(of an object or substance) to feel cold",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "(of a person) cold",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "unfriendly",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "(slang) methamphetamine",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    }
+  ],
+  "frequency": {
+    "rank": 1287,
+    "selection_rank": 1283,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 100,
+    "cumulative_count": 939416,
+    "cumulative_percentage": 93.39468075,
+    "per_million": 99.417809,
+    "corpus_total_count": 1005856
+  },
+  "grading": {
+    "hsk": null,
+    "tocfl": null
+  },
+  "confusable_with": null,
+  "kangxi_citation": "0131.240",
+  "sources": {
+    "codepoint": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996"
+    ],
+    "variants_異體字": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical": [
+      "unicode-unihan-17.0.0"
+    ],
+    "total_strokes": [
+      "moe-tw-common-terms-1996"
+    ],
+    "total_strokes_standard": [
+      "moe-tw-common-terms-1996"
+    ],
+    "stroke_count_variants": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0",
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplification_note": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "ids_decomposition": [
+      "makemeahanzi-dictionary-master-audit"
+    ],
+    "liushu_六書": [
+      "makemeahanzi-dictionary-master-audit"
+    ],
+    "readings.pinyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.zhuyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.pinyin_variants": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.jyutping": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_on": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_kun": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.korean": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.fanqie": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.hangul": [
+      "unicode-unihan-17.0.0"
+    ],
+    "definitions": [
+      "unicode-unihan-17.0.0",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "kangxi_citation": [
+      "unicode-unihan-17.0.0"
+    ],
+    "english_translation": [
+      "unicode-unihan-17.0.0"
+    ],
+    "common_words": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "stroke_order.svg_asset_id": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.standard": [
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.source_convention": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.formal_conformance": [
+      "makemeahanzi-graphics-master-audit",
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.stroke_count": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.taiwan_cns_stroke_sequence": [
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "components",
+      "reason": "source_unavailable",
+      "detail": "Component references outside the Phase 3 top-2,000 set are not emitted as dangling record references: U+51AB"
+    },
+    {
+      "field": "liushu_六書.type",
+      "reason": "source_unavailable",
+      "detail": "The source's broad category is preserved but not forced into a more specific traditional 六書 category."
+    },
+    {
+      "field": "liushu_六書.semantic_component",
+      "reason": "not_attested",
+      "detail": "The source category does not attest a separate semantic component."
+    },
+    {
+      "field": "liushu_六書.phonetic_component",
+      "reason": "not_attested",
+      "detail": "The source category does not attest a separate phonetic component."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK character-level source passed the Phase 0 audit."
+    },
+    {
+      "field": "grading.tocfl",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved TOCFL character-level source passed the Phase 0 audit."
+    },
+    {
+      "field": "confusable_with",
+      "reason": "source_unavailable",
+      "detail": "No approved curated visual-confusables source passed the Phase 0 audit."
+    },
+    {
+      "field": "stroke_order.stroke_types",
+      "reason": "source_unavailable",
+      "detail": "Make Me a Hanzi supplies ordered paths but no authoritative per-path stroke-type names; Taiwan CNS types are retained separately and are not assigned to PRC path indices."
+    },
+    {
+      "field": "stroke_order.formal_standard_verification",
+      "reason": "source_unavailable",
+      "detail": "The GF 0023-2020 publication is reference-only and the path source claims PRC convention without formal per-character conformance evidence."
+    }
+  ],
+  "conflicts": [],
+  "english_translation": "ice; ice-cold",
+  "common_words": [
+    "moe1996-05481",
+    "moe1996-06361",
+    "moe1996-06368",
+    "moe1996-07327",
+    "moe1996-08615",
+    "moe1996-09850",
+    "moe1996-09851",
+    "moe1996-11513",
+    "moe1996-18326",
+    "moe1996-18328"
+  ],
+  "stroke_order": {
+    "svg_asset_id": "stroke-order-U+51B0-mmah-bddc96d4",
+    "standard": "PRC GF 0023-2020 (provisional baseline)",
+    "source_convention": "Make Me a Hanzi PRC stroke order",
+    "formal_conformance": "not_verified",
+    "stroke_count": 6,
+    "stroke_types": null,
+    "taiwan_cns_stroke_sequence": [
+      {
+        "code": "4",
+        "name_zh": "點"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      }
+    ],
+    "standard_conflicts": []
+  }
+}

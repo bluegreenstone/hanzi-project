@@ -1,0 +1,117 @@
+{
+  "id": "moe1996-16950",
+  "traditional": "礦區",
+  "simplified": "矿区",
+  "constituent_chars": [
+    "U+7926",
+    "U+5340"
+  ],
+  "pinyin": [
+    {
+      "reading": "kuàng qū",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        79985,
+        79986
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄎㄨㄤˋ ㄑㄩ",
+      "pinyin": "kuàng qū",
+      "source_entry_indices": [
+        79985,
+        79986
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "Kuang District or Kuangqu, a district of Yangquan City 陽泉市|阳泉市[Yang2 quan2 Shi4], Shanxi",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        79985
+      ]
+    },
+    {
+      "gloss": "mining site",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        79986
+      ]
+    },
+    {
+      "gloss": "mining area",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        79986
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 16950,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 3,
+    "cumulative_count": 580330,
+    "percentage": 0.00048598,
+    "cumulative_percentage": 94.01010196,
+    "per_million": 4.859826,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    79985,
+    79986
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

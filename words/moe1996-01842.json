@@ -1,0 +1,130 @@
+{
+  "id": "moe1996-01842",
+  "traditional": "保留",
+  "simplified": "保留",
+  "constituent_chars": [
+    "U+4FDD",
+    "U+7559"
+  ],
+  "pinyin": [
+    {
+      "reading": "bǎo liú",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        8140
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄅㄠˇ ㄌㄧㄡˊ",
+      "pinyin": "bǎo liú",
+      "source_entry_indices": [
+        8140
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to keep",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        8140
+      ]
+    },
+    {
+      "gloss": "to retain",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        8140
+      ]
+    },
+    {
+      "gloss": "to have reservations (about sth)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        8140
+      ]
+    },
+    {
+      "gloss": "to hold back (from saying sth)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        8140
+      ]
+    },
+    {
+      "gloss": "to put aside for later",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        8140
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1842,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 41,
+    "cumulative_count": 445617,
+    "percentage": 0.00664176,
+    "cumulative_percentage": 72.18737547,
+    "per_million": 66.417628,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    8140
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

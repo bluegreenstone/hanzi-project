@@ -1,0 +1,162 @@
+{
+  "id": "moe1996-01484",
+  "traditional": "培養",
+  "simplified": "培养",
+  "constituent_chars": [
+    "U+57F9",
+    "U+990A"
+  ],
+  "pinyin": [
+    {
+      "reading": "péi yǎng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        25714
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄆㄟˊ ㄧㄤˇ",
+      "pinyin": "péi yǎng",
+      "source_entry_indices": [
+        25714
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to cultivate",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        25714
+      ]
+    },
+    {
+      "gloss": "to breed",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        25714
+      ]
+    },
+    {
+      "gloss": "to foster",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        25714
+      ]
+    },
+    {
+      "gloss": "to nurture",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        25714
+      ]
+    },
+    {
+      "gloss": "to educate",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        25714
+      ]
+    },
+    {
+      "gloss": "to groom (for a position)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        25714
+      ]
+    },
+    {
+      "gloss": "education",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        25714
+      ]
+    },
+    {
+      "gloss": "fostering",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        25714
+      ]
+    },
+    {
+      "gloss": "culture (biology)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        25714
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1484,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 52,
+    "cumulative_count": 429098,
+    "percentage": 0.0084237,
+    "cumulative_percentage": 69.51139305,
+    "per_million": 84.236991,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    25714
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,471 @@
+{
+  "codepoint": "U+85CF",
+  "traditional": "藏",
+  "simplified": "藏",
+  "simplification_note": null,
+  "variants_異體字": [],
+  "radical": {
+    "kangxi_number": 140,
+    "residual_strokes": 14,
+    "source_assignment": "140.14",
+    "additional_assignments": []
+  },
+  "total_strokes": 18,
+  "total_strokes_standard": "TW-MOE-1996",
+  "stroke_count_variants": [
+    {
+      "count": 17,
+      "region": "und",
+      "convention": "Unicode IRG kTotalStrokes",
+      "source_id": "unicode-unihan-17.0.0"
+    },
+    {
+      "count": 17,
+      "region": "CN",
+      "convention": "Make Me a Hanzi PRC path count",
+      "source_id": "makemeahanzi-graphics-master-audit"
+    }
+  ],
+  "ids_decomposition": "⿱艹臧",
+  "components": null,
+  "liushu_六書": {
+    "source_type": "pictophonetic",
+    "type": "形聲",
+    "semantic_component": "U+8279",
+    "phonetic_component": "U+81E7",
+    "hint": "grass"
+  },
+  "readings": {
+    "pinyin": [
+      {
+        "reading": "zàng",
+        "context": "primary",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      },
+      {
+        "reading": "cáng",
+        "context": "additional",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      }
+    ],
+    "zhuyin": [
+      "ㄗㄤˋ",
+      "ㄘㄤˊ"
+    ],
+    "pinyin_variants": [
+      {
+        "reading": "zāng",
+        "region": "und",
+        "classification": "dictionary_attestation",
+        "source_id": "unicode-unihan-17.0.0",
+        "source_property": "kHanyuPinyin"
+      }
+    ],
+    "jyutping": [
+      "cong4"
+    ],
+    "japanese_on": [
+      "ZOU",
+      "SOU"
+    ],
+    "japanese_kun": [
+      "KURA",
+      "KAKURERU",
+      "OSAMERU"
+    ],
+    "korean": [
+      "CANG"
+    ],
+    "fanqie": [
+      "昨郎",
+      "徂浪"
+    ],
+    "hangul": [
+      "장"
+    ]
+  },
+  "definitions": [
+    {
+      "gloss": "hide, conceal; hoard, store up",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "unicode-unihan-17.0.0"
+    },
+    {
+      "gloss": "Tibetan ethnic group",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "Tibet Autonomous Region (short name for 西藏自治區|西藏自治区[Xi1 zang4 Zi4 zhi4 qu1])",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "to conceal",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "to hide away",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "to harbor",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "to store",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "to collect",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "storehouse",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "depository",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    },
+    {
+      "gloss": "Buddhist or Taoist scripture",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    }
+  ],
+  "frequency": {
+    "rank": 867,
+    "selection_rank": 866,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 207,
+    "cumulative_count": 878488,
+    "cumulative_percentage": 87.33735246,
+    "per_million": 205.794865,
+    "corpus_total_count": 1005856
+  },
+  "grading": {
+    "hsk": null,
+    "tocfl": null
+  },
+  "confusable_with": null,
+  "kangxi_citation": "1064.220",
+  "sources": {
+    "codepoint": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996"
+    ],
+    "variants_異體字": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical": [
+      "unicode-unihan-17.0.0"
+    ],
+    "total_strokes": [
+      "moe-tw-common-terms-1996"
+    ],
+    "total_strokes_standard": [
+      "moe-tw-common-terms-1996"
+    ],
+    "stroke_count_variants": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0",
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "ids_decomposition": [
+      "makemeahanzi-dictionary-master-audit"
+    ],
+    "liushu_六書": [
+      "makemeahanzi-dictionary-master-audit"
+    ],
+    "readings.pinyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.zhuyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.pinyin_variants": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.jyutping": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_on": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_kun": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.korean": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.fanqie": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.hangul": [
+      "unicode-unihan-17.0.0"
+    ],
+    "definitions": [
+      "unicode-unihan-17.0.0",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "kangxi_citation": [
+      "unicode-unihan-17.0.0"
+    ],
+    "english_translation": [
+      "unicode-unihan-17.0.0"
+    ],
+    "common_words": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "stroke_order.svg_asset_id": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.standard": [
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.source_convention": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.formal_conformance": [
+      "makemeahanzi-graphics-master-audit",
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.stroke_count": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.taiwan_cns_stroke_sequence": [
+      "cns11643-attributes-2026-08-05"
+    ],
+    "stroke_order.standard_conflicts": [
+      "makemeahanzi-graphics-master-audit",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "simplification_note",
+      "reason": "not_attested",
+      "detail": "The approved mapping sources do not attest multiple Traditional origins for the selected Simplified character."
+    },
+    {
+      "field": "components",
+      "reason": "source_unavailable",
+      "detail": "Component references outside the Phase 3 top-2,000 set are not emitted as dangling record references: U+8279, U+81E7"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK character-level source passed the Phase 0 audit."
+    },
+    {
+      "field": "grading.tocfl",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved TOCFL character-level source passed the Phase 0 audit."
+    },
+    {
+      "field": "confusable_with",
+      "reason": "source_unavailable",
+      "detail": "No approved curated visual-confusables source passed the Phase 0 audit."
+    },
+    {
+      "field": "stroke_order.stroke_types",
+      "reason": "source_unavailable",
+      "detail": "Make Me a Hanzi supplies ordered paths but no authoritative per-path stroke-type names; Taiwan CNS types are retained separately and are not assigned to PRC path indices."
+    },
+    {
+      "field": "stroke_order.formal_standard_verification",
+      "reason": "source_unavailable",
+      "detail": "The GF 0023-2020 publication is reference-only and the path source claims PRC convention without formal per-character conformance evidence."
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "total_strokes",
+      "resolution": "tw_canonical_variant_retained",
+      "values": [
+        {
+          "value": 18,
+          "source_ids": [
+            "moe-tw-common-terms-1996"
+          ]
+        },
+        {
+          "value": 17,
+          "source_ids": [
+            "unicode-unihan-17.0.0"
+          ]
+        },
+        {
+          "value": 17,
+          "source_ids": [
+            "makemeahanzi-graphics-master-audit"
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE frequency-table count remains canonical; differing CNS, Unicode IRG, or PRC path counts remain explicit variants."
+    },
+    {
+      "field": "radical.total_strokes_equation",
+      "resolution": "recorded_no_value_change",
+      "values": [
+        {
+          "value": {
+            "radical_strokes": 6,
+            "residual_strokes": 14,
+            "sum": 20
+          },
+          "source_ids": [
+            "unicode-unihan-17.0.0",
+            "cns11643-attributes-2026-08-05"
+          ]
+        },
+        {
+          "value": 18,
+          "source_ids": [
+            "moe-tw-common-terms-1996"
+          ]
+        }
+      ],
+      "detail": "The Unihan radical assignment and delivered radical count do not add to the Taiwan MOE total; both values are retained for review."
+    }
+  ],
+  "english_translation": "hide, conceal; hoard, store up",
+  "common_words": [
+    "moe1996-02094",
+    "moe1996-02435",
+    "moe1996-05141",
+    "moe1996-05146",
+    "moe1996-05802",
+    "moe1996-06846",
+    "moe1996-06867",
+    "moe1996-07776",
+    "moe1996-07886",
+    "moe1996-08348"
+  ],
+  "stroke_order": {
+    "svg_asset_id": "stroke-order-U+85CF-mmah-bddc96d4",
+    "standard": "PRC GF 0023-2020 (provisional baseline)",
+    "source_convention": "Make Me a Hanzi PRC stroke order",
+    "formal_conformance": "not_verified",
+    "stroke_count": 17,
+    "stroke_types": null,
+    "taiwan_cns_stroke_sequence": [
+      {
+        "code": "2",
+        "name_zh": "豎"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "2",
+        "name_zh": "豎"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "2",
+        "name_zh": "豎"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "2",
+        "name_zh": "豎"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      }
+    ],
+    "standard_conflicts": [
+      {
+        "field": "stroke_count",
+        "prc_path_count": 17,
+        "taiwan_count": 18,
+        "source_ids": [
+          "makemeahanzi-graphics-master-audit",
+          "cns11643-attributes-2026-08-05"
+        ],
+        "detail": "The PRC-convention SVG path count differs from the canonical Taiwan count; neither source value is changed."
+      }
+    ]
+  }
+}

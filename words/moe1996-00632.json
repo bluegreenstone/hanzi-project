@@ -1,0 +1,146 @@
+{
+  "id": "moe1996-00632",
+  "traditional": "調查",
+  "simplified": "调查",
+  "constituent_chars": [
+    "U+8ABF",
+    "U+67E5"
+  ],
+  "pinyin": [
+    {
+      "reading": "diào chá",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        101224
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄧㄠˋ ㄔㄚˊ",
+      "pinyin": "diào chá",
+      "source_entry_indices": [
+        101224
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "investigation",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        101224
+      ]
+    },
+    {
+      "gloss": "inquiry",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        101224
+      ]
+    },
+    {
+      "gloss": "to investigate",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        101224
+      ]
+    },
+    {
+      "gloss": "to survey",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        101224
+      ]
+    },
+    {
+      "gloss": "survey",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        101224
+      ]
+    },
+    {
+      "gloss": "(opinion) poll",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        101224
+      ]
+    },
+    {
+      "gloss": "CL:項|项[xiang4],個|个[ge4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        101224
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 632,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 127,
+    "cumulative_count": 360779,
+    "percentage": 0.02057327,
+    "cumulative_percentage": 58.44411038,
+    "per_million": 205.732651,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    101224
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

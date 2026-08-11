@@ -1,0 +1,165 @@
+{
+  "id": "moe1996-02109",
+  "traditional": "哦",
+  "simplified": "哦",
+  "constituent_chars": [
+    "U+54E6"
+  ],
+  "pinyin": [
+    {
+      "reading": "é",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        21700
+      ]
+    },
+    {
+      "reading": "ó",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        21701
+      ]
+    },
+    {
+      "reading": "ò",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        21702
+      ]
+    },
+    {
+      "reading": "o",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        21703
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄜˊ",
+      "pinyin": "é",
+      "source_entry_indices": [
+        21700
+      ]
+    },
+    {
+      "reading": "ㄛˊ",
+      "pinyin": "ó",
+      "source_entry_indices": [
+        21701
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to chant",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        21700
+      ]
+    },
+    {
+      "gloss": "oh (interjection indicating doubt or surprise)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        21701
+      ]
+    },
+    {
+      "gloss": "oh (interjection indicating that one has just learned sth)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        21702
+      ]
+    },
+    {
+      "gloss": "sentence-final particle that conveys informality, warmth, friendliness or intimacy",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        21703
+      ]
+    },
+    {
+      "gloss": "may also indicate that one is stating a fact that the other person is not aware of",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        21703
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 2109,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 35,
+    "cumulative_count": 455731,
+    "percentage": 0.0056698,
+    "cumulative_percentage": 73.82578494,
+    "per_million": 56.697975,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    21700,
+    21701,
+    21702,
+    21703
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin.partial",
+      "reason": "not_attested",
+      "detail": "The pinned CNS syllable table has no unique full conversion for: ò, o"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

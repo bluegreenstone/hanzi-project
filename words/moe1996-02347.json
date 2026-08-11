@@ -1,0 +1,122 @@
+{
+  "id": "moe1996-02347",
+  "traditional": "進場",
+  "simplified": "进场",
+  "constituent_chars": [
+    "U+9032",
+    "U+5834"
+  ],
+  "pinyin": [
+    {
+      "reading": "jìn chǎng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        107865
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄐㄧㄣˋ ㄔㄤˇ",
+      "pinyin": "jìn chǎng",
+      "source_entry_indices": [
+        107865
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to enter the venue",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        107865
+      ]
+    },
+    {
+      "gloss": "to enter the arena",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        107865
+      ]
+    },
+    {
+      "gloss": "(aviation) to approach the airfield",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        107865
+      ]
+    },
+    {
+      "gloss": "(investing) to get into the market",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        107865
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 2347,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 31,
+    "cumulative_count": 463536,
+    "percentage": 0.00502182,
+    "cumulative_percentage": 75.09014978,
+    "per_million": 50.218206,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    107865
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

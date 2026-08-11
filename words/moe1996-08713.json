@@ -1,0 +1,92 @@
+{
+  "id": "moe1996-08713",
+  "traditional": "沒關係",
+  "simplified": "没关系",
+  "constituent_chars": [
+    "U+6C92",
+    "U+95DC",
+    "U+4FC2"
+  ],
+  "pinyin": [
+    {
+      "reading": "méi guān xi",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        63070
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "it doesn't matter",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        63070
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 8713,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 6,
+    "cumulative_count": 547677,
+    "percentage": 0.00097197,
+    "cumulative_percentage": 88.7205049,
+    "per_million": 9.719653,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    63070
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

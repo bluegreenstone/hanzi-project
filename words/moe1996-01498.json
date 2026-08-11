@@ -1,0 +1,122 @@
+{
+  "id": "moe1996-01498",
+  "traditional": "只有",
+  "simplified": "只有",
+  "constituent_chars": [
+    "U+53EA",
+    "U+6709"
+  ],
+  "pinyin": [
+    {
+      "reading": "zhǐ yǒu",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        18996
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄓˇ ㄧㄡˇ",
+      "pinyin": "zhǐ yǒu",
+      "source_entry_indices": [
+        18996
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "only have ...; there is only ...",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        18996
+      ]
+    },
+    {
+      "gloss": "(used in combination with 才[cai2]) it is only if ... (that one can ...) (as in 只有通過治療才能痊愈|只有通过治疗才能痊愈[zhi3 you3 tong1 guo4 zhi4 liao2 cai2 neng2 quan2 yu4] \"the only way to cure it is with therapy\")",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        18996
+      ]
+    },
+    {
+      "gloss": "it is only (someone) who ... (as in 只有男性才有此需要[zhi3 you3 nan2 xing4 cai2 you3 ci3 xu1 yao4] \"only men would have such a requirement\")",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        18996
+      ]
+    },
+    {
+      "gloss": "(used to express lack of alternatives) can only; have no choice but to (as in 只有屈服[zhi3 you3 qu1 fu2] \"the only thing you can do is give in\")",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        18996
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1498,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 51,
+    "cumulative_count": 429819,
+    "percentage": 0.0082617,
+    "cumulative_percentage": 69.62819088,
+    "per_million": 82.617049,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    18996
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

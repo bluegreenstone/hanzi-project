@@ -1,0 +1,137 @@
+{
+  "id": "moe1996-01813",
+  "traditional": "略",
+  "simplified": "略",
+  "constituent_chars": [
+    "U+7565"
+  ],
+  "pinyin": [
+    {
+      "reading": "lüè",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        74961
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄌㄩㄝˋ",
+      "pinyin": "lüè",
+      "source_entry_indices": [
+        74961
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "brief; sketchy",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        74961
+      ]
+    },
+    {
+      "gloss": "outline; summary",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        74961
+      ]
+    },
+    {
+      "gloss": "to omit",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        74961
+      ]
+    },
+    {
+      "gloss": "(bound form before a single-character verb) a bit; somewhat; slightly",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        74961
+      ]
+    },
+    {
+      "gloss": "plan; strategy",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        74961
+      ]
+    },
+    {
+      "gloss": "to capture (territory)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        74961
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1813,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 42,
+    "cumulative_count": 444416,
+    "percentage": 0.00680376,
+    "cumulative_percentage": 71.99282042,
+    "per_million": 68.03757,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    74961
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

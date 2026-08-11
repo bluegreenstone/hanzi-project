@@ -1,0 +1,114 @@
+{
+  "id": "moe1996-04366",
+  "traditional": "殺價",
+  "simplified": "杀价",
+  "constituent_chars": [
+    "U+6BBA",
+    "U+50F9"
+  ],
+  "pinyin": [
+    {
+      "reading": "shā jià",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        61072
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄕㄚ ㄐㄧㄚˋ",
+      "pinyin": "shā jià",
+      "source_entry_indices": [
+        61072
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to beat down the price",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        61072
+      ]
+    },
+    {
+      "gloss": "to haggle",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        61072
+      ]
+    },
+    {
+      "gloss": "to slash one's prices",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        61072
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 4366,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 15,
+    "cumulative_count": 506256,
+    "percentage": 0.00242991,
+    "cumulative_percentage": 82.01054258,
+    "per_million": 24.299132,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    61072
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

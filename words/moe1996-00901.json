@@ -1,0 +1,113 @@
+{
+  "id": "moe1996-00901",
+  "traditional": "塊",
+  "simplified": "块",
+  "constituent_chars": [
+    "U+584A"
+  ],
+  "pinyin": [
+    {
+      "reading": "kuài",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        26143
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄎㄨㄞˋ",
+      "pinyin": "kuài",
+      "source_entry_indices": [
+        26143
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "lump; chunk; piece",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        26143
+      ]
+    },
+    {
+      "gloss": "classifier for pieces of cloth, cake, soap etc",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        26143
+      ]
+    },
+    {
+      "gloss": "(coll.) classifier for money and currency units",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        26143
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 901,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 91,
+    "cumulative_count": 389327,
+    "percentage": 0.01474147,
+    "cumulative_percentage": 63.06872119,
+    "per_million": 147.414734,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    26143
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,105 @@
+{
+  "id": "moe1996-17390",
+  "traditional": "不虞匱乏",
+  "simplified": "不虞匮乏",
+  "constituent_chars": [
+    "U+4E0D",
+    "U+865E",
+    "U+5331",
+    "U+4E4F"
+  ],
+  "pinyin": [
+    {
+      "reading": "bù yú kuì fá",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        2798
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄅㄨˋ ㄩˊ ㄎㄨㄟˋ ㄈㄚˊ",
+      "pinyin": "bù yú kuì fá",
+      "source_entry_indices": [
+        2798
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to have ample supplies (or money etc)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        2798
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 17390,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 2,
+    "cumulative_count": 581318,
+    "percentage": 0.00032399,
+    "cumulative_percentage": 94.17015224,
+    "per_million": 3.239884,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    2798
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+5331, U+865E"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

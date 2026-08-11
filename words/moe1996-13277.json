@@ -1,0 +1,114 @@
+{
+  "id": "moe1996-13277",
+  "traditional": "斷層",
+  "simplified": "断层",
+  "constituent_chars": [
+    "U+65B7",
+    "U+5C64"
+  ],
+  "pinyin": [
+    {
+      "reading": "duàn céng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        51969
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄨㄢˋ ㄘㄥˊ",
+      "pinyin": "duàn céng",
+      "source_entry_indices": [
+        51969
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "(geology) fault (CL:道[dao4])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        51969
+      ]
+    },
+    {
+      "gloss": "(fig.) gap; rupture (in the transmission of some skill)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        51969
+      ]
+    },
+    {
+      "gloss": "(tomography) cross-sectional",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        51969
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 13277,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 4,
+    "cumulative_count": 569171,
+    "percentage": 0.00064798,
+    "cumulative_percentage": 92.20240853,
+    "per_million": 6.479769,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    51969
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

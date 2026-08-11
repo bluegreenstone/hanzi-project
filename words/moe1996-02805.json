@@ -1,0 +1,195 @@
+{
+  "id": "moe1996-02805",
+  "traditional": "角",
+  "simplified": "角",
+  "constituent_chars": [
+    "U+89D2"
+  ],
+  "pinyin": [
+    {
+      "reading": "jué",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        99732,
+        99734
+      ]
+    },
+    {
+      "reading": "jiǎo",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        99733
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄐㄩㄝˊ",
+      "pinyin": "jué",
+      "source_entry_indices": [
+        99732,
+        99734
+      ]
+    },
+    {
+      "reading": "ㄐㄧㄠˇ",
+      "pinyin": "jiǎo",
+      "source_entry_indices": [
+        99733
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "surname Jue",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99732
+      ]
+    },
+    {
+      "gloss": "angle",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99733
+      ]
+    },
+    {
+      "gloss": "corner",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99733
+      ]
+    },
+    {
+      "gloss": "horn",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99733
+      ]
+    },
+    {
+      "gloss": "horn-shaped",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99733
+      ]
+    },
+    {
+      "gloss": "unit of money equal to 0.1 yuan, or 10 cents (a dime)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99733
+      ]
+    },
+    {
+      "gloss": "CL:個|个[ge4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99733
+      ]
+    },
+    {
+      "gloss": "role (theater)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99734
+      ]
+    },
+    {
+      "gloss": "to compete",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99734
+      ]
+    },
+    {
+      "gloss": "ancient three legged wine vessel",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99734
+      ]
+    },
+    {
+      "gloss": "third note of pentatonic scale",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99734
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 2805,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 25,
+    "cumulative_count": 476226,
+    "percentage": 0.00404986,
+    "cumulative_percentage": 77.14585635,
+    "per_million": 40.498553,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    99732,
+    99733,
+    99734
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

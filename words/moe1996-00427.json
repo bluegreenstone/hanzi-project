@@ -1,0 +1,177 @@
+{
+  "id": "moe1996-00427",
+  "traditional": "老",
+  "simplified": "老",
+  "constituent_chars": [
+    "U+8001"
+  ],
+  "pinyin": [
+    {
+      "reading": "lǎo",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        88223
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄌㄠˇ",
+      "pinyin": "lǎo",
+      "source_entry_indices": [
+        88223
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        88223
+      ]
+    },
+    {
+      "gloss": "old (of people)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        88223
+      ]
+    },
+    {
+      "gloss": "venerable (person)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        88223
+      ]
+    },
+    {
+      "gloss": "experienced",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        88223
+      ]
+    },
+    {
+      "gloss": "of long standing",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        88223
+      ]
+    },
+    {
+      "gloss": "always",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        88223
+      ]
+    },
+    {
+      "gloss": "all the time",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        88223
+      ]
+    },
+    {
+      "gloss": "of the past",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        88223
+      ]
+    },
+    {
+      "gloss": "very",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        88223
+      ]
+    },
+    {
+      "gloss": "outdated",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        88223
+      ]
+    },
+    {
+      "gloss": "(of meat etc) tough",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        88223
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 427,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 187,
+    "cumulative_count": 329594,
+    "percentage": 0.03029292,
+    "cumulative_percentage": 53.39232083,
+    "per_million": 302.929179,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    88223
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

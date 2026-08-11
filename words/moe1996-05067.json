@@ -1,0 +1,135 @@
+{
+  "id": "moe1996-05067",
+  "traditional": "顛覆",
+  "simplified": "颠覆",
+  "constituent_chars": [
+    "U+985B",
+    "U+8986"
+  ],
+  "pinyin": [
+    {
+      "reading": "diān fù",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        118861
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄧㄢ ㄈㄨˋ",
+      "pinyin": "diān fù",
+      "source_entry_indices": [
+        118861
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to topple (i.e. knock over)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118861
+      ]
+    },
+    {
+      "gloss": "to capsize",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118861
+      ]
+    },
+    {
+      "gloss": "fig. to overturn (a regime, by plotting or subversion)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118861
+      ]
+    },
+    {
+      "gloss": "to undermine",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118861
+      ]
+    },
+    {
+      "gloss": "to subvert",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118861
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 5067,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 13,
+    "cumulative_count": 515850,
+    "percentage": 0.00210592,
+    "cumulative_percentage": 83.56471507,
+    "per_million": 21.059248,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    118861
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+985B"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

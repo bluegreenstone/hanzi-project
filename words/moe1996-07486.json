@@ -1,0 +1,98 @@
+{
+  "id": "moe1996-07486",
+  "traditional": "雙眼",
+  "simplified": "双眼",
+  "constituent_chars": [
+    "U+96D9",
+    "U+773C"
+  ],
+  "pinyin": [
+    {
+      "reading": "shuāng yǎn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        115806
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄕㄨㄤ ㄧㄢˇ",
+      "pinyin": "shuāng yǎn",
+      "source_entry_indices": [
+        115806
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "the two eyes",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        115806
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 7486,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 8,
+    "cumulative_count": 539365,
+    "percentage": 0.00129595,
+    "cumulative_percentage": 87.374009,
+    "per_million": 12.959537,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    115806
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

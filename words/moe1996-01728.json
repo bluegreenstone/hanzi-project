@@ -1,0 +1,192 @@
+{
+  "id": "moe1996-01728",
+  "traditional": "泡",
+  "simplified": "泡",
+  "constituent_chars": [
+    "U+6CE1"
+  ],
+  "pinyin": [
+    {
+      "reading": "pāo",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        63809
+      ]
+    },
+    {
+      "reading": "pào",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        63810
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄆㄠ",
+      "pinyin": "pāo",
+      "source_entry_indices": [
+        63809
+      ]
+    },
+    {
+      "reading": "ㄆㄠˋ",
+      "pinyin": "pào",
+      "source_entry_indices": [
+        63810
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "puffed; swollen; spongy",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        63809
+      ]
+    },
+    {
+      "gloss": "small lake (esp. in place names)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        63809
+      ]
+    },
+    {
+      "gloss": "classifier for urine or feces",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        63809
+      ]
+    },
+    {
+      "gloss": "bubble; foam",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        63810
+      ]
+    },
+    {
+      "gloss": "blister",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        63810
+      ]
+    },
+    {
+      "gloss": "to soak; to steep; to infuse",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        63810
+      ]
+    },
+    {
+      "gloss": "to dawdle; to loiter",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        63810
+      ]
+    },
+    {
+      "gloss": "to pick up (a girl)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        63810
+      ]
+    },
+    {
+      "gloss": "to get off with (a sexual partner)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        63810
+      ]
+    },
+    {
+      "gloss": "classifier for occurrences of an action",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        63810
+      ]
+    },
+    {
+      "gloss": "classifier for number of infusions",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        63810
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1728,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 44,
+    "cumulative_count": 440765,
+    "percentage": 0.00712775,
+    "cumulative_percentage": 71.40137954,
+    "per_million": 71.277454,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    63809,
+    63810
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,130 @@
+{
+  "id": "moe1996-01010",
+  "traditional": "作用",
+  "simplified": "作用",
+  "constituent_chars": [
+    "U+4F5C",
+    "U+7528"
+  ],
+  "pinyin": [
+    {
+      "reading": "zuò yòng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        7440
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄗㄨㄛˋ ㄩㄥˋ",
+      "pinyin": "zuò yòng",
+      "source_entry_indices": [
+        7440
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to act on; to affect",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7440
+      ]
+    },
+    {
+      "gloss": "action; function; activity",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7440
+      ]
+    },
+    {
+      "gloss": "impact; result; effect",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7440
+      ]
+    },
+    {
+      "gloss": "purpose; intent",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7440
+      ]
+    },
+    {
+      "gloss": "(suffix) -ation, -tion etc, as in 抑制作用[yi4 zhi4 zuo4 yong4], inhibition",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7440
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1010,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 81,
+    "cumulative_count": 398636,
+    "percentage": 0.01312153,
+    "cumulative_percentage": 64.57672532,
+    "per_million": 131.215313,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    7440
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

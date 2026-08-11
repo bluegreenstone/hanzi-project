@@ -1,0 +1,105 @@
+{
+  "id": "moe1996-22813",
+  "traditional": "劈哩啪啦",
+  "simplified": "劈哩啪啦",
+  "constituent_chars": [
+    "U+5288",
+    "U+54E9",
+    "U+556A",
+    "U+5566"
+  ],
+  "pinyin": [
+    {
+      "reading": "pī li pā lā",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        14892
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄆㄧ ˙ㄌㄧ ㄆㄚ ㄌㄚ",
+      "pinyin": "pī li pā lā",
+      "source_entry_indices": [
+        14892
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "variant of 噼里啪啦[pi1 li5 pa1 la1]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        14892
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 22813,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 2,
+    "cumulative_count": 592164,
+    "percentage": 0.00032399,
+    "cumulative_percentage": 95.92714148,
+    "per_million": 3.239884,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    14892
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+5288, U+54E9, U+556A"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

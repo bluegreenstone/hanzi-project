@@ -1,0 +1,130 @@
+{
+  "id": "moe1996-04460",
+  "traditional": "驅動",
+  "simplified": "驱动",
+  "constituent_chars": [
+    "U+9A45",
+    "U+52D5"
+  ],
+  "pinyin": [
+    {
+      "reading": "qū dòng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        120812
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄑㄩ ㄉㄨㄥˋ",
+      "pinyin": "qū dòng",
+      "source_entry_indices": [
+        120812
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to drive",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        120812
+      ]
+    },
+    {
+      "gloss": "to propel",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        120812
+      ]
+    },
+    {
+      "gloss": "drive (vehicle wheel)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        120812
+      ]
+    },
+    {
+      "gloss": "drive mechanism (tape or disk)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        120812
+      ]
+    },
+    {
+      "gloss": "device driver (computing software)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        120812
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 4460,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 15,
+    "cumulative_count": 507666,
+    "percentage": 0.00242991,
+    "cumulative_percentage": 82.23895442,
+    "per_million": 24.299132,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    120812
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

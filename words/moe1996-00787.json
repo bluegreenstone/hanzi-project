@@ -1,0 +1,125 @@
+{
+  "id": "moe1996-00787",
+  "traditional": "老闆",
+  "simplified": "老板",
+  "constituent_chars": [
+    "U+8001",
+    "U+95C6"
+  ],
+  "pinyin": [
+    {
+      "reading": "lǎo bǎn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        88470,
+        88471
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄌㄠˇ ㄅㄢˇ",
+      "pinyin": "lǎo bǎn",
+      "source_entry_indices": [
+        88470,
+        88471
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "Robam (brand)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        88470
+      ]
+    },
+    {
+      "gloss": "boss",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        88471
+      ]
+    },
+    {
+      "gloss": "business proprietor",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        88471
+      ]
+    },
+    {
+      "gloss": "CL:個|个[ge4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        88471
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 787,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 102,
+    "cumulative_count": 378387,
+    "percentage": 0.01652341,
+    "cumulative_percentage": 61.29650449,
+    "per_million": 165.234098,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    88470,
+    88471
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,103 @@
+{
+  "id": "moe1996-07425",
+  "traditional": "墾丁",
+  "simplified": "垦丁",
+  "constituent_chars": [
+    "U+58BE",
+    "U+4E01"
+  ],
+  "pinyin": [
+    {
+      "reading": "kěn dīng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        26625
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄎㄣˇ ㄉㄧㄥ",
+      "pinyin": "kěn dīng",
+      "source_entry_indices": [
+        26625
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "Kenting, a national park on the southern tip of Taiwan, popular as a tourist destination (abbr. for 墾丁國家公園|垦丁国家公园[Ken3 ding1 Guo2 jia1 Gong1 yuan2])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        26625
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 7425,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 8,
+    "cumulative_count": 538877,
+    "percentage": 0.00129595,
+    "cumulative_percentage": 87.29495582,
+    "per_million": 12.959537,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    26625
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+58BE"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

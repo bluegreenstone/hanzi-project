@@ -1,0 +1,384 @@
+{
+  "id": "moe1996-00050",
+  "traditional": "著",
+  "simplified": null,
+  "constituent_chars": [
+    "U+8457"
+  ],
+  "pinyin": [
+    {
+      "reading": "zhāo",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        94788
+      ]
+    },
+    {
+      "reading": "zháo",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        94789
+      ]
+    },
+    {
+      "reading": "zhe",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        94790
+      ]
+    },
+    {
+      "reading": "zhuó",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        94791,
+        94793
+      ]
+    },
+    {
+      "reading": "zhù",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        94792
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄓㄠ",
+      "pinyin": "zhāo",
+      "source_entry_indices": [
+        94788
+      ]
+    },
+    {
+      "reading": "ㄓㄠˊ",
+      "pinyin": "zháo",
+      "source_entry_indices": [
+        94789
+      ]
+    },
+    {
+      "reading": "˙ㄓㄜ",
+      "pinyin": "zhe",
+      "source_entry_indices": [
+        94790
+      ]
+    },
+    {
+      "reading": "ㄓㄨㄛˊ",
+      "pinyin": "zhuó",
+      "source_entry_indices": [
+        94791,
+        94793
+      ]
+    },
+    {
+      "reading": "ㄓㄨˋ",
+      "pinyin": "zhù",
+      "source_entry_indices": [
+        94792
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "a move in chess (Taiwan pr. [zhuo2])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94788
+      ]
+    },
+    {
+      "gloss": "trick; tactic",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94788
+      ]
+    },
+    {
+      "gloss": "(dialect) okay; all right",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94788
+      ]
+    },
+    {
+      "gloss": "(dialect) to put in; to add",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94788
+      ]
+    },
+    {
+      "gloss": "to touch",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94789
+      ]
+    },
+    {
+      "gloss": "to come in contact with",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94789
+      ]
+    },
+    {
+      "gloss": "to feel",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94789
+      ]
+    },
+    {
+      "gloss": "to be affected by",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94789
+      ]
+    },
+    {
+      "gloss": "to catch fire",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94789
+      ]
+    },
+    {
+      "gloss": "to burn",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94789
+      ]
+    },
+    {
+      "gloss": "(coll.) to fall asleep",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94789
+      ]
+    },
+    {
+      "gloss": "(after a verb) hitting the mark",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94789
+      ]
+    },
+    {
+      "gloss": "succeeding in",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94789
+      ]
+    },
+    {
+      "gloss": "aspect particle indicating action in progress or ongoing state",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94790
+      ]
+    },
+    {
+      "gloss": "to wear (clothes)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94791
+      ]
+    },
+    {
+      "gloss": "to contact",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94791
+      ]
+    },
+    {
+      "gloss": "to use",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94791
+      ]
+    },
+    {
+      "gloss": "to apply",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94791
+      ]
+    },
+    {
+      "gloss": "to make known",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94792
+      ]
+    },
+    {
+      "gloss": "to show",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94792
+      ]
+    },
+    {
+      "gloss": "to prove",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94792
+      ]
+    },
+    {
+      "gloss": "to write",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94792
+      ]
+    },
+    {
+      "gloss": "book",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94792
+      ]
+    },
+    {
+      "gloss": "outstanding",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94792
+      ]
+    },
+    {
+      "gloss": "used in 執著|执著[zhi2 zhuo2]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94793
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 50,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 1357,
+    "cumulative_count": 173454,
+    "percentage": 0.21982615,
+    "cumulative_percentage": 28.09854432,
+    "per_million": 2198.261478,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    94788,
+    94789,
+    94790,
+    94791,
+    94792,
+    94793
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "simplified",
+      "reason": "conflicting_sources",
+      "detail": "Exact CC-CEDICT entries for this Traditional headword have multiple Simplified forms."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "simplified",
+      "resolution": "unresolved",
+      "values": [
+        {
+          "value": "着",
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            94788,
+            94789,
+            94790,
+            94791
+          ]
+        },
+        {
+          "value": "著",
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            94792,
+            94793
+          ]
+        }
+      ],
+      "detail": "All exact dictionary mappings are retained; no Simplified word form is selected."
+    }
+  ]
+}

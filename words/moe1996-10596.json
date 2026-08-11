@@ -1,0 +1,160 @@
+{
+  "id": "moe1996-10596",
+  "traditional": "軸",
+  "simplified": "轴",
+  "constituent_chars": [
+    "U+8EF8"
+  ],
+  "pinyin": [
+    {
+      "reading": "zhóu",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        105737
+      ]
+    },
+    {
+      "reading": "zhòu",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        105738
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄓㄡˊ",
+      "pinyin": "zhóu",
+      "source_entry_indices": [
+        105737
+      ]
+    },
+    {
+      "reading": "ㄓㄡˋ",
+      "pinyin": "zhòu",
+      "source_entry_indices": [
+        105738
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "axis",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        105737
+      ]
+    },
+    {
+      "gloss": "axle",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        105737
+      ]
+    },
+    {
+      "gloss": "spool (for thread)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        105737
+      ]
+    },
+    {
+      "gloss": "roller (for scrolls)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        105737
+      ]
+    },
+    {
+      "gloss": "classifier for calligraphy rolls etc",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        105737
+      ]
+    },
+    {
+      "gloss": "see 壓軸戲|压轴戏[ya1 zhou4 xi4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        105738
+      ]
+    },
+    {
+      "gloss": "Taiwan pr. [zhou2]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        105738
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 10596,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 5,
+    "cumulative_count": 557947,
+    "percentage": 0.00080997,
+    "cumulative_percentage": 90.38418548,
+    "per_million": 8.099711,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    105737,
+    105738
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

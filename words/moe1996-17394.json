@@ -1,0 +1,124 @@
+{
+  "id": "moe1996-17394",
+  "traditional": "不聞不問",
+  "simplified": "不闻不问",
+  "constituent_chars": [
+    "U+4E0D",
+    "U+805E",
+    "U+4E0D",
+    "U+554F"
+  ],
+  "pinyin": [
+    {
+      "reading": "bù wén bù wèn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        2758
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄅㄨˋ ㄨㄣˊ ㄅㄨˋ ㄨㄣˋ",
+      "pinyin": "bù wén bù wèn",
+      "source_entry_indices": [
+        2758
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "not to hear, not to question (idiom)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        2758
+      ]
+    },
+    {
+      "gloss": "to show no interest in sth",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        2758
+      ]
+    },
+    {
+      "gloss": "uncritical",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        2758
+      ]
+    },
+    {
+      "gloss": "not in the least concerned",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        2758
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 17394,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 2,
+    "cumulative_count": 581326,
+    "percentage": 0.00032399,
+    "cumulative_percentage": 94.1714482,
+    "per_million": 3.239884,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    2758
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

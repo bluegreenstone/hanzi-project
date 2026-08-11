@@ -1,0 +1,312 @@
+{
+  "id": "moe1996-00110",
+  "traditional": "當",
+  "simplified": "当",
+  "constituent_chars": [
+    "U+7576"
+  ],
+  "pinyin": [
+    {
+      "reading": "dāng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        75173
+      ]
+    },
+    {
+      "reading": "dàng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        75174
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄤ",
+      "pinyin": "dāng",
+      "source_entry_indices": [
+        75173
+      ]
+    },
+    {
+      "reading": "ㄉㄤˋ",
+      "pinyin": "dàng",
+      "source_entry_indices": [
+        75174
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to be",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75173
+      ]
+    },
+    {
+      "gloss": "to act as",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75173
+      ]
+    },
+    {
+      "gloss": "manage",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75173
+      ]
+    },
+    {
+      "gloss": "withstand",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75173
+      ]
+    },
+    {
+      "gloss": "when",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75173
+      ]
+    },
+    {
+      "gloss": "during",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75173
+      ]
+    },
+    {
+      "gloss": "ought",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75173
+      ]
+    },
+    {
+      "gloss": "should",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75173
+      ]
+    },
+    {
+      "gloss": "match equally",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75173
+      ]
+    },
+    {
+      "gloss": "equal",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75173
+      ]
+    },
+    {
+      "gloss": "same",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75173
+      ]
+    },
+    {
+      "gloss": "obstruct",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75173
+      ]
+    },
+    {
+      "gloss": "just at (a time or place)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75173
+      ]
+    },
+    {
+      "gloss": "on the spot",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75173
+      ]
+    },
+    {
+      "gloss": "right",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75173
+      ]
+    },
+    {
+      "gloss": "just at",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75173
+      ]
+    },
+    {
+      "gloss": "at or in the very same...",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75174
+      ]
+    },
+    {
+      "gloss": "suitable",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75174
+      ]
+    },
+    {
+      "gloss": "adequate",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75174
+      ]
+    },
+    {
+      "gloss": "fitting",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75174
+      ]
+    },
+    {
+      "gloss": "proper",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75174
+      ]
+    },
+    {
+      "gloss": "to replace",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75174
+      ]
+    },
+    {
+      "gloss": "to regard as",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75174
+      ]
+    },
+    {
+      "gloss": "to think",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75174
+      ]
+    },
+    {
+      "gloss": "to pawn",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75174
+      ]
+    },
+    {
+      "gloss": "(coll.) to fail (a student)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75174
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 110,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 672,
+    "cumulative_count": 229113,
+    "percentage": 0.10886011,
+    "cumulative_percentage": 37.11498025,
+    "per_million": 1088.601115,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    75173,
+    75174
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

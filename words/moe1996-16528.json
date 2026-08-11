@@ -1,0 +1,103 @@
+{
+  "id": "moe1996-16528",
+  "traditional": "瞎拼",
+  "simplified": "瞎拼",
+  "constituent_chars": [
+    "U+778E",
+    "U+62FC"
+  ],
+  "pinyin": [
+    {
+      "reading": "xiā pīn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        78526
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄒㄧㄚ ㄆㄧㄣ",
+      "pinyin": "xiā pīn",
+      "source_entry_indices": [
+        78526
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "shopping as a fun pastime (loanword) (Tw)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        78526
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 16528,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 3,
+    "cumulative_count": 579064,
+    "percentage": 0.00048598,
+    "cumulative_percentage": 93.80501728,
+    "per_million": 4.859826,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    78526
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+778E"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

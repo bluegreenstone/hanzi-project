@@ -1,0 +1,114 @@
+{
+  "id": "moe1996-00817",
+  "traditional": "選舉",
+  "simplified": "选举",
+  "constituent_chars": [
+    "U+9078",
+    "U+8209"
+  ],
+  "pinyin": [
+    {
+      "reading": "xuǎn jǔ",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        108870
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄒㄩㄢˇ ㄐㄩˇ",
+      "pinyin": "xuǎn jǔ",
+      "source_entry_indices": [
+        108870
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to elect",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        108870
+      ]
+    },
+    {
+      "gloss": "election",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        108870
+      ]
+    },
+    {
+      "gloss": "CL:次[ci4],個|个[ge4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        108870
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 817,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 99,
+    "cumulative_count": 381388,
+    "percentage": 0.01603743,
+    "cumulative_percentage": 61.78264912,
+    "per_million": 160.374271,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    108870
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

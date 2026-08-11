@@ -1,0 +1,124 @@
+{
+  "id": "moe1996-00010",
+  "traditional": "也",
+  "simplified": "也",
+  "constituent_chars": [
+    "U+4E5F"
+  ],
+  "pinyin": [
+    {
+      "reading": "yě",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        4324,
+        4325
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄧㄝˇ",
+      "pinyin": "yě",
+      "source_entry_indices": [
+        4324,
+        4325
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "surname Ye",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        4324
+      ]
+    },
+    {
+      "gloss": "also; too; as well; (not ...) either",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        4325
+      ]
+    },
+    {
+      "gloss": "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        4325
+      ]
+    },
+    {
+      "gloss": "(literary) particle having functions similar to 啊[a5]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        4325
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 10,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 3615,
+    "cumulative_count": 89104,
+    "percentage": 0.58560908,
+    "cumulative_percentage": 14.43433241,
+    "per_million": 5856.09082,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    4324,
+    4325
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

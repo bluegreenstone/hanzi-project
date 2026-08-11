@@ -1,0 +1,113 @@
+{
+  "id": "moe1996-25956",
+  "traditional": "心有餘悸",
+  "simplified": "心有余悸",
+  "constituent_chars": [
+    "U+5FC3",
+    "U+6709",
+    "U+9918",
+    "U+60B8"
+  ],
+  "pinyin": [
+    {
+      "reading": "xīn yǒu yú jì",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        40743
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄒㄧㄣ ㄧㄡˇ ㄩˊ ㄐㄧˋ",
+      "pinyin": "xīn yǒu yú jì",
+      "source_entry_indices": [
+        40743
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to have lingering fears",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40743
+      ]
+    },
+    {
+      "gloss": "trepidation remaining after a trauma (idiom)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40743
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 25956,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 1,
+    "cumulative_count": 596541,
+    "percentage": 0.00016199,
+    "cumulative_percentage": 96.63619016,
+    "per_million": 1.619942,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    40743
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+60B8"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

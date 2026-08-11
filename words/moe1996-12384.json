@@ -1,0 +1,167 @@
+{
+  "id": "moe1996-12384",
+  "traditional": "得罪",
+  "simplified": "得罪",
+  "constituent_chars": [
+    "U+5F97",
+    "U+7F6A"
+  ],
+  "pinyin": [
+    {
+      "reading": "dé zuì",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        40145
+      ]
+    },
+    {
+      "reading": "dé zui",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        40146
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄜˊ ㄗㄨㄟˋ",
+      "pinyin": "dé zuì",
+      "source_entry_indices": [
+        40145
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to commit an offense",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40145
+      ]
+    },
+    {
+      "gloss": "to violate the law",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40145
+      ]
+    },
+    {
+      "gloss": "excuse me! (formal)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40145
+      ]
+    },
+    {
+      "gloss": "see also 得罪[de2 zui5]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40145
+      ]
+    },
+    {
+      "gloss": "to offend sb",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40146
+      ]
+    },
+    {
+      "gloss": "to make a faux pas",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40146
+      ]
+    },
+    {
+      "gloss": "a faux pas",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40146
+      ]
+    },
+    {
+      "gloss": "see also 得罪[de2 zui4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40146
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 12384,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 4,
+    "cumulative_count": 565599,
+    "percentage": 0.00064798,
+    "cumulative_percentage": 91.6237652,
+    "per_million": 6.479769,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    40145,
+    40146
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin.partial",
+      "reason": "not_attested",
+      "detail": "The pinned CNS syllable table has no unique full conversion for: dé zui"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

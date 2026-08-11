@@ -1,0 +1,189 @@
+{
+  "id": "moe1996-00515",
+  "traditional": "吧",
+  "simplified": "吧",
+  "constituent_chars": [
+    "U+5427"
+  ],
+  "pinyin": [
+    {
+      "reading": "bā",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        20436
+      ]
+    },
+    {
+      "reading": "ba",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        20437
+      ]
+    },
+    {
+      "reading": "biā",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        20438
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄅㄚ",
+      "pinyin": "bā",
+      "source_entry_indices": [
+        20436
+      ]
+    },
+    {
+      "reading": "˙ㄅㄚ",
+      "pinyin": "ba",
+      "source_entry_indices": [
+        20437
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "bar (loanword) (serving drinks, or providing Internet access etc)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        20436
+      ]
+    },
+    {
+      "gloss": "to puff (on a pipe etc)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        20436
+      ]
+    },
+    {
+      "gloss": "(onom.) bang",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        20436
+      ]
+    },
+    {
+      "gloss": "abbr. for 貼吧|贴吧[tie1 ba1]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        20436
+      ]
+    },
+    {
+      "gloss": "(modal particle indicating suggestion or surmise)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        20437
+      ]
+    },
+    {
+      "gloss": "...right?",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        20437
+      ]
+    },
+    {
+      "gloss": "...OK?",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        20437
+      ]
+    },
+    {
+      "gloss": "...I presume.",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        20437
+      ]
+    },
+    {
+      "gloss": "(onom.) smack!",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        20438
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 515,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 154,
+    "cumulative_count": 344479,
+    "percentage": 0.02494711,
+    "cumulative_percentage": 55.8036047,
+    "per_million": 249.471089,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    20436,
+    20437,
+    20438
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin.partial",
+      "reason": "not_attested",
+      "detail": "The pinned CNS syllable table has no unique full conversion for: biā"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

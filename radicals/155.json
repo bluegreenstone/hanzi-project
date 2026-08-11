@@ -1,0 +1,491 @@
+{
+  "kangxi_number": 155,
+  "primary": {
+    "char": "赤",
+    "codepoint": "U+8D64"
+  },
+  "radical_block": {
+    "char": "⾚",
+    "codepoint": "U+2F9A"
+  },
+  "variants": [],
+  "stroke_count": 7,
+  "stroke_count_standard": "TW-CNS11643",
+  "stroke_count_variants": [],
+  "names": {
+    "en": [
+      "red"
+    ],
+    "ja": [
+      "あか"
+    ]
+  },
+  "readings": {
+    "pinyin": [
+      {
+        "reading": "chì",
+        "context": "primary",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      }
+    ],
+    "zhuyin": [
+      "ㄔˋ"
+    ],
+    "jyutping": [
+      "cek3"
+    ],
+    "japanese_on": [
+      "SEKI",
+      "SHAKU"
+    ],
+    "japanese_kun": [
+      "AKA",
+      "AKAI"
+    ],
+    "korean": [
+      "CEK"
+    ],
+    "hangul": [
+      "적"
+    ],
+    "fanqie": [
+      {
+        "text": "昌石"
+      }
+    ]
+  },
+  "sources": {
+    "kangxi_number": [
+      "unicode-cjk-radicals-17.0.0"
+    ],
+    "primary": [
+      "unicode-cjk-radicals-17.0.0"
+    ],
+    "radical_block": [
+      "unicode-cjk-radicals-17.0.0"
+    ],
+    "variants": [
+      "unicode-cjk-radicals-17.0.0",
+      "unicode-unihan-17.0.0"
+    ],
+    "stroke_count": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "stroke_count_standard": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "names.en": [
+      "kanji-alive-radicals-master-audit"
+    ],
+    "names.ja": [
+      "kanji-alive-radicals-master-audit"
+    ],
+    "readings.pinyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.zhuyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.jyutping": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_on": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_kun": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.korean": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.hangul": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.fanqie": [
+      "unicode-unihan-17.0.0"
+    ],
+    "stroke_count_variants": [
+      "makemeahanzi-graphics-master-audit",
+      "unicode-unihan-17.0.0",
+      "kanji-alive-radicals-master-audit"
+    ],
+    "definitions": [
+      "unicode-unihan-17.0.0"
+    ],
+    "character_count_in_kangxi": [
+      "enwiki-kangxi-radicals-2026-08-10"
+    ],
+    "character_count_in_kangxi_status": [
+      "enwiki-kangxi-radicals-2026-08-10"
+    ],
+    "shuowen": [
+      "zhwikisource-shuowen-2026-08-10"
+    ],
+    "shuowen.seal_glyph": [
+      "commons-shuowen-540-svg-series-2026-08-10"
+    ],
+    "historical_forms.shuowen_seal_說文解字": [
+      "commons-shuowen-540-svg-series-2026-08-10"
+    ],
+    "historical_forms.oracle_bone_甲骨文": [
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+      "commons-ancient-chinese-historical-form-files-2026-08-10"
+    ],
+    "historical_forms.bronze_金文": [
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+      "commons-ancient-chinese-historical-form-files-2026-08-10"
+    ],
+    "historical_forms.liushutong_六書通": [
+      "commons-ancient-chinese-historical-form-files-2026-08-10",
+      "codh-henrui-liushutong-te00008-21-series-2026-08-11"
+    ],
+    "english_definition": [
+      "unicode-unihan-17.0.0"
+    ],
+    "stroke_order.svg_asset_id": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.standard": [
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.source_convention": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.formal_conformance": [
+      "makemeahanzi-graphics-master-audit",
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.stroke_count": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.taiwan_cns_stroke_sequence": [
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "character_count_in_kangxi.primary_scan_verification",
+      "reason": "source_unavailable",
+      "detail": "The count is pinned secondary-source evidence; a single internally complete 1716 Kangxi scan has not yet been selected and counted."
+    },
+    {
+      "field": "names.ko",
+      "reason": "source_unavailable",
+      "detail": "No approved Phase 1 source supplies a systematic Korean learner-style radical name."
+    },
+    {
+      "field": "names.zh",
+      "reason": "source_unavailable",
+      "detail": "No approved Phase 1 source supplies a systematic Traditional-Chinese colloquial radical name."
+    },
+    {
+      "field": "semantic_field",
+      "reason": "source_unavailable",
+      "detail": "No approved Phase 2 source provides a systematic semantic-field taxonomy for all 214 radicals."
+    },
+    {
+      "field": "stroke_order.stroke_types",
+      "reason": "source_unavailable",
+      "detail": "Make Me a Hanzi supplies ordered paths but no authoritative per-path stroke-type names; Taiwan CNS types are retained separately and are not assigned to PRC path indices."
+    },
+    {
+      "field": "stroke_order.formal_standard_verification",
+      "reason": "source_unavailable",
+      "detail": "The GF 0023-2020 publication is reference-only and the path source claims PRC convention without formal per-character conformance evidence."
+    }
+  ],
+  "conflicts": [],
+  "definitions": [
+    {
+      "gloss": "red; bare; Kangxi radical 155",
+      "lang": "en",
+      "register": "modern"
+    }
+  ],
+  "semantic_field": null,
+  "historical_forms": {
+    "oracle_bone_甲骨文": [
+      {
+        "asset_id": "sinica-oracle-U+8D64-representative",
+        "path": "assets/oracle/U+8D64/sinica-oracle-U+8D64-representative.png",
+        "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+        "source_file": "43.E611",
+        "license_id": "CC0-1.0"
+      },
+      {
+        "asset_id": "oracle-U+8D64-commons-index",
+        "path": "assets/oracle/U+8D64/oracle-U+8D64-commons-index.svg",
+        "source_id": "commons-ancient-chinese-historical-form-files-2026-08-10",
+        "source_file": "赤-oracle.svg",
+        "license_id": "pd"
+      }
+    ],
+    "bronze_金文": [
+      {
+        "asset_id": "sinica-bronze-U+8D64-representative",
+        "path": "assets/bronze/U+8D64/sinica-bronze-U+8D64-representative.png",
+        "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+        "source_file": "33.E9A9",
+        "license_id": "CC0-1.0"
+      },
+      {
+        "asset_id": "bronze-U+8D64-commons-index",
+        "path": "assets/bronze/U+8D64/bronze-U+8D64-commons-index.svg",
+        "source_id": "commons-ancient-chinese-historical-form-files-2026-08-10",
+        "source_file": "赤-bronze.svg",
+        "license_id": "pd"
+      }
+    ],
+    "shuowen_seal_說文解字": [
+      {
+        "asset_id": "shuowen-540-U+8D64",
+        "path": "assets/shuowen_seal/U+8D64/shuowen-540-U+8D64.svg",
+        "source_id": "commons-shuowen-540-svg-series-2026-08-10",
+        "source_file": "Shuowen Seal Radical 332.svg",
+        "license_id": "cc-by-sa-3.0"
+      }
+    ],
+    "liushutong_六書通": [
+      {
+        "asset_id": "liushutong-U+8D64-commons-index",
+        "path": "assets/liushutong/U+8D64/liushutong-U+8D64-commons-index.svg",
+        "source_id": "commons-ancient-chinese-historical-form-files-2026-08-10",
+        "source_file": "赤-bigseal.svg",
+        "license_id": "pd"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00009-U+8D64-001",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00009-U+8D64-001.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00009_0005_1_X1955_Y0618.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00016-U+8D64-001",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00016-U+8D64-001.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00016_0005_1_X1955_Y0618.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00009-U+8D64-002",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00009-U+8D64-002.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00009_0005_1_X1961_Y1490.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00016-U+8D64-002",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00016-U+8D64-002.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00016_0005_1_X1961_Y1490.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00009-U+8D64-003",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00009-U+8D64-003.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00009_0005_1_X1978_Y2061.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00016-U+8D64-003",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00016-U+8D64-003.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00016_0005_1_X1978_Y2061.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00009-U+8D64-004",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00009-U+8D64-004.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00009_0005_1_X1985_Y1196.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00016-U+8D64-004",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00016-U+8D64-004.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00016_0005_1_X1985_Y1196.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00009-U+8D64-005",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00009-U+8D64-005.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00009_0005_1_X1986_Y2642.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00016-U+8D64-005",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00016-U+8D64-005.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00016_0005_1_X1986_Y2642.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00009-U+8D64-006",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00009-U+8D64-006.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00009_0005_1_X1993_Y3089.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00016-U+8D64-006",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00016-U+8D64-006.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00016_0005_1_X1993_Y3089.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00009-U+8D64-007",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00009-U+8D64-007.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00009_0005_1_X2267_Y1207.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00016-U+8D64-007",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00016-U+8D64-007.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00016_0005_1_X2267_Y1207.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00009-U+8D64-008",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00009-U+8D64-008.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00009_0005_1_X2271_Y0910.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00016-U+8D64-008",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00016-U+8D64-008.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00016_0005_1_X2271_Y0910.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00009-U+8D64-009",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00009-U+8D64-009.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00009_0005_1_X2273_Y2642.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00016-U+8D64-009",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00016-U+8D64-009.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00016_0005_1_X2273_Y2642.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00009-U+8D64-010",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00009-U+8D64-010.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00009_0005_1_X2274_Y2185.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00016-U+8D64-010",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00016-U+8D64-010.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00016_0005_1_X2274_Y2185.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00009-U+8D64-011",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00009-U+8D64-011.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00009_0005_1_X2276_Y3059.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00016-U+8D64-011",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00016-U+8D64-011.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00016_0005_1_X2276_Y3059.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00009-U+8D64-012",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00009-U+8D64-012.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00009_0005_1_X2287_Y3493.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      },
+      {
+        "asset_id": "codh-liushutong-TE00016-U+8D64-012",
+        "path": "assets/liushutong/U+8D64/codh-liushutong-TE00016-U+8D64-012.jpg",
+        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+        "source_file": "U+8D64_TE00016_0005_1_X2287_Y3493.jpg",
+        "license_id": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "character_count_in_kangxi": 31,
+  "character_count_in_kangxi_status": "secondary_source_unverified",
+  "shuowen": {
+    "radical_number": 332,
+    "source_headword": "赤",
+    "mapping_type": "exact_heading",
+    "entry_text": "南方色也。从大从火。凡赤之屬皆从赤。",
+    "edition_notes": null,
+    "source_page": "說文解字/10",
+    "page_id": 99568,
+    "revision_id": 2026004,
+    "revision_timestamp": "2021-04-13T02:58:06Z",
+    "seal_glyph": {
+      "asset_id": "shuowen-540-U+8D64",
+      "path": "assets/shuowen_seal/U+8D64/shuowen-540-U+8D64.svg",
+      "source_id": "commons-shuowen-540-svg-series-2026-08-10",
+      "source_file": "Shuowen Seal Radical 332.svg",
+      "license_id": "cc-by-sa-3.0"
+    }
+  },
+  "english_definition": "red; bare; Kangxi radical 155",
+  "stroke_order": {
+    "svg_asset_id": "stroke-order-U+8D64-mmah-bddc96d4",
+    "standard": "PRC GF 0023-2020 (provisional baseline)",
+    "source_convention": "Make Me a Hanzi PRC stroke order",
+    "formal_conformance": "not_verified",
+    "stroke_count": 7,
+    "stroke_types": null,
+    "taiwan_cns_stroke_sequence": [
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "2",
+        "name_zh": "豎"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      },
+      {
+        "code": "3",
+        "name_zh": "撇"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      }
+    ],
+    "standard_conflicts": []
+  }
+}

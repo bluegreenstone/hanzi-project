@@ -1,0 +1,140 @@
+{
+  "id": "moe1996-14837",
+  "traditional": "俄",
+  "simplified": "俄",
+  "constituent_chars": [
+    "U+4FC4"
+  ],
+  "pinyin": [
+    {
+      "reading": "é",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        7973,
+        7974
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄜˊ",
+      "pinyin": "é",
+      "source_entry_indices": [
+        7973,
+        7974
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "Russia",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7973
+      ]
+    },
+    {
+      "gloss": "Russian",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7973
+      ]
+    },
+    {
+      "gloss": "abbr. for 俄羅斯|俄罗斯[E2 luo2 si1]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7973
+      ]
+    },
+    {
+      "gloss": "Taiwan pr. [E4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7973
+      ]
+    },
+    {
+      "gloss": "suddenly",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7974
+      ]
+    },
+    {
+      "gloss": "very soon",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7974
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 14837,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 3,
+    "cumulative_count": 573991,
+    "percentage": 0.00048598,
+    "cumulative_percentage": 92.98322064,
+    "per_million": 4.859826,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    7973,
+    7974
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

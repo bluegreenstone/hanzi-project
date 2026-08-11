@@ -1,0 +1,123 @@
+{
+  "id": "moe1996-00646",
+  "traditional": "先生",
+  "simplified": "先生",
+  "constituent_chars": [
+    "U+5148",
+    "U+751F"
+  ],
+  "pinyin": [
+    {
+      "reading": "xiān sheng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        10498
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "teacher",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        10498
+      ]
+    },
+    {
+      "gloss": "gentleman; sir; mister (Mr.)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        10498
+      ]
+    },
+    {
+      "gloss": "husband",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        10498
+      ]
+    },
+    {
+      "gloss": "(dialect) doctor",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        10498
+      ]
+    },
+    {
+      "gloss": "CL:位[wei4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        10498
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 646,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 124,
+    "cumulative_count": 362535,
+    "percentage": 0.02008728,
+    "cumulative_percentage": 58.72857222,
+    "per_million": 200.872825,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    10498
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

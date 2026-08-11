@@ -1,0 +1,108 @@
+{
+  "id": "moe1996-22764",
+  "traditional": "輔仁大學",
+  "simplified": "辅仁大学",
+  "constituent_chars": [
+    "U+8F14",
+    "U+4EC1",
+    "U+5927",
+    "U+5B78"
+  ],
+  "pinyin": [
+    {
+      "reading": "fǔ rén dà xué",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        105830
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄈㄨˇ ㄖㄣˊ ㄉㄚˋ ㄒㄩㄝˊ",
+      "pinyin": "fǔ rén dà xué",
+      "source_entry_indices": [
+        105830
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "Fu Jen Catholic University of Peking (from 1925), forerunner of Beijing Normal University 北京師範大學|北京师范大学",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        105830
+      ]
+    },
+    {
+      "gloss": "Fu Jen Catholic University in New Taipei City, Taiwan",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        105830
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 22764,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 2,
+    "cumulative_count": 592066,
+    "percentage": 0.00032399,
+    "cumulative_percentage": 95.91126605,
+    "per_million": 3.239884,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    105830
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

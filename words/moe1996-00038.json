@@ -1,0 +1,276 @@
+{
+  "id": "moe1996-00038",
+  "traditional": "得",
+  "simplified": "得",
+  "constituent_chars": [
+    "U+5F97"
+  ],
+  "pinyin": [
+    {
+      "reading": "dé",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        40079
+      ]
+    },
+    {
+      "reading": "dè",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        40080
+      ]
+    },
+    {
+      "reading": "de",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        40081
+      ]
+    },
+    {
+      "reading": "děi",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        40082
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄜˊ",
+      "pinyin": "dé",
+      "source_entry_indices": [
+        40079
+      ]
+    },
+    {
+      "reading": "˙ㄉㄜ",
+      "pinyin": "de",
+      "source_entry_indices": [
+        40081
+      ]
+    },
+    {
+      "reading": "ㄉㄟˇ",
+      "pinyin": "děi",
+      "source_entry_indices": [
+        40082
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to obtain",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40079
+      ]
+    },
+    {
+      "gloss": "to get",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40079
+      ]
+    },
+    {
+      "gloss": "to gain",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40079
+      ]
+    },
+    {
+      "gloss": "to catch (a disease)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40079
+      ]
+    },
+    {
+      "gloss": "proper",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40079
+      ]
+    },
+    {
+      "gloss": "suitable",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40079
+      ]
+    },
+    {
+      "gloss": "proud",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40079
+      ]
+    },
+    {
+      "gloss": "contented",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40079
+      ]
+    },
+    {
+      "gloss": "to allow",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40079
+      ]
+    },
+    {
+      "gloss": "to permit",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40079
+      ]
+    },
+    {
+      "gloss": "ready",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40079
+      ]
+    },
+    {
+      "gloss": "finished",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40079
+      ]
+    },
+    {
+      "gloss": "used in 得瑟[de4 se5]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40080
+      ]
+    },
+    {
+      "gloss": "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40081
+      ]
+    },
+    {
+      "gloss": "to have to",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40082
+      ]
+    },
+    {
+      "gloss": "must",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40082
+      ]
+    },
+    {
+      "gloss": "ought to",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40082
+      ]
+    },
+    {
+      "gloss": "to need to",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        40082
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 38,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 1788,
+    "cumulative_count": 155669,
+    "percentage": 0.28964565,
+    "cumulative_percentage": 25.21747723,
+    "per_million": 2896.456539,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    40079,
+    40080,
+    40081,
+    40082
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin.partial",
+      "reason": "not_attested",
+      "detail": "The pinned CNS syllable table has no unique full conversion for: dè"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

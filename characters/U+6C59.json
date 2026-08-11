@@ -1,0 +1,354 @@
+{
+  "codepoint": "U+6C59",
+  "traditional": "汙",
+  "simplified": "污",
+  "simplification_note": {
+    "mapping_type": "many_traditional_to_one_simplified",
+    "simplified": "U+6C61",
+    "traditional_origins": [
+      "U+6C59",
+      "U+6C5A",
+      "U+6C61"
+    ]
+  },
+  "variants_異體字": [
+    {
+      "char": "污",
+      "codepoint": "U+6C61",
+      "relationship": "semantic",
+      "source_property": "kSemanticVariant"
+    },
+    {
+      "char": "洿",
+      "codepoint": "U+6D3F",
+      "relationship": "semantic",
+      "source_property": "kSemanticVariant"
+    },
+    {
+      "char": "汚",
+      "codepoint": "U+6C5A",
+      "relationship": "semantic",
+      "source_property": "kSemanticVariant"
+    }
+  ],
+  "radical": {
+    "kangxi_number": 85,
+    "residual_strokes": 3,
+    "source_assignment": "85.3",
+    "additional_assignments": []
+  },
+  "total_strokes": 6,
+  "total_strokes_standard": "TW-MOE-1996",
+  "stroke_count_variants": [],
+  "ids_decomposition": null,
+  "components": null,
+  "liushu_六書": null,
+  "readings": {
+    "pinyin": [
+      {
+        "reading": "wū",
+        "context": "primary",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      },
+      {
+        "reading": "wù",
+        "context": "additional",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      },
+      {
+        "reading": "wā",
+        "context": "additional",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      },
+      {
+        "reading": "yū",
+        "context": "additional",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      },
+      {
+        "reading": "yú",
+        "context": "additional",
+        "region": "TW",
+        "standard": "TW-CNS11643"
+      }
+    ],
+    "zhuyin": [
+      "ㄨ",
+      "ㄨˋ",
+      "ㄨㄚ",
+      "ㄩ",
+      "ㄩˊ"
+    ],
+    "jyutping": [
+      "waa1"
+    ],
+    "japanese_on": [
+      "O"
+    ],
+    "japanese_kun": [
+      "KEGAASU",
+      "KEGAARERU",
+      "TOGOOSU",
+      "KEGAARERUKEGAARUWASHII"
+    ],
+    "korean": [
+      "O"
+    ],
+    "fanqie": [
+      "羽俱",
+      "烏路"
+    ],
+    "hangul": [
+      "오"
+    ]
+  },
+  "definitions": [
+    {
+      "gloss": "filthy, dirty, impure, polluted",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "unicode-unihan-17.0.0"
+    },
+    {
+      "gloss": "variant of 污[wu1]",
+      "lang": "en",
+      "register": "modern",
+      "source_id": "cc-cedict-editor-2026-08-11"
+    }
+  ],
+  "frequency": {
+    "rank": 1945,
+    "selection_rank": 1938,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 37,
+    "cumulative_count": 980747,
+    "cumulative_percentage": 97.50371823,
+    "per_million": 36.784589,
+    "corpus_total_count": 1005856
+  },
+  "grading": {
+    "hsk": null,
+    "tocfl": null
+  },
+  "confusable_with": null,
+  "kangxi_citation": "0605.130",
+  "sources": {
+    "codepoint": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996"
+    ],
+    "variants_異體字": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical": [
+      "unicode-unihan-17.0.0"
+    ],
+    "total_strokes": [
+      "moe-tw-common-terms-1996"
+    ],
+    "total_strokes_standard": [
+      "moe-tw-common-terms-1996"
+    ],
+    "stroke_count_variants": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0",
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplification_note": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "readings.pinyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.zhuyin": [
+      "cns11643-attributes-2026-08-05",
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.jyutping": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_on": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_kun": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.korean": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.fanqie": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.hangul": [
+      "unicode-unihan-17.0.0"
+    ],
+    "definitions": [
+      "unicode-unihan-17.0.0",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "kangxi_citation": [
+      "unicode-unihan-17.0.0"
+    ],
+    "english_translation": [
+      "unicode-unihan-17.0.0"
+    ],
+    "common_words": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "stroke_order.svg_asset_id": [
+      "makemeahanzi-graphics-master-audit",
+      "cns11643-attributes-2026-08-05"
+    ],
+    "stroke_order.standard": [
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.source_convention": [
+      "makemeahanzi-graphics-master-audit",
+      "cns11643-attributes-2026-08-05"
+    ],
+    "stroke_order.formal_conformance": [
+      "makemeahanzi-graphics-master-audit",
+      "cns11643-attributes-2026-08-05",
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.stroke_count": [
+      "makemeahanzi-graphics-master-audit",
+      "cns11643-attributes-2026-08-05"
+    ],
+    "stroke_order.taiwan_cns_stroke_sequence": [
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "ids_decomposition",
+      "reason": "not_attested",
+      "detail": "The pinned Make Me a Hanzi dictionary has no row for this character."
+    },
+    {
+      "field": "components",
+      "reason": "not_attested",
+      "detail": "No approved decomposition row is available."
+    },
+    {
+      "field": "liushu_六書",
+      "reason": "not_attested",
+      "detail": "Make Me a Hanzi supplies no usable etymology classification."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK character-level source passed the Phase 0 audit."
+    },
+    {
+      "field": "grading.tocfl",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved TOCFL character-level source passed the Phase 0 audit."
+    },
+    {
+      "field": "confusable_with",
+      "reason": "source_unavailable",
+      "detail": "No approved curated visual-confusables source passed the Phase 0 audit."
+    },
+    {
+      "field": "common_words",
+      "reason": "not_attested",
+      "detail": "Only 2 distinct MOE-ranked rows with an exact CC-CEDICT Traditional headword were available."
+    },
+    {
+      "field": "stroke_order.stroke_types",
+      "reason": "source_unavailable",
+      "detail": "Make Me a Hanzi supplies ordered paths but no authoritative per-path stroke-type names; Taiwan CNS types are retained separately and are not assigned to PRC path indices."
+    },
+    {
+      "field": "stroke_order.formal_standard_verification",
+      "reason": "source_unavailable",
+      "detail": "The GF 0023-2020 publication is reference-only and the path source claims PRC convention without formal per-character conformance evidence."
+    },
+    {
+      "field": "stroke_order.exact_source_asset",
+      "reason": "source_unavailable",
+      "detail": "The pinned Make Me a Hanzi source has no exact U+6C59 row, and the official KanjiVG index also has no exact U+6C59 entry. The linked SVG is an explicitly labeled component reconstruction, not a substituted exact-source glyph."
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "radical.total_strokes_equation",
+      "resolution": "recorded_no_value_change",
+      "values": [
+        {
+          "value": {
+            "radical_strokes": 4,
+            "residual_strokes": 3,
+            "sum": 7
+          },
+          "source_ids": [
+            "unicode-unihan-17.0.0",
+            "cns11643-attributes-2026-08-05"
+          ]
+        },
+        {
+          "value": 6,
+          "source_ids": [
+            "moe-tw-common-terms-1996"
+          ]
+        }
+      ],
+      "detail": "The Unihan radical assignment and delivered radical count do not add to the Taiwan MOE total; both values are retained for review."
+    }
+  ],
+  "english_translation": "filthy, dirty, impure, polluted",
+  "common_words": [
+    "moe1996-28952",
+    "moe1996-28954"
+  ],
+  "stroke_order": {
+    "svg_asset_id": "stroke-order-U+6C59-reconstructed-components-v1",
+    "standard": "PRC GF 0023-2020 (provisional baseline)",
+    "source_convention": "Reconstructed component geometry; Taiwan CNS stroke sequence",
+    "formal_conformance": "not_verified",
+    "stroke_count": 6,
+    "stroke_types": null,
+    "taiwan_cns_stroke_sequence": [
+      {
+        "code": "4",
+        "name_zh": "點"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      },
+      {
+        "code": "4",
+        "name_zh": "點"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "1",
+        "name_zh": "橫"
+      },
+      {
+        "code": "5",
+        "name_zh": "折"
+      }
+    ],
+    "standard_conflicts": []
+  }
+}

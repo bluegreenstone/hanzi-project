@@ -1,0 +1,100 @@
+{
+  "id": "moe1996-24718",
+  "traditional": "大庭廣眾",
+  "simplified": "大庭广众",
+  "constituent_chars": [
+    "U+5927",
+    "U+5EAD",
+    "U+5EE3",
+    "U+773E"
+  ],
+  "pinyin": [
+    {
+      "reading": "dà tíng guǎng zhòng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        27859
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄚˋ ㄊㄧㄥˊ ㄍㄨㄤˇ ㄓㄨㄥˋ",
+      "pinyin": "dà tíng guǎng zhòng",
+      "source_entry_indices": [
+        27859
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "(idiom) in public; in front of everyone; openly (typically preceded by 在[zai4] and followed by 之下[zhi1 xia4])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        27859
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 24718,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 1,
+    "cumulative_count": 595303,
+    "percentage": 0.00016199,
+    "cumulative_percentage": 96.43564132,
+    "per_million": 1.619942,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    27859
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

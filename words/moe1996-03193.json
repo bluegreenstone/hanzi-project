@@ -1,0 +1,122 @@
+{
+  "id": "moe1996-03193",
+  "traditional": "寬鬆",
+  "simplified": "宽松",
+  "constituent_chars": [
+    "U+5BEC",
+    "U+9B06"
+  ],
+  "pinyin": [
+    {
+      "reading": "kuān sōng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        33581
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄎㄨㄢ ㄙㄨㄥ",
+      "pinyin": "kuān sōng",
+      "source_entry_indices": [
+        33581
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "spacious; roomy; uncrowded",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        33581
+      ]
+    },
+    {
+      "gloss": "(of clothes) loose and comfortable",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        33581
+      ]
+    },
+    {
+      "gloss": "relaxed; free of worry",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        33581
+      ]
+    },
+    {
+      "gloss": "well-off; affluent",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        33581
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 3193,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 22,
+    "cumulative_count": 485281,
+    "percentage": 0.00356387,
+    "cumulative_percentage": 78.61271395,
+    "per_million": 35.638727,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    33581
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

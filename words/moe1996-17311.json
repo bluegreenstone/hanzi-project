@@ -1,0 +1,108 @@
+{
+  "id": "moe1996-17311",
+  "traditional": "山珍海味",
+  "simplified": "山珍海味",
+  "constituent_chars": [
+    "U+5C71",
+    "U+73CD",
+    "U+6D77",
+    "U+5473"
+  ],
+  "pinyin": [
+    {
+      "reading": "shān zhēn hǎi wèi",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        35588
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄕㄢ ㄓㄣ ㄏㄞˇ ㄨㄟˋ",
+      "pinyin": "shān zhēn hǎi wèi",
+      "source_entry_indices": [
+        35588
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "exotic delicacies",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        35588
+      ]
+    },
+    {
+      "gloss": "luxury foodstuff from distant locations",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        35588
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 17311,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 2,
+    "cumulative_count": 581160,
+    "percentage": 0.00032399,
+    "cumulative_percentage": 94.14455716,
+    "per_million": 3.239884,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    35588
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

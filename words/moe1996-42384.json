@@ -1,0 +1,112 @@
+{
+  "id": "moe1996-42384",
+  "traditional": "聚乙烯",
+  "simplified": "聚乙烯",
+  "constituent_chars": [
+    "U+805A",
+    "U+4E59",
+    "U+70EF"
+  ],
+  "pinyin": [
+    {
+      "reading": "jù yǐ xī",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        89038
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄐㄩˋ ㄧˇ ㄒㄧ",
+      "pinyin": "jù yǐ xī",
+      "source_entry_indices": [
+        89038
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "polythene",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        89038
+      ]
+    },
+    {
+      "gloss": "polyethylene",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        89038
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 42384,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 1,
+    "cumulative_count": 612969,
+    "percentage": 0.00016199,
+    "cumulative_percentage": 99.2974311,
+    "per_million": 1.619942,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    89038
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+70EF"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

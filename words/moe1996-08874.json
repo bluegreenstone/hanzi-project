@@ -1,0 +1,116 @@
+{
+  "id": "moe1996-08874",
+  "traditional": "相提並論",
+  "simplified": "相提并论",
+  "constituent_chars": [
+    "U+76F8",
+    "U+63D0",
+    "U+4E26",
+    "U+8AD6"
+  ],
+  "pinyin": [
+    {
+      "reading": "xiāng tí bìng lùn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        77759
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄒㄧㄤ ㄊㄧˊ ㄅㄧㄥˋ ㄌㄨㄣˋ",
+      "pinyin": "xiāng tí bìng lùn",
+      "source_entry_indices": [
+        77759
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to discuss two disparate things together (idiom); to mention on equal terms",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        77759
+      ]
+    },
+    {
+      "gloss": "to place on a par with",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        77759
+      ]
+    },
+    {
+      "gloss": "(often with negatives: impossible to mention X in the same breath as Y)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        77759
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 8874,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 6,
+    "cumulative_count": 548643,
+    "percentage": 0.00097197,
+    "cumulative_percentage": 88.87699131,
+    "per_million": 9.719653,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    77759
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

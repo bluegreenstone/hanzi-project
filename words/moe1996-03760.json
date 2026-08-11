@@ -1,0 +1,215 @@
+{
+  "id": "moe1996-03760",
+  "traditional": "惡",
+  "simplified": "恶",
+  "constituent_chars": [
+    "U+60E1"
+  ],
+  "pinyin": [
+    {
+      "reading": "ě",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        42269
+      ]
+    },
+    {
+      "reading": "è",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        42270
+      ]
+    },
+    {
+      "reading": "wù",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        42271
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄜˇ",
+      "pinyin": "ě",
+      "source_entry_indices": [
+        42269
+      ]
+    },
+    {
+      "reading": "ㄜˋ",
+      "pinyin": "è",
+      "source_entry_indices": [
+        42270
+      ]
+    },
+    {
+      "reading": "ㄨˋ",
+      "pinyin": "wù",
+      "source_entry_indices": [
+        42271
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "used in 惡心|恶心[e3 xin1]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42269
+      ]
+    },
+    {
+      "gloss": "evil",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42270
+      ]
+    },
+    {
+      "gloss": "fierce",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42270
+      ]
+    },
+    {
+      "gloss": "vicious",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42270
+      ]
+    },
+    {
+      "gloss": "ugly",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42270
+      ]
+    },
+    {
+      "gloss": "coarse",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42270
+      ]
+    },
+    {
+      "gloss": "to harm",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42270
+      ]
+    },
+    {
+      "gloss": "to hate",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42271
+      ]
+    },
+    {
+      "gloss": "to loathe",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42271
+      ]
+    },
+    {
+      "gloss": "ashamed",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42271
+      ]
+    },
+    {
+      "gloss": "to fear",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42271
+      ]
+    },
+    {
+      "gloss": "to slander",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42271
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 3760,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 18,
+    "cumulative_count": 496406,
+    "percentage": 0.0029159,
+    "cumulative_percentage": 80.41489958,
+    "per_million": 29.158958,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    42269,
+    42270,
+    42271
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

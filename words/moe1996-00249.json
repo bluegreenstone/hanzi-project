@@ -1,0 +1,152 @@
+{
+  "id": "moe1996-00249",
+  "traditional": "打",
+  "simplified": "打",
+  "constituent_chars": [
+    "U+6253"
+  ],
+  "pinyin": [
+    {
+      "reading": "dá",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        44456
+      ]
+    },
+    {
+      "reading": "dǎ",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        44457
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄚˊ",
+      "pinyin": "dá",
+      "source_entry_indices": [
+        44456
+      ]
+    },
+    {
+      "reading": "ㄉㄚˇ",
+      "pinyin": "dǎ",
+      "source_entry_indices": [
+        44457
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "(loanword) dozen",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        44456
+      ]
+    },
+    {
+      "gloss": "Taiwan pr. [da3]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        44456
+      ]
+    },
+    {
+      "gloss": "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打傘|打伞[da3 san3] \"to hold an umbrella\", 打電話|打电话[da3 dian4 hua4] \"to make a phone call\", 打針|打针[da3 zhen1] \"to get an injection\", 打手套[da3 shou3 tao4] \"to knit gloves\", 打氣|打气[da3 qi4] \"to inflate\")",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        44457
+      ]
+    },
+    {
+      "gloss": "to hit; to strike",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        44457
+      ]
+    },
+    {
+      "gloss": "to fight",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        44457
+      ]
+    },
+    {
+      "gloss": "(coll.) from; since (as in 打那以後|打那以后[da3 na4 yi3 hou4] \"since then\")",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        44457
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 249,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 295,
+    "cumulative_count": 287835,
+    "percentage": 0.04778829,
+    "cumulative_percentage": 46.62760446,
+    "per_million": 477.88293,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    44456,
+    44457
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

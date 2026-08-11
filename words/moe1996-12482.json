@@ -1,0 +1,124 @@
+{
+  "id": "moe1996-12482",
+  "traditional": "脫胎換骨",
+  "simplified": "脱胎换骨",
+  "constituent_chars": [
+    "U+812B",
+    "U+80CE",
+    "U+63DB",
+    "U+9AA8"
+  ],
+  "pinyin": [
+    {
+      "reading": "tuō tāi huàn gǔ",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        90414
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄊㄨㄛ ㄊㄞ ㄏㄨㄢˋ ㄍㄨˇ",
+      "pinyin": "tuō tāi huàn gǔ",
+      "source_entry_indices": [
+        90414
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to shed one's mortal body and exchange one's bones (idiom); born again Daoist",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        90414
+      ]
+    },
+    {
+      "gloss": "to turn over a new leaf",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        90414
+      ]
+    },
+    {
+      "gloss": "fig. to change wholly",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        90414
+      ]
+    },
+    {
+      "gloss": "to create from other material (story, artwork etc)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        90414
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 12482,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 4,
+    "cumulative_count": 565991,
+    "percentage": 0.00064798,
+    "cumulative_percentage": 91.68726693,
+    "per_million": 6.479769,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    90414
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

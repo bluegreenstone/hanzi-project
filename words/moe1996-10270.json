@@ -1,0 +1,114 @@
+{
+  "id": "moe1996-10270",
+  "traditional": "捐贈",
+  "simplified": "捐赠",
+  "constituent_chars": [
+    "U+6350",
+    "U+8D08"
+  ],
+  "pinyin": [
+    {
+      "reading": "juān zèng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        47111
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄐㄩㄢ ㄗㄥˋ",
+      "pinyin": "juān zèng",
+      "source_entry_indices": [
+        47111
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to contribute (as a gift)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        47111
+      ]
+    },
+    {
+      "gloss": "to donate",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        47111
+      ]
+    },
+    {
+      "gloss": "benefaction",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        47111
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 10270,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 5,
+    "cumulative_count": 556317,
+    "percentage": 0.00080997,
+    "cumulative_percentage": 90.12013491,
+    "per_million": 8.099711,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    47111
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

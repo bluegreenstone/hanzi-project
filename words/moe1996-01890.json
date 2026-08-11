@@ -1,0 +1,105 @@
+{
+  "id": "moe1996-01890",
+  "traditional": "逐",
+  "simplified": "逐",
+  "constituent_chars": [
+    "U+9010"
+  ],
+  "pinyin": [
+    {
+      "reading": "zhú",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        107263
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄓㄨˊ",
+      "pinyin": "zhú",
+      "source_entry_indices": [
+        107263
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "(bound form) to pursue; to chase; to drive away",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        107263
+      ]
+    },
+    {
+      "gloss": "one by one; individually",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        107263
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1890,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 40,
+    "cumulative_count": 447562,
+    "percentage": 0.00647977,
+    "cumulative_percentage": 72.50245421,
+    "per_million": 64.797685,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    107263
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

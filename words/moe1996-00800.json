@@ -1,0 +1,122 @@
+{
+  "id": "moe1996-00800",
+  "traditional": "肯定",
+  "simplified": "肯定",
+  "constituent_chars": [
+    "U+80AF",
+    "U+5B9A"
+  ],
+  "pinyin": [
+    {
+      "reading": "kěn dìng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        89773
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄎㄣˇ ㄉㄧㄥˋ",
+      "pinyin": "kěn dìng",
+      "source_entry_indices": [
+        89773
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to be certain; to be positive",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        89773
+      ]
+    },
+    {
+      "gloss": "assuredly; definitely",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        89773
+      ]
+    },
+    {
+      "gloss": "to give recognition; to affirm",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        89773
+      ]
+    },
+    {
+      "gloss": "affirmative (answer)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        89773
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 800,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 100,
+    "cumulative_count": 379700,
+    "percentage": 0.01619942,
+    "cumulative_percentage": 61.50920289,
+    "per_million": 161.994214,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    89773
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,140 @@
+{
+  "id": "moe1996-01576",
+  "traditional": "陳",
+  "simplified": "陈",
+  "constituent_chars": [
+    "U+9673"
+  ],
+  "pinyin": [
+    {
+      "reading": "chén",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        114748,
+        114749
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄔㄣˊ",
+      "pinyin": "chén",
+      "source_entry_indices": [
+        114748,
+        114749
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "surname Chen",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114748
+      ]
+    },
+    {
+      "gloss": "Chen (c. 1045 – 479 BC), a Zhou dynasty state",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114748
+      ]
+    },
+    {
+      "gloss": "Chen (557–589), one of the Southern Dynasties 南朝[Nan2 Chao2]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114748
+      ]
+    },
+    {
+      "gloss": "(bound form) to lay out; to exhibit; to display",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114749
+      ]
+    },
+    {
+      "gloss": "(bound form) to narrate; to state; to explain; to tell",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114749
+      ]
+    },
+    {
+      "gloss": "old; stale",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114749
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1576,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 49,
+    "cumulative_count": 433716,
+    "percentage": 0.00793772,
+    "cumulative_percentage": 70.25948233,
+    "per_million": 79.377165,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    114748,
+    114749
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,180 @@
+{
+  "id": "moe1996-12540",
+  "traditional": "陰",
+  "simplified": "阴",
+  "constituent_chars": [
+    "U+9670"
+  ],
+  "pinyin": [
+    {
+      "reading": "yīn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        114659,
+        114660
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄧㄣ",
+      "pinyin": "yīn",
+      "source_entry_indices": [
+        114659,
+        114660
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "surname Yin",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114659
+      ]
+    },
+    {
+      "gloss": "overcast (weather)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114660
+      ]
+    },
+    {
+      "gloss": "cloudy",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114660
+      ]
+    },
+    {
+      "gloss": "shady",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114660
+      ]
+    },
+    {
+      "gloss": "Yin (the negative principle of Yin and Yang)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114660
+      ]
+    },
+    {
+      "gloss": "negative (electric.)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114660
+      ]
+    },
+    {
+      "gloss": "feminine",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114660
+      ]
+    },
+    {
+      "gloss": "moon",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114660
+      ]
+    },
+    {
+      "gloss": "implicit",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114660
+      ]
+    },
+    {
+      "gloss": "hidden",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114660
+      ]
+    },
+    {
+      "gloss": "genitalia",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114660
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 12540,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 4,
+    "cumulative_count": 566223,
+    "percentage": 0.00064798,
+    "cumulative_percentage": 91.72484959,
+    "per_million": 6.479769,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    114659,
+    114660
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

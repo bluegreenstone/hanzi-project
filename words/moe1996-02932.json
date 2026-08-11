@@ -1,0 +1,161 @@
+{
+  "id": "moe1996-02932",
+  "traditional": "登",
+  "simplified": "登",
+  "constituent_chars": [
+    "U+767B"
+  ],
+  "pinyin": [
+    {
+      "reading": "dēng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        75906
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄥ",
+      "pinyin": "dēng",
+      "source_entry_indices": [
+        75906
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to scale (a height)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75906
+      ]
+    },
+    {
+      "gloss": "to ascend",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75906
+      ]
+    },
+    {
+      "gloss": "to mount",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75906
+      ]
+    },
+    {
+      "gloss": "to publish or record",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75906
+      ]
+    },
+    {
+      "gloss": "to enter (e.g. in a register)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75906
+      ]
+    },
+    {
+      "gloss": "to press down with the foot",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75906
+      ]
+    },
+    {
+      "gloss": "to step or tread on",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75906
+      ]
+    },
+    {
+      "gloss": "to put on (shoes or trousers) (dialect)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75906
+      ]
+    },
+    {
+      "gloss": "to be gathered and taken to the threshing ground (old)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        75906
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 2932,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 24,
+    "cumulative_count": 479331,
+    "percentage": 0.00388786,
+    "cumulative_percentage": 77.64884838,
+    "per_million": 38.878611,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    75906
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

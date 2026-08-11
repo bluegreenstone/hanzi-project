@@ -1,0 +1,119 @@
+{
+  "id": "moe1996-28791",
+  "traditional": "托兒",
+  "simplified": "托儿",
+  "constituent_chars": [
+    "U+6258",
+    "U+5152"
+  ],
+  "pinyin": [
+    {
+      "reading": "tuō ér",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        44805
+      ]
+    },
+    {
+      "reading": "tuō r",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        44806
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄊㄨㄛ ㄦˊ",
+      "pinyin": "tuō ér",
+      "source_entry_indices": [
+        44805
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "childcare",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        44805
+      ]
+    },
+    {
+      "gloss": "(coll.) shill; tout; phony customer who pretends to buys things so as to lure real customers",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        44806
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 28791,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 1,
+    "cumulative_count": 599376,
+    "percentage": 0.00016199,
+    "cumulative_percentage": 97.09544375,
+    "per_million": 1.619942,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    44805,
+    44806
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin.partial",
+      "reason": "not_attested",
+      "detail": "The pinned CNS syllable table has no unique full conversion for: tuō r"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

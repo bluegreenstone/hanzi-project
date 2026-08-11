@@ -1,0 +1,121 @@
+{
+  "id": "moe1996-17392",
+  "traditional": "不厭其煩",
+  "simplified": "不厌其烦",
+  "constituent_chars": [
+    "U+4E0D",
+    "U+53AD",
+    "U+5176",
+    "U+7169"
+  ],
+  "pinyin": [
+    {
+      "reading": "bù yàn qí fán",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        2248
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄅㄨˋ ㄧㄢˋ ㄑㄧˊ ㄈㄢˊ",
+      "pinyin": "bù yàn qí fán",
+      "source_entry_indices": [
+        2248
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "not to mind taking all the trouble (idiom)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        2248
+      ]
+    },
+    {
+      "gloss": "to take great pains",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        2248
+      ]
+    },
+    {
+      "gloss": "to be very patient",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        2248
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 17392,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 2,
+    "cumulative_count": 581322,
+    "percentage": 0.00032399,
+    "cumulative_percentage": 94.17080022,
+    "per_million": 3.239884,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    2248
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+53AD"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

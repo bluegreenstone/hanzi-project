@@ -1,0 +1,107 @@
+{
+  "id": "moe1996-15310",
+  "traditional": "迷糊",
+  "simplified": "迷糊",
+  "constituent_chars": [
+    "U+8FF7",
+    "U+7CCA"
+  ],
+  "pinyin": [
+    {
+      "reading": "mí hu",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        106888
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "muddle-headed",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        106888
+      ]
+    },
+    {
+      "gloss": "dazed",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        106888
+      ]
+    },
+    {
+      "gloss": "only half conscious",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        106888
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 15310,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 3,
+    "cumulative_count": 575410,
+    "percentage": 0.00048598,
+    "cumulative_percentage": 93.21309043,
+    "per_million": 4.859826,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    106888
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

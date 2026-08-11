@@ -1,0 +1,257 @@
+{
+  "kangxi_number": 8,
+  "primary": {
+    "char": "亠",
+    "codepoint": "U+4EA0"
+  },
+  "radical_block": {
+    "char": "⼇",
+    "codepoint": "U+2F07"
+  },
+  "variants": [],
+  "stroke_count": 2,
+  "stroke_count_standard": "Unicode-IRG-fallback",
+  "stroke_count_variants": [],
+  "names": {
+    "en": [
+      "lid, top"
+    ],
+    "ja": [
+      "なべぶた"
+    ]
+  },
+  "readings": {
+    "pinyin": [
+      {
+        "reading": "tóu",
+        "context": "primary",
+        "region": "und",
+        "standard": "Unicode-kMandarin-fallback"
+      }
+    ],
+    "jyutping": [
+      "tau4"
+    ],
+    "japanese_on": [
+      "TOU",
+      "ZU"
+    ],
+    "japanese_kun": [
+      "KEISAN",
+      "NABEBUTA"
+    ],
+    "korean": [
+      "TWU"
+    ],
+    "fanqie": [
+      {
+        "text": "度侯"
+      }
+    ]
+  },
+  "sources": {
+    "kangxi_number": [
+      "unicode-cjk-radicals-17.0.0"
+    ],
+    "primary": [
+      "unicode-cjk-radicals-17.0.0"
+    ],
+    "radical_block": [
+      "unicode-cjk-radicals-17.0.0"
+    ],
+    "variants": [
+      "unicode-cjk-radicals-17.0.0",
+      "unicode-unihan-17.0.0"
+    ],
+    "stroke_count": [
+      "unicode-unihan-17.0.0"
+    ],
+    "stroke_count_standard": [
+      "unicode-unihan-17.0.0"
+    ],
+    "names.en": [
+      "kanji-alive-radicals-master-audit"
+    ],
+    "names.ja": [
+      "kanji-alive-radicals-master-audit"
+    ],
+    "readings.pinyin": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.jyutping": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_on": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.japanese_kun": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.korean": [
+      "unicode-unihan-17.0.0"
+    ],
+    "readings.fanqie": [
+      "unicode-unihan-17.0.0"
+    ],
+    "stroke_count_variants": [
+      "makemeahanzi-graphics-master-audit",
+      "unicode-unihan-17.0.0",
+      "kanji-alive-radicals-master-audit"
+    ],
+    "definitions": [
+      "unicode-unihan-17.0.0"
+    ],
+    "character_count_in_kangxi": [
+      "enwiki-kangxi-radicals-2026-08-10"
+    ],
+    "character_count_in_kangxi_status": [
+      "enwiki-kangxi-radicals-2026-08-10"
+    ],
+    "historical_forms.shuowen_seal_說文解字": [
+      "commons-ancient-chinese-character-seal-files-2026-08-10"
+    ],
+    "english_definition": [
+      "unicode-unihan-17.0.0"
+    ],
+    "stroke_order.svg_asset_id": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.standard": [
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.source_convention": [
+      "makemeahanzi-graphics-master-audit"
+    ],
+    "stroke_order.formal_conformance": [
+      "makemeahanzi-graphics-master-audit",
+      "prc-stroke-order-gf0023-2020"
+    ],
+    "stroke_order.stroke_count": [
+      "makemeahanzi-graphics-master-audit"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "character_count_in_kangxi.primary_scan_verification",
+      "reason": "source_unavailable",
+      "detail": "The count is pinned secondary-source evidence; a single internally complete 1716 Kangxi scan has not yet been selected and counted."
+    },
+    {
+      "field": "historical_forms.bronze_金文",
+      "reason": "source_unavailable",
+      "detail": "The exact Traditional-primary 小學堂 bronze query returned no candidate, and no deliverable from the pinned Commons radical index was acquired. These source absences are not proof of historical non-attestation."
+    },
+    {
+      "field": "historical_forms.liushutong_六書通",
+      "reason": "source_unavailable",
+      "detail": "Neither the pinned Commons 六書通 radical index nor the exact-codepoint CODH 偏類六書通 TE00008–TE00021 indexes supplied a deliverable image for this Traditional-primary radical. Index absence is not treated as proof that the form never existed."
+    },
+    {
+      "field": "historical_forms.oracle_bone_甲骨文",
+      "reason": "source_unavailable",
+      "detail": "The exact Traditional-primary 小學堂 oracle-bone query returned no candidate, and no deliverable from the pinned Commons radical index was acquired. These source absences are not proof of historical non-attestation."
+    },
+    {
+      "field": "names.ko",
+      "reason": "source_unavailable",
+      "detail": "No approved Phase 1 source supplies a systematic Korean learner-style radical name."
+    },
+    {
+      "field": "names.zh",
+      "reason": "source_unavailable",
+      "detail": "No approved Phase 1 source supplies a systematic Traditional-Chinese colloquial radical name."
+    },
+    {
+      "field": "readings.hangul",
+      "reason": "not_attested",
+      "detail": "Unihan 17.0.0 has no kHangul value for the primary ideograph."
+    },
+    {
+      "field": "readings.pinyin.tw",
+      "reason": "not_attested",
+      "detail": "CNS11643 has no Taiwan reading for this radical; the canonical field falls back to Unicode readings."
+    },
+    {
+      "field": "readings.zhuyin",
+      "reason": "not_attested",
+      "detail": "The CRC-validated CNS phonetic table has no row for the Unihan kIRG_TSource code."
+    },
+    {
+      "field": "semantic_field",
+      "reason": "source_unavailable",
+      "detail": "No approved Phase 2 source provides a systematic semantic-field taxonomy for all 214 radicals."
+    },
+    {
+      "field": "shuowen.entry_text",
+      "reason": "not_attested",
+      "detail": "No exact heading or Unihan kSemanticVariant mapping connects this Kangxi radical to a pinned Shuowen heading."
+    },
+    {
+      "field": "shuowen.radical_number",
+      "reason": "not_attested",
+      "detail": "No exact heading or Unihan kSemanticVariant mapping connects this Kangxi radical to a pinned Shuowen heading."
+    },
+    {
+      "field": "shuowen.seal_glyph",
+      "reason": "not_attested",
+      "detail": "No exact heading or Unihan kSemanticVariant mapping connects this Kangxi radical to a pinned Shuowen heading."
+    },
+    {
+      "field": "stroke_count.tw",
+      "reason": "not_attested",
+      "detail": "CNS11643 has no stroke-sequence row for the Unihan kIRG_TSource code; the canonical count falls back to Unicode IRG kTotalStrokes."
+    },
+    {
+      "field": "stroke_order.stroke_types",
+      "reason": "source_unavailable",
+      "detail": "Make Me a Hanzi supplies ordered paths but no authoritative per-path stroke-type names; Taiwan CNS types are retained separately and are not assigned to PRC path indices."
+    },
+    {
+      "field": "stroke_order.formal_standard_verification",
+      "reason": "source_unavailable",
+      "detail": "The GF 0023-2020 publication is reference-only and the path source claims PRC convention without formal per-character conformance evidence."
+    },
+    {
+      "field": "stroke_order.taiwan_cns_stroke_sequence",
+      "reason": "not_attested",
+      "detail": "The pinned CNS11643 stroke-sequence table has no row for this exact unified ideograph."
+    }
+  ],
+  "conflicts": [],
+  "definitions": [
+    {
+      "gloss": "head; Kangxi radical 8",
+      "lang": "en",
+      "register": "modern"
+    }
+  ],
+  "semantic_field": null,
+  "historical_forms": {
+    "oracle_bone_甲骨文": [],
+    "bronze_金文": [],
+    "shuowen_seal_說文解字": [
+      {
+        "asset_id": "character-seal-U+4EA0",
+        "path": "assets/shuowen_seal/U+4EA0/character-seal-U+4EA0.svg",
+        "source_id": "commons-ancient-chinese-character-seal-files-2026-08-10",
+        "source_file": "亠-seal.svg",
+        "license_id": "pd"
+      }
+    ],
+    "liushutong_六書通": []
+  },
+  "character_count_in_kangxi": 38,
+  "character_count_in_kangxi_status": "secondary_source_unverified",
+  "shuowen": null,
+  "english_definition": "head; Kangxi radical 8",
+  "stroke_order": {
+    "svg_asset_id": "stroke-order-U+4EA0-mmah-bddc96d4",
+    "standard": "PRC GF 0023-2020 (provisional baseline)",
+    "source_convention": "Make Me a Hanzi PRC stroke order",
+    "formal_conformance": "not_verified",
+    "stroke_count": 2,
+    "stroke_types": null,
+    "taiwan_cns_stroke_sequence": null,
+    "standard_conflicts": []
+  }
+}

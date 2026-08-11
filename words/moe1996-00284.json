@@ -1,0 +1,130 @@
+{
+  "id": "moe1996-00284",
+  "traditional": "一樣",
+  "simplified": "一样",
+  "constituent_chars": [
+    "U+4E00",
+    "U+6A23"
+  ],
+  "pinyin": [
+    {
+      "reading": "yī yàng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        681
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄧ ㄧㄤˋ",
+      "pinyin": "yī yàng",
+      "source_entry_indices": [
+        681
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "same",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        681
+      ]
+    },
+    {
+      "gloss": "like",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        681
+      ]
+    },
+    {
+      "gloss": "equal to",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        681
+      ]
+    },
+    {
+      "gloss": "the same as",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        681
+      ]
+    },
+    {
+      "gloss": "just like",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        681
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 284,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 267,
+    "cumulative_count": 297616,
+    "percentage": 0.04325246,
+    "cumulative_percentage": 48.21206986,
+    "per_million": 432.52455,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    681
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

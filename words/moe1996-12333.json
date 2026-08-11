@@ -1,0 +1,114 @@
+{
+  "id": "moe1996-12333",
+  "traditional": "問候",
+  "simplified": "问候",
+  "constituent_chars": [
+    "U+554F",
+    "U+5019"
+  ],
+  "pinyin": [
+    {
+      "reading": "wèn hòu",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        22190
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄨㄣˋ ㄏㄡˋ",
+      "pinyin": "wèn hòu",
+      "source_entry_indices": [
+        22190
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to give one's respects",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22190
+      ]
+    },
+    {
+      "gloss": "to send a greeting",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22190
+      ]
+    },
+    {
+      "gloss": "(fig.) (coll.) to make offensive reference to (somebody dear to the person to whom one is speaking)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        22190
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 12333,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 4,
+    "cumulative_count": 565395,
+    "percentage": 0.00064798,
+    "cumulative_percentage": 91.59071838,
+    "per_million": 6.479769,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    22190
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

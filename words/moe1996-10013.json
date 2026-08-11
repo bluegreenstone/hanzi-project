@@ -1,0 +1,122 @@
+{
+  "id": "moe1996-10013",
+  "traditional": "供奉",
+  "simplified": "供奉",
+  "constituent_chars": [
+    "U+4F9B",
+    "U+5949"
+  ],
+  "pinyin": [
+    {
+      "reading": "gòng fèng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        7760
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄍㄨㄥˋ ㄈㄥˋ",
+      "pinyin": "gòng fèng",
+      "source_entry_indices": [
+        7760
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to consecrate",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7760
+      ]
+    },
+    {
+      "gloss": "to enshrine and worship",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7760
+      ]
+    },
+    {
+      "gloss": "an offering (to one's ancestors)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7760
+      ]
+    },
+    {
+      "gloss": "a sacrifice (to a god)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7760
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 10013,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 5,
+    "cumulative_count": 555032,
+    "percentage": 0.00080997,
+    "cumulative_percentage": 89.91197234,
+    "per_million": 8.099711,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    7760
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,123 @@
+{
+  "id": "moe1996-04250",
+  "traditional": "功夫",
+  "simplified": "功夫",
+  "constituent_chars": [
+    "U+529F",
+    "U+592B"
+  ],
+  "pinyin": [
+    {
+      "reading": "gōng fu",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        15072
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "skill",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15072
+      ]
+    },
+    {
+      "gloss": "art",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15072
+      ]
+    },
+    {
+      "gloss": "kung fu",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15072
+      ]
+    },
+    {
+      "gloss": "labor",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15072
+      ]
+    },
+    {
+      "gloss": "effort",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15072
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 4250,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 15,
+    "cumulative_count": 504516,
+    "percentage": 0.00242991,
+    "cumulative_percentage": 81.72867265,
+    "per_million": 24.299132,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    15072
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

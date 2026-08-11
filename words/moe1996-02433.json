@@ -1,0 +1,224 @@
+{
+  "id": "moe1996-02433",
+  "traditional": "親",
+  "simplified": "亲",
+  "constituent_chars": [
+    "U+89AA"
+  ],
+  "pinyin": [
+    {
+      "reading": "qīn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        99570
+      ]
+    },
+    {
+      "reading": "qìng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        99571
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄑㄧㄣ",
+      "pinyin": "qīn",
+      "source_entry_indices": [
+        99570
+      ]
+    },
+    {
+      "reading": "ㄑㄧㄥˋ",
+      "pinyin": "qìng",
+      "source_entry_indices": [
+        99571
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "parent",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99570
+      ]
+    },
+    {
+      "gloss": "one's own (flesh and blood)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99570
+      ]
+    },
+    {
+      "gloss": "relative",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99570
+      ]
+    },
+    {
+      "gloss": "related",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99570
+      ]
+    },
+    {
+      "gloss": "marriage",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99570
+      ]
+    },
+    {
+      "gloss": "bride",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99570
+      ]
+    },
+    {
+      "gloss": "close",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99570
+      ]
+    },
+    {
+      "gloss": "intimate",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99570
+      ]
+    },
+    {
+      "gloss": "in person",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99570
+      ]
+    },
+    {
+      "gloss": "first-hand",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99570
+      ]
+    },
+    {
+      "gloss": "in favor of",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99570
+      ]
+    },
+    {
+      "gloss": "pro-",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99570
+      ]
+    },
+    {
+      "gloss": "to kiss",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99570
+      ]
+    },
+    {
+      "gloss": "(Internet slang) dear",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99570
+      ]
+    },
+    {
+      "gloss": "parents-in-law of one's offspring",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        99571
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 2433,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 30,
+    "cumulative_count": 466132,
+    "percentage": 0.00485983,
+    "cumulative_percentage": 75.51068676,
+    "per_million": 48.598264,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    99570,
+    99571
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

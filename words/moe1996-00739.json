@@ -1,0 +1,175 @@
+{
+  "id": "moe1996-00739",
+  "traditional": "般",
+  "simplified": "般",
+  "constituent_chars": [
+    "U+822C"
+  ],
+  "pinyin": [
+    {
+      "reading": "bān",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        92403
+      ]
+    },
+    {
+      "reading": "bō",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        92404
+      ]
+    },
+    {
+      "reading": "pán",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        92405
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄅㄢ",
+      "pinyin": "bān",
+      "source_entry_indices": [
+        92403
+      ]
+    },
+    {
+      "reading": "ㄅㄛ",
+      "pinyin": "bō",
+      "source_entry_indices": [
+        92404
+      ]
+    },
+    {
+      "reading": "ㄆㄢˊ",
+      "pinyin": "pán",
+      "source_entry_indices": [
+        92405
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "sort",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        92403
+      ]
+    },
+    {
+      "gloss": "kind",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        92403
+      ]
+    },
+    {
+      "gloss": "class",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        92403
+      ]
+    },
+    {
+      "gloss": "way",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        92403
+      ]
+    },
+    {
+      "gloss": "manner",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        92403
+      ]
+    },
+    {
+      "gloss": "used in 般若[bo1 re3]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        92404
+      ]
+    },
+    {
+      "gloss": "see 般樂|般乐[pan2 le4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        92405
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 739,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 109,
+    "cumulative_count": 373310,
+    "percentage": 0.01765737,
+    "cumulative_percentage": 60.47405987,
+    "per_million": 176.573693,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    92403,
+    92404,
+    92405
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

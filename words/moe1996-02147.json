@@ -1,0 +1,148 @@
+{
+  "id": "moe1996-02147",
+  "traditional": "皮",
+  "simplified": "皮",
+  "constituent_chars": [
+    "U+76AE"
+  ],
+  "pinyin": [
+    {
+      "reading": "pí",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        76972,
+        76973
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄆㄧˊ",
+      "pinyin": "pí",
+      "source_entry_indices": [
+        76972,
+        76973
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "surname Pi",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        76972
+      ]
+    },
+    {
+      "gloss": "skin; peel; rind; outer layer",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        76973
+      ]
+    },
+    {
+      "gloss": "leather; hide; fur",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        76973
+      ]
+    },
+    {
+      "gloss": "cover; wrapping; outer covering",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        76973
+      ]
+    },
+    {
+      "gloss": "(of food) no longer crisp; soggy",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        76973
+      ]
+    },
+    {
+      "gloss": "(coll.) naughty; mischievous",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        76973
+      ]
+    },
+    {
+      "gloss": "pico- (10⁻¹²)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        76973
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 2147,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 34,
+    "cumulative_count": 457050,
+    "percentage": 0.0055078,
+    "cumulative_percentage": 74.03945531,
+    "per_million": 55.078033,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    76972,
+    76973
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

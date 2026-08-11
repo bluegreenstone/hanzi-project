@@ -1,0 +1,209 @@
+{
+  "id": "moe1996-00130",
+  "traditional": "點",
+  "simplified": "点",
+  "constituent_chars": [
+    "U+9EDE"
+  ],
+  "pinyin": [
+    {
+      "reading": "diǎn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        124050
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄧㄢˇ",
+      "pinyin": "diǎn",
+      "source_entry_indices": [
+        124050
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to touch briefly; to tap",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124050
+      ]
+    },
+    {
+      "gloss": "to mark with a dot; to check off (on a list)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124050
+      ]
+    },
+    {
+      "gloss": "to order (food etc); to select",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124050
+      ]
+    },
+    {
+      "gloss": "to mention; to bring up (a topic or person)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124050
+      ]
+    },
+    {
+      "gloss": "to hint at; to imply",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124050
+      ]
+    },
+    {
+      "gloss": "to administer (eye medicine etc) in drops",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124050
+      ]
+    },
+    {
+      "gloss": "to light (a fire, a lamp etc); to ignite",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124050
+      ]
+    },
+    {
+      "gloss": "to nod (one's head) in agreement; to beckon by moving (one's hand) up and down",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124050
+      ]
+    },
+    {
+      "gloss": "point; dot; spot; speck",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124050
+      ]
+    },
+    {
+      "gloss": "dot stroke in Chinese characters",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124050
+      ]
+    },
+    {
+      "gloss": "(math.) decimal point",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124050
+      ]
+    },
+    {
+      "gloss": "point in time or space",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124050
+      ]
+    },
+    {
+      "gloss": "(after a number) o'clock",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124050
+      ]
+    },
+    {
+      "gloss": "a small amount; a bit; (after a verb or adjective) a bit more",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124050
+      ]
+    },
+    {
+      "gloss": "classifier for small amounts",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124050
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 130,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 558,
+    "cumulative_count": 241534,
+    "percentage": 0.09039277,
+    "cumulative_percentage": 39.12711038,
+    "per_million": 903.927712,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    124050
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,124 @@
+{
+  "id": "moe1996-07951",
+  "traditional": "祝",
+  "simplified": "祝",
+  "constituent_chars": [
+    "U+795D"
+  ],
+  "pinyin": [
+    {
+      "reading": "zhù",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        80231,
+        80232
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄓㄨˋ",
+      "pinyin": "zhù",
+      "source_entry_indices": [
+        80231,
+        80232
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "surname Zhu",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        80231
+      ]
+    },
+    {
+      "gloss": "to pray for",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        80232
+      ]
+    },
+    {
+      "gloss": "to wish (sb bon voyage, happy birthday etc)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        80232
+      ]
+    },
+    {
+      "gloss": "person who invokes the spirits during sacrificial ceremonies",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        80232
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 7951,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 7,
+    "cumulative_count": 542655,
+    "percentage": 0.00113396,
+    "cumulative_percentage": 87.90696996,
+    "per_million": 11.339595,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    80231,
+    80232
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

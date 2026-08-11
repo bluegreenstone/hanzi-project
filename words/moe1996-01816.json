@@ -1,0 +1,153 @@
+{
+  "id": "moe1996-01816",
+  "traditional": "棒",
+  "simplified": "棒",
+  "constituent_chars": [
+    "U+68D2"
+  ],
+  "pinyin": [
+    {
+      "reading": "bàng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        57953
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄅㄤˋ",
+      "pinyin": "bàng",
+      "source_entry_indices": [
+        57953
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "stick",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        57953
+      ]
+    },
+    {
+      "gloss": "club",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        57953
+      ]
+    },
+    {
+      "gloss": "cudgel",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        57953
+      ]
+    },
+    {
+      "gloss": "smart",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        57953
+      ]
+    },
+    {
+      "gloss": "capable",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        57953
+      ]
+    },
+    {
+      "gloss": "strong",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        57953
+      ]
+    },
+    {
+      "gloss": "wonderful",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        57953
+      ]
+    },
+    {
+      "gloss": "classifier for legs of a relay race",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        57953
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1816,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 42,
+    "cumulative_count": 444542,
+    "percentage": 0.00680376,
+    "cumulative_percentage": 72.01323169,
+    "per_million": 68.03757,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    57953
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,99 @@
+{
+  "id": "moe1996-15591",
+  "traditional": "第三地",
+  "simplified": "第三地",
+  "constituent_chars": [
+    "U+7B2C",
+    "U+4E09",
+    "U+5730"
+  ],
+  "pinyin": [
+    {
+      "reading": "dì sān dì",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        82698
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄧˋ ㄙㄢ ㄉㄧˋ",
+      "pinyin": "dì sān dì",
+      "source_entry_indices": [
+        82698
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "territory belonging to a third party (as a neutral location for peace negotiations or as a transit point for indirect travel or trade etc)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        82698
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 15591,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 3,
+    "cumulative_count": 576253,
+    "percentage": 0.00048598,
+    "cumulative_percentage": 93.34965155,
+    "per_million": 4.859826,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    82698
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

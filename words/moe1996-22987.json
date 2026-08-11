@@ -1,0 +1,131 @@
+{
+  "id": "moe1996-22987",
+  "traditional": "糊糊",
+  "simplified": "糊糊",
+  "constituent_chars": [
+    "U+7CCA",
+    "U+7CCA"
+  ],
+  "pinyin": [
+    {
+      "reading": "hú hu",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        83996
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "viscous",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        83996
+      ]
+    },
+    {
+      "gloss": "gooey",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        83996
+      ]
+    },
+    {
+      "gloss": "sticky",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        83996
+      ]
+    },
+    {
+      "gloss": "indistinct",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        83996
+      ]
+    },
+    {
+      "gloss": "thick congee",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        83996
+      ]
+    },
+    {
+      "gloss": "porridge",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        83996
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 22987,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 2,
+    "cumulative_count": 592512,
+    "percentage": 0.00032399,
+    "cumulative_percentage": 95.98351547,
+    "per_million": 3.239884,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    83996
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

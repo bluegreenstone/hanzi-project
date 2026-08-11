@@ -1,0 +1,145 @@
+{
+  "id": "moe1996-01000",
+  "traditional": "重點",
+  "simplified": "重点",
+  "constituent_chars": [
+    "U+91CD",
+    "U+9EDE"
+  ],
+  "pinyin": [
+    {
+      "reading": "chóng diǎn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        110608
+      ]
+    },
+    {
+      "reading": "zhòng diǎn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        110609
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄔㄨㄥˊ ㄉㄧㄢˇ",
+      "pinyin": "chóng diǎn",
+      "source_entry_indices": [
+        110608
+      ]
+    },
+    {
+      "reading": "ㄓㄨㄥˋ ㄉㄧㄢˇ",
+      "pinyin": "zhòng diǎn",
+      "source_entry_indices": [
+        110609
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to recount (e.g. results of election)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        110608
+      ]
+    },
+    {
+      "gloss": "to re-evaluate",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        110608
+      ]
+    },
+    {
+      "gloss": "important point; main point; focus",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        110609
+      ]
+    },
+    {
+      "gloss": "key (project etc)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        110609
+      ]
+    },
+    {
+      "gloss": "to focus on; to put the emphasis on",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        110609
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1000,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 82,
+    "cumulative_count": 397818,
+    "percentage": 0.01328353,
+    "cumulative_percentage": 64.44421405,
+    "per_million": 132.835255,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    110608,
+    110609
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

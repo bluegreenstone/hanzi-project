@@ -1,0 +1,156 @@
+{
+  "id": "moe1996-09532",
+  "traditional": "蘇",
+  "simplified": "苏",
+  "constituent_chars": [
+    "U+8607"
+  ],
+  "pinyin": [
+    {
+      "reading": "sū",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        96164,
+        96165
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄙㄨ",
+      "pinyin": "sū",
+      "source_entry_indices": [
+        96164,
+        96165
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "surname Su",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        96164
+      ]
+    },
+    {
+      "gloss": "abbr. for Soviet Union 蘇維埃|苏维埃[Su1 wei2 ai1] or 蘇聯|苏联[Su1 lian2]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        96164
+      ]
+    },
+    {
+      "gloss": "abbr. for Jiangsu 江蘇|江苏[Jiang1 su1]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        96164
+      ]
+    },
+    {
+      "gloss": "abbr. for Suzhou 蘇州|苏州[Su1 zhou1]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        96164
+      ]
+    },
+    {
+      "gloss": "Perilla frutescens (Chinese basil or wild red basil)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        96165
+      ]
+    },
+    {
+      "gloss": "place name",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        96165
+      ]
+    },
+    {
+      "gloss": "to revive",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        96165
+      ]
+    },
+    {
+      "gloss": "used as phonetic in transliteration",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        96165
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 9532,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 6,
+    "cumulative_count": 552591,
+    "percentage": 0.00097197,
+    "cumulative_percentage": 89.51654447,
+    "per_million": 9.719653,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    96164,
+    96165
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,162 @@
+{
+  "id": "moe1996-08207",
+  "traditional": "構思",
+  "simplified": "构思",
+  "constituent_chars": [
+    "U+69CB",
+    "U+601D"
+  ],
+  "pinyin": [
+    {
+      "reading": "gòu sī",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        58657
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄍㄡˋ ㄙ",
+      "pinyin": "gòu sī",
+      "source_entry_indices": [
+        58657
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to design",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        58657
+      ]
+    },
+    {
+      "gloss": "to plot",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        58657
+      ]
+    },
+    {
+      "gloss": "to plan out",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        58657
+      ]
+    },
+    {
+      "gloss": "to compose",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        58657
+      ]
+    },
+    {
+      "gloss": "to draw a mental sketch",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        58657
+      ]
+    },
+    {
+      "gloss": "conception",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        58657
+      ]
+    },
+    {
+      "gloss": "plan",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        58657
+      ]
+    },
+    {
+      "gloss": "idea",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        58657
+      ]
+    },
+    {
+      "gloss": "composition",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        58657
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 8207,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 7,
+    "cumulative_count": 544447,
+    "percentage": 0.00113396,
+    "cumulative_percentage": 88.19726359,
+    "per_million": 11.339595,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    58657
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

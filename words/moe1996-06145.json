@@ -1,0 +1,106 @@
+{
+  "id": "moe1996-06145",
+  "traditional": "華航",
+  "simplified": "华航",
+  "constituent_chars": [
+    "U+83EF",
+    "U+822A"
+  ],
+  "pinyin": [
+    {
+      "reading": "huá háng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        94278
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄏㄨㄚˊ ㄏㄤˊ",
+      "pinyin": "huá háng",
+      "source_entry_indices": [
+        94278
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "China Airlines (Taiwan)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94278
+      ]
+    },
+    {
+      "gloss": "abbr. for 中華航空公司|中华航空公司[Zhong1 hua2 Hang2 kong1 Gong1 si1]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94278
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 6145,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 10,
+    "cumulative_count": 527752,
+    "percentage": 0.00161994,
+    "cumulative_percentage": 85.4927702,
+    "per_million": 16.199421,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    94278
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

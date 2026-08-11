@@ -1,0 +1,251 @@
+{
+  "id": "moe1996-02502",
+  "traditional": "薄",
+  "simplified": "薄",
+  "constituent_chars": [
+    "U+8584"
+  ],
+  "pinyin": [
+    {
+      "reading": "bó",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        95581,
+        95583
+      ]
+    },
+    {
+      "reading": "báo",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        95582
+      ]
+    },
+    {
+      "reading": "bò",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        95584
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄅㄛˊ",
+      "pinyin": "bó",
+      "source_entry_indices": [
+        95581,
+        95583
+      ]
+    },
+    {
+      "reading": "ㄅㄠˊ",
+      "pinyin": "báo",
+      "source_entry_indices": [
+        95582
+      ]
+    },
+    {
+      "reading": "ㄅㄛˋ",
+      "pinyin": "bò",
+      "source_entry_indices": [
+        95584
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "surname Bo",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        95581
+      ]
+    },
+    {
+      "gloss": "thin",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        95582
+      ]
+    },
+    {
+      "gloss": "cold in manner",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        95582
+      ]
+    },
+    {
+      "gloss": "indifferent",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        95582
+      ]
+    },
+    {
+      "gloss": "weak",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        95582,
+        95583
+      ]
+    },
+    {
+      "gloss": "light",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        95582
+      ]
+    },
+    {
+      "gloss": "infertile",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        95582
+      ]
+    },
+    {
+      "gloss": "meager",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        95583
+      ]
+    },
+    {
+      "gloss": "slight",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        95583
+      ]
+    },
+    {
+      "gloss": "ungenerous or unkind",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        95583
+      ]
+    },
+    {
+      "gloss": "frivolous",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        95583
+      ]
+    },
+    {
+      "gloss": "to despise",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        95583
+      ]
+    },
+    {
+      "gloss": "to belittle",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        95583
+      ]
+    },
+    {
+      "gloss": "to look down on",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        95583
+      ]
+    },
+    {
+      "gloss": "to approach or near",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        95583
+      ]
+    },
+    {
+      "gloss": "see 薄荷[bo4 he5]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        95584
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 2502,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 29,
+    "cumulative_count": 468141,
+    "percentage": 0.00469783,
+    "cumulative_percentage": 75.83613313,
+    "per_million": 46.978322,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    95581,
+    95582,
+    95583,
+    95584
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

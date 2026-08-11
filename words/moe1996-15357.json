@@ -1,0 +1,138 @@
+{
+  "id": "moe1996-15357",
+  "traditional": "停擺",
+  "simplified": "停摆",
+  "constituent_chars": [
+    "U+505C",
+    "U+64FA"
+  ],
+  "pinyin": [
+    {
+      "reading": "tíng bǎi",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        9214
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄊㄧㄥˊ ㄅㄞˇ",
+      "pinyin": "tíng bǎi",
+      "source_entry_indices": [
+        9214
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "(of a pendulum) to stop swinging",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        9214
+      ]
+    },
+    {
+      "gloss": "(of work, production, activities etc) to come to a halt",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        9214
+      ]
+    },
+    {
+      "gloss": "to be suspended",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        9214
+      ]
+    },
+    {
+      "gloss": "to be canceled",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        9214
+      ]
+    },
+    {
+      "gloss": "shutdown",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        9214
+      ]
+    },
+    {
+      "gloss": "(sports) lockout",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        9214
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 15357,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 3,
+    "cumulative_count": 575551,
+    "percentage": 0.00048598,
+    "cumulative_percentage": 93.23593161,
+    "per_million": 4.859826,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    9214
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

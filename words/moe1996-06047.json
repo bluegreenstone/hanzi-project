@@ -1,0 +1,121 @@
+{
+  "id": "moe1996-06047",
+  "traditional": "射",
+  "simplified": "射",
+  "constituent_chars": [
+    "U+5C04"
+  ],
+  "pinyin": [
+    {
+      "reading": "shè",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        33769
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄕㄜˋ",
+      "pinyin": "shè",
+      "source_entry_indices": [
+        33769
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to shoot",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        33769
+      ]
+    },
+    {
+      "gloss": "to launch",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        33769
+      ]
+    },
+    {
+      "gloss": "to allude to",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        33769
+      ]
+    },
+    {
+      "gloss": "radio- (chemistry)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        33769
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 6047,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 10,
+    "cumulative_count": 526772,
+    "percentage": 0.00161994,
+    "cumulative_percentage": 85.33401587,
+    "per_million": 16.199421,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    33769
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

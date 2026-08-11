@@ -1,0 +1,176 @@
+{
+  "id": "moe1996-01925",
+  "traditional": "率",
+  "simplified": "率",
+  "constituent_chars": [
+    "U+7387"
+  ],
+  "pinyin": [
+    {
+      "reading": "lǜ",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        72644
+      ]
+    },
+    {
+      "reading": "shuài",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        72645
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄌㄩˋ",
+      "pinyin": "lǜ",
+      "source_entry_indices": [
+        72644
+      ]
+    },
+    {
+      "reading": "ㄕㄨㄞˋ",
+      "pinyin": "shuài",
+      "source_entry_indices": [
+        72645
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "(bound form) ratio; rate; proportion",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        72644
+      ]
+    },
+    {
+      "gloss": "to lead",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        72645
+      ]
+    },
+    {
+      "gloss": "to command",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        72645
+      ]
+    },
+    {
+      "gloss": "rash",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        72645
+      ]
+    },
+    {
+      "gloss": "hasty",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        72645
+      ]
+    },
+    {
+      "gloss": "frank",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        72645
+      ]
+    },
+    {
+      "gloss": "straightforward",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        72645
+      ]
+    },
+    {
+      "gloss": "generally",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        72645
+      ]
+    },
+    {
+      "gloss": "usually",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        72645
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1925,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 39,
+    "cumulative_count": 448940,
+    "percentage": 0.00631777,
+    "cumulative_percentage": 72.72568224,
+    "per_million": 63.177743,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    72644,
+    72645
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

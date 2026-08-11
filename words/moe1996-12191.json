@@ -1,0 +1,106 @@
+{
+  "id": "moe1996-12191",
+  "traditional": "消沉",
+  "simplified": "消沉",
+  "constituent_chars": [
+    "U+6D88",
+    "U+6C89"
+  ],
+  "pinyin": [
+    {
+      "reading": "xiāo chén",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        65444
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄒㄧㄠ ㄔㄣˊ",
+      "pinyin": "xiāo chén",
+      "source_entry_indices": [
+        65444
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to sink into despondency",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        65444
+      ]
+    },
+    {
+      "gloss": "(of morale, willpower etc) to diminish; to plummet",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        65444
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 12191,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 4,
+    "cumulative_count": 564827,
+    "percentage": 0.00064798,
+    "cumulative_percentage": 91.49870567,
+    "per_million": 6.479769,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    65444
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

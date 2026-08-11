@@ -1,0 +1,99 @@
+{
+  "id": "moe1996-05865",
+  "traditional": "公司債",
+  "simplified": "公司债",
+  "constituent_chars": [
+    "U+516C",
+    "U+53F8",
+    "U+50B5"
+  ],
+  "pinyin": [
+    {
+      "reading": "gōng sī zhài",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        11741
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄍㄨㄥ ㄙ ㄓㄞˋ",
+      "pinyin": "gōng sī zhài",
+      "source_entry_indices": [
+        11741
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "corporate bonds (finance)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        11741
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 5865,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 10,
+    "cumulative_count": 524952,
+    "percentage": 0.00161994,
+    "cumulative_percentage": 85.0391864,
+    "per_million": 16.199421,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    11741
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

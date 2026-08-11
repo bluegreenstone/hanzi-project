@@ -1,0 +1,115 @@
+{
+  "id": "moe1996-01633",
+  "traditional": "看看",
+  "simplified": "看看",
+  "constituent_chars": [
+    "U+770B",
+    "U+770B"
+  ],
+  "pinyin": [
+    {
+      "reading": "kàn kan",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        78008
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "to take a look at",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        78008
+      ]
+    },
+    {
+      "gloss": "to examine",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        78008
+      ]
+    },
+    {
+      "gloss": "to survey",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        78008
+      ]
+    },
+    {
+      "gloss": "(coll.) pretty soon",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        78008
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1633,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 47,
+    "cumulative_count": 436444,
+    "percentage": 0.00761373,
+    "cumulative_percentage": 70.70140255,
+    "per_million": 76.13728,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    78008
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "moe1996-11603",
+  "traditional": "自圓其說",
+  "simplified": "自圆其说",
+  "constituent_chars": [
+    "U+81EA",
+    "U+5713",
+    "U+5176",
+    "U+8AAA"
+  ],
+  "pinyin": [
+    {
+      "reading": "zì yuán qí shuō",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        91431
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄗˋ ㄩㄢˊ ㄑㄧˊ ㄕㄨㄛ",
+      "pinyin": "zì yuán qí shuō",
+      "source_entry_indices": [
+        91431
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "(idiom) to make a story or theory consistent; to give a plausible explanation; to plug the holes in one's story",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        91431
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 11603,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 4,
+    "cumulative_count": 562475,
+    "percentage": 0.00064798,
+    "cumulative_percentage": 91.11769528,
+    "per_million": 6.479769,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    91431
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

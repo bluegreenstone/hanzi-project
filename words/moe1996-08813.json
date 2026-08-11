@@ -1,0 +1,168 @@
+{
+  "id": "moe1996-08813",
+  "traditional": "阿",
+  "simplified": "阿",
+  "constituent_chars": [
+    "U+963F"
+  ],
+  "pinyin": [
+    {
+      "reading": "ā",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        114015
+      ]
+    },
+    {
+      "reading": "ē",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        114016
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄚ",
+      "pinyin": "ā",
+      "source_entry_indices": [
+        114015
+      ]
+    },
+    {
+      "reading": "ㄜ",
+      "pinyin": "ē",
+      "source_entry_indices": [
+        114016
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "prefix used before monosyllabic names, kinship terms etc to indicate familiarity",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114015
+      ]
+    },
+    {
+      "gloss": "used in transliteration",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114015
+      ]
+    },
+    {
+      "gloss": "(bound form) Afghanistan (abbr. for 阿富汗[A1 fu4 han4])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114015
+      ]
+    },
+    {
+      "gloss": "(bound form) Albania (abbr. for 阿爾巴尼亞|阿尔巴尼亚[A1 er3 ba1 ni2 ya4])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114015
+      ]
+    },
+    {
+      "gloss": "(bound form) Algeria (abbr. for 阿爾及利亞|阿尔及利亚[A1 er3 ji2 li4 ya4])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114015
+      ]
+    },
+    {
+      "gloss": "(bound form) Argentina (abbr. for 阿根廷[A1 gen1 ting2])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114015
+      ]
+    },
+    {
+      "gloss": "also pr. [a4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114015
+      ]
+    },
+    {
+      "gloss": "(literary) to flatter; to curry favor with",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114016
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 8813,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 6,
+    "cumulative_count": 548277,
+    "percentage": 0.00097197,
+    "cumulative_percentage": 88.81770143,
+    "per_million": 9.719653,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    114015,
+    114016
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

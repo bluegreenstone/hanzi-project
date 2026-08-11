@@ -1,0 +1,140 @@
+{
+  "id": "moe1996-00083",
+  "traditional": "高",
+  "simplified": "高",
+  "constituent_chars": [
+    "U+9AD8"
+  ],
+  "pinyin": [
+    {
+      "reading": "gāo",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        121261,
+        121262
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄍㄠ",
+      "pinyin": "gāo",
+      "source_entry_indices": [
+        121261,
+        121262
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "surname Gao",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        121261
+      ]
+    },
+    {
+      "gloss": "high",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        121262
+      ]
+    },
+    {
+      "gloss": "tall",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        121262
+      ]
+    },
+    {
+      "gloss": "above average",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        121262
+      ]
+    },
+    {
+      "gloss": "loud",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        121262
+      ]
+    },
+    {
+      "gloss": "your (honorific)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        121262
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 83,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 903,
+    "cumulative_count": 208056,
+    "percentage": 0.14628077,
+    "cumulative_percentage": 33.7038681,
+    "per_million": 1462.807749,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    121261,
+    121262
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,143 @@
+{
+  "id": "moe1996-06719",
+  "traditional": "跟前",
+  "simplified": "跟前",
+  "constituent_chars": [
+    "U+8DDF",
+    "U+524D"
+  ],
+  "pinyin": [
+    {
+      "reading": "gēn qián",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        104698
+      ]
+    },
+    {
+      "reading": "gēn qian",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        104699
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄍㄣ ㄑㄧㄢˊ",
+      "pinyin": "gēn qián",
+      "source_entry_indices": [
+        104698
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "the front (of)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        104698
+      ]
+    },
+    {
+      "gloss": "(in) front",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        104698
+      ]
+    },
+    {
+      "gloss": "(in) sb's presence",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        104698
+      ]
+    },
+    {
+      "gloss": "just before (a date)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        104698
+      ]
+    },
+    {
+      "gloss": "(of children, parents etc) at one's side; living with one",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        104699
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 6719,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 9,
+    "cumulative_count": 533061,
+    "percentage": 0.00145795,
+    "cumulative_percentage": 86.35279748,
+    "per_million": 14.579479,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    104698,
+    104699
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin.partial",
+      "reason": "not_attested",
+      "detail": "The pinned CNS syllable table has no unique full conversion for: gēn qian"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

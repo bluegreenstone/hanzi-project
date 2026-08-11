@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img">
+  <title>丿 U+4E3F ordered strokes</title>
+  <metadata>Derived without path alteration from Make Me a Hanzi graphics.txt commit bddc96d41bef78427ed0e034e9f7e31d71fd1b92; Arphic Public License; generated wrapper adds path indices and the source coordinate transform. Stroke-type names are unavailable in the path source.</metadata>
+  <g fill="#000" transform="scale(1,-1) translate(0,-900)">
+    <path id="stroke-U+4E3F-1" data-stroke-index="1" data-stroke-type-status="source-unavailable" d="M 241 676 Q 256 264 118 111 Q 93 84 57 51 Q 44 44 41 39 Q 37 32 54 32 Q 93 32 178 111 Q 298 228 298 556 Q 298 649 317 712 Q 321 725 312 733 Q 291 749 253 764 Q 229 774 211 767 Q 190 758 208 740 Q 239 709 241 676 Z"/>
+  </g>
+</svg>

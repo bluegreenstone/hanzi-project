@@ -1,0 +1,117 @@
+{
+  "id": "moe1996-00941",
+  "traditional": "資源",
+  "simplified": "资源",
+  "constituent_chars": [
+    "U+8CC7",
+    "U+6E90"
+  ],
+  "pinyin": [
+    {
+      "reading": "zī yuán",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        103306,
+        103307
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄗ ㄩㄢˊ",
+      "pinyin": "zī yuán",
+      "source_entry_indices": [
+        103306,
+        103307
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "see 資源縣|资源县[Zi1 yuan2 Xian4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        103306
+      ]
+    },
+    {
+      "gloss": "natural resource (such as water or minerals)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        103307
+      ]
+    },
+    {
+      "gloss": "resource (such as manpower or tourism)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        103307
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 941,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 87,
+    "cumulative_count": 392855,
+    "percentage": 0.0140935,
+    "cumulative_percentage": 63.64023677,
+    "per_million": 140.934966,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    103306,
+    103307
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

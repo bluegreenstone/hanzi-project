@@ -1,0 +1,121 @@
+{
+  "id": "moe1996-00208",
+  "traditional": "先",
+  "simplified": "先",
+  "constituent_chars": [
+    "U+5148"
+  ],
+  "pinyin": [
+    {
+      "reading": "xiān",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        10446
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄒㄧㄢ",
+      "pinyin": "xiān",
+      "source_entry_indices": [
+        10446
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "beforehand; first; earlier",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        10446
+      ]
+    },
+    {
+      "gloss": "at first; originally",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        10446
+      ]
+    },
+    {
+      "gloss": "for the time being; for now",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        10446
+      ]
+    },
+    {
+      "gloss": "(prefix) my late (in referring to deceased relatives older than oneself)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        10446
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 208,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 345,
+    "cumulative_count": 274765,
+    "percentage": 0.055888,
+    "cumulative_percentage": 44.51034009,
+    "per_million": 558.880037,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    10446
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

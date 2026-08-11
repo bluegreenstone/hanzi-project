@@ -1,0 +1,107 @@
+{
+  "id": "moe1996-27737",
+  "traditional": "生啤酒",
+  "simplified": "生啤酒",
+  "constituent_chars": [
+    "U+751F",
+    "U+5564",
+    "U+9152"
+  ],
+  "pinyin": [
+    {
+      "reading": "shēng pí jiǔ",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        74106
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄕㄥ ㄆㄧˊ ㄐㄧㄡˇ",
+      "pinyin": "shēng pí jiǔ",
+      "source_entry_indices": [
+        74106
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "draft beer",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        74106
+      ]
+    },
+    {
+      "gloss": "unpasteurized beer",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        74106
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 27737,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 1,
+    "cumulative_count": 598322,
+    "percentage": 0.00016199,
+    "cumulative_percentage": 96.92470185,
+    "per_million": 1.619942,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    74106
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

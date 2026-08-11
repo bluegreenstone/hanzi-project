@@ -1,0 +1,151 @@
+{
+  "id": "moe1996-00289",
+  "traditional": "地方",
+  "simplified": "地方",
+  "constituent_chars": [
+    "U+5730",
+    "U+65B9"
+  ],
+  "pinyin": [
+    {
+      "reading": "dì fāng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        24990
+      ]
+    },
+    {
+      "reading": "dì fang",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        24991
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄧˋ ㄈㄤ",
+      "pinyin": "dì fāng",
+      "source_entry_indices": [
+        24990
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "region",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        24990
+      ]
+    },
+    {
+      "gloss": "regional (away from the central administration)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        24990
+      ]
+    },
+    {
+      "gloss": "local",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        24990
+      ]
+    },
+    {
+      "gloss": "place; location; area; space; territory",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        24991
+      ]
+    },
+    {
+      "gloss": "aspect; part",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        24991
+      ]
+    },
+    {
+      "gloss": "CL:處|处[chu4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        24991
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 289,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 265,
+    "cumulative_count": 298946,
+    "percentage": 0.04292847,
+    "cumulative_percentage": 48.42752217,
+    "per_million": 429.284666,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    24990,
+    24991
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin.partial",
+      "reason": "not_attested",
+      "detail": "The pinned CNS syllable table has no unique full conversion for: dì fang"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

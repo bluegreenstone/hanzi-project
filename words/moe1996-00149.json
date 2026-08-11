@@ -1,0 +1,184 @@
+{
+  "id": "moe1996-00149",
+  "traditional": "間",
+  "simplified": "间",
+  "constituent_chars": [
+    "U+9593"
+  ],
+  "pinyin": [
+    {
+      "reading": "jiān",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        113487
+      ]
+    },
+    {
+      "reading": "jiàn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        113488
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄐㄧㄢ",
+      "pinyin": "jiān",
+      "source_entry_indices": [
+        113487
+      ]
+    },
+    {
+      "reading": "ㄐㄧㄢˋ",
+      "pinyin": "jiàn",
+      "source_entry_indices": [
+        113488
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "between",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        113487
+      ]
+    },
+    {
+      "gloss": "among",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        113487
+      ]
+    },
+    {
+      "gloss": "within a definite time or space",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        113487
+      ]
+    },
+    {
+      "gloss": "room",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        113487
+      ]
+    },
+    {
+      "gloss": "section of a room or lateral space between two pairs of pillars",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        113487
+      ]
+    },
+    {
+      "gloss": "classifier for rooms",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        113487
+      ]
+    },
+    {
+      "gloss": "gap",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        113488
+      ]
+    },
+    {
+      "gloss": "to separate",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        113488
+      ]
+    },
+    {
+      "gloss": "to thin out (seedlings)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        113488
+      ]
+    },
+    {
+      "gloss": "to sow discontent",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        113488
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 149,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 464,
+    "cumulative_count": 251200,
+    "percentage": 0.07516532,
+    "cumulative_percentage": 40.69294645,
+    "per_million": 751.653151,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    113487,
+    113488
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

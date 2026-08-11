@@ -1,0 +1,98 @@
+{
+  "id": "moe1996-07586",
+  "traditional": "化纖",
+  "simplified": "化纤",
+  "constituent_chars": [
+    "U+5316",
+    "U+7E96"
+  ],
+  "pinyin": [
+    {
+      "reading": "huà xiān",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        16121
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄏㄨㄚˋ ㄒㄧㄢ",
+      "pinyin": "huà xiān",
+      "source_entry_indices": [
+        16121
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "man-made fiber (abbr. for 化學纖維|化学纤维[hua4 xue2 xian1 wei2])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        16121
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 7586,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 7,
+    "cumulative_count": 540100,
+    "percentage": 0.00113396,
+    "cumulative_percentage": 87.49307475,
+    "per_million": 11.339595,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    16121
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

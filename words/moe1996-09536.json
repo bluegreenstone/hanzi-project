@@ -1,0 +1,114 @@
+{
+  "id": "moe1996-09536",
+  "traditional": "釋迦牟尼佛",
+  "simplified": "释迦牟尼佛",
+  "constituent_chars": [
+    "U+91CB",
+    "U+8FE6",
+    "U+725F",
+    "U+5C3C",
+    "U+4F5B"
+  ],
+  "pinyin": [
+    {
+      "reading": "shì jiā móu ní fó",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        110332
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄕˋ ㄐㄧㄚ ㄇㄡˊ ㄋㄧˊ ㄈㄛˊ",
+      "pinyin": "shì jiā móu ní fó",
+      "source_entry_indices": [
+        110332
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "Sakyamuni Buddha (Sanskrit: sage of the Sakya)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        110332
+      ]
+    },
+    {
+      "gloss": "Siddhartha Gautama (563-485 BC), the historical Buddha and founder of Buddhism",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        110332
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 9536,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 6,
+    "cumulative_count": 552615,
+    "percentage": 0.00097197,
+    "cumulative_percentage": 89.52043233,
+    "per_million": 9.719653,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    110332
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+725F, U+8FE6"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "moe1996-08591",
+  "traditional": "由此可見",
+  "simplified": "由此可见",
+  "constituent_chars": [
+    "U+7531",
+    "U+6B64",
+    "U+53EF",
+    "U+898B"
+  ],
+  "pinyin": [
+    {
+      "reading": "yóu cǐ kě jiàn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        74567
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄧㄡˊ ㄘˇ ㄎㄜˇ ㄐㄧㄢˋ",
+      "pinyin": "yóu cǐ kě jiàn",
+      "source_entry_indices": [
+        74567
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "from this, it can be seen that...",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        74567
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 8591,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 6,
+    "cumulative_count": 546945,
+    "percentage": 0.00097197,
+    "cumulative_percentage": 88.60192514,
+    "per_million": 9.719653,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    74567
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

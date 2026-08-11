@@ -1,0 +1,116 @@
+{
+  "id": "moe1996-02228",
+  "traditional": "魚",
+  "simplified": "鱼",
+  "constituent_chars": [
+    "U+9B5A"
+  ],
+  "pinyin": [
+    {
+      "reading": "yú",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        122056,
+        122057
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄩˊ",
+      "pinyin": "yú",
+      "source_entry_indices": [
+        122056,
+        122057
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "surname Yu",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        122056
+      ]
+    },
+    {
+      "gloss": "fish (CL:條|条[tiao2],尾[wei3])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        122057
+      ]
+    },
+    {
+      "gloss": "used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        122057
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 2228,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 33,
+    "cumulative_count": 459763,
+    "percentage": 0.00534581,
+    "cumulative_percentage": 74.47894561,
+    "per_million": 53.45809,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    122056,
+    122057
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

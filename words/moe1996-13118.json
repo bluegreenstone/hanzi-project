@@ -1,0 +1,124 @@
+{
+  "id": "moe1996-13118",
+  "traditional": "鄭",
+  "simplified": "郑",
+  "constituent_chars": [
+    "U+912D"
+  ],
+  "pinyin": [
+    {
+      "reading": "zhèng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        109678,
+        109679
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄓㄥˋ",
+      "pinyin": "zhèng",
+      "source_entry_indices": [
+        109678,
+        109679
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "Zheng, a Zhou-dynasty state in the vicinity of present-day Xinzheng 新鄭|新郑[Xin1 zheng4], a county-level city in Henan",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        109678
+      ]
+    },
+    {
+      "gloss": "abbr. for Zhengzhou 鄭州|郑州[Zheng4 zhou1], the capital of Henan",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        109678
+      ]
+    },
+    {
+      "gloss": "surname Zheng",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        109678
+      ]
+    },
+    {
+      "gloss": "used in 鄭重|郑重[zheng4 zhong4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        109679
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 13118,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 4,
+    "cumulative_count": 568535,
+    "percentage": 0.00064798,
+    "cumulative_percentage": 92.09938021,
+    "per_million": 6.479769,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    109678,
+    109679
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

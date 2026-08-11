@@ -1,0 +1,130 @@
+{
+  "id": "moe1996-09447",
+  "traditional": "龍頭",
+  "simplified": "龙头",
+  "constituent_chars": [
+    "U+9F8D",
+    "U+982D"
+  ],
+  "pinyin": [
+    {
+      "reading": "lóng tóu",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        124704
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄌㄨㄥˊ ㄊㄡˊ",
+      "pinyin": "lóng tóu",
+      "source_entry_indices": [
+        124704
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "faucet; tap",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124704
+      ]
+    },
+    {
+      "gloss": "bicycle handlebar",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124704
+      ]
+    },
+    {
+      "gloss": "chief; boss (esp. of a gang)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124704
+      ]
+    },
+    {
+      "gloss": "(referring to a company) leader; front-runner",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124704
+      ]
+    },
+    {
+      "gloss": "figurehead on the prow of a dragon boat 龍船|龙船[long2 chuan2]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        124704
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 9447,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 6,
+    "cumulative_count": 552081,
+    "percentage": 0.00097197,
+    "cumulative_percentage": 89.43392742,
+    "per_million": 9.719653,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    124704
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,107 @@
+{
+  "id": "moe1996-20330",
+  "traditional": "孫中山",
+  "simplified": "孙中山",
+  "constituent_chars": [
+    "U+5B6B",
+    "U+4E2D",
+    "U+5C71"
+  ],
+  "pinyin": [
+    {
+      "reading": "sūn zhōng shān",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        31525
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄙㄨㄣ ㄓㄨㄥ ㄕㄢ",
+      "pinyin": "sūn zhōng shān",
+      "source_entry_indices": [
+        31525
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "Dr Sun Yat-sen (1866-1925), first president of the Republic of China and co-founder of the Guomintang 國民黨|国民党",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        31525
+      ]
+    },
+    {
+      "gloss": "same as 孫逸仙|孙逸仙",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        31525
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 20330,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 2,
+    "cumulative_count": 587198,
+    "percentage": 0.00032399,
+    "cumulative_percentage": 95.12267822,
+    "per_million": 3.239884,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    31525
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

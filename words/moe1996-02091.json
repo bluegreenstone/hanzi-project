@@ -1,0 +1,129 @@
+{
+  "id": "moe1996-02091",
+  "traditional": "母",
+  "simplified": "母",
+  "constituent_chars": [
+    "U+6BCD"
+  ],
+  "pinyin": [
+    {
+      "reading": "mǔ",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        61178
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄇㄨˇ",
+      "pinyin": "mǔ",
+      "source_entry_indices": [
+        61178
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "mother",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        61178
+      ]
+    },
+    {
+      "gloss": "elderly female relative",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        61178
+      ]
+    },
+    {
+      "gloss": "origin",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        61178
+      ]
+    },
+    {
+      "gloss": "source",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        61178
+      ]
+    },
+    {
+      "gloss": "(of animals) female",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        61178
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 2091,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 35,
+    "cumulative_count": 455101,
+    "percentage": 0.0056698,
+    "cumulative_percentage": 73.72372859,
+    "per_million": 56.697975,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    61178
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

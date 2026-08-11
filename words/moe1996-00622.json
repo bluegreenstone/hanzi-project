@@ -1,0 +1,147 @@
+{
+  "id": "moe1996-00622",
+  "traditional": "起來",
+  "simplified": "起来",
+  "constituent_chars": [
+    "U+8D77",
+    "U+4F86"
+  ],
+  "pinyin": [
+    {
+      "reading": "qǐ lai",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        104089
+      ]
+    },
+    {
+      "reading": "qi lai",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        104090
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "to stand up; to get up",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        104089
+      ]
+    },
+    {
+      "gloss": "also pr. [qi3lai2]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        104089
+      ]
+    },
+    {
+      "gloss": "(after a verb) indicating the beginning and continuation of an action or a state",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        104090
+      ]
+    },
+    {
+      "gloss": "indicating an upward movement (e.g. after 站[zhan4])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        104090
+      ]
+    },
+    {
+      "gloss": "indicating completion",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        104090
+      ]
+    },
+    {
+      "gloss": "(after a perception verb, e.g. 看[kan4]) expressing preliminary judgment",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        104090
+      ]
+    },
+    {
+      "gloss": "also pr. [qi3lai5]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        104090
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 622,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 128,
+    "cumulative_count": 359507,
+    "percentage": 0.02073526,
+    "cumulative_percentage": 58.23805374,
+    "per_million": 207.352593,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    104089,
+    104090
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

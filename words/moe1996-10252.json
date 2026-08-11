@@ -1,0 +1,129 @@
+{
+  "id": "moe1996-10252",
+  "traditional": "孫子",
+  "simplified": "孙子",
+  "constituent_chars": [
+    "U+5B6B",
+    "U+5B50"
+  ],
+  "pinyin": [
+    {
+      "reading": "sūn zǐ",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        31536
+      ]
+    },
+    {
+      "reading": "sūn zi",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        31537
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄙㄨㄣ ㄗˇ",
+      "pinyin": "sūn zǐ",
+      "source_entry_indices": [
+        31536
+      ]
+    },
+    {
+      "reading": "ㄙㄨㄣ ˙ㄗ",
+      "pinyin": "sūn zi",
+      "source_entry_indices": [
+        31537
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "Sun Tzu, also known as Sun Wu 孫武|孙武[Sun1 Wu3] (c. 500 BC, dates of birth and death uncertain), general, strategist and philosopher of the Spring and Autumn Period (700-475 BC), believed to be the author of the “Art of War” 孫子兵法|孙子兵法[Sun1 zi3 Bing1 fa3], one of the Seven Military Classics of ancient China 武經七書|武经七书[Wu3 jing1 Qi1 shu1]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        31536
+      ]
+    },
+    {
+      "gloss": "grandson",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        31537
+      ]
+    },
+    {
+      "gloss": "son's son",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        31537
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 10252,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 5,
+    "cumulative_count": 556227,
+    "percentage": 0.00080997,
+    "cumulative_percentage": 90.10555543,
+    "per_million": 8.099711,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    31536,
+    31537
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,101 @@
+{
+  "id": "moe1996-12184",
+  "traditional": "柴可夫斯基",
+  "simplified": "柴可夫斯基",
+  "constituent_chars": [
+    "U+67F4",
+    "U+53EF",
+    "U+592B",
+    "U+65AF",
+    "U+57FA"
+  ],
+  "pinyin": [
+    {
+      "reading": "chái kě fū sī jī",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        57025
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄔㄞˊ ㄎㄜˇ ㄈㄨ ㄙ ㄐㄧ",
+      "pinyin": "chái kě fū sī jī",
+      "source_entry_indices": [
+        57025
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "Tchaikovsky (1840-1893), Russian composer",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        57025
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 12184,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 4,
+    "cumulative_count": 564799,
+    "percentage": 0.00064798,
+    "cumulative_percentage": 91.49416983,
+    "per_million": 6.479769,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    57025
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

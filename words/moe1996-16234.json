@@ -1,0 +1,105 @@
+{
+  "id": "moe1996-16234",
+  "traditional": "過氧化氫",
+  "simplified": "过氧化氢",
+  "constituent_chars": [
+    "U+904E",
+    "U+6C27",
+    "U+5316",
+    "U+6C2B"
+  ],
+  "pinyin": [
+    {
+      "reading": "guò yǎng huà qīng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        108254
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄍㄨㄛˋ ㄧㄤˇ ㄏㄨㄚˋ ㄑㄧㄥ",
+      "pinyin": "guò yǎng huà qīng",
+      "source_entry_indices": [
+        108254
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "hydrogen peroxide H2O2",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        108254
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 16234,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 3,
+    "cumulative_count": 578182,
+    "percentage": 0.00048598,
+    "cumulative_percentage": 93.66213839,
+    "per_million": 4.859826,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    108254
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+6C2B"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

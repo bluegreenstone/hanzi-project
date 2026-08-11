@@ -1,0 +1,143 @@
+{
+  "id": "moe1996-19049",
+  "traditional": "迂迴",
+  "simplified": "迂回",
+  "constituent_chars": [
+    "U+8FC2",
+    "U+8FF4"
+  ],
+  "pinyin": [
+    {
+      "reading": "yū huí",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        106620
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄩ ㄏㄨㄟˊ",
+      "pinyin": "yū huí",
+      "source_entry_indices": [
+        106620
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "roundabout route",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        106620
+      ]
+    },
+    {
+      "gloss": "circuitous",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        106620
+      ]
+    },
+    {
+      "gloss": "tortuous",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        106620
+      ]
+    },
+    {
+      "gloss": "to outflank",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        106620
+      ]
+    },
+    {
+      "gloss": "indirect",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        106620
+      ]
+    },
+    {
+      "gloss": "roundabout",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        106620
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 19049,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 2,
+    "cumulative_count": 584636,
+    "percentage": 0.00032399,
+    "cumulative_percentage": 94.70764904,
+    "per_million": 3.239884,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    106620
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+8FC2"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

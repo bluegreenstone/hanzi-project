@@ -1,0 +1,130 @@
+{
+  "id": "moe1996-17248",
+  "traditional": "大砲",
+  "simplified": "大炮",
+  "constituent_chars": [
+    "U+5927",
+    "U+7832"
+  ],
+  "pinyin": [
+    {
+      "reading": "dà pào",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        28175
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄚˋ ㄆㄠˋ",
+      "pinyin": "dà pào",
+      "source_entry_indices": [
+        28175
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "big gun",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        28175
+      ]
+    },
+    {
+      "gloss": "cannon",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        28175
+      ]
+    },
+    {
+      "gloss": "artillery",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        28175
+      ]
+    },
+    {
+      "gloss": "one who talks big",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        28175
+      ]
+    },
+    {
+      "gloss": "CL:門|门[men2],尊[zun1]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        28175
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 17248,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 2,
+    "cumulative_count": 581034,
+    "percentage": 0.00032399,
+    "cumulative_percentage": 94.12414589,
+    "per_million": 3.239884,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    28175
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,103 @@
+{
+  "id": "moe1996-16517",
+  "traditional": "熟稔",
+  "simplified": "熟稔",
+  "constituent_chars": [
+    "U+719F",
+    "U+7A14"
+  ],
+  "pinyin": [
+    {
+      "reading": "shú rěn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        70417
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄕㄨˊ ㄖㄣˇ",
+      "pinyin": "shú rěn",
+      "source_entry_indices": [
+        70417
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "(literary) to be very familiar with (sb or sth); well acquainted with; fully conversant with",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        70417
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 16517,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 3,
+    "cumulative_count": 579031,
+    "percentage": 0.00048598,
+    "cumulative_percentage": 93.79967148,
+    "per_million": 4.859826,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    70417
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+7A14"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

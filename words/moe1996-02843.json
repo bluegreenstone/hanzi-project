@@ -1,0 +1,114 @@
+{
+  "id": "moe1996-02843",
+  "traditional": "農藥",
+  "simplified": "农药",
+  "constituent_chars": [
+    "U+8FB2",
+    "U+85E5"
+  ],
+  "pinyin": [
+    {
+      "reading": "nóng yào",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        106591
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄋㄨㄥˊ ㄧㄠˋ",
+      "pinyin": "nóng yào",
+      "source_entry_indices": [
+        106591
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "agricultural chemical",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        106591
+      ]
+    },
+    {
+      "gloss": "farm chemical",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        106591
+      ]
+    },
+    {
+      "gloss": "pesticide",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        106591
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 2843,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 25,
+    "cumulative_count": 477176,
+    "percentage": 0.00404986,
+    "cumulative_percentage": 77.29975085,
+    "per_million": 40.498553,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    106591
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,121 @@
+{
+  "id": "moe1996-10384",
+  "traditional": "域",
+  "simplified": "域",
+  "constituent_chars": [
+    "U+57DF"
+  ],
+  "pinyin": [
+    {
+      "reading": "yù",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        25641
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄩˋ",
+      "pinyin": "yù",
+      "source_entry_indices": [
+        25641
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "field",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        25641
+      ]
+    },
+    {
+      "gloss": "region",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        25641
+      ]
+    },
+    {
+      "gloss": "area",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        25641
+      ]
+    },
+    {
+      "gloss": "domain (taxonomy)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        25641
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 10384,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 5,
+    "cumulative_count": 556887,
+    "percentage": 0.00080997,
+    "cumulative_percentage": 90.21247161,
+    "per_million": 8.099711,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    25641
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

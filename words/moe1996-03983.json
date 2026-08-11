@@ -1,0 +1,114 @@
+{
+  "id": "moe1996-03983",
+  "traditional": "總理",
+  "simplified": "总理",
+  "constituent_chars": [
+    "U+7E3D",
+    "U+7406"
+  ],
+  "pinyin": [
+    {
+      "reading": "zǒng lǐ",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        86715
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄗㄨㄥˇ ㄌㄧˇ",
+      "pinyin": "zǒng lǐ",
+      "source_entry_indices": [
+        86715
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "premier",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        86715
+      ]
+    },
+    {
+      "gloss": "prime minister",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        86715
+      ]
+    },
+    {
+      "gloss": "CL:個|个[ge4],位[wei4],名[ming2]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        86715
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 3983,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 17,
+    "cumulative_count": 500264,
+    "percentage": 0.0027539,
+    "cumulative_percentage": 81.03987326,
+    "per_million": 27.539016,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    86715
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

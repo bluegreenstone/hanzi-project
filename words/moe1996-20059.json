@@ -1,0 +1,100 @@
+{
+  "id": "moe1996-20059",
+  "traditional": "突擊步槍",
+  "simplified": "突击步枪",
+  "constituent_chars": [
+    "U+7A81",
+    "U+64CA",
+    "U+6B65",
+    "U+69CD"
+  ],
+  "pinyin": [
+    {
+      "reading": "tū jī bù qiāng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        81975
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄊㄨ ㄐㄧ ㄅㄨˋ ㄑㄧㄤ",
+      "pinyin": "tū jī bù qiāng",
+      "source_entry_indices": [
+        81975
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "assault rifle",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        81975
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 20059,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 2,
+    "cumulative_count": 586656,
+    "percentage": 0.00032399,
+    "cumulative_percentage": 95.03487735,
+    "per_million": 3.239884,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    81975
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

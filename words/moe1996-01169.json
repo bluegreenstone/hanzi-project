@@ -1,0 +1,136 @@
+{
+  "id": "moe1996-01169",
+  "traditional": "答",
+  "simplified": "答",
+  "constituent_chars": [
+    "U+7B54"
+  ],
+  "pinyin": [
+    {
+      "reading": "dā",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        82900
+      ]
+    },
+    {
+      "reading": "dá",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        82901
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄉㄚ",
+      "pinyin": "dā",
+      "source_entry_indices": [
+        82900
+      ]
+    },
+    {
+      "reading": "ㄉㄚˊ",
+      "pinyin": "dá",
+      "source_entry_indices": [
+        82901
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "bound form having the same meaning as the free word 答[da2], used in 答應|答应[da1 ying5], 答理[da1 li5] etc",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        82900
+      ]
+    },
+    {
+      "gloss": "to answer",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        82901
+      ]
+    },
+    {
+      "gloss": "to reply",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        82901
+      ]
+    },
+    {
+      "gloss": "to respond",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        82901
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1169,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 68,
+    "cumulative_count": 410461,
+    "percentage": 0.01101561,
+    "cumulative_percentage": 66.49230689,
+    "per_million": 110.156065,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    82900,
+    82901
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

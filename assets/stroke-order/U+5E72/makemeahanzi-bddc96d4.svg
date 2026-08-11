@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img">
+  <title>干 U+5E72 ordered strokes</title>
+  <metadata>Derived without path alteration from Make Me a Hanzi graphics.txt commit bddc96d41bef78427ed0e034e9f7e31d71fd1b92; Arphic Public License; generated wrapper adds path indices and the source coordinate transform. Stroke-type names are unavailable in the path source.</metadata>
+  <g fill="#000" transform="scale(1,-1) translate(0,-900)">
+    <path id="stroke-U+5E72-1" data-stroke-index="1" data-stroke-type-status="source-unavailable" d="M 524 729 Q 597 742 677 756 Q 737 768 746 776 Q 756 785 751 794 Q 744 807 711 817 Q 677 826 587 796 Q 446 762 325 753 Q 283 749 312 728 Q 355 703 438 715 Q 445 716 457 718 L 524 729 Z"/>
+    <path id="stroke-U+5E72-2" data-stroke-index="2" data-stroke-type-status="source-unavailable" d="M 545 455 Q 755 479 902 467 Q 938 467 943 473 Q 950 489 937 501 Q 903 532 854 553 Q 838 560 809 550 Q 782 544 546 508 L 486 501 Q 465 501 286 476 Q 214 463 107 461 Q 91 461 90 448 Q 90 435 111 419 Q 130 406 166 392 Q 178 388 198 397 Q 214 403 291 417 Q 378 438 485 450 L 545 455 Z"/>
+    <path id="stroke-U+5E72-3" data-stroke-index="3" data-stroke-type-status="source-unavailable" d="M 482 0 Q 489 -30 496 -41 Q 503 -48 511 -46 Q 527 -37 537 33 Q 547 123 545 213 Q 542 271 545 455 L 546 508 Q 546 607 562 682 Q 565 703 549 713 Q 536 723 524 729 C 498 745 445 746 457 718 Q 481 661 484 653 Q 485 640 486 501 L 485 450 Q 479 35 482 0 Z"/>
+  </g>
+</svg>

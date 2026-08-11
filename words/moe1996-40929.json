@@ -1,0 +1,145 @@
+{
+  "id": "moe1996-40929",
+  "traditional": "罩",
+  "simplified": "罩",
+  "constituent_chars": [
+    "U+7F69"
+  ],
+  "pinyin": [
+    {
+      "reading": "zhào",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        87198
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄓㄠˋ",
+      "pinyin": "zhào",
+      "source_entry_indices": [
+        87198
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to cover; to spread over",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        87198
+      ]
+    },
+    {
+      "gloss": "a cover; a shade; a hood",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        87198
+      ]
+    },
+    {
+      "gloss": "bamboo fish trap",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        87198
+      ]
+    },
+    {
+      "gloss": "bamboo chicken coop",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        87198
+      ]
+    },
+    {
+      "gloss": "(Tw) (coll.) to protect; to have sb's back",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        87198
+      ]
+    },
+    {
+      "gloss": "(Tw) (coll.) awesome; incredible",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        87198
+      ]
+    },
+    {
+      "gloss": "(Tw) (coll.) (often as 罩得住[zhao4 de2 zhu4]) to have things under control; to be able to handle it",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        87198
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 40929,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 1,
+    "cumulative_count": 611514,
+    "percentage": 0.00016199,
+    "cumulative_percentage": 99.06172952,
+    "per_million": 1.619942,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    87198
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,184 @@
+{
+  "id": "moe1996-01160",
+  "traditional": "子",
+  "simplified": "子",
+  "constituent_chars": [
+    "U+5B50"
+  ],
+  "pinyin": [
+    {
+      "reading": "zǐ",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        31105
+      ]
+    },
+    {
+      "reading": "zi",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        31106
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄗˇ",
+      "pinyin": "zǐ",
+      "source_entry_indices": [
+        31105
+      ]
+    },
+    {
+      "reading": "˙ㄗ",
+      "pinyin": "zi",
+      "source_entry_indices": [
+        31106
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "son",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        31105
+      ]
+    },
+    {
+      "gloss": "child",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        31105
+      ]
+    },
+    {
+      "gloss": "seed",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        31105
+      ]
+    },
+    {
+      "gloss": "egg",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        31105
+      ]
+    },
+    {
+      "gloss": "small thing",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        31105
+      ]
+    },
+    {
+      "gloss": "1st earthly branch: 11 p.m.–1 a.m., midnight, 11th solar month (7th December to 5th January), year of the rat",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        31105
+      ]
+    },
+    {
+      "gloss": "viscount, fourth of five orders of nobility 五等爵位[wu3 deng3 jue2 wei4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        31105
+      ]
+    },
+    {
+      "gloss": "ancient Chinese compass point: 0° (north)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        31105
+      ]
+    },
+    {
+      "gloss": "subsidiary; subordinate; (prefix) sub-",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        31105
+      ]
+    },
+    {
+      "gloss": "noun suffix, as in 椅子[yi3 zi5] \"chair\"",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        31106
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1160,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 68,
+    "cumulative_count": 409849,
+    "percentage": 0.01101561,
+    "cumulative_percentage": 66.39316644,
+    "per_million": 110.156065,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    31105,
+    31106
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

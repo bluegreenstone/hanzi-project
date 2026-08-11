@@ -1,0 +1,122 @@
+{
+  "id": "moe1996-08347",
+  "traditional": "翻身",
+  "simplified": "翻身",
+  "constituent_chars": [
+    "U+7FFB",
+    "U+8EAB"
+  ],
+  "pinyin": [
+    {
+      "reading": "fān shēn",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        88184
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄈㄢ ㄕㄣ",
+      "pinyin": "fān shēn",
+      "source_entry_indices": [
+        88184
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to turn over (when lying)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        88184
+      ]
+    },
+    {
+      "gloss": "(fig.) to free oneself",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        88184
+      ]
+    },
+    {
+      "gloss": "to emancipate oneself",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        88184
+      ]
+    },
+    {
+      "gloss": "to bring about a change of one's fortunes",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        88184
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 8347,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 7,
+    "cumulative_count": 545427,
+    "percentage": 0.00113396,
+    "cumulative_percentage": 88.35601792,
+    "per_million": 11.339595,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    88184
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

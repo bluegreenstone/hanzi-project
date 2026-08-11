@@ -1,0 +1,123 @@
+{
+  "id": "moe1996-00989",
+  "traditional": "態度",
+  "simplified": "态度",
+  "constituent_chars": [
+    "U+614B",
+    "U+5EA6"
+  ],
+  "pinyin": [
+    {
+      "reading": "tài du",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        42871
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "manner",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42871
+      ]
+    },
+    {
+      "gloss": "bearing",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42871
+      ]
+    },
+    {
+      "gloss": "attitude",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42871
+      ]
+    },
+    {
+      "gloss": "approach",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42871
+      ]
+    },
+    {
+      "gloss": "CL:個|个[ge4]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        42871
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 989,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 83,
+    "cumulative_count": 396914,
+    "percentage": 0.01344552,
+    "cumulative_percentage": 64.29777128,
+    "per_million": 134.455197,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    42871
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

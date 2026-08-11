@@ -1,0 +1,180 @@
+{
+  "id": "moe1996-03122",
+  "traditional": "平",
+  "simplified": "平",
+  "constituent_chars": [
+    "U+5E73"
+  ],
+  "pinyin": [
+    {
+      "reading": "píng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        37534,
+        37535
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄆㄧㄥˊ",
+      "pinyin": "píng",
+      "source_entry_indices": [
+        37534,
+        37535
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "surname Ping",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        37534
+      ]
+    },
+    {
+      "gloss": "flat; level; smooth",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        37535
+      ]
+    },
+    {
+      "gloss": "to make even; to level",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        37535
+      ]
+    },
+    {
+      "gloss": "equal; on the same level",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        37535
+      ]
+    },
+    {
+      "gloss": "(bound form) fair; impartial",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        37535
+      ]
+    },
+    {
+      "gloss": "to tie; to draw",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        37535
+      ]
+    },
+    {
+      "gloss": "(bound form) average; ordinary",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        37535
+      ]
+    },
+    {
+      "gloss": "(bound form) calm; peaceful",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        37535
+      ]
+    },
+    {
+      "gloss": "(bound form) to quell; to suppress; to put down",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        37535
+      ]
+    },
+    {
+      "gloss": "(abbr. for 平聲|平声[ping2 sheng1])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        37535
+      ]
+    },
+    {
+      "gloss": "(coll.) square meter (abbr. for 平方米[ping2 fang1 mi3])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        37535
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 3122,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 22,
+    "cumulative_count": 483719,
+    "percentage": 0.00356387,
+    "cumulative_percentage": 78.35967899,
+    "per_million": 35.638727,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    37534,
+    37535
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

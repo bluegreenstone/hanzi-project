@@ -1,0 +1,114 @@
+{
+  "id": "moe1996-02305",
+  "traditional": "包裝",
+  "simplified": "包装",
+  "constituent_chars": [
+    "U+5305",
+    "U+88DD"
+  ],
+  "pinyin": [
+    {
+      "reading": "bāo zhuāng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        15994
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄅㄠ ㄓㄨㄤ",
+      "pinyin": "bāo zhuāng",
+      "source_entry_indices": [
+        15994
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to wrap; to package (goods etc)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15994
+      ]
+    },
+    {
+      "gloss": "packaging; packing materials",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15994
+      ]
+    },
+    {
+      "gloss": "(fig.) to present attractively; to craft an image; to package (sb or sth)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        15994
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 2305,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 31,
+    "cumulative_count": 462234,
+    "percentage": 0.00502182,
+    "cumulative_percentage": 74.87923331,
+    "per_million": 50.218206,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    15994
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

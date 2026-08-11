@@ -1,0 +1,154 @@
+{
+  "id": "moe1996-01713",
+  "traditional": "種類",
+  "simplified": "种类",
+  "constituent_chars": [
+    "U+7A2E",
+    "U+985E"
+  ],
+  "pinyin": [
+    {
+      "reading": "zhǒng lèi",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        81472
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄓㄨㄥˇ ㄌㄟˋ",
+      "pinyin": "zhǒng lèi",
+      "source_entry_indices": [
+        81472
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "kind",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        81472
+      ]
+    },
+    {
+      "gloss": "genus",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        81472
+      ]
+    },
+    {
+      "gloss": "type",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        81472
+      ]
+    },
+    {
+      "gloss": "category",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        81472
+      ]
+    },
+    {
+      "gloss": "variety",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        81472
+      ]
+    },
+    {
+      "gloss": "species",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        81472
+      ]
+    },
+    {
+      "gloss": "sort",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        81472
+      ]
+    },
+    {
+      "gloss": "class",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        81472
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1713,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 45,
+    "cumulative_count": 440102,
+    "percentage": 0.00728974,
+    "cumulative_percentage": 71.29397738,
+    "per_million": 72.897396,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    81472
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

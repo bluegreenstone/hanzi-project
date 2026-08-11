@@ -1,0 +1,179 @@
+{
+  "id": "moe1996-00018",
+  "traditional": "中",
+  "simplified": "中",
+  "constituent_chars": [
+    "U+4E2D"
+  ],
+  "pinyin": [
+    {
+      "reading": "zhōng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        3213,
+        3214
+      ]
+    },
+    {
+      "reading": "zhòng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        3215
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄓㄨㄥ",
+      "pinyin": "zhōng",
+      "source_entry_indices": [
+        3213,
+        3214
+      ]
+    },
+    {
+      "reading": "ㄓㄨㄥˋ",
+      "pinyin": "zhòng",
+      "source_entry_indices": [
+        3215
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "(bound form) China; Chinese",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        3213
+      ]
+    },
+    {
+      "gloss": "surname Zhong",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        3213
+      ]
+    },
+    {
+      "gloss": "within; among; in",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        3214
+      ]
+    },
+    {
+      "gloss": "middle; center",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        3214
+      ]
+    },
+    {
+      "gloss": "while (doing sth); during",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        3214
+      ]
+    },
+    {
+      "gloss": "(dialect) OK; all right",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        3214
+      ]
+    },
+    {
+      "gloss": "to hit (a target)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        3215
+      ]
+    },
+    {
+      "gloss": "to be struck by (a bullet, illness etc)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        3215
+      ]
+    },
+    {
+      "gloss": "to win (a prize or lottery)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        3215
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 18,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 2698,
+    "cumulative_count": 113111,
+    "percentage": 0.43706039,
+    "cumulative_percentage": 18.32332749,
+    "per_million": 4370.603882,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    3213,
+    3214,
+    3215
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

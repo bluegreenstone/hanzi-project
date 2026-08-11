@@ -1,0 +1,92 @@
+{
+  "id": "moe1996-01245",
+  "traditional": "看起來",
+  "simplified": "看起来",
+  "constituent_chars": [
+    "U+770B",
+    "U+8D77",
+    "U+4F86"
+  ],
+  "pinyin": [
+    {
+      "reading": "kàn qǐ lai",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        78024
+      ]
+    }
+  ],
+  "zhuyin": null,
+  "definitions": [
+    {
+      "gloss": "seemingly; apparently; looks as if; appears to be; gives the impression that; seems on the face of it to be",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        78024
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1245,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 63,
+    "cumulative_count": 415423,
+    "percentage": 0.01020564,
+    "cumulative_percentage": 67.29612218,
+    "per_million": 102.056355,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    78024
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "zhuyin",
+      "reason": "not_attested",
+      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

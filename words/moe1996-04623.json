@@ -1,0 +1,138 @@
+{
+  "id": "moe1996-04623",
+  "traditional": "接收",
+  "simplified": "接收",
+  "constituent_chars": [
+    "U+63A5",
+    "U+6536"
+  ],
+  "pinyin": [
+    {
+      "reading": "jiē shōu",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        47761
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄐㄧㄝ ㄕㄡ",
+      "pinyin": "jiē shōu",
+      "source_entry_indices": [
+        47761
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "reception (of transmitted signal)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        47761
+      ]
+    },
+    {
+      "gloss": "to receive",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        47761
+      ]
+    },
+    {
+      "gloss": "to accept",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        47761
+      ]
+    },
+    {
+      "gloss": "to admit",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        47761
+      ]
+    },
+    {
+      "gloss": "to take over (e.g. a factory)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        47761
+      ]
+    },
+    {
+      "gloss": "to expropriate",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        47761
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 4623,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 14,
+    "cumulative_count": 509951,
+    "percentage": 0.00226792,
+    "cumulative_percentage": 82.6091112,
+    "per_million": 22.67919,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    47761
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

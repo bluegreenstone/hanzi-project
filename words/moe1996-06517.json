@@ -1,0 +1,99 @@
+{
+  "id": "moe1996-06517",
+  "traditional": "施明德",
+  "simplified": "施明德",
+  "constituent_chars": [
+    "U+65BD",
+    "U+660E",
+    "U+5FB7"
+  ],
+  "pinyin": [
+    {
+      "reading": "shī míng dé",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        52154
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄕ ㄇㄧㄥˊ ㄉㄜˊ",
+      "pinyin": "shī míng dé",
+      "source_entry_indices": [
+        52154
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "Shih Ming-teh (1941–2024), Taiwanese politician, imprisoned 1962–1977 and 1980–1990 under the Guomindang, subsequently a leader of DPP 民進黨|民进党[Min2 jin4 dang3], in 2006 led protests against Chen Shui-Bian 陳水扁|陈水扁[Chen2 Shui3 bian3]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        52154
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 6517,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 9,
+    "cumulative_count": 531243,
+    "percentage": 0.00145795,
+    "cumulative_percentage": 86.058292,
+    "per_million": 14.579479,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    52154
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

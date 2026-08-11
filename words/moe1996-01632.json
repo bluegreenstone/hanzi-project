@@ -1,0 +1,176 @@
+{
+  "id": "moe1996-01632",
+  "traditional": "派",
+  "simplified": "派",
+  "constituent_chars": [
+    "U+6D3E"
+  ],
+  "pinyin": [
+    {
+      "reading": "pā",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        64666
+      ]
+    },
+    {
+      "reading": "pài",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        64667
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄆㄚ",
+      "pinyin": "pā",
+      "source_entry_indices": [
+        64666
+      ]
+    },
+    {
+      "reading": "ㄆㄞˋ",
+      "pinyin": "pài",
+      "source_entry_indices": [
+        64667
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "used in 派司[pa1 si5]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        64666
+      ]
+    },
+    {
+      "gloss": "(literary) tributary; branch of a river",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        64667
+      ]
+    },
+    {
+      "gloss": "clique; school; group; faction",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        64667
+      ]
+    },
+    {
+      "gloss": "(bound form) style; manner",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        64667
+      ]
+    },
+    {
+      "gloss": "to send (a person or resource); to dispatch; to allocate (a resource or task); to appoint (sb)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        64667
+      ]
+    },
+    {
+      "gloss": "classifier for factions, groups etc",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        64667
+      ]
+    },
+    {
+      "gloss": "(preceded by 一[yi1]) classifier used in characterizing a scene, atmosphere, demeanor, sound, remark etc",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        64667
+      ]
+    },
+    {
+      "gloss": "(loanword) pi (Greek letter Π, π); the circular ratio 𝜋 = 3.14159...",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        64667
+      ]
+    },
+    {
+      "gloss": "(loanword) pie",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        64667
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1632,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 47,
+    "cumulative_count": 436397,
+    "percentage": 0.00761373,
+    "cumulative_percentage": 70.69378882,
+    "per_million": 76.13728,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    64666,
+    64667
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

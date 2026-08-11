@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img">
+  <title>七 U+4E03 ordered strokes</title>
+  <metadata>Derived without path alteration from Make Me a Hanzi graphics.txt commit bddc96d41bef78427ed0e034e9f7e31d71fd1b92; Arphic Public License; generated wrapper adds path indices and the source coordinate transform. Stroke-type names are unavailable in the path source.</metadata>
+  <g fill="#000" transform="scale(1,-1) translate(0,-900)">
+    <path id="stroke-U+4E03-1" data-stroke-index="1" data-stroke-type-status="source-unavailable" d="M 433 375 Q 649 436 864 443 Q 889 443 895 453 Q 901 469 887 480 Q 812 531 750 510 Q 698 494 450 429 Q 441 428 434 424 L 387 414 Q 314 398 270 386 Q 204 367 103 353 Q 88 352 88 339 Q 89 326 111 313 Q 130 303 166 293 Q 179 290 196 301 Q 253 328 386 363 L 433 375 Z"/>
+    <path id="stroke-U+4E03-2" data-stroke-index="2" data-stroke-type-status="source-unavailable" d="M 386 363 Q 386 159 409 117 Q 445 69 575 64 Q 719 58 792 93 Q 805 102 804 113 Q 800 132 779 142 Q 749 157 729 154 Q 716 154 707 147 Q 680 125 543 118 Q 473 118 450 150 Q 426 189 433 375 L 434 424 Q 437 644 465 686 Q 481 714 452 734 Q 416 759 394 765 Q 363 772 354 758 Q 347 748 357 739 Q 391 705 388 630 Q 391 551 387 414 L 386 363 Z"/>
+  </g>
+</svg>

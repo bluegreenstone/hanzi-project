@@ -1,0 +1,153 @@
+{
+  "id": "moe1996-06515",
+  "traditional": "拜拜",
+  "simplified": "拜拜",
+  "constituent_chars": [
+    "U+62DC",
+    "U+62DC"
+  ],
+  "pinyin": [
+    {
+      "reading": "bái bái",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        46436
+      ]
+    },
+    {
+      "reading": "bài bai",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        46437
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄅㄞˊ ㄅㄞˊ",
+      "pinyin": "bái bái",
+      "source_entry_indices": [
+        46436
+      ]
+    },
+    {
+      "reading": "ㄅㄞˋ ˙ㄅㄞ",
+      "pinyin": "bài bai",
+      "source_entry_indices": [
+        46437
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "(loanword) bye-bye",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        46436
+      ]
+    },
+    {
+      "gloss": "also pr. [bai1 bai1] etc",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        46436
+      ]
+    },
+    {
+      "gloss": "(coll.) to part ways (with sb)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        46436
+      ]
+    },
+    {
+      "gloss": "(fig.) to have nothing further to do (with sb or sth)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        46436
+      ]
+    },
+    {
+      "gloss": "to pay one's respects by bowing with hands in front of one's chest clasping joss sticks, or with palms pressed together",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        46437
+      ]
+    },
+    {
+      "gloss": "(Tw) religious ceremony in which offerings are made to a deity",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        46437
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 6515,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 9,
+    "cumulative_count": 531225,
+    "percentage": 0.00145795,
+    "cumulative_percentage": 86.0553761,
+    "per_million": 14.579479,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    46436,
+    46437
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

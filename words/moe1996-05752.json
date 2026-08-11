@@ -1,0 +1,99 @@
+{
+  "id": "moe1996-05752",
+  "traditional": "福建省",
+  "simplified": "福建省",
+  "constituent_chars": [
+    "U+798F",
+    "U+5EFA",
+    "U+7701"
+  ],
+  "pinyin": [
+    {
+      "reading": "fú jiàn shěng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        80615
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄈㄨˊ ㄐㄧㄢˋ ㄕㄥˇ",
+      "pinyin": "fú jiàn shěng",
+      "source_entry_indices": [
+        80615
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "Fujian Province, capital Fuzhou 福州市[Fu2 zhou1 Shi4] (short name 閩|闽[Min3])",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        80615
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 5752,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 11,
+    "cumulative_count": 523741,
+    "percentage": 0.00178194,
+    "cumulative_percentage": 84.84301141,
+    "per_million": 17.819363,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    80615
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

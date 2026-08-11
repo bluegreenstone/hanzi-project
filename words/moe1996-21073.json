@@ -1,0 +1,114 @@
+{
+  "id": "moe1996-21073",
+  "traditional": "棄守",
+  "simplified": "弃守",
+  "constituent_chars": [
+    "U+68C4",
+    "U+5B88"
+  ],
+  "pinyin": [
+    {
+      "reading": "qì shǒu",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        57888
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄑㄧˋ ㄕㄡˇ",
+      "pinyin": "qì shǒu",
+      "source_entry_indices": [
+        57888
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to give up defending",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        57888
+      ]
+    },
+    {
+      "gloss": "to yield",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        57888
+      ]
+    },
+    {
+      "gloss": "to surrender",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        57888
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 21073,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 2,
+    "cumulative_count": 588684,
+    "percentage": 0.00032399,
+    "cumulative_percentage": 95.36340162,
+    "per_million": 3.239884,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    57888
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

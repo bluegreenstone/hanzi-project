@@ -1,0 +1,138 @@
+{
+  "id": "moe1996-04194",
+  "traditional": "頭腦",
+  "simplified": "头脑",
+  "constituent_chars": [
+    "U+982D",
+    "U+8166"
+  ],
+  "pinyin": [
+    {
+      "reading": "tóu nǎo",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        118652
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄊㄡˊ ㄋㄠˇ",
+      "pinyin": "tóu nǎo",
+      "source_entry_indices": [
+        118652
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "brains",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118652
+      ]
+    },
+    {
+      "gloss": "mind",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118652
+      ]
+    },
+    {
+      "gloss": "skull",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118652
+      ]
+    },
+    {
+      "gloss": "(fig.) gist (of a matter)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118652
+      ]
+    },
+    {
+      "gloss": "leader",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118652
+      ]
+    },
+    {
+      "gloss": "boss",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        118652
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 4194,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 16,
+    "cumulative_count": 503653,
+    "percentage": 0.00259191,
+    "cumulative_percentage": 81.58887165,
+    "per_million": 25.919074,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    118652
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

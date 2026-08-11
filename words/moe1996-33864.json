@@ -1,0 +1,146 @@
+{
+  "id": "moe1996-33864",
+  "traditional": "穿幫",
+  "simplified": "穿帮",
+  "constituent_chars": [
+    "U+7A7F",
+    "U+5E6B"
+  ],
+  "pinyin": [
+    {
+      "reading": "chuān bāng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        81933
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄔㄨㄢ ㄅㄤ",
+      "pinyin": "chuān bāng",
+      "source_entry_indices": [
+        81933
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "(TV or movie) blooper",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        81933
+      ]
+    },
+    {
+      "gloss": "continuity error",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        81933
+      ]
+    },
+    {
+      "gloss": "(theater) to flub one's lines",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        81933
+      ]
+    },
+    {
+      "gloss": "unintended exposure of a body part",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        81933
+      ]
+    },
+    {
+      "gloss": "to be exposed (of a scheme or trick)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        81933
+      ]
+    },
+    {
+      "gloss": "to reveal sth one intended to conceal through a slip of the tongue",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        81933
+      ]
+    },
+    {
+      "gloss": "to blow one's cover",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        81933
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 33864,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 1,
+    "cumulative_count": 604449,
+    "percentage": 0.00016199,
+    "cumulative_percentage": 97.9172404,
+    "per_million": 1.619942,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    81933
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

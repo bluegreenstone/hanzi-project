@@ -1,0 +1,130 @@
+{
+  "id": "moe1996-11923",
+  "traditional": "阿媽",
+  "simplified": "阿妈",
+  "constituent_chars": [
+    "U+963F",
+    "U+5ABD"
+  ],
+  "pinyin": [
+    {
+      "reading": "ā mā",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        114112
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄚ ㄇㄚ",
+      "pinyin": "ā mā",
+      "source_entry_indices": [
+        114112
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "grandma (paternal) (Tw)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114112
+      ]
+    },
+    {
+      "gloss": "(dialect) mother",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114112
+      ]
+    },
+    {
+      "gloss": "nurse",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114112
+      ]
+    },
+    {
+      "gloss": "amah",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114112
+      ]
+    },
+    {
+      "gloss": "(Manchu) father",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        114112
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 11923,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 4,
+    "cumulative_count": 563755,
+    "percentage": 0.00064798,
+    "cumulative_percentage": 91.32504787,
+    "per_million": 6.479769,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    114112
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

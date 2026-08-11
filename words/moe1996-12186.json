@@ -1,0 +1,119 @@
+{
+  "id": "moe1996-12186",
+  "traditional": "殷勤",
+  "simplified": "殷勤",
+  "constituent_chars": [
+    "U+6BB7",
+    "U+52E4"
+  ],
+  "pinyin": [
+    {
+      "reading": "yīn qín",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        61040
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄧㄣ ㄑㄧㄣˊ",
+      "pinyin": "yīn qín",
+      "source_entry_indices": [
+        61040
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "politely",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        61040
+      ]
+    },
+    {
+      "gloss": "solicitously",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        61040
+      ]
+    },
+    {
+      "gloss": "eagerly attentive",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        61040
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 12186,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 4,
+    "cumulative_count": 564807,
+    "percentage": 0.00064798,
+    "cumulative_percentage": 91.49546578,
+    "per_million": 6.479769,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    61040
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+6BB7"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

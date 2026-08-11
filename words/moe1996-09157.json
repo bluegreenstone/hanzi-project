@@ -1,0 +1,114 @@
+{
+  "id": "moe1996-09157",
+  "traditional": "筆觸",
+  "simplified": "笔触",
+  "constituent_chars": [
+    "U+7B46",
+    "U+89F8"
+  ],
+  "pinyin": [
+    {
+      "reading": "bǐ chù",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        82791
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄅㄧˇ ㄔㄨˋ",
+      "pinyin": "bǐ chù",
+      "source_entry_indices": [
+        82791
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "brush stroke in Chinese painting and calligraphy",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        82791
+      ]
+    },
+    {
+      "gloss": "brushwork",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        82791
+      ]
+    },
+    {
+      "gloss": "style of drawing or writing",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        82791
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 9157,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 6,
+    "cumulative_count": 550341,
+    "percentage": 0.00097197,
+    "cumulative_percentage": 89.15205749,
+    "per_million": 9.719653,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    82791
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

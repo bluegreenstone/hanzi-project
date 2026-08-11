@@ -1,0 +1,52 @@
+{
+  "phase": 1,
+  "generated_at": "2026-08-11T04:59:35Z",
+  "record_count": 214,
+  "source_acquisitions": {
+    "unicode-unihan-17.0.0": {
+      "retrieved_at": "2026-08-11T03:10:01Z",
+      "local_path": "source-data/unicode-17.0.0/Unihan.zip",
+      "sha256": "f7a48b2b545acfaa77b2d607ae28747404ce02baefee16396c5d2d7a8ef34b5e"
+    },
+    "unicode-cjk-radicals-17.0.0": {
+      "retrieved_at": "2026-08-11T03:10:01Z",
+      "local_path": "source-data/unicode-17.0.0/CJKRadicals.txt",
+      "sha256": "826f83be25cd18fb8a5015a514704504e1982e840ea14d058bf583e1cc620c83"
+    },
+    "kanji-alive-radicals-master-audit": {
+      "retrieved_at": "2026-08-11T03:10:01Z",
+      "local_path": "source-data/kanji-alive-2d2a4931/japanese-radicals.csv",
+      "sha256": "50d5c1264e938ff008ac4e9e9ed2c7ef3ea7584622d6b73866279a9b98830630"
+    },
+    "cns11643-attributes-2026-08-05": {
+      "retrieved_at": "2026-08-11T03:20:52Z",
+      "local_path": "source-data/cns11643-2026-08-05/Properties.zip",
+      "sha256": "4f736afb7b4e4588840c0d08e284f11216b13ff835423e965f77f7ef3b612c56",
+      "expected_bytes": 3158491,
+      "archive_integrity": "partial_failure",
+      "used_members": {
+        "CNS_phonetic.txt": {
+          "sha256": "adc2f2e71270e7b971fa5b51fb4dff49ddced986e6e9f06de1ee88394449c8e2",
+          "crc32": "passed"
+        },
+        "CNS_pinyin_2.txt": {
+          "sha256": "9db66b4fe44d94a5d5193f850b8de6e2a1620b63e21fc5d1e46b76527e844c67",
+          "crc32": "passed"
+        },
+        "CNS_strokes_sequence.txt": {
+          "sha256": "444b89e5774819a05b17196c8c4c4b69563ae79c6d4bd38b4527c8475d60029d",
+          "crc32": "passed"
+        }
+      }
+    },
+    "makemeahanzi-graphics-master-audit": {
+      "retrieved_at": "2026-08-11T03:40:52Z",
+      "local_path": "source-data/makemeahanzi-bddc96d4/graphics.txt",
+      "sha256": "a28c478b5178e98f67f510b2d52fde08a69dc664654ef43498253b9b764d46ee",
+      "expected_bytes": 30778076,
+      "commit": "bddc96d41bef78427ed0e034e9f7e31d71fd1b92"
+    }
+  },
+  "builder": "scripts/build_phase1.py",
+  "schema": "schema/radical.schema.json"
+}

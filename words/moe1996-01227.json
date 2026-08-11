@@ -1,0 +1,106 @@
+{
+  "id": "moe1996-01227",
+  "traditional": "財富",
+  "simplified": "财富",
+  "constituent_chars": [
+    "U+8CA1",
+    "U+5BCC"
+  ],
+  "pinyin": [
+    {
+      "reading": "cái fù",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        102763
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄘㄞˊ ㄈㄨˋ",
+      "pinyin": "cái fù",
+      "source_entry_indices": [
+        102763
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "wealth",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        102763
+      ]
+    },
+    {
+      "gloss": "riches",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        102763
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1227,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 64,
+    "cumulative_count": 414281,
+    "percentage": 0.01036763,
+    "cumulative_percentage": 67.11112479,
+    "per_million": 103.676297,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    102763
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

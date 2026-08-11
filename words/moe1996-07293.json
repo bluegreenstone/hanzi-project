@@ -1,0 +1,114 @@
+{
+  "id": "moe1996-07293",
+  "traditional": "菜色",
+  "simplified": "菜色",
+  "constituent_chars": [
+    "U+83DC",
+    "U+8272"
+  ],
+  "pinyin": [
+    {
+      "reading": "cài sè",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        94147
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄘㄞˋ ㄙㄜˋ",
+      "pinyin": "cài sè",
+      "source_entry_indices": [
+        94147
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "dish",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94147
+      ]
+    },
+    {
+      "gloss": "lean and hungry look (resulting from vegetarian diet)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94147
+      ]
+    },
+    {
+      "gloss": "emaciated look (from malnutrition)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        94147
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 7293,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 8,
+    "cumulative_count": 537821,
+    "percentage": 0.00129595,
+    "cumulative_percentage": 87.12388993,
+    "per_million": 12.959537,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    94147
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,111 @@
+{
+  "id": "moe1996-14385",
+  "traditional": "攻訐",
+  "simplified": "攻讦",
+  "constituent_chars": [
+    "U+653B",
+    "U+8A10"
+  ],
+  "pinyin": [
+    {
+      "reading": "gōng jié",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        50165
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄍㄨㄥ ㄐㄧㄝˊ",
+      "pinyin": "gōng jié",
+      "source_entry_indices": [
+        50165
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to attack sb by exposing faults",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        50165
+      ]
+    },
+    {
+      "gloss": "to denounce",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        50165
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 14385,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 3,
+    "cumulative_count": 572635,
+    "percentage": 0.00048598,
+    "cumulative_percentage": 92.76355649,
+    "per_million": 4.859826,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    50165
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "constituent_chars.local_records",
+      "reason": "source_unavailable",
+      "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+8A10"
+    },
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

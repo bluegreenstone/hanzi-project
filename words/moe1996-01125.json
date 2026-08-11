@@ -1,0 +1,168 @@
+{
+  "id": "moe1996-01125",
+  "traditional": "似",
+  "simplified": "似",
+  "constituent_chars": [
+    "U+4F3C"
+  ],
+  "pinyin": [
+    {
+      "reading": "shì",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        7003
+      ]
+    },
+    {
+      "reading": "sì",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        7004
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄕˋ",
+      "pinyin": "shì",
+      "source_entry_indices": [
+        7003
+      ]
+    },
+    {
+      "reading": "ㄙˋ",
+      "pinyin": "sì",
+      "source_entry_indices": [
+        7004
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "used in 似的[shi4 de5]",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7003
+      ]
+    },
+    {
+      "gloss": "to seem",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7004
+      ]
+    },
+    {
+      "gloss": "to appear",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7004
+      ]
+    },
+    {
+      "gloss": "to resemble",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7004
+      ]
+    },
+    {
+      "gloss": "similar",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7004
+      ]
+    },
+    {
+      "gloss": "-like",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7004
+      ]
+    },
+    {
+      "gloss": "pseudo-",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7004
+      ]
+    },
+    {
+      "gloss": "(more) than",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        7004
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 1125,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 71,
+    "cumulative_count": 407404,
+    "percentage": 0.01150159,
+    "cumulative_percentage": 65.99709058,
+    "per_million": 115.015892,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    7003,
+    7004
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}

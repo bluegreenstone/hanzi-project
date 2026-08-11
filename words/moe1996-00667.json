@@ -1,0 +1,146 @@
+{
+  "id": "moe1996-00667",
+  "traditional": "開放",
+  "simplified": "开放",
+  "constituent_chars": [
+    "U+958B",
+    "U+653E"
+  ],
+  "pinyin": [
+    {
+      "reading": "kāi fàng",
+      "context": "dictionary_entry",
+      "source_entry_indices": [
+        113231
+      ]
+    }
+  ],
+  "zhuyin": [
+    {
+      "reading": "ㄎㄞ ㄈㄤˋ",
+      "pinyin": "kāi fàng",
+      "source_entry_indices": [
+        113231
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "gloss": "to bloom",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        113231
+      ]
+    },
+    {
+      "gloss": "to open",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        113231
+      ]
+    },
+    {
+      "gloss": "to be open (to the public)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        113231
+      ]
+    },
+    {
+      "gloss": "to open up (to the outside)",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        113231
+      ]
+    },
+    {
+      "gloss": "to be open-minded",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        113231
+      ]
+    },
+    {
+      "gloss": "unrestrained by convention",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        113231
+      ]
+    },
+    {
+      "gloss": "unconstrained in one's sexuality",
+      "lang": "en",
+      "register": "modern",
+      "source_entry_indices": [
+        113231
+      ]
+    }
+  ],
+  "frequency": {
+    "rank": 667,
+    "corpus_id": "moe-tw-common-terms-1996",
+    "count": 121,
+    "cumulative_count": 365113,
+    "percentage": 0.0196013,
+    "cumulative_percentage": 59.1461933,
+    "per_million": 196.012998,
+    "corpus_total_count": 617306
+  },
+  "grading": {
+    "hsk": null
+  },
+  "segmentation_tool": null,
+  "cc_cedict_entry_indices": [
+    113231
+  ],
+  "sources": {
+    "id": [
+      "moe-tw-common-terms-1996"
+    ],
+    "traditional": [
+      "moe-tw-common-terms-1996",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "constituent_chars": [
+      "moe-tw-common-terms-1996"
+    ],
+    "definitions": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "frequency": [
+      "moe-tw-common-terms-1996"
+    ],
+    "cc_cedict_entry_indices": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplified": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "pinyin": [
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "zhuyin": [
+      "cc-cedict-editor-2026-08-11",
+      "cns11643-attributes-2026-08-05"
+    ]
+  },
+  "gaps": [
+    {
+      "field": "grading.hsk",
+      "reason": "source_unavailable",
+      "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
+    },
+    {
+      "field": "segmentation_tool",
+      "reason": "source_unavailable",
+      "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    }
+  ],
+  "conflicts": []
+}
