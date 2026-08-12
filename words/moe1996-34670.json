@@ -11,8 +11,8 @@
     {
       "reading": "táng lǎo yā",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        21916
+      "source_entry_ids": [
+        "0258200161"
       ]
     }
   ],
@@ -20,8 +20,8 @@
     {
       "reading": "ㄊㄤˊ ㄌㄠˇ ㄧㄚ",
       "pinyin": "táng lǎo yā",
-      "source_entry_indices": [
-        21916
+      "source_entry_ids": [
+        "0258200161"
       ]
     }
   ],
@@ -76,11 +76,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -100,5 +102,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "華德狄斯奈的卡通人物之一。由英語Donald Duck翻譯得名。是常與米老鼠（Mickey Mouse）以及一隻名叫布魯托（Pluto）的狗搭配出現的鴨子，自以為聰明，常喜歡捉弄自己的同伴，但是最後總是自己被整。頗受小朋友們的喜愛。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "0258200161",
+      "verbatim": true
+    }
+  ]
 }

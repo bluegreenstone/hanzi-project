@@ -10,8 +10,8 @@
     {
       "reading": "huì tán",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        54570
+      "source_entry_ids": [
+        "291700005"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄏㄨㄟˋ ㄊㄢˊ",
       "pinyin": "huì tán",
-      "source_entry_indices": [
-        54570
+      "source_entry_ids": [
+        "291700005"
       ]
     }
   ],
@@ -91,11 +91,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -110,5 +112,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "聚會商談。[例]這次會談的目的，是希望能透過對話，尋求朝野共識，解決政治僵局。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "291700005",
+      "verbatim": true
+    }
+  ]
 }

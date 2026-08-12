@@ -10,8 +10,8 @@
     {
       "reading": "rén kǒu",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        5661
+      "source_entry_ids": [
+        "520100032"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄖㄣˊ ㄎㄡˇ",
       "pinyin": "rén kǒu",
-      "source_entry_indices": [
-        5661
+      "source_entry_ids": [
+        "520100032"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.人。[例]人口混雜、幽靈人口\r\n2.某一區域或範圍內的人數。[例]該國出生率不斷降低，人口也逐年減少。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "520100032",
+      "verbatim": true
+    }
+  ]
 }

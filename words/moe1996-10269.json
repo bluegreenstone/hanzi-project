@@ -10,8 +10,8 @@
     {
       "reading": "bǔ yú",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        47134
+      "source_entry_ids": [
+        "005620032"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄅㄨˇ ㄩˊ",
       "pinyin": "bǔ yú",
-      "source_entry_indices": [
-        47134
+      "source_entry_ids": [
+        "005620032"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "捕捉魚類。《大宋宣和遺事．元集》：「在路上撞著杜千、張岑兩個，是舊時知識，在河次捕魚為生。」《西遊記》第一回：「持篙試水，偶得淺水，棄了筏子，跳上岸來，只見海邊有人捕魚、打鴈、穵蛤、淘鹽。」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "005620032",
+      "verbatim": true
+    }
+  ]
 }

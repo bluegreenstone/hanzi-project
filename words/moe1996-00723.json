@@ -9,9 +9,8 @@
     {
       "reading": "zhí",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        77540,
-        77541
+      "source_entry_ids": [
+        "4232"
       ]
     }
   ],
@@ -19,9 +18,8 @@
     {
       "reading": "ㄓˊ",
       "pinyin": "zhí",
-      "source_entry_indices": [
-        77540,
-        77541
+      "source_entry_ids": [
+        "4232"
       ]
     }
   ],
@@ -149,11 +147,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -168,5 +168,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.不彎曲的。與「曲」、「彎」相對。[例]筆直、直線、直路\n2.成垂直方向的。與「橫」相對。[例]直排、直行、直升機\n3.不邪曲，沒有私心的。[例]正直、耿直\n4.坦白爽快。[例]直爽、直率\n5.連續不斷的。[例]一直\n6.國字筆畫名稱。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "4232",
+      "verbatim": true
+    }
+  ]
 }

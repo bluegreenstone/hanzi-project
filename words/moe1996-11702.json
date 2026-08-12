@@ -10,8 +10,8 @@
     {
       "reading": "shā huáng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        63215
+      "source_entry_ids": [
+        "087830066"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄕㄚ ㄏㄨㄤˊ",
       "pinyin": "shā huáng",
-      "source_entry_indices": [
-        63215
+      "source_entry_ids": [
+        "087830066"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "帝俄時代對皇帝的稱號。俄國伊凡四世於西元一五四七年首稱沙皇，至尼古拉二世沙皇制度始被推翻。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "087830066",
+      "verbatim": true
+    }
+  ]
 }

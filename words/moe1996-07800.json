@@ -10,12 +10,20 @@
     {
       "reading": "dǐ xia",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        38140
+      "source_entry_ids": [
+        "114000010"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄉㄧˇ ˙ㄒㄧㄚ",
+      "pinyin": "dǐ xia",
+      "source_entry_ids": [
+        "114000010"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "the location below sth",
@@ -75,15 +83,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "zhuyin": [
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "grading.hsk",
       "reason": "source_unavailable",
@@ -95,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.下面。[例]屋簷底下有燕子築巢。\n2.之後、以後。[例]底下所說的話非常重要，請大家務必記下。\n3.在權勢範圍管轄之內。[例]在他底下工作是一件非常辛苦的事。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "114000010",
+      "verbatim": true
+    }
+  ]
 }

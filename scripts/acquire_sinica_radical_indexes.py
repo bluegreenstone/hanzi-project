@@ -13,6 +13,7 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.error import HTTPError, URLError
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -49,17 +50,24 @@ def sha256_bytes(payload: bytes) -> str:
 
 
 def request(url: str, data: bytes | None = None) -> bytes:
-    request_object = urllib.request.Request(
-        url,
-        data=data,
-        headers={
-            "User-Agent": USER_AGENT,
-            "Accept": "text/html,application/xhtml+xml",
-            "Content-Type": "application/x-www-form-urlencoded",
-        },
-    )
-    with urllib.request.urlopen(request_object, timeout=90) as response:
-        return response.read()
+    for attempt in range(5):
+        request_object = urllib.request.Request(
+            url,
+            data=data,
+            headers={
+                "User-Agent": USER_AGENT,
+                "Accept": "text/html,application/xhtml+xml",
+                "Content-Type": "application/x-www-form-urlencoded",
+            },
+        )
+        try:
+            with urllib.request.urlopen(request_object, timeout=90) as response:
+                return response.read()
+        except (HTTPError, URLError):
+            if attempt == 4:
+                raise
+            time.sleep(4.0 * (attempt + 1))
+    raise RuntimeError("unreachable retry state")
 
 
 def query_body(primary: str) -> bytes:

@@ -10,8 +10,8 @@
     {
       "reading": "yǎn shēng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        97874
+      "source_entry_ids": [
+        "610000001"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄧㄢˇ ㄕㄥ",
       "pinyin": "yǎn shēng",
-      "source_entry_indices": [
-        97874
+      "source_entry_ids": [
+        "610000001"
       ]
     }
   ],
@@ -99,11 +99,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -118,5 +120,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "蔓延引生。[例]由這件事而衍生的諸多問題，是大家始料所未及的。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "610000001",
+      "verbatim": true
+    }
+  ]
 }

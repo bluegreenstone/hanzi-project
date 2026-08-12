@@ -10,8 +10,8 @@
     {
       "reading": "tōu tōu",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        9382
+      "source_entry_ids": [
+        "025160016"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄊㄡ ㄊㄡ",
       "pinyin": "tōu tōu",
-      "source_entry_indices": [
-        9382
+      "source_entry_ids": [
+        "025160016"
       ]
     }
   ],
@@ -107,11 +107,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -126,5 +128,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "暗中行動不使人察覺。如：「他聽到腳步聲，就偷偷的從後門溜走了。」也作「偷偷兒」。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "025160016",
+      "verbatim": true
+    }
+  ]
 }

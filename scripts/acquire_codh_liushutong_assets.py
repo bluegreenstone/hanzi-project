@@ -21,6 +21,7 @@ INDEX = SOURCE_ROOT / "radical-candidates.json"
 PAGES = SOURCE_ROOT / "pages"
 LOG = SOURCE_ROOT / "original-acquisition-log.json"
 REGISTRY = ROOT / "sources.json"
+ASSET_MANIFEST = ROOT / "assets" / "manifest.json"
 SOURCE_ID = "codh-henrui-liushutong-te00010-2026-08-10"
 USER_AGENT = "hanzi-project/1.0 (licensed TE00010 radical glyph acquisition)"
 SECTION_RE = re.compile(r'<h2 id="TE00010">.*?</h2>(.*?)(?=<h2 id=|<h3>)', re.DOTALL)
@@ -94,7 +95,22 @@ def main() -> None:
         raise RuntimeError("CODH TE00010 license is not approved before image acquisition")
 
     index = json.loads(INDEX.read_text(encoding="utf-8"))
-    prior = json.loads(LOG.read_text(encoding="utf-8")) if LOG.exists() else {}
+    if LOG.exists():
+        prior = json.loads(LOG.read_text(encoding="utf-8"))
+    else:
+        manifest = json.loads(ASSET_MANIFEST.read_text(encoding="utf-8"))
+        prior = {
+            "entries": [
+                entry
+                for key in ("assets", "provenance_alias_assets")
+                for entry in manifest.get(key, [])
+                if entry.get("source_id") == SOURCE_ID and entry.get("original_url")
+            ]
+        }
+        if len(prior["entries"]) != 125:
+            raise RuntimeError(
+                "missing TE00010 log and manifest does not preserve all 125 entries"
+            )
     entry_by_url = {entry["original_url"]: entry for entry in prior.get("entries", [])}
     failures_by_url = {
         failure["original_url"]: failure for failure in prior.get("failures", [])

@@ -1,0 +1,269 @@
+{
+  "phase": 3,
+  "generated_at": "2026-08-12T02:34:15Z",
+  "record_count": 2000,
+  "selection_policy": "First 2,000 valid unified Han ideographs in Taiwan MOE 1996 source rank; Traditional primary; no Simplified-corpus backfill.",
+  "source_rank_range": [
+    1,
+    2007
+  ],
+  "excluded_rows_before_selection_completed": [
+    {
+      "source_rank": 681,
+      "raw_value": "○",
+      "reason": "not_unified_han"
+    },
+    {
+      "source_rank": 1160,
+      "raw_value": "(粧)",
+      "reason": "not_single_codepoint"
+    },
+    {
+      "source_rank": 1175,
+      "raw_value": "(裏)",
+      "reason": "not_single_codepoint"
+    },
+    {
+      "source_rank": 1258,
+      "raw_value": "(唇)",
+      "reason": "not_single_codepoint"
+    },
+    {
+      "source_rank": 1450,
+      "raw_value": "(污)",
+      "reason": "not_single_codepoint"
+    },
+    {
+      "source_rank": 1584,
+      "raw_value": "(薦)",
+      "reason": "not_single_codepoint"
+    },
+    {
+      "source_rank": 1753,
+      "raw_value": "(碁)",
+      "reason": "not_single_codepoint"
+    }
+  ],
+  "corpus_total_count": 1005856,
+  "record_digest_sha256": "3d79c7d75d250054bb8120fea430a380c282f5eb72b610d0295ec664f90219d6",
+  "records_with_conflicts": 681,
+  "conflict_count": 940,
+  "gap_count": 11661,
+  "source_acquisitions": {
+    "moe-tw-common-terms-1996": {
+      "retrieved_at": "2026-08-11T14:31:12Z",
+      "local_path": "source-data/moe-tw-common-terms-1996/85restal-csv.zip",
+      "sha256": "aae5a194644bea6f47491aa80076133afe666a7099af4fe2ecb55c696d970765",
+      "expected_bytes": 1848072,
+      "source_encoding": "BIG5",
+      "encoding_note": "The legacy CSV contains Taiwan vendor-extension bytes not accepted by Python's strict big5/cp950 codecs; the build uses the platform iconv BIG5 mapping and fails rather than substituting undecodable bytes.",
+      "members": {
+        "character_frequency": {
+          "path": "85rest01.csv",
+          "sha256": "f50f0f17ff5c4240b955be84a74408fad0659ff5c17bf63c849a7efa5a831b61",
+          "bytes": 172549,
+          "phase": 3
+        },
+        "word_frequency": {
+          "path": "85rest02.csv",
+          "sha256": "8ade7cd812e50ed9d0acc396f5b493d40014e00571b6cd424ae9d812bd1042de",
+          "bytes": 2113547,
+          "phase": 4
+        }
+      }
+    },
+    "unicode-unihan-17.0.0": {
+      "retrieved_at": "2026-08-11T03:10:01Z",
+      "local_path": "source-data/unicode-17.0.0/Unihan.zip",
+      "sha256": "f7a48b2b545acfaa77b2d607ae28747404ce02baefee16396c5d2d7a8ef34b5e"
+    },
+    "unicode-cjk-radicals-17.0.0": {
+      "retrieved_at": "2026-08-11T03:10:01Z",
+      "local_path": "source-data/unicode-17.0.0/CJKRadicals.txt",
+      "sha256": "826f83be25cd18fb8a5015a514704504e1982e840ea14d058bf583e1cc620c83"
+    },
+    "unicode-equivalent-unified-ideograph-17.0.0": {
+      "retrieved_at": "2026-08-11T14:51:21Z",
+      "local_path": "source-data/unicode-17.0.0/EquivalentUnifiedIdeograph.txt",
+      "sha256": "38619c05a17e771554000fe604afee92e10eb49e0616ecf0c87af3c1eb0f4320",
+      "expected_bytes": 18371
+    },
+    "cns11643-attributes-2026-08-05": {
+      "retrieved_at": "2026-08-12T00:47:11Z",
+      "local_path": "source-data/cns11643-2026-08-05/Properties.zip",
+      "sha256": "3d56ef14cc8099893245dac58fe4718d2fa64812b9159352a98a4588ad3efa5c",
+      "expected_bytes": 3158491,
+      "download_url": "https://www.cns11643.gov.tw/opendata/Properties.zip",
+      "archive_integrity": "passed",
+      "superseded_transfer": {
+        "retrieved_at": "2026-08-11T03:20:52Z",
+        "sha256": "4f736afb7b4e4588840c0d08e284f11216b13ff835423e965f77f7ef3b612c56",
+        "bytes": 3158491,
+        "archive_integrity": "partial_failure",
+        "note": "The three used members and documentation member already matched their current hashes, but unrelated members failed CRC. The clean reacquisition supersedes this container without changing admitted content."
+      },
+      "used_members": {
+        "CNS_phonetic.txt": {
+          "sha256": "adc2f2e71270e7b971fa5b51fb4dff49ddced986e6e9f06de1ee88394449c8e2",
+          "crc32": "passed"
+        },
+        "CNS_pinyin_2.txt": {
+          "sha256": "9db66b4fe44d94a5d5193f850b8de6e2a1620b63e21fc5d1e46b76527e844c67",
+          "crc32": "passed"
+        },
+        "CNS_strokes_sequence.txt": {
+          "sha256": "444b89e5774819a05b17196c8c4c4b69563ae79c6d4bd38b4527c8475d60029d",
+          "crc32": "passed"
+        },
+        "CNS_radical.txt": {
+          "sha256": "d19682448545b506db69d8d891c532d2d2340f96d6be527a3fbcf61c0c4f75ac",
+          "bytes": 1066445,
+          "crc32": "passed"
+        }
+      },
+      "documentation_member": {
+        "sha256": "85e549c2ae092e51530c8e5a739ad5e62670fe478b4b1c820c22692b2249f638",
+        "bytes": 4481,
+        "encoding": "UTF-8",
+        "heading": "全字庫屬性資料說明文件",
+        "stroke_type_mapping": "1=橫, 2=豎, 3=撇, 4=點, 5=折"
+      }
+    },
+    "makemeahanzi-dictionary-master-audit": {
+      "retrieved_at": "2026-08-11T14:31:12Z",
+      "local_path": "source-data/makemeahanzi-bddc96d4/dictionary.txt",
+      "sha256": "744bb05d5b0742e9ee35c37791f94d56a173349b3367569e7ca11e510364d203",
+      "expected_bytes": 2570140,
+      "commit": "bddc96d41bef78427ed0e034e9f7e31d71fd1b92"
+    },
+    "makemeahanzi-graphics-master-audit": {
+      "retrieved_at": "2026-08-11T03:40:52Z",
+      "local_path": "source-data/makemeahanzi-bddc96d4/graphics.txt",
+      "sha256": "a28c478b5178e98f67f510b2d52fde08a69dc664654ef43498253b9b764d46ee",
+      "expected_bytes": 30778076,
+      "commit": "bddc96d41bef78427ed0e034e9f7e31d71fd1b92"
+    },
+    "cc-cedict-editor-2026-08-11": {
+      "retrieved_at": "2026-08-11T14:31:12Z",
+      "local_path": "source-data/cc-cedict-2026-08-11/cedict_1_0_ts_utf-8_editor_20260811.txt.gz",
+      "sha256": "fe1000b683609cde2ff7f70ee41541c47e44d8226f79ad209cf68138064865d4",
+      "expected_bytes": 3967806,
+      "uncompressed_sha256": "147f106712fe0787741530a77f86f02b8ddd8929c2796f323eba705384064bae",
+      "uncompressed_bytes": 9830336,
+      "upstream_header": {
+        "version": "1",
+        "subversion": "0",
+        "format": "ts",
+        "charset": "UTF-8",
+        "entries": 124816,
+        "publisher": "MDBG",
+        "date": "2026-08-11T14:10:23Z",
+        "time": 1786457423
+      },
+      "route_note": "The original export came from the CC-CEDICT editor endpoint. Its exact uncompressed bytes were reconstructed after the local container went missing by reversing official change-log entries 97037-97045 from a recovered live export; the result exactly matches the uncompressed SHA-256 and byte count recorded at original acquisition. The gzip container is newly deterministic and is not represented as the unavailable original container.",
+      "reconstruction": {
+        "status": "exact_uncompressed_snapshot_reconstructed",
+        "script": "scripts/reconstruct_cc_cedict_snapshot.py",
+        "report": "source-data/cc-cedict-2026-08-11/reconstruction.json",
+        "original_container_sha256_not_recovered": "73af18e207d9ae969e8f5d6b13c777bed64246268efb218e8df6d2f20563618f",
+        "original_container_bytes": 3967602,
+        "recovered_live_path": "source-data/cc-cedict-2026-08-11/cedict_live_20260812T000144Z.txt.gz",
+        "recovered_live_sha256": "8321ee502d588110abc87cd8ebaf3f1ba263d19a3646df45b1592609b3557f13",
+        "official_change_log_path": "source-data/cc-cedict-2026-08-11/change-log-after-pinned-snapshot.html",
+        "official_change_log_sha256": "5a0dab11bcf902eeb933a7185942de9894b0eac963ff5a4f14b55cf62e5bb893",
+        "reversed_log_ids": [
+          97037,
+          97038,
+          97039,
+          97040,
+          97041,
+          97042,
+          97043,
+          97044,
+          97045
+        ],
+        "deterministic_container_command": "gzip -n -9 -c"
+      }
+    },
+    "prc-standard-characters-2013": {
+      "retrieved_at": "2026-08-12T02:10:19Z",
+      "local_path": "source-data/prc-standard-characters-2013/tongyong-guifan-hanzi-biao-2013.zip",
+      "sha256": "45e2f58fc19260a0f578de3ff5e273c4d4e6b4bcdd9a1580059e191ab3c9bee3",
+      "expected_bytes": 40567295,
+      "download_url": "https://www.moe.gov.cn/publicfiles/business/htmlfiles/moe/cmsmedia/other/2013/7/other98742.zip",
+      "official_page": {
+        "local_path": "source-data/prc-standard-characters-2013/official-download-page.html",
+        "sha256": "efd22f0566d279f3433441a36ce18d5ea45a399e87d02fd200f2563e7bd7c758",
+        "bytes": 13288
+      },
+      "document": {
+        "local_path": "source-data/prc-standard-characters-2013/tongyong-guifan-hanzi-biao-2013.pdf",
+        "sha256": "af85c706a53d3b3bbad818bcce7415ac9a2284ea14f79fe7f54ce1248a7bdac9",
+        "bytes": 100606660,
+        "pages": 137
+      },
+      "audit": {
+        "local_path": "source-data/prc-standard-characters-2013/simplification-audit.json",
+        "sha256": "73c1db11cd0a9b0121ea1a84339da1705d989a0811e59e0b5e95f87ce7c94f6a",
+        "bytes": 17085,
+        "reviewed_phase3_conflicts": 37,
+        "selected_mappings": 21,
+        "context_dependent_mappings": 16
+      },
+      "acquisition_record": "source-data/prc-standard-characters-2013/acquisition.json",
+      "acquisition_script": "scripts/acquire_prc_standard_character_table.py"
+    },
+    "moe-tw-concised-dictionary-2014-20260626": {
+      "retrieved_at": "2026-08-11T15:59:17Z",
+      "local_path": "source-data/moe-concised-2014-20260626/dict_concised_2014_20260626.xlsx",
+      "sha256": "a9a4fd7259180113bfae2e94110eae87ac4dcf0bfcc91a6437c3ad4773ab7865",
+      "expected_bytes": 7076857,
+      "download_url": "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_concised_2014_20260626.zip",
+      "container_filename": "dict_concised_2014_20260626.zip",
+      "container_sha256": "fc83d27eb3fbf6fcfdb791e7d05ef60946b58ef8e8857ed165b612217b392806",
+      "container_bytes": 6937298,
+      "archive_member": "dict_concised_2014_20260626.xlsx"
+    },
+    "moe-tw-revised-dictionary-2015-20260625": {
+      "retrieved_at": "2026-08-12T00:05:26Z",
+      "local_path": "source-data/moe-revised-2015-20260625/dict_revised_2015_20260625.xlsx",
+      "sha256": "df94ae4384ae3f33f573ded5c2f142041ea7530d381a285163593d6252ea4a9a",
+      "expected_bytes": 31186920,
+      "download_url": "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260625.zip",
+      "container_path": "source-data/moe-revised-2015-20260625/dict_revised_2015_20260625.zip",
+      "container_sha256": "64003a98fcc7097940e5a536c999bc08ba7c07e2c1be66448f01bf1ae10a53fc",
+      "container_bytes": 30614978,
+      "archive_member": "dict_revised_2015_20260625.xlsx",
+      "download_page": {
+        "path": "source-data/moe-revised-2015-20260625/download-page.html",
+        "sha256": "bb71860d5aede5778b0949249a69b6abe0ab09b0be5727f2d45a4c46a813e979",
+        "bytes": 3664
+      },
+      "public_license_index": {
+        "path": "source-data/moe-revised-2015-20260625/public-license-index.html",
+        "sha256": "9b6c2c7bd89e9b63f8debbcc44beddf6cdf1bf0c0c7398cc3872e470aeb0b92a",
+        "bytes": 9644
+      }
+    },
+    "moe-tw-dictionary-variants-2024-targeted-readings": {
+      "retrieved_at": "2026-08-12T00:11:30Z",
+      "local_path": "source-data/moe-variants-2024-targeted/character-reading-acquisition-log.json",
+      "sha256": "263decd25dd537f6373977a764d83aaead689f2987b685c23647555835f78227",
+      "expected_bytes": 35532,
+      "home_snapshot": {
+        "path": "source-data/moe-variants-2024-targeted/home.html",
+        "sha256": "09ff97f51a86575b6050fd50abb56bbab8d1d3d2a78dc4aab31b66f133ea642d",
+        "bytes": 9356
+      },
+      "target_count": 36,
+      "completed_count": 36,
+      "gap_count": 0,
+      "per_entry_response_hashes": true
+    }
+  },
+  "builder": "scripts/build_phase3.py",
+  "schema": "schema/character.schema.json",
+  "moe_revised_exact_character_count": 1964,
+  "moe_variants_canonical_character_count": 36,
+  "unresolved_character_pronunciation_count": 0
+}

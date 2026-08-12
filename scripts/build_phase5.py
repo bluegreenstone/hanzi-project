@@ -24,7 +24,7 @@ import validate_phase4 as validate4  # noqa: E402
 
 ASSET_ROOT = ROOT / "assets" / "stroke-order"
 ASSET_MANIFEST_PATH = ROOT / "assets" / "manifest.json"
-MANIFEST_PATH = ROOT / "phase5-manifest.json"
+MANIFEST_PATH = ROOT / "metadata" / "manifests" / "phase5.json"
 GF_ID = "prc-stroke-order-gf0023-2020"
 KANJIVG_GAP_ID = "kanjivg-u6c59-gap-audit-2026-08-11"
 TYPE_NAMES = {"1": "橫", "2": "豎", "3": "撇", "4": "點", "5": "折"}
@@ -485,7 +485,7 @@ def main() -> None:
     audit_cns_type_documentation(registry, cns_path)
     unihan_path = phase3.acquired_path(registry, phase3.UNIHAN_ID)
     graphics = parse_graphics(registry, graphics_path)
-    _, _, sequences = phase3.parse_cns(registry, cns_path)
+    _, _, sequences, _ = phase3.parse_cns(registry, cns_path)
 
     radicals = [
         json.loads((ROOT / "radicals" / f"{number}.json").read_text(encoding="utf-8"))

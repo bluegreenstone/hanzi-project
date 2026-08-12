@@ -10,8 +10,8 @@
     {
       "reading": "zhī fáng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        90244
+      "source_entry_ids": [
+        "422900002"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄓ ㄈㄤˊ",
       "pinyin": "zhī fáng",
-      "source_entry_indices": [
-        90244
+      "source_entry_ids": [
+        "422900002"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -99,5 +101,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "一種存於動植物體內的酯類化合物。比水輕，不溶於水，能為人體消化吸收，氧化時可產生大量的熱能，其中動物脂肪在常溫下為白色固體。[例]食用過多的脂肪，容易使人體產生疾病。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "422900002",
+      "verbatim": true
+    }
+  ]
 }

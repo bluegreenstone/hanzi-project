@@ -26,21 +26,24 @@ import build_phase4 as phase4  # noqa: E402
 import validate_phase1 as validate1  # noqa: E402
 import validate_phase3 as validate3  # noqa: E402
 import validate_phase4 as validate4  # noqa: E402
+import build_query_distributions as query_builder  # noqa: E402
+import validate_query_distributions as query_validator  # noqa: E402
 
 
 RELEASE_ID = "hanzi-corpus-2026-08-11"
 ARCHIVE_PATH = ROOT / "dist" / f"{RELEASE_ID}.zip"
 CHECKSUM_PATH = ROOT / "dist" / "SHA256SUMS"
 RELEASE_METADATA_PATH = ROOT / "dist" / "release-metadata.json"
-MANIFEST_PATH = ROOT / "phase6-manifest.json"
-REPORT_PATH = ROOT / "validation-report.md"
+MANIFEST_PATH = ROOT / "metadata" / "manifests" / "phase6.json"
+REPORT_PATH = ROOT / "docs" / "validation.md"
 PHASE_REPORT_PATH = ROOT / "phase6-report.md"
-REVIEW_PATH = ROOT / "phase6-review-exceptions.json"
+REVIEW_PATH = ROOT / "metadata" / "audits" / "phase6-review-exceptions.json"
 SVG_PATH = "{http://www.w3.org/2000/svg}path"
 CODEPOINT_RE = re.compile(r"^U\+([0-9A-F]{4,6})$")
 ZIP_TIMESTAMP = (2026, 8, 11, 0, 0, 0)
 ALLOWED_PINYIN_MARKS = {"\u0300", "\u0301", "\u0302", "\u0304", "\u0308", "\u030c"}
 ALLOWED_ZHUYIN_TONES = {0x02C9, 0x02CA, 0x02C7, 0x02CB, 0x02D9}
+MOE_VARIANTS_ID = "moe-tw-dictionary-variants-2024-targeted-readings"
 
 
 def sha256_path(path: Path) -> str:
@@ -291,12 +294,38 @@ def check_provenance_and_schemas(
     words: list[dict[str, Any]],
     asset_manifest: dict[str, Any],
     registry: dict[str, Any],
+    moe_concised: dict[str, list[dict[str, str]]],
+    moe_revised: dict[str, list[dict[str, str]]],
+    simplification_audit: dict[int, dict[str, Any]],
     **_: Any,
 ) -> list[str]:
     errors: list[str] = []
     errors.extend(validate1.check_provenance(records=radicals, registry=registry))
     errors.extend(validate3.check_provenance(records=characters, registry=registry))
     errors.extend(validate4.check_provenance(words=words, registry=registry))
+    phase3_context = {
+        "moe_concised": moe_concised,
+        "simplification_audit": simplification_audit,
+    }
+    errors.extend(
+        validate3.check_official_simplification_audit(
+            records=characters, context=phase3_context
+        )
+    )
+    errors.extend(
+        validate3.check_taiwan_definitions(
+            records=characters, context=phase3_context
+        )
+    )
+    errors.extend(
+        validate4.check_taiwan_definitions(
+            words=words,
+            context={
+                "moe_concised": moe_concised,
+                "moe_revised": moe_revised,
+            },
+        )
+    )
     specifications = (
         ("schema/radical.schema.json", radicals, "kangxi_number"),
         ("schema/character.schema.json", characters, "codepoint"),
@@ -333,8 +362,17 @@ def check_assets(
         + asset_manifest.get("library_assets", [])
         + asset_manifest.get("stroke_order_assets", [])
     )
-    ids = [item.get("asset_id") for item in entries]
-    paths = [item.get("local_path") for item in entries]
+    quarantined_entries = asset_manifest.get("quarantined_assets", [])
+    alias_entries = asset_manifest.get("provenance_alias_assets", [])
+    retired_entries = asset_manifest.get("retired_unverified_assets", [])
+    ids = [
+        item.get("asset_id")
+        for item in entries + quarantined_entries + alias_entries + retired_entries
+    ]
+    paths = [
+        item.get("local_path")
+        for item in entries + quarantined_entries + alias_entries + retired_entries
+    ]
     if len(ids) != len(set(ids)):
         errors.append("asset IDs are not globally unique")
     if len(paths) != len(set(paths)):
@@ -364,6 +402,63 @@ def check_assets(
             errors.append(f"{label}: byte count differs")
         if sha256_path(path) != entry["sha256"]:
             errors.append(f"{label}: SHA-256 differs")
+    if len(quarantined_entries) != 455:
+        errors.append("historical identity quarantine does not contain 455 assets")
+    for entry in quarantined_entries:
+        label = entry["asset_id"]
+        source = registry["sources"].get(entry.get("source_id"))
+        if not source or source.get("status") != "quarantine":
+            errors.append(f"{label}: quarantine source status differs")
+        if (
+            entry.get("publication_status")
+            != "quarantined_identity_unverified"
+            or not entry.get("release_excluded")
+        ):
+            errors.append(f"{label}: publication quarantine markers are absent")
+        path = ROOT / entry["local_path"]
+        if not path.is_file() or sha256_path(path) != entry["sha256"]:
+            errors.append(f"{label}: quarantined file integrity differs")
+    if len(retired_entries) != 214:
+        errors.append("superseded seal collection does not contain 214 assets")
+    retired_source_ids = {
+        "commons-shuowen-seal-files-2026-08-10",
+        "commons-shuowen-540-svg-series-2026-08-10",
+        "commons-ancient-chinese-character-seal-files-2026-08-10",
+    }
+    for entry in retired_entries:
+        label = entry["asset_id"]
+        source = registry["sources"].get(entry.get("source_id"))
+        if (
+            entry.get("source_id") not in retired_source_ids
+            or not source
+            or source.get("status") != "quarantine"
+        ):
+            errors.append(f"{label}: retired seal source status differs")
+        if (
+            entry.get("publication_status")
+            != "superseded_unverified_community_vector"
+            or not entry.get("release_excluded")
+        ):
+            errors.append(f"{label}: retired seal markers are absent")
+        path = ROOT / entry["local_path"]
+        if not path.is_file() or sha256_path(path) != entry["sha256"]:
+            errors.append(f"{label}: retired seal file integrity differs")
+    if len(alias_entries) != 1676:
+        errors.append("exact-duplicate provenance alias count differs")
+    for entry in alias_entries:
+        label = entry["asset_id"]
+        canonical = by_id.get(entry.get("alias_of_asset_id"))
+        if (
+            entry.get("publication_status")
+            != "provenance_alias_exact_duplicate"
+            or not entry.get("release_excluded")
+        ):
+            errors.append(f"{label}: provenance-alias markers are absent")
+        if canonical is None or canonical["sha256"] != entry["sha256"]:
+            errors.append(f"{label}: exact canonical alias target differs")
+        path = ROOT / entry["local_path"]
+        if not path.is_file() or sha256_path(path) != entry["sha256"]:
+            errors.append(f"{label}: provenance-alias file integrity differs")
     expected_paths = set(paths)
     actual_paths = {
         str(path.relative_to(ROOT))
@@ -450,6 +545,10 @@ def check_readings(
     words: list[dict[str, Any]],
     bopomofo_to_pinyin: dict[str, str],
     pinyin_to_bopomofo: dict[str, list[str]],
+    moe_concised: dict[str, list[dict[str, str]]],
+    moe_revised: dict[str, list[dict[str, str]]],
+    moe_variant_pairs: dict[str, set[tuple[str, str]]],
+    reviews: list[dict[str, Any]],
     **_: Any,
 ) -> list[str]:
     errors: list[str] = []
@@ -467,13 +566,41 @@ def check_readings(
             if not valid_zhuyin(reading):
                 errors.append(f"{label}: invalid Zhuyin {reading!r}")
         if zhuyin:
-            mapped = [bopomofo_to_pinyin.get(reading) for reading in zhuyin]
-            if mapped != pinyin:
+            if len(zhuyin) != len(pinyin):
+                errors.append(f"{label}: Pinyin/Zhuyin reading counts differ")
+                continue
+            for pinyin_reading, zhuyin_reading in zip(pinyin, zhuyin):
+                mapped = bopomofo_to_pinyin.get(zhuyin_reading)
+                if mapped == pinyin_reading:
+                    continue
+                if (pinyin_reading, zhuyin_reading) in moe_variant_pairs.get(label, set()):
+                    reviews.append(
+                        {
+                            "category": "official_zhuyin_pinyin_outside_cns_table",
+                            "record": label,
+                            "character": next(
+                                item["traditional"]
+                                for item in characters
+                                if item["codepoint"] == label
+                            ),
+                            "pinyin": pinyin_reading,
+                            "zhuyin": zhuyin_reading,
+                            "cns_conversion": mapped,
+                            "source_id": MOE_VARIANTS_ID,
+                            "resolution": (
+                                "The exact paired Pinyin/Zhuyin values on the Taiwan MOE "
+                                "Dictionary of Variants 正字 entry remain canonical; the "
+                                "CNS conversion table has no row for this syllable."
+                            ),
+                        }
+                    )
+                    continue
                 errors.append(f"{label}: Zhuyin-to-Pinyin table mapping differs")
     for word in words:
         pinyin_rows = word.get("pinyin") or []
         pinyin_by_value = {
-            item["reading"]: item["source_entry_indices"] for item in pinyin_rows
+            item["reading"]: phase4.moe_pronunciations.source_refs(item)
+            for item in pinyin_rows
         }
         for reading in pinyin_by_value:
             if not valid_pinyin(reading):
@@ -485,11 +612,44 @@ def check_readings(
             if item["pinyin"] not in pinyin_by_value:
                 errors.append(f"{word['id']}: Zhuyin lacks its Pinyin row")
                 continue
-            if item["source_entry_indices"] != pinyin_by_value[item["pinyin"]]:
+            if phase4.moe_pronunciations.source_refs(item) != pinyin_by_value[item["pinyin"]]:
                 errors.append(f"{word['id']}: Zhuyin/Pinyin source entries differ")
-            expected = phase4.pinyin_to_zhuyin(item["pinyin"], pinyin_to_bopomofo)
-            if reading != expected:
-                errors.append(f"{word['id']}: Zhuyin conversion-table result differs")
+        pronunciation_source = word.get("sources", {}).get("pinyin")
+        sources_agree = (
+            pronunciation_source == word.get("sources", {}).get("zhuyin")
+        )
+        official_rows = {
+            phase4.MOE_CONCISED_ID: moe_concised,
+            phase4.MOE_REVISED_ID: moe_revised,
+        }
+        official_source = (
+            pronunciation_source[0]
+            if sources_agree
+            and isinstance(pronunciation_source, list)
+            and len(pronunciation_source) == 1
+            and pronunciation_source[0] in official_rows
+            else None
+        )
+        if official_source:
+            source_rows = official_rows[official_source].get(
+                word["traditional"], []
+            )
+            expected_pinyin, expected_zhuyin = phase4.moe_pronunciations.moe_readings(
+                source_rows
+            )
+            if pinyin_rows != expected_pinyin or (word.get("zhuyin") or []) != expected_zhuyin:
+                errors.append(
+                    f"{word['id']}: Taiwan MOE reading or entry IDs differ"
+                )
+        else:
+            for item in word.get("zhuyin") or []:
+                expected = phase4.pinyin_to_zhuyin(
+                    item["pinyin"], pinyin_to_bopomofo
+                )
+                if item["reading"] != expected:
+                    errors.append(
+                        f"{word['id']}: Zhuyin conversion-table result differs"
+                    )
     return errors
 
 
@@ -573,9 +733,8 @@ def check_unicode_and_record_files(
         *[(item["codepoint"], item) for item in characters],
         *[(item["id"], item) for item in words],
     ]:
-        serialized = json.dumps(record, ensure_ascii=False)
-        if not unicodedata.is_normalized("NFC", serialized):
-            errors.append(f"{label}: record is not NFC")
+        if not phase3.is_nfc_except_verbatim_text(record):
+            errors.append(f"{label}: a non-verbatim record field is not NFC")
     sentinel = chr(0x20000)
     roundtrip = json.loads(json.dumps({"char": sentinel}, ensure_ascii=False))["char"]
     if len(roundtrip) != 1 or ord(roundtrip) != 0x20000:
@@ -590,20 +749,43 @@ def release_payload_paths() -> list[Path]:
         ("characters", "*.json"),
         ("words", "*.json"),
         ("schema", "*.json"),
-        ("scripts", "*.py"),
-        ("assets", "*"),
     ):
         root = ROOT / directory
-        candidates = root.rglob(pattern) if directory == "assets" else root.glob(pattern)
+        candidates = root.glob(pattern)
         paths.update(
             path for path in candidates if path.is_file() and path.name != ".DS_Store"
         )
-    for path in ROOT.glob("*.md"):
-        paths.add(path)
-    for path in ROOT.glob("*.json"):
-        if path.name != MANIFEST_PATH.name:
-            paths.add(path)
+    asset_manifest_path = ROOT / "assets" / "manifest.json"
+    asset_manifest = json.loads(asset_manifest_path.read_text(encoding="utf-8"))
+    paths.add(asset_manifest_path)
+    for item in (
+        asset_manifest.get("assets", [])
+        + asset_manifest.get("library_assets", [])
+        + asset_manifest.get("stroke_order_assets", [])
+    ):
+        paths.add(ROOT / item["local_path"])
+    paths.update(
+        {
+            ROOT / "README.md",
+            ROOT / "requirements-release.txt",
+            ROOT / "sources.json",
+            ROOT / "licenses" / "profiles.json",
+            ROOT / "scripts" / "build_query_distributions.py",
+            ROOT / "scripts" / "validate_query_distributions.py",
+        }
+    )
+    paths.update(path for path in (ROOT / "docs").glob("*.md") if path.is_file())
+    paths.update(
+        path
+        for path in (ROOT / "metadata" / "manifests").glob("phase[1-5].json")
+        if path.is_file()
+    )
+    paths.update(path for path in (ROOT / "query").rglob("*") if path.is_file())
     return sorted(paths, key=lambda item: str(item.relative_to(ROOT)))
+
+
+def check_query_distributions(query_errors: list[str], **_: Any) -> list[str]:
+    return list(query_errors)
 
 
 def check_release_plan(
@@ -617,31 +799,45 @@ def check_release_plan(
     paths = release_payload_paths()
     relative = {str(path.relative_to(ROOT)) for path in paths}
     required = {
+        "README.md",
         "sources.json",
         "assets/manifest.json",
-        "attribution.md",
-        "caveats.md",
-        "gaps-report.md",
-        "validation-report.md",
-        "source-audit.md",
-        "phase5-manifest.json",
-        "phase5-report.md",
+        "docs/attribution.md",
+        "docs/caveats.md",
+        "docs/gaps.md",
+        "docs/licensing.md",
+        "docs/schema-versioning.md",
+        "docs/source-audit.md",
+        "docs/validation.md",
+        "docs/verification-policy.md",
+        "licenses/profiles.json",
+        "metadata/manifests/phase5.json",
+        "query/README.md",
+        "query/examples.sql",
+        "query/hanzi.sqlite3",
+        "query/manifest.json",
+        "query/migrations/0001_initial.sql",
         "schema/radical.schema.json",
         "schema/character.schema.json",
         "schema/word.schema.json",
         "schema/stroke-order-asset.schema.json",
-        "scripts/build_phase6.py",
+        "scripts/build_query_distributions.py",
+        "scripts/validate_query_distributions.py",
     }
     for path in sorted(required - relative):
         errors.append(f"release payload lacks required file: {path}")
     if any(
         path.startswith("source-data/")
         or path.startswith("quarantine/")
+        or path.startswith("tmp/")
+        or path.startswith("build/")
+        or path.startswith("metadata/audits/")
+        or path.endswith("-report.md")
         or path.endswith("/.DS_Store")
         or path == ".DS_Store"
         for path in relative
     ):
-        errors.append("release payload includes source-data, quarantine, or Finder metadata")
+        errors.append("release payload includes internal build/audit material")
     manifest_paths = {
         item["local_path"]
         for item in (
@@ -652,12 +848,37 @@ def check_release_plan(
     }
     for path in sorted(manifest_paths - relative):
         errors.append(f"release payload omits manifested asset: {path}")
+    quarantined_paths = {
+        item["local_path"]
+        for item in asset_manifest.get("quarantined_assets", [])
+    }
+    for path in sorted(quarantined_paths & relative):
+        errors.append(f"release payload includes quarantined asset: {path}")
+    alias_paths = {
+        item["local_path"]
+        for item in asset_manifest.get("provenance_alias_assets", [])
+    }
+    for path in sorted(alias_paths & relative):
+        errors.append(f"release payload includes exact-duplicate alias asset: {path}")
+    retired_paths = {
+        item["local_path"]
+        for item in asset_manifest.get("retired_unverified_assets", [])
+    }
+    for path in sorted(retired_paths & relative):
+        errors.append(f"release payload includes a retired Commons seal asset: {path}")
     if len([path for path in relative if path.startswith("radicals/")]) != len(radicals):
         errors.append("release radical file count differs")
     if len([path for path in relative if path.startswith("characters/")]) != len(characters):
         errors.append("release character file count differs")
     if len([path for path in relative if path.startswith("words/")]) != len(words):
         errors.append("release word file count differs")
+    query_manifest = json.loads((ROOT / "query" / "manifest.json").read_text())
+    query_files = {
+        query_manifest["database"]["path"],
+        *(item["path"] for item in query_manifest["files"]),
+    }
+    for path in sorted(query_files - relative):
+        errors.append(f"release payload omits query distribution file: {path}")
     return errors
 
 
@@ -674,17 +895,23 @@ def check_detail(check_id: str, context: dict[str, Any]) -> str:
             f"{reviews['radical_total_strokes_equation']} reviewed positional-form exceptions."
         ),
         "P6-04": "All scoped character/component/confusable/word joins resolve, and word constituents reproduce their headword codepoints.",
-        "P6-05": "Every non-null record field has registered provenance and every record/stroke-asset schema validates.",
+        "P6-05": "Every non-null record field has registered provenance; schemas validate; official simplification adjudications and verbatim Taiwan definitions exactly reproduce pinned sources.",
         "P6-06": "Every asset reference resolves to one uniquely manifested, licensed, hash-verified file.",
         "P6-07": (
             "Every SVG path count matches its asset and stroke-order object; "
             f"{reviews['stroke_order_regional_count']} Taiwan/PRC record-count differences are preserved."
         ),
-        "P6-08": "Pinyin syntax, Zhuyin codepoints, and all character/word conversion-table joins match.",
-        "P6-09": "Every delivered many-Traditional-to-one-Simplified mapping is explicitly flagged for round-trip review.",
+        "P6-08": (
+            "Pinyin syntax and Zhuyin codepoints pass; MOE-covered records reproduce "
+            "exact official readings/entry IDs, including "
+            f"{reviews['official_zhuyin_pinyin_outside_cns_table']} exact MOE pair outside "
+            "the CNS conversion table; uncovered words reproduce the declared CNS conversion."
+        ),
+        "P6-09": "Every delivered many-Traditional-to-one-Simplified mapping is flagged, and all 37 formerly conflicting candidates reproduce the official PRC-table adjudication.",
         "P6-10": "Kangxi Radical and CJK Radical Supplement characters occur only in radical_block.char.",
-        "P6-11": "Record counts, NFC normalization, unique IDs, and a non-BMP JSON sentinel all pass.",
-        "P6-12": "The deterministic release payload contains every final record, schema, report, script, and manifested asset, excluding raw acquisitions and quarantine.",
+        "P6-11": "Record counts, unique IDs, NFC outside explicitly verbatim source cells, and a non-BMP JSON sentinel all pass.",
+        "P6-12": "The deterministic release payload contains every final record, user document, query distribution, schema, manifest, and released asset while excluding internal build/audit material.",
+        "P6-13": "SQLite integrity, relational counts, indexed lookups, profile isolation, JSONL/Parquet equivalence, and query-file hashes all pass.",
     }
     return details[check_id]
 
@@ -723,8 +950,9 @@ def write_reports(
             f"- Taiwan radical count versus Unihan: **{review_counts['radical_unihan_stroke_count']}**",
             f"- Radical-plus-residual equation: **{review_counts['radical_total_strokes_equation']}**",
             f"- Taiwan canonical count versus PRC-convention SVG paths: **{review_counts['stroke_order_regional_count']}**",
+            f"- Exact MOE Pinyin/Zhuyin pair absent from CNS conversion table: **{review_counts['official_zhuyin_pinyin_outside_cns_table']}**",
             "",
-            "Every item is serialized in `phase6-review-exceptions.json`; an unflagged mismatch fails its check.",
+            "Every item is serialized in `metadata/audits/phase6-review-exceptions.json`; an unflagged mismatch fails its check.",
             "",
         ]
     )
@@ -747,9 +975,9 @@ def write_reports(
         "",
         "## Packaging profile",
         "",
-        "The archive contains the final records, assets, schemas, provenance registry, attribution, caveats, reports, manifests, audit files, and Python build/validation scripts. ZIP entry order, timestamps, permissions, and compression settings are fixed for deterministic output.",
+        "The archive contains final records, released assets, schemas, provenance and license metadata, user documentation, a normalized SQLite database, and equivalent relational JSONL and Parquet tables. ZIP entry order, timestamps, permissions, and compression settings are fixed for deterministic output.",
         "",
-        "Raw `source-data/` acquisitions and `quarantine/` are intentionally excluded from the redistributable corpus. Their acquisition URLs, versions, hashes, and license decisions remain recorded in `sources.json` and the phase manifests.",
+        "Raw acquisitions, quarantine, temporary review files, detailed internal audits, and phase reports are intentionally excluded. Their source URLs, versions, hashes, and release decisions remain recorded in `sources.json`, the public manifests, and the Git repository.",
         "",
         "The package checksum is written beside the archive in `dist/SHA256SUMS`; `dist/release-metadata.json` records its byte length and SHA-256.",
         "",
@@ -773,7 +1001,7 @@ def build_payload_manifest(context: dict[str, Any]) -> dict[str, Any]:
         )
     ).hexdigest()
     reviews = Counter(item["category"] for item in context["reviews"])
-    phase5 = json.loads((ROOT / "phase5-manifest.json").read_text(encoding="utf-8"))
+    phase5 = json.loads((ROOT / "metadata" / "manifests" / "phase5.json").read_text(encoding="utf-8"))
     return {
         "phase": 6,
         "release_id": RELEASE_ID,
@@ -785,6 +1013,12 @@ def build_payload_manifest(context: dict[str, Any]) -> dict[str, Any]:
             "words": len(context["words"]),
         },
         "asset_count": context["asset_count"],
+        "query_distribution": {
+            "schema_version": context["query_manifest"]["query_schema_version"],
+            "database": context["query_manifest"]["database"],
+            "profiles": sorted(context["query_manifest"]["profiles"]),
+            "row_counts": context["query_manifest"]["row_counts"],
+        },
         "stroke_order_coverage": {
             "radicals": phase5["radical_svg_reference_count"],
             "characters": phase5["character_svg_reference_count"],
@@ -800,7 +1034,16 @@ def build_payload_manifest(context: dict[str, Any]) -> dict[str, Any]:
             "payload_file_count_excluding_this_manifest": len(payload),
             "payload_digest_sha256": digest,
             "fixed_zip_timestamp": "2026-08-11T00:00:00",
-            "excludes": ["source-data/", "quarantine/", ".DS_Store", "scripts/__pycache__/"],
+            "excludes": [
+                "source-data/",
+                "quarantine/",
+                "tmp/",
+                "build/",
+                "metadata/audits/",
+                "phase*-report.md",
+                ".DS_Store",
+                "scripts/__pycache__/",
+            ],
         },
         "payload_files": payload,
         "builder": "scripts/build_phase6.py",
@@ -856,7 +1099,7 @@ def build_archive(payload_paths: list[Path]) -> dict[str, Any]:
         "bytes": ARCHIVE_PATH.stat().st_size,
         "sha256": sha256_path(ARCHIVE_PATH),
         "file_count": len(expected),
-        "payload_manifest": MANIFEST_PATH.name,
+        "payload_manifest": str(MANIFEST_PATH.relative_to(ROOT)),
         "payload_manifest_sha256": sha256_path(MANIFEST_PATH),
         "verification": "ZIP CRC, entry set, uncompressed byte lengths, and per-file SHA-256 all passed.",
     }
@@ -869,6 +1112,8 @@ def build_archive(payload_paths: list[Path]) -> dict[str, Any]:
 
 
 def main() -> None:
+    query_manifest = query_builder.build()
+    query_errors = query_validator.validate()
     registry = phase3.load_registry()
     radicals, radical_errors = load_json_records("radicals")
     characters, character_errors = load_json_records("characters")
@@ -887,13 +1132,35 @@ def main() -> None:
     unihan_radicals = phase1.parse_unihan(
         phase1.acquired_path(registry, phase1.UNIHAN_ID), radical_cps
     )
-    _, bopomofo_to_pinyin, _ = phase3.parse_cns(
+    _, bopomofo_to_pinyin, _, _ = phase3.parse_cns(
         registry, phase3.acquired_path(registry, phase3.CNS_ID)
     )
     pinyin_to_bopomofo: dict[str, list[str]] = defaultdict(list)
     for bopomofo, pinyin in bopomofo_to_pinyin.items():
         if bopomofo not in pinyin_to_bopomofo[pinyin]:
             pinyin_to_bopomofo[pinyin].append(bopomofo)
+    moe_concised = phase4.load_moe_rows(
+        phase3.acquired_path(registry, phase4.MOE_CONCISED_ID)
+    )
+    moe_revised = phase4.load_moe_rows(
+        phase3.acquired_path(registry, phase4.MOE_REVISED_ID)
+    )
+    simplification_audit = phase3.load_simplification_audit(
+        registry,
+        {parse_codepoint(item["codepoint"]) for item in characters},
+    )
+    variant_payload = json.loads(
+        phase3.acquired_path(registry, MOE_VARIANTS_ID).read_text(encoding="utf-8")
+    )
+    moe_variant_pairs: dict[str, set[tuple[str, str]]] = {}
+    for entry in variant_payload["entries"]:
+        if len(entry["pinyin"]) != len(entry["zhuyin"]):
+            raise RuntimeError(
+                f"MOE Variant reading pair count differs: {entry['codepoint']}"
+            )
+        moe_variant_pairs[entry["codepoint"]] = set(
+            zip(entry["pinyin"], entry["zhuyin"])
+        )
 
     context: dict[str, Any] = {
         "radicals": radicals,
@@ -905,8 +1172,14 @@ def main() -> None:
         "unihan_radicals": unihan_radicals,
         "bopomofo_to_pinyin": bopomofo_to_pinyin,
         "pinyin_to_bopomofo": pinyin_to_bopomofo,
+        "moe_concised": moe_concised,
+        "moe_revised": moe_revised,
+        "simplification_audit": simplification_audit,
+        "moe_variant_pairs": moe_variant_pairs,
         "load_errors": radical_errors + character_errors + word_errors,
         "reviews": [],
+        "query_manifest": query_manifest,
+        "query_errors": query_errors,
     }
     definitions: list[tuple[str, Callable[..., list[str]]]] = [
         ("P6-01", check_radical_set),
@@ -921,6 +1194,7 @@ def main() -> None:
         ("P6-10", check_radical_block_isolation),
         ("P6-11", check_unicode_and_record_files),
         ("P6-12", check_release_plan),
+        ("P6-13", check_query_distributions),
     ]
     checks: list[tuple[str, str, list[str]]] = []
     for check_id, function in definitions:

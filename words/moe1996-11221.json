@@ -10,8 +10,8 @@
     {
       "reading": "bù wěn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        2716
+      "source_entry_ids": [
+        "005651632"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄅㄨˋ ㄨㄣˇ",
       "pinyin": "bù wěn",
-      "source_entry_indices": [
-        2716
+      "source_entry_ids": [
+        "005651632"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "不安穩、不妥當。宋．歐陽修〈漁家傲．昨日採花花欲盡〉詞：「羅袖挹殘心不穩，羞人問，歸來剩把胭脂襯。」《文明小史》第九回：「他二人立腳不穩只好站在路旁，等候這班人退過，再圖前進。」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "005651632",
+      "verbatim": true
+    }
+  ]
 }

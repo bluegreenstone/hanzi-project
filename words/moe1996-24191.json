@@ -12,8 +12,8 @@
     {
       "reading": "qī yé bā yé",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        1112
+      "source_entry_ids": [
+        "352200014"
       ]
     }
   ],
@@ -21,8 +21,8 @@
     {
       "reading": "ㄑㄧ ㄧㄝˊ ㄅㄚ ㄧㄝˊ",
       "pinyin": "qī yé bā yé",
-      "source_entry_indices": [
-        1112
+      "source_entry_ids": [
+        "352200014"
       ]
     }
   ],
@@ -77,11 +77,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -101,5 +103,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "民間信仰中城隍爺的左右護衛。七爺名謝必安，身材高大；八爺名范無救，身材矮小。相傳兩人相約樹下，卻遇上洪水氾濫。八爺先到，因守信而淹死，七爺到後，見此景亦上吊自殺。二人因守信守義的精神在死後被封入神界，專司緝拿惡鬼。平常豎立在城隍廟的左右兩邊，除巡視陽間外，也負責獎勵善人，給予福祿壽喜。　△范、謝將軍",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "352200014",
+      "verbatim": true
+    }
+  ]
 }

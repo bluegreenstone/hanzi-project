@@ -28,19 +28,28 @@
         "reading": "qì",
         "context": "primary",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "06304"
+        ]
       },
       {
         "reading": "qiè",
         "context": "additional",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "06339"
+        ]
       },
       {
         "reading": "xiè",
         "context": "additional",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "06958"
+        ]
       }
     ],
     "zhuyin": [
@@ -122,6 +131,24 @@
       "source_id": "cc-cedict-editor-2026-08-11"
     }
   ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.合同、合約。[例]契約、地契、房契\n2.投合、切合。[例]相契、契合\n3.用刀刻。[例]契舟求劍\n4.刻出來的文字。[例]契文、殷契",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "3581",
+      "verbatim": true
+    },
+    {
+      "text": "人名。殷代始祖。高辛氏的兒子，堯時為司徒，佐禹治水有功，封於商。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "3933",
+      "verbatim": true
+    }
+  ],
   "frequency": {
     "rank": 1631,
     "selection_rank": 1625,
@@ -148,9 +175,6 @@
     "variants_異體字": [
       "unicode-unihan-17.0.0"
     ],
-    "radical": [
-      "unicode-unihan-17.0.0"
-    ],
     "total_strokes": [
       "moe-tw-common-terms-1996"
     ],
@@ -168,6 +192,18 @@
     "simplified": [
       "cc-cedict-editor-2026-08-11"
     ],
+    "radical.kangxi_number": [
+      "cns11643-attributes-2026-08-05"
+    ],
+    "radical.residual_strokes": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.source_assignment": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.additional_assignments": [
+      "unicode-unihan-17.0.0"
+    ],
     "ids_decomposition": [
       "makemeahanzi-dictionary-master-audit"
     ],
@@ -175,10 +211,12 @@
       "makemeahanzi-dictionary-master-audit"
     ],
     "readings.pinyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
     "readings.zhuyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
@@ -206,6 +244,9 @@
     "definitions": [
       "unicode-unihan-17.0.0",
       "cc-cedict-editor-2026-08-11"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "kangxi_citation": [
       "unicode-unihan-17.0.0"

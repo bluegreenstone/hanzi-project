@@ -11,8 +11,8 @@
     {
       "reading": "lěng qì jī",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        12714
+      "source_entry_ids": [
+        "185000032"
       ]
     }
   ],
@@ -20,8 +20,8 @@
     {
       "reading": "ㄌㄥˇ ㄑㄧˋ ㄐㄧ",
       "pinyin": "lěng qì jī",
-      "source_entry_indices": [
-        12714
+      "source_entry_ids": [
+        "185000032"
       ]
     }
   ],
@@ -76,11 +76,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -95,5 +97,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "一種空氣調節器。主要功能為循環不斷地散放冷氣，另兼具調節室內溼度、淨化室內汙濁空氣、加速室內空氣的循環與通風等功能。[例]入夏以來，冷氣機的銷售量直線上升。　△冷氣　◎",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "185000032",
+      "verbatim": true
+    }
+  ]
 }

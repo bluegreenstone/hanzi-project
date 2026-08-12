@@ -10,8 +10,8 @@
     {
       "reading": "liè níng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        13781
+      "source_entry_ids": [
+        "035010014"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄌㄧㄝˋ ㄋㄧㄥˊ",
       "pinyin": "liè níng",
-      "source_entry_indices": [
-        13781
+      "source_entry_ids": [
+        "035010014"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "人名。（西元1870～1924）蘇俄共產革命者與政治理論學家。與托洛斯基（Trotsky）、史達林（Stalin）等人組織共產黨，為西元一九一七年大革命的領袖，推翻俄帝的專制統治，建立蘇維埃聯邦社會主義共和政權（the Russian Soviet Federative Socialist Republic）。列寧發展了馬克斯主義，曾發表唯物哲學、經驗批判哲學等方面的著作，確立共產主義理論的基礎。列寧本名的英文拼法為Vladimir Ilyich Ulyanov，「列寧」是他參加共產主義運動後的主要化名。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "035010014",
+      "verbatim": true
+    }
+  ]
 }

@@ -35,7 +35,10 @@
         "reading": "yí",
         "context": "primary",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "10550"
+        ]
       }
     ],
     "zhuyin": [
@@ -99,6 +102,16 @@
       "source_id": "cc-cedict-editor-2026-08-11"
     }
   ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.法則、榜樣。[例]軌儀、儀則、儀式\n2.節度、程式。[例]禮儀、司儀\n3.舉止容貌。[例]丰儀、儀表堂堂\n4.禮物。[例]賀儀、奠儀、謝儀\n5.嚮往、仰慕。[例]心儀\n6.具有一定規格的器具。[例]渾天儀、地球儀",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "5866",
+      "verbatim": true
+    }
+  ],
   "frequency": {
     "rank": 1309,
     "selection_rank": 1305,
@@ -125,9 +138,6 @@
     "variants_異體字": [
       "unicode-unihan-17.0.0"
     ],
-    "radical": [
-      "unicode-unihan-17.0.0"
-    ],
     "total_strokes": [
       "moe-tw-common-terms-1996"
     ],
@@ -150,6 +160,18 @@
       "unicode-unihan-17.0.0",
       "cc-cedict-editor-2026-08-11"
     ],
+    "radical.kangxi_number": [
+      "cns11643-attributes-2026-08-05"
+    ],
+    "radical.residual_strokes": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.source_assignment": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.additional_assignments": [
+      "unicode-unihan-17.0.0"
+    ],
     "ids_decomposition": [
       "makemeahanzi-dictionary-master-audit"
     ],
@@ -157,10 +179,12 @@
       "makemeahanzi-dictionary-master-audit"
     ],
     "readings.pinyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
     "readings.zhuyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
@@ -185,6 +209,9 @@
     "definitions": [
       "unicode-unihan-17.0.0",
       "cc-cedict-editor-2026-08-11"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "kangxi_citation": [
       "unicode-unihan-17.0.0"

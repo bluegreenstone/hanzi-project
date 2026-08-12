@@ -10,8 +10,8 @@
     {
       "reading": "bèi lèi",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        102682
+      "source_entry_ids": [
+        "001740025"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄅㄟˋ ㄌㄟˋ",
       "pinyin": "bèi lèi",
-      "source_entry_indices": [
-        102682
+      "source_entry_ids": [
+        "001740025"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "具有貝殼的軟體動物。包括腹足綱、斧足綱、掘足綱、單殼綱、多殼綱、二枚貝綱等。最早出現在二億年前的古生代寒武紀，種類繁多，可生長在淡水或鹹水中。其外殼有多種用途。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "001740025",
+      "verbatim": true
+    }
+  ]
 }

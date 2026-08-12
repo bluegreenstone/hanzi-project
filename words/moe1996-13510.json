@@ -9,14 +9,22 @@
   ],
   "pinyin": [
     {
-      "reading": "dà bu liǎo",
+      "reading": "dà bù liǎo",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        27570
+      "source_entry_ids": [
+        "101500032"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄉㄚˋ ㄅㄨˋ ㄌㄧㄠˇ",
+      "pinyin": "dà bù liǎo",
+      "source_entry_ids": [
+        "101500032"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "at worst; if worst comes to worst",
@@ -76,15 +84,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "zhuyin": [
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "grading.hsk",
       "reason": "source_unavailable",
@@ -96,5 +105,45 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "dà bù liǎo"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "101500032"
+          ]
+        },
+        {
+          "value": [
+            "dà bu liǎo"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            27570
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.頂多、充其量。[例]不要怕錯，大不了被罵一頓罷了。\n2.嚴重。[例]這點擦傷沒什麼大不了的，抹點紅藥水就好了。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "101500032",
+      "verbatim": true
+    }
+  ]
 }

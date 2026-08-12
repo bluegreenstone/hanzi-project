@@ -8,19 +8,19 @@
   ],
   "pinyin": [
     {
-      "reading": "qiāo jī",
+      "reading": "qiāo jí",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        50876
+      "source_entry_ids": [
+        "360600005"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄑㄧㄠ ㄐㄧ",
-      "pinyin": "qiāo jī",
-      "source_entry_indices": [
-        50876
+      "reading": "ㄑㄧㄠ ㄐㄧˊ",
+      "pinyin": "qiāo jí",
+      "source_entry_ids": [
+        "360600005"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -102,5 +104,81 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "qiāo jí"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "360600005"
+          ]
+        },
+        {
+          "value": [
+            "qiāo jī"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            50876
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    },
+    {
+      "field": "zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            {
+              "pinyin": "qiāo jí",
+              "reading": "ㄑㄧㄠ ㄐㄧˊ"
+            }
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "360600005"
+          ]
+        },
+        {
+          "value": [
+            {
+              "pinyin": "qiāo jī",
+              "reading": "ㄑㄧㄠ ㄐㄧ"
+            }
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11",
+            "cns11643-attributes-2026-08-05"
+          ],
+          "source_entry_indices": [
+            50876
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE Concised Dictionary Zhuyin is canonical. The previous value was mechanically converted from CC-CEDICT Pinyin through the CNS syllable table and remains comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "敲打、擊打。[例]和尚敲擊木魚，念誦佛經。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "360600005",
+      "verbatim": true
+    }
+  ]
 }

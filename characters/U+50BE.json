@@ -28,13 +28,19 @@
         "reading": "kēng",
         "context": "primary",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "04555"
+        ]
       },
       {
         "reading": "qīng",
         "context": "additional",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "06588"
+        ]
       }
     ],
     "zhuyin": [
@@ -115,6 +121,16 @@
       "source_id": "cc-cedict-editor-2026-08-11"
     }
   ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.偏向一邊、側歪。[例]傾斜、傾耳細聽\r\n2.坍塌、覆滅。[例]傾覆、傾頹\r\n3.倒出。[例]傾盆、傾酒\r\n4.壓倒、排擠。[例]傾軋\r\n5.欽服、仰慕。[例]一座盡傾\r\n",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "3735",
+      "verbatim": true
+    }
+  ],
   "frequency": {
     "rank": 1612,
     "selection_rank": 1606,
@@ -141,9 +157,6 @@
     "variants_異體字": [
       "unicode-unihan-17.0.0"
     ],
-    "radical": [
-      "unicode-unihan-17.0.0"
-    ],
     "total_strokes": [
       "moe-tw-common-terms-1996"
     ],
@@ -162,6 +175,18 @@
       "unicode-unihan-17.0.0",
       "cc-cedict-editor-2026-08-11"
     ],
+    "radical.kangxi_number": [
+      "cns11643-attributes-2026-08-05"
+    ],
+    "radical.residual_strokes": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.source_assignment": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.additional_assignments": [
+      "unicode-unihan-17.0.0"
+    ],
     "ids_decomposition": [
       "makemeahanzi-dictionary-master-audit"
     ],
@@ -169,10 +194,12 @@
       "makemeahanzi-dictionary-master-audit"
     ],
     "readings.pinyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
     "readings.zhuyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
@@ -200,6 +227,9 @@
     "definitions": [
       "unicode-unihan-17.0.0",
       "cc-cedict-editor-2026-08-11"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "kangxi_citation": [
       "unicode-unihan-17.0.0"

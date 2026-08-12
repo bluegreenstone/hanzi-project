@@ -48,19 +48,28 @@
         "reading": "juǎn",
         "context": "primary",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "06137"
+        ]
       },
       {
         "reading": "juàn",
         "context": "additional",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "06140"
+        ]
       },
       {
         "reading": "quán",
         "context": "additional",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "06693"
+        ]
       }
     ],
     "zhuyin": [
@@ -188,6 +197,32 @@
       "source_id": "cc-cedict-editor-2026-08-11"
     }
   ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.把物品環繞彎曲成圓筒形狀。通「捲」。[例]卷袖子    \n2.形狀卷曲的東西。[例]花卷、銀絲卷    \n3.可產生卷曲效果的器物。[例]髮卷    \n4.量詞。計算成卷物品的單位。[例]兩卷底片、三卷衛生紙",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "3493",
+      "verbatim": true
+    },
+    {
+      "text": "1.古時書籍寫在竹簡、絹帛或紙上，捲起來收藏，因此通稱書籍為「卷」。[例]手不釋卷 、開卷有益\n2.書籍的分篇。[例]卷一、卷上\n3.可以捲起來的書、畫。[例]經卷、手卷、畫卷\n4.公私機構的文件。[例]卷宗、案卷、文卷\n5.考試測驗的題紙。[例]試卷、考卷\n6.量詞。計算字畫書籍的單位。[例]藏書三萬卷",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "3495",
+      "verbatim": true
+    },
+    {
+      "text": "彎曲。[例]卷曲、卷髮",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "3796",
+      "verbatim": true
+    }
+  ],
   "frequency": {
     "rank": 1858,
     "selection_rank": 1851,
@@ -214,9 +249,6 @@
     "variants_異體字": [
       "unicode-unihan-17.0.0"
     ],
-    "radical": [
-      "unicode-unihan-17.0.0"
-    ],
     "total_strokes": [
       "moe-tw-common-terms-1996"
     ],
@@ -239,6 +271,18 @@
       "unicode-unihan-17.0.0",
       "cc-cedict-editor-2026-08-11"
     ],
+    "radical.kangxi_number": [
+      "cns11643-attributes-2026-08-05"
+    ],
+    "radical.residual_strokes": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.source_assignment": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.additional_assignments": [
+      "unicode-unihan-17.0.0"
+    ],
     "ids_decomposition": [
       "makemeahanzi-dictionary-master-audit"
     ],
@@ -246,10 +290,12 @@
       "makemeahanzi-dictionary-master-audit"
     ],
     "readings.pinyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
     "readings.zhuyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
@@ -277,6 +323,9 @@
     "definitions": [
       "unicode-unihan-17.0.0",
       "cc-cedict-editor-2026-08-11"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "kangxi_citation": [
       "unicode-unihan-17.0.0"

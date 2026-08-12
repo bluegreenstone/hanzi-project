@@ -8,14 +8,22 @@
   ],
   "pinyin": [
     {
-      "reading": "xià lai",
+      "reading": "xià lái",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        1879
+      "source_entry_ids": [
+        "390700031"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄒㄧㄚˋ ㄌㄞˊ",
+      "pinyin": "xià lái",
+      "source_entry_ids": [
+        "390700031"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "to come down",
@@ -115,15 +123,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "zhuyin": [
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "grading.hsk",
       "reason": "source_unavailable",
@@ -135,5 +144,45 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "xià lái"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "390700031"
+          ]
+        },
+        {
+          "value": [
+            "xià lai"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            1879
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.自上而下。[例]他的書寄來了，你請他下來拿。\n\t\n2.用在動詞之後，表示動作或狀態的進行或完成。[例]走到路口時，要先停下來，確定沒有來車後，再快速通過。\n\t\n3.用在形容詞後，表示程度漸漸增加。[例]天色突然暗下來，可能要下大雨了。\n\t\n4.用在表示數量的詞語之後，表示經歷了一個過程。[例]由於工作繁忙，半個月下來，他瘦了一圈。\n",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "390700031",
+      "verbatim": true
+    }
+  ]
 }

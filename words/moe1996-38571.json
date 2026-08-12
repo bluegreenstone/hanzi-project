@@ -8,14 +8,22 @@
   ],
   "pinyin": [
     {
-      "reading": "méi ren",
+      "reading": "méi rén",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        30839
+      "source_entry_ids": [
+        "059800005"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄇㄟˊ ㄖㄣˊ",
+      "pinyin": "méi rén",
+      "source_entry_ids": [
+        "059800005"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "matchmaker",
@@ -67,15 +75,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "zhuyin": [
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "grading.hsk",
       "reason": "source_unavailable",
@@ -87,5 +96,45 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "méi rén"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "059800005"
+          ]
+        },
+        {
+          "value": [
+            "méi ren"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            30839
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "撮合婚姻的人，今或稱為「介紹人」。[例]古代社會風氣較封閉，自由戀愛結婚的很少，大都依賴媒人的撮合。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "059800005",
+      "verbatim": true
+    }
+  ]
 }

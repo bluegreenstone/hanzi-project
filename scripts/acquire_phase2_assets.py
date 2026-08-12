@@ -17,7 +17,7 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CANDIDATES_PATH = ROOT / "phase2-asset-candidates.json"
+CANDIDATES_PATH = ROOT / "metadata" / "audits" / "phase2-asset-candidates.json"
 SOURCE_DATA_PATH = ROOT / "source-data" / "wikimedia-2026-08-10"
 METADATA_PATH = SOURCE_DATA_PATH / "commons-shuowen-seal-metadata.json"
 ASSET_ROOT = ROOT / "assets" / "shuowen_seal"

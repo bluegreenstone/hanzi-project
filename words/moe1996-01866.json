@@ -11,8 +11,8 @@
     {
       "reading": "zǒng tǒng fǔ",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        86734
+      "source_entry_ids": [
+        "096780024"
       ]
     }
   ],
@@ -20,8 +20,8 @@
     {
       "reading": "ㄗㄨㄥˇ ㄊㄨㄥˇ ㄈㄨˇ",
       "pinyin": "zǒng tǒng fǔ",
-      "source_entry_indices": [
-        86734
+      "source_entry_ids": [
+        "096780024"
       ]
     }
   ],
@@ -76,11 +76,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -95,5 +97,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "我國國家元首的辦公處。內設三局、機要室、侍衛室、公共事務室、人事處及會計處。置資政若干人、正副祕書長各人一、參軍長一人；並設國策顧問、戰略顧問等。中央研究院、國史館、國父陵園管理委員會亦隸屬總統府。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "096780024",
+      "verbatim": true
+    }
+  ]
 }

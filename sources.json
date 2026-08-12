@@ -180,8 +180,8 @@
       "acquisition": {
         "retrieved_at": "2026-08-11T14:31:12Z",
         "local_path": "source-data/cc-cedict-2026-08-11/cedict_1_0_ts_utf-8_editor_20260811.txt.gz",
-        "sha256": "73af18e207d9ae969e8f5d6b13c777bed64246268efb218e8df6d2f20563618f",
-        "expected_bytes": 3967602,
+        "sha256": "fe1000b683609cde2ff7f70ee41541c47e44d8226f79ad209cf68138064865d4",
+        "expected_bytes": 3967806,
         "uncompressed_sha256": "147f106712fe0787741530a77f86f02b8ddd8929c2796f323eba705384064bae",
         "uncompressed_bytes": 9830336,
         "upstream_header": {
@@ -194,7 +194,30 @@
           "date": "2026-08-11T14:10:23Z",
           "time": 1786457423
         },
-        "route_note": "Acquired from the CC-CEDICT project's own editor-export endpoint. The separately advertised MDBG stable-release route was not automated because its page prohibits scripted access."
+        "route_note": "The original export came from the CC-CEDICT editor endpoint. Its exact uncompressed bytes were reconstructed after the local container went missing by reversing official change-log entries 97037-97045 from a recovered live export; the result exactly matches the uncompressed SHA-256 and byte count recorded at original acquisition. The gzip container is newly deterministic and is not represented as the unavailable original container.",
+        "reconstruction": {
+          "status": "exact_uncompressed_snapshot_reconstructed",
+          "script": "scripts/reconstruct_cc_cedict_snapshot.py",
+          "report": "source-data/cc-cedict-2026-08-11/reconstruction.json",
+          "original_container_sha256_not_recovered": "73af18e207d9ae969e8f5d6b13c777bed64246268efb218e8df6d2f20563618f",
+          "original_container_bytes": 3967602,
+          "recovered_live_path": "source-data/cc-cedict-2026-08-11/cedict_live_20260812T000144Z.txt.gz",
+          "recovered_live_sha256": "8321ee502d588110abc87cd8ebaf3f1ba263d19a3646df45b1592609b3557f13",
+          "official_change_log_path": "source-data/cc-cedict-2026-08-11/change-log-after-pinned-snapshot.html",
+          "official_change_log_sha256": "5a0dab11bcf902eeb933a7185942de9894b0eac963ff5a4f14b55cf62e5bb893",
+          "reversed_log_ids": [
+            97037,
+            97038,
+            97039,
+            97040,
+            97041,
+            97042,
+            97043,
+            97044,
+            97045
+          ],
+          "deterministic_container_command": "gzip -n -9 -c"
+        }
       },
       "status": "approved",
       "license": {
@@ -212,6 +235,7 @@
       ],
       "schema_fields": [
         "radicals.*.definitions",
+        "radicals.*.example_characters",
         "characters.*.traditional",
         "characters.*.simplified",
         "characters.*.readings.pinyin",
@@ -226,7 +250,67 @@
       "constraints": [
         "The exact release file, retrieval timestamp, SHA-256, and upstream version header must be pinned before parsing.",
         "CC-CEDICT is a lexical dictionary, not a frequency source; canonical Traditional entries must be joined to the MOE 1996 word-frequency table rather than treated as ranked. SUBTLEX-CH may support only a separately labeled Simplified comparison.",
-        "ShareAlike obligations must be reflected in attribution.md and the published data license notice."
+        "ShareAlike obligations must be reflected in docs/attribution.md and the published data license notice."
+      ]
+    },
+    "prc-standard-characters-2013": {
+      "id": "prc-standard-characters-2013",
+      "full_name": "PRC General Standard Chinese Character Table (通用规范汉字表), 2013",
+      "url": "https://www.moe.gov.cn/jyb_sjzl/ziliao/A19/201306/t20130601_186002.html",
+      "documentation_url": "https://www.moe.gov.cn/jyb_xwfb/xw_fbh/moe_2069/s7135/s7562/s7569/201308/t20130827_156353.html",
+      "access_date": "2026-08-11",
+      "version": "2013 official table; PRC Ministry of Education download page published 2013-06-01",
+      "acquisition": {
+        "retrieved_at": "2026-08-12T02:10:19Z",
+        "local_path": "source-data/prc-standard-characters-2013/tongyong-guifan-hanzi-biao-2013.zip",
+        "sha256": "45e2f58fc19260a0f578de3ff5e273c4d4e6b4bcdd9a1580059e191ab3c9bee3",
+        "expected_bytes": 40567295,
+        "download_url": "https://www.moe.gov.cn/publicfiles/business/htmlfiles/moe/cmsmedia/other/2013/7/other98742.zip",
+        "official_page": {
+          "local_path": "source-data/prc-standard-characters-2013/official-download-page.html",
+          "sha256": "efd22f0566d279f3433441a36ce18d5ea45a399e87d02fd200f2563e7bd7c758",
+          "bytes": 13288
+        },
+        "document": {
+          "local_path": "source-data/prc-standard-characters-2013/tongyong-guifan-hanzi-biao-2013.pdf",
+          "sha256": "af85c706a53d3b3bbad818bcce7415ac9a2284ea14f79fe7f54ce1248a7bdac9",
+          "bytes": 100606660,
+          "pages": 137
+        },
+        "audit": {
+          "local_path": "source-data/prc-standard-characters-2013/simplification-audit.json",
+          "sha256": "73c1db11cd0a9b0121ea1a84339da1705d989a0811e59e0b5e95f87ce7c94f6a",
+          "bytes": 17085,
+          "reviewed_phase3_conflicts": 37,
+          "selected_mappings": 21,
+          "context_dependent_mappings": 16
+        },
+        "acquisition_record": "source-data/prc-standard-characters-2013/acquisition.json",
+        "acquisition_script": "scripts/acquire_prc_standard_character_table.py"
+      },
+      "status": "approved",
+      "license": {
+        "id": "PRC-MOE-verification-only",
+        "name": "PRC Ministry of Education website copyright statement (verification-only local retention)",
+        "url": "https://www.moe.gov.cn/jyb_sy/s3634/201005/t20100504_87292.html",
+        "verified": true
+      },
+      "redistribution": "The official page, archive, and PDF are retained locally only as factual verification evidence and are excluded from redistributable corpus artifacts. The verified site statement does not authorize commercial republication of Ministry content in its original form.",
+      "coverage": [
+        "the official 8,105-character Mainland normative character table",
+        "appendix correspondences among normative, Traditional, and variant forms",
+        "official notes identifying sense-, name-, surname-, pronunciation-, and usage-dependent mappings",
+        "manual adjudication of all 37 previously unresolved Phase 3 Simplified-character mappings"
+      ],
+      "schema_fields": [
+        "characters.*.simplified",
+        "characters.*.simplification_note"
+      ],
+      "constraints": [
+        "Use the official scan only to verify character correspondences and documented context dependence; do not copy the page, ZIP, PDF, page images, or derived glyph assets into dist/.",
+        "The source is a Mainland standard and does not supersede Taiwan Traditional primary forms, readings, radicals, stroke counts, or stroke order.",
+        "A one-character mapping may be selected only when the official table provides a context-independent correspondence. Sense-, name-, surname-, pronunciation-, or usage-dependent relationships remain explicit nulls with conflicts.",
+        "Every admitted decision must be pinned in simplification-audit.json with a PDF page locator and cross-checked against Unihan 17.0.0 and the pinned CC-CEDICT snapshot."
       ]
     },
     "subtlex-ch-2010": {
@@ -250,6 +334,7 @@
         "word segmentation and POS methodology: ICTCLAS 2009Share with the PKU POS tag set"
       ],
       "schema_fields": [
+        "radicals.*.example_characters",
         "characters.*.frequency",
         "characters.*.common_words",
         "words.*.frequency"
@@ -412,11 +497,19 @@
       "access_date": "2026-08-10",
       "version": "server Last-Modified 2026-08-05; portal metadata updated 2026-07-14",
       "acquisition": {
-        "retrieved_at": "2026-08-11T03:20:52Z",
+        "retrieved_at": "2026-08-12T00:47:11Z",
         "local_path": "source-data/cns11643-2026-08-05/Properties.zip",
-        "sha256": "4f736afb7b4e4588840c0d08e284f11216b13ff835423e965f77f7ef3b612c56",
+        "sha256": "3d56ef14cc8099893245dac58fe4718d2fa64812b9159352a98a4588ad3efa5c",
         "expected_bytes": 3158491,
-        "archive_integrity": "partial_failure",
+        "download_url": "https://www.cns11643.gov.tw/opendata/Properties.zip",
+        "archive_integrity": "passed",
+        "superseded_transfer": {
+          "retrieved_at": "2026-08-11T03:20:52Z",
+          "sha256": "4f736afb7b4e4588840c0d08e284f11216b13ff835423e965f77f7ef3b612c56",
+          "bytes": 3158491,
+          "archive_integrity": "partial_failure",
+          "note": "The three used members and documentation member already matched their current hashes, but unrelated members failed CRC. The clean reacquisition supersedes this container without changing admitted content."
+        },
         "used_members": {
           "CNS_phonetic.txt": {
             "sha256": "adc2f2e71270e7b971fa5b51fb4dff49ddced986e6e9f06de1ee88394449c8e2",
@@ -428,6 +521,11 @@
           },
           "CNS_strokes_sequence.txt": {
             "sha256": "444b89e5774819a05b17196c8c4c4b69563ae79c6d4bd38b4527c8475d60029d",
+            "crc32": "passed"
+          },
+          "CNS_radical.txt": {
+            "sha256": "d19682448545b506db69d8d891c532d2d2340f96d6be527a3fbcf61c0c4f75ac",
+            "bytes": 1066445,
             "crc32": "passed"
           }
         },
@@ -461,9 +559,11 @@
         "radicals.*.readings.zhuyin",
         "radicals.*.readings.pinyin",
         "radicals.*.stroke_count",
+        "radicals.*.example_characters",
         "radicals.*.stroke_order.taiwan_cns_stroke_sequence",
         "radicals.*.stroke_order.standard_conflicts",
         "characters.*.readings.zhuyin",
+        "characters.*.radical",
         "characters.*.components",
         "characters.*.total_strokes",
         "characters.*.stroke_order.taiwan_cns_stroke_sequence",
@@ -473,7 +573,7 @@
         "This is Taiwan-oriented traditional-character data. Its CNS code mapping and forms are based on Taiwan Ministry of Education standard-character tables, so its reading and stroke-sequence attributes are canonical when Taiwan and comparison sources differ.",
         "Taiwan/PRC stroke-order disagreements must be recorded in stroke_order.standard_conflicts and must never silently replace the selected PRC value.",
         "Use the OGDL option for data; do not treat the alternative OFL option as applying simultaneously.",
-        "The 2026-08-05 Properties.zip transfer has a valid central directory and CRC-valid CNS_phonetic.txt, CNS_pinyin_2.txt, and CNS_strokes_sequence.txt members. Other members, including CNS_source.txt and CNS_stroke.txt, fail full-archive testing and remain excluded pending a clean reacquisition."
+        "The clean reacquisition of Properties.zip passes full-archive CRC testing. The admitted CNS_phonetic.txt, CNS_pinyin_2.txt, CNS_strokes_sequence.txt, and documentation bytes exactly match the hashes recorded from the earlier partial transfer."
       ]
     },
     "kanjivg-u6c59-gap-audit-2026-08-11": {
@@ -680,7 +780,7 @@
         "api": "MediaWiki action=query, prop=imageinfo, iiprop=url|size|mime|sha1|timestamp|mediatype|extmetadata, formatversion=2",
         "per_asset_manifest": "assets/manifest.json"
       },
-      "status": "approved",
+      "status": "quarantine",
       "license": {
         "id": "per-file",
         "name": "Conditional allowlist: verified public-domain or Creative Commons file license",
@@ -700,7 +800,8 @@
         "Allow only verified PDM, CC0, PD, CC BY, or CC BY-SA licenses; reject noncommercial, no-derivatives, fair-use, or unknown terms.",
         "Download the original Commons file without cropping, re-encoding, upscaling, or other transformation.",
         "A missing, deleted, unlicensed, or metadata-incomplete file remains an explicit gap."
-      ]
+      ],
+      "publication_policy": "Retained only as superseded audit evidence. No asset from this community-rendered seal source is eligible for the release payload."
     },
     "commons-shuowen-540-svg-series-2026-08-10": {
       "id": "commons-shuowen-540-svg-series-2026-08-10",
@@ -720,7 +821,7 @@
         "api": "MediaWiki action=query, prop=imageinfo, iiprop=url|size|mime|sha1|timestamp|mediatype|extmetadata, formatversion=2",
         "per_asset_manifest": "assets/manifest.json"
       },
-      "status": "approved",
+      "status": "quarantine",
       "license": {
         "id": "per-file",
         "name": "Conditional allowlist: verified CC BY-SA file license",
@@ -742,7 +843,8 @@
         "Validate every file's own license metadata before download.",
         "Download the original SVG without cropping, re-encoding, upscaling, or other transformation.",
         "Preserve creator attribution and ShareAlike obligations in the website attribution block."
-      ]
+      ],
+      "publication_policy": "Retained only as superseded audit evidence. No asset from this community-rendered seal source is eligible for the release payload."
     },
     "commons-shuowen-540-numbered-composite-2026-08-10": {
       "id": "commons-shuowen-540-numbered-composite-2026-08-10",
@@ -794,17 +896,23 @@
       "access_date": "2026-08-10",
       "version": "exact File:{character}-seal.svg revisions pinned per asset",
       "acquisition": {
-        "retrieved_at": "2026-08-11T04:31:36Z",
+        "retrieved_at": "2026-08-12T00:55:53Z",
         "local_path": "source-data/wikimedia-2026-08-10/commons-unmapped-kangxi-seal-metadata.json",
-        "sha256": "8dd17e21b7b6bc13df1549b7a180a0e6c8c5a8a688c29a6a79fdc298c858379a",
-        "bytes": 105799,
+        "sha256": "2d0f9b6fc470069f8e3bb6328238e3baeef0cf3118e9b68a0559b62a3991d16c",
+        "bytes": 105445,
         "requested_file_count": 10,
         "resolved_file_count": 10,
         "license_result": "10 public-domain original SVG files",
         "api": "MediaWiki action=query, prop=imageinfo, iiprop=url|size|mime|sha1|timestamp|mediatype|extmetadata, iilimit=max, formatversion=2",
-        "per_asset_manifest": "assets/manifest.json"
+        "per_asset_manifest": "assets/manifest.json",
+        "superseded_snapshot": {
+          "retrieved_at": "2026-08-11T04:31:36Z",
+          "sha256": "8dd17e21b7b6bc13df1549b7a180a0e6c8c5a8a688c29a6a79fdc298c858379a",
+          "bytes": 105799,
+          "reason": "The earlier live Commons API response is no longer locally available. A fresh response was pinned; the ten file titles and admitted file revisions remain audit-only and quarantined."
+        }
       },
-      "status": "approved",
+      "status": "quarantine",
       "license": {
         "id": "per-file",
         "name": "Conditional allowlist: verified public-domain or Creative Commons file license",
@@ -823,7 +931,8 @@
         "These files attest a seal-script representation, not membership among Shuowen's 540 section headings.",
         "Validate each file's own license before download; reject unknown, noncommercial, no-derivatives, or fair-use terms.",
         "Download the original SVG without cropping, re-encoding, upscaling, or other transformation."
-      ]
+      ],
+      "publication_policy": "Retained only as superseded audit evidence. No asset from this community-rendered seal source is eligible for the release payload."
     },
     "internet-archive-wayback-commons-mirror-2026-08-10": {
       "id": "internet-archive-wayback-commons-mirror-2026-08-10",
@@ -909,13 +1018,18 @@
         "Retain Commons as substantive content provenance and this repository only as acquisition-route provenance."
       ],
       "acquisition": {
-        "retrieved_at": "2026-08-11T06:27:01Z",
+        "retrieved_at": "2026-08-12T01:41:39Z",
         "tree_path": "source-data/github-analects-data-2026-08-10/tree.json",
         "tree_sha256": "e50c9635414c83709fb8a1da539ed94c44d527dd26070a6c3a7eb94e938facac",
         "tree_bytes": 170299,
         "log_path": "source-data/github-analects-data-2026-08-10/mirror-acquisition-log.json",
-        "log_sha256": "08dd3345451e956a8afe96050ab439f63b5c1c7da8b27d400756abaf439dc364",
-        "log_bytes": 577166,
+        "log_sha256": "6bde4cff0379f9b772f18bdf67b5257bf460ee65af182e0c4d95718636fe6a9d",
+        "log_bytes": 577164,
+        "superseded_log": {
+          "sha256": "08dd3345451e956a8afe96050ab439f63b5c1c7da8b27d400756abaf439dc364",
+          "bytes": 577166,
+          "reason": "The earlier ledger was unavailable locally. The replacement reprocesses the same pinned tree and archive, preserves 401 exact candidate matches, and uses the newly pinned Commons revision-history response."
+        },
         "archive_url": "https://codeload.github.com/plexus/analects-data/tar.gz/c1efa0bbd30d3a74acad756efe401977edc501ce",
         "archive_sha256": "921f26c7d298222f1ed60ea24ccc2a0109133ab6e9e6096e603091f84eebc45a",
         "archive_bytes": 13975907,
@@ -1036,7 +1150,7 @@
       "documentation_url": "https://commons.wikimedia.org/wiki/Commons:Ancient_Chinese_characters",
       "access_date": "2026-08-10",
       "version": "per-file Commons revisions pinned in assets/manifest.json",
-      "status": "approved",
+      "status": "quarantine",
       "license": {
         "id": "per-file",
         "name": "Conditional allowlist: verified public-domain or Creative Commons file license",
@@ -1059,7 +1173,8 @@
         "Reject unknown, noncommercial, no-derivatives, or fair-use terms.",
         "Preserve each original without cropping, upscaling, lossy re-encoding, or other transformation.",
         "Treat `-bigseal.svg` as 六書通 only when the file metadata or Liushutong category verifies that classification.",
-        "A missing file is a source gap unless an authoritative source explicitly records non-attestation."
+        "A missing file is a source gap unless an authoritative source explicitly records non-attestation.",
+        "License and byte integrity do not prove glyph identity. All 455 acquired derivatives are quarantined from release-facing records until each mapping has an independent scholarly catalogue or primary-scan comparison."
       ],
       "acquisition": {
         "retrieved_at": "2026-08-11T05:11:01Z",
@@ -1072,30 +1187,33 @@
         "request_method": "MediaWiki API imageinfo and categories in batches of 25, with at least 1.1 seconds between same-host requests",
         "metadata_license_result": "All 511 current originals report License=pd, LicenseShortName=Public domain, UsageTerms=Public domain, and Copyrighted=False.",
         "revision_history": {
-          "retrieved_at": "2026-08-11T06:25:05Z",
+          "retrieved_at": "2026-08-12T01:41:09Z",
           "path": "source-data/wikimedia-2026-08-10/commons-acc-historical-file-revisions.json",
-          "sha256": "d8a0d286f651c94e86bf2add16f9c809b4673d247a7e70f3806a3078d1c0eaab",
-          "bytes": 146283,
+          "sha256": "0856c712c6914a1083ea148582699541e6ade351d6f86422b6198c241593e741",
+          "bytes": 146346,
           "queried_file_count": 150,
           "exact_historical_revision_matches": 143,
-          "unresolved_count": 7
+          "unresolved_count": 7,
+          "superseded_sha256": "d8a0d286f651c94e86bf2add16f9c809b4673d247a7e70f3806a3078d1c0eaab"
         },
         "originals": {
-          "updated_at": "2026-08-11T08:32:34Z",
+          "updated_at": "2026-08-12T01:41:39Z",
           "path": "source-data/wikimedia-2026-08-10/commons-acc-historical-original-acquisition-log.json",
-          "sha256": "9e5af7bc2f0d7e0ae970e3e0a003c7419fd578623aae0f01c5aeaaa5d01f5e1d",
-          "bytes": 802188,
+          "sha256": "d87996f624ed72e4e91dd924dddead94d5b69e23ca2f45bc0699dc3f1dc4c2fa",
+          "bytes": 805219,
           "completed_count": 455,
           "oracle_count": 141,
           "bronze_count": 150,
           "liushutong_count": 164,
-          "integrity_policy": "Every stored SVG exactly matches a current or uniquely pinned historical Commons content SHA-1."
+          "integrity_policy": "Every stored SVG exactly matches a current or uniquely pinned historical Commons content SHA-1.",
+          "reconstruction_note": "The compact ledger was recovered from the 455 quarantined manifest entries and revalidated against the pinned mappings, live current metadata, pinned revision history, and pinned transport archive.",
+          "superseded_sha256": "9e5af7bc2f0d7e0ae970e3e0a003c7419fd578623aae0f01c5aeaaa5d01f5e1d"
         }
       }
     },
     "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10": {
       "id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
-      "full_name": "中央研究院小學堂文字學資料庫（甲骨文、金文）字形圖片與字形屬性",
+      "full_name": "中央研究院小學堂文字學資料庫（甲骨文、金文、小篆）字形圖片與字形屬性",
       "url": "https://xiaoxue.iis.sinica.edu.tw/guide/",
       "documentation_url": "https://xiaoxue.iis.sinica.edu.tw/License/License",
       "access_date": "2026-08-10",
@@ -1111,13 +1229,16 @@
       "coverage": [
         "all exact-character oracle-script glyph variants returned for the 214 Traditional-primary Kangxi radical headings",
         "all exact-character bronze-inscription glyph variants returned for the 214 Traditional-primary Kangxi radical headings",
+        "exact-character small-seal glyphs returned for 211 of 214 Traditional-primary Kangxi radical headings; 3 zero-result queries are preserved as explicit gaps",
         "source glyph code, displayed bibliographic reference, and query-to-character mapping"
       ],
       "schema_fields": [
         "radicals.*.historical_forms.oracle_bone_甲骨文",
         "radicals.*.historical_forms.bronze_金文",
         "assets.*.source_glyph_code",
-        "assets.*.source_reference"
+        "assets.*.source_reference",
+        "radicals.*.shuowen.seal_glyph",
+        "radicals.*.historical_forms.shuowen_seal_說文解字"
       ],
       "constraints": [
         "Query the Traditional-primary unified ideograph exactly; do not map a visually similar glyph or a Simplified heading without explicit variant evidence.",
@@ -1131,9 +1252,9 @@
         "statement_zh": "使用者操作本網站查詢介面所得之各解析度「字形圖片」及字形屬性資訊，權利人特於此明示主張以CC0 1.0通用方式，在法律許可的範圍內，拋棄該字形圖片及字形屬性資訊依著作權法可得享有之權利，使用者當可安心再行利用該查詢字形圖片及字形屬性資訊。"
       },
       "acquisition": {
-        "retrieved_at": "2026-08-11T05:52:08Z",
+        "retrieved_at": "2026-08-12T01:34:40Z",
         "path": "source-data/sinica-xiaoxuetang-2026-08-10/radical-historical-glyph-index.json",
-        "sha256": "7ae428e087fad26aa2d201e0b8e034dc82c40db08ed046402b3d02254f9eff48",
+        "sha256": "7448034e92a4f0c8fd1788692879cea4216a9bd6c4dbbc29fd690b2ea8ea6cb9",
         "bytes": 9064594,
         "query_count": 428,
         "mapping_count": 9487,
@@ -1141,16 +1262,24 @@
         "oracle_mapping_count": 3127,
         "bronze_mapping_count": 6360,
         "request_method": "One exact Traditional-primary character POST query per radical to each of the 甲骨文 and 金文 interfaces, with at least 1.1 seconds between same-host requests; every raw response retained and hashed.",
+        "superseded_snapshot": {
+          "retrieved_at": "2026-08-11T05:52:08Z",
+          "sha256": "7ae428e087fad26aa2d201e0b8e034dc82c40db08ed046402b3d02254f9eff48",
+          "bytes": 9064594,
+          "reason": "The earlier raw-response snapshot is no longer local. The replacement preserves the same 428 queries, 9,487 mappings, 9,331 glyph codes, and form counts; volatile response bytes are newly pinned rather than represented as identical."
+        },
         "representative_originals": {
           "path": "source-data/sinica-xiaoxuetang-2026-08-10/representative-original-acquisition-log.json",
-          "sha256": "6a52e1d5ede84cdd0fc8ff1762edea54fc215d574a678f7582a822a10141d2e1",
+          "sha256": "200c536f6310cb6de2bdb9d9c72d34fd3ba98bf2a62853f0c436386afe68b1b7",
           "bytes": 468434,
+          "updated_at": "2026-08-12T01:36:11Z",
           "mapping_count": 325,
           "unique_source_glyph_count": 322,
           "oracle_count": 159,
           "bronze_count": 166,
           "selection_policy": "First source-ordered glyph for each exact Traditional-primary radical/form query with results; every discovered variant remains indexed in the full candidate snapshot.",
-          "image_policy": "Unchanged official 300-point, 96-dpi PNG response, the highest size offered by the source interface; all 325 responses are 413 by 401 pixels."
+          "image_policy": "Unchanged official 300-point, 96-dpi PNG response, the highest size offered by the source interface; all 325 responses are 413 by 401 pixels.",
+          "superseded_log_sha256": "6a52e1d5ede84cdd0fc8ff1762edea54fc215d574a678f7582a822a10141d2e1"
         },
         "license_evidence_files": [
           {
@@ -1163,7 +1292,23 @@
             "sha256": "26cf39926bc4b533be1d402918da7b7944f5525f05bf3f581a368868f4e8d6c2",
             "bytes": 8126
           }
-        ]
+        ],
+        "small_seal_originals": {
+          "path": "source-data/sinica-xiaoxuetang-seal-2026-08-11/radical-seal-acquisition-log.json",
+          "sha256": "40c30dafc17f1e6da967b4eb1ee954bae8607cbedb3c09317c8566b4d42a359a",
+          "bytes": 448548,
+          "retrieved_at": "2026-08-11T23:52:10Z",
+          "query_count": 214,
+          "original_image_count": 211,
+          "exact_query_gap_count": 3,
+          "exact_query_gap_radicals": [
+            8,
+            90,
+            174
+          ],
+          "selection_policy": "POST the exact Traditional-primary radical to the official 小篆 query endpoint and select the first source-ordered result. Each result must expose a 27.* glyph code, a 說文 source reference, and the official 北師大說文小篆 image-font endpoint. The query response and complete returned-candidate count are preserved.",
+          "image_policy": "Official 300-point, 96-dpi PNG response; no local crop, resize, re-encoding, tracing, or other transformation."
+        }
       }
     },
     "commons-shuowen-ncl-00915": {
@@ -1515,32 +1660,59 @@
         "Incompatible with a redistributable public website corpus; no files may be downloaded into the project."
       ]
     },
-    "moe-tw-dictionaries-public-license": {
-      "id": "moe-tw-dictionaries-public-license",
-      "full_name": "Taiwan Ministry of Education public-licensed Mandarin dictionaries",
+    "moe-tw-concised-dictionary-2014-20260626": {
+      "id": "moe-tw-concised-dictionary-2014-20260626",
+      "full_name": "Taiwan Ministry of Education Concised Mandarin Dictionary",
       "url": "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/index.html",
-      "documentation_url": "https://creativecommons.org/licenses/by-nd/3.0/tw/",
-      "access_date": "2026-08-10",
-      "version": "portal updated 2026-07-07",
-      "status": "rejected",
+      "documentation_url": "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/conciseddict_10312.pdf",
+      "access_date": "2026-08-11",
+      "version": "2014_20260626",
+      "acquisition": {
+        "retrieved_at": "2026-08-11T15:59:17Z",
+        "local_path": "source-data/moe-concised-2014-20260626/dict_concised_2014_20260626.xlsx",
+        "sha256": "a9a4fd7259180113bfae2e94110eae87ac4dcf0bfcc91a6437c3ad4773ab7865",
+        "expected_bytes": 7076857,
+        "download_url": "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_concised_2014_20260626.zip",
+        "container_filename": "dict_concised_2014_20260626.zip",
+        "container_sha256": "fc83d27eb3fbf6fcfdb791e7d05ef60946b58ef8e8857ed165b612217b392806",
+        "container_bytes": 6937298,
+        "archive_member": "dict_concised_2014_20260626.xlsx"
+      },
+      "status": "approved",
       "license": {
         "id": "CC-BY-ND-3.0-TW",
         "name": "Creative Commons Attribution-NoDerivatives 3.0 Taiwan",
         "url": "https://creativecommons.org/licenses/by-nd/3.0/tw/",
         "verified": true
       },
-      "redistribution": "Verbatim redistribution is permitted with attribution, including commercially, but adaptation is prohibited. Extracting and restructuring entries into this corpus is not approved by this audit.",
+      "redistribution": "Verbatim redistribution is permitted with attribution, including commercially, but adaptation is prohibited. The corpus copies exact Pinyin, Zhuyin, and decoded XLSX definition-cell strings with source entry IDs, makes no editorial changes to the definitions, and keeps independently sourced regional variants separate.",
       "coverage": [
         "Mandarin definitions, pronunciations, and zhuyin"
       ],
       "schema_fields": [
+        "characters.*.readings.pinyin",
         "characters.*.readings.zhuyin",
-        "characters.*.definitions",
-        "words.*.zhuyin"
+        "characters.*.definitions_zh_TW",
+        "words.*.pinyin",
+        "words.*.zhuyin",
+        "words.*.definitions_zh_TW"
       ],
       "constraints": [
-        "Do not ingest or restructure the dictionary datasets without separate permission."
-      ]
+        "Use exact NFC Traditional headword matches only; do not infer a match through Simplified conversion.",
+        "Do not alter an MOE pronunciation value or definition.",
+        "Treat a Concised Dictionary omission as inconclusive, not as proof that a CNS or historical reading is invalid.",
+        "Definition strings are copied verbatim after standards-compliant OOXML character-escape decoding; do not summarize, split, reorder, normalize compatibility ideographs, or otherwise adapt their text."
+      ],
+      "verification_snapshot": {
+        "download_url": "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_concised_2014_20260626.zip",
+        "zip_filename": "dict_concised_2014_20260626.zip",
+        "zip_sha256": "fc83d27eb3fbf6fcfdb791e7d05ef60946b58ef8e8857ed165b612217b392806",
+        "zip_bytes": 6937298,
+        "workbook_filename": "dict_concised_2014_20260626.xlsx",
+        "workbook_sha256": "a9a4fd7259180113bfae2e94110eae87ac4dcf0bfcc91a6437c3ad4773ab7865",
+        "workbook_bytes": 7076857,
+        "retrieved_at": "2026-08-11"
+      }
     },
     "moe-tw-stroke-order-learning": {
       "id": "moe-tw-stroke-order-learning",
@@ -1672,6 +1844,112 @@
       "constraints": [
         "The schema's single numeric hsk field is underspecified for the nine-level standard and for later HSK examination syllabi.",
         "A versioned grading model must be chosen before this field is populated."
+      ]
+    },
+    "moe-tw-revised-dictionary-2015-20260625": {
+      "id": "moe-tw-revised-dictionary-2015-20260625",
+      "full_name": "Taiwan Ministry of Education Revised Mandarin Dictionary",
+      "url": "https://dict.revised.moe.edu.tw/",
+      "documentation_url": "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/reviseddict_10312.pdf",
+      "access_date": "2026-08-11",
+      "version": "2015_20260625",
+      "acquisition": {
+        "retrieved_at": "2026-08-12T00:05:26Z",
+        "local_path": "source-data/moe-revised-2015-20260625/dict_revised_2015_20260625.xlsx",
+        "sha256": "df94ae4384ae3f33f573ded5c2f142041ea7530d381a285163593d6252ea4a9a",
+        "expected_bytes": 31186920,
+        "download_url": "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260625.zip",
+        "container_path": "source-data/moe-revised-2015-20260625/dict_revised_2015_20260625.zip",
+        "container_sha256": "64003a98fcc7097940e5a536c999bc08ba7c07e2c1be66448f01bf1ae10a53fc",
+        "container_bytes": 30614978,
+        "archive_member": "dict_revised_2015_20260625.xlsx",
+        "download_page": {
+          "path": "source-data/moe-revised-2015-20260625/download-page.html",
+          "sha256": "bb71860d5aede5778b0949249a69b6abe0ab09b0be5727f2d45a4c46a813e979",
+          "bytes": 3664
+        },
+        "public_license_index": {
+          "path": "source-data/moe-revised-2015-20260625/public-license-index.html",
+          "sha256": "9b6c2c7bd89e9b63f8debbcc44beddf6cdf1bf0c0c7398cc3872e470aeb0b92a",
+          "bytes": 9644
+        }
+      },
+      "status": "approved",
+      "license": {
+        "id": "CC-BY-ND-3.0-TW",
+        "name": "Creative Commons Attribution-NoDerivatives 3.0 Taiwan",
+        "url": "https://creativecommons.org/licenses/by-nd/3.0/tw/",
+        "verified": true
+      },
+      "redistribution": "Verbatim redistribution is permitted with attribution. The corpus copies exact pronunciation strings and decoded XLSX definition-cell strings with entry IDs without editorial alteration.",
+      "coverage": [
+        "all 2,000 selected Traditional character headwords",
+        "character-headword Pinyin and Zhuyin cross-check",
+        "1,251 exact Traditional word headwords absent from the Concised Dictionary",
+        "word-headword Pinyin, Zhuyin, and dictionary entry IDs"
+      ],
+      "schema_fields": [
+        "characters.*.readings.pinyin",
+        "characters.*.readings.zhuyin",
+        "characters.*.definitions_zh_TW",
+        "characters.*.conflicts",
+        "words.*.pinyin",
+        "words.*.zhuyin",
+        "words.*.definitions_zh_TW",
+        "words.*.conflicts"
+      ],
+      "constraints": [
+        "Match exact NFC Traditional headwords only.",
+        "Do not alter MOE pronunciation strings.",
+        "Do not summarize, split, reorder, normalize compatibility ideographs, or otherwise adapt definition strings after standards-compliant OOXML character-escape decoding.",
+        "Prefer exact-codepoint Dictionary of Variants evidence when lexical and character-level inventories differ.",
+        "For word records, use only an exact NFC Traditional-headword match after confirming the Concised Dictionary has no entry.",
+        "A headword absent from both official downloads remains an explicit verification gap rather than an inferred match."
+      ]
+    },
+    "moe-tw-dictionary-variants-2024-targeted-readings": {
+      "id": "moe-tw-dictionary-variants-2024-targeted-readings",
+      "full_name": "教育部《異體字字典》臺灣學術網路十四版（正式七版）2024 — targeted 正字 reading verification",
+      "url": "https://dict.variants.moe.edu.tw/",
+      "documentation_url": "https://dict.variants.moe.edu.tw/page.jsp?ID=7",
+      "access_date": "2026-08-11",
+      "version": "臺灣學術網路十四版（正式七版）2024",
+      "acquisition": {
+        "retrieved_at": "2026-08-12T00:11:30Z",
+        "local_path": "source-data/moe-variants-2024-targeted/character-reading-acquisition-log.json",
+        "sha256": "263decd25dd537f6373977a764d83aaead689f2987b685c23647555835f78227",
+        "expected_bytes": 35532,
+        "home_snapshot": {
+          "path": "source-data/moe-variants-2024-targeted/home.html",
+          "sha256": "09ff97f51a86575b6050fd50abb56bbab8d1d3d2a78dc4aab31b66f133ea642d",
+          "bytes": 9356
+        },
+        "target_count": 36,
+        "completed_count": 36,
+        "gap_count": 0,
+        "per_entry_response_hashes": true
+      },
+      "status": "approved",
+      "license": {
+        "id": "MOE-site-copyright-factual-citation-only",
+        "name": "MOE site copyright; approval limited to citation of factual pronunciation data",
+        "url": "https://dict.variants.moe.edu.tw/",
+        "verified": true
+      },
+      "redistribution": "Raw response pages are audit-only source data and excluded from the release. Character records retain only short factual reading strings, exact codepoints, and dictionary serial citations.",
+      "coverage": [
+        "36 exact-codepoint 正字 entries targeted from the Revised Dictionary discrepancy queue",
+        "displayed Pinyin, Zhuyin, and stable dictionary serial"
+      ],
+      "schema_fields": [
+        "characters.*.readings.pinyin",
+        "characters.*.readings.zhuyin",
+        "characters.*.conflicts"
+      ],
+      "constraints": [
+        "Accept only an exact data-ucs codepoint match marked 正字.",
+        "Preserve the exact search and detail response hashes outside the release payload.",
+        "Do not redistribute definitions, page imagery, or raw HTML in the corpus release."
       ]
     }
   }

@@ -10,8 +10,8 @@
     {
       "reading": "jí xiàn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        58468
+      "source_entry_ids": [
+        "304800013"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄐㄧˊ ㄒㄧㄢˋ",
       "pinyin": "jí xiàn",
-      "source_entry_indices": [
-        58468
+      "source_entry_ids": [
+        "304800013"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.最高的限度。[例]一個人的忍耐是有極限的，所以任何玩笑都應該適可而止。\n2.數學上指一個變量按一定規律變化，若持續變化的結果趨近於一常數，則稱此常數為變量的極限。[例]數學老師出的這些題目都是在計算無窮數列的極限。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "304800013",
+      "verbatim": true
+    }
+  ]
 }

@@ -79,13 +79,19 @@
         "reading": "zhī",
         "context": "primary",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "07478"
+        ]
       },
       {
         "reading": "zhǐ",
         "context": "additional",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "07524"
+        ]
       }
     ],
     "zhuyin": [
@@ -132,6 +138,24 @@
       "source_id": "cc-cedict-editor-2026-08-11"
     }
   ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.僅。[例]只此一家，別無分號。\n\t\n2.儘管。[例]你只管放手去做，不要顧慮太多！\n",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "4253",
+      "verbatim": true
+    },
+    {
+      "text": "量詞。計算物體件數的單位。同「隻」。[例]一只戒指。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "6620",
+      "verbatim": true
+    }
+  ],
   "frequency": {
     "rank": 140,
     "selection_rank": 140,
@@ -158,9 +182,6 @@
     "variants_異體字": [
       "unicode-unihan-17.0.0"
     ],
-    "radical": [
-      "unicode-unihan-17.0.0"
-    ],
     "total_strokes": [
       "moe-tw-common-terms-1996"
     ],
@@ -183,6 +204,18 @@
       "unicode-unihan-17.0.0",
       "cc-cedict-editor-2026-08-11"
     ],
+    "radical.kangxi_number": [
+      "cns11643-attributes-2026-08-05"
+    ],
+    "radical.residual_strokes": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.source_assignment": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.additional_assignments": [
+      "unicode-unihan-17.0.0"
+    ],
     "ids_decomposition": [
       "makemeahanzi-dictionary-master-audit"
     ],
@@ -193,10 +226,12 @@
       "makemeahanzi-dictionary-master-audit"
     ],
     "readings.pinyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
     "readings.zhuyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
@@ -221,6 +256,9 @@
     "definitions": [
       "unicode-unihan-17.0.0",
       "cc-cedict-editor-2026-08-11"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "kangxi_citation": [
       "unicode-unihan-17.0.0"

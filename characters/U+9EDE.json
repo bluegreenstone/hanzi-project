@@ -45,7 +45,10 @@
         "reading": "diǎn",
         "context": "primary",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "02231"
+        ]
       }
     ],
     "zhuyin": [
@@ -184,6 +187,16 @@
       "source_id": "cc-cedict-editor-2026-08-11"
     }
   ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.句讀的標誌。[例]逗點、標點\n\t\n2.非正餐食品的簡稱。[例]西點、茶點\n\t\n3.一定的地方或標準。[例]起點、沸點\n\t\n4.短暫的接觸。[例]蜻蜓點水、畫龍點睛\n\t\n5.體積或數量微小的。[例]斑點、一點小事\n\t\n6.事物具備的特定意義部分。[例]特點、優點、重點\n\t\n7.小數點。如33.5讀作三十三點五。\n\t\n8.國字筆畫名稱。　◎\n\t\n9.量詞：(1) 計算條文項目的單位。[例]這個主題，可分下列三點來說明。　(2) 「點鐘」的縮稱。計算時間的單位。一點鐘為一小時。[例]明天早上十點我們校門口見。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "1200",
+      "verbatim": true
+    }
+  ],
   "frequency": {
     "rank": 157,
     "selection_rank": 157,
@@ -210,9 +223,6 @@
     "variants_異體字": [
       "unicode-unihan-17.0.0"
     ],
-    "radical": [
-      "unicode-unihan-17.0.0"
-    ],
     "total_strokes": [
       "moe-tw-common-terms-1996"
     ],
@@ -235,6 +245,18 @@
       "unicode-unihan-17.0.0",
       "cc-cedict-editor-2026-08-11"
     ],
+    "radical.kangxi_number": [
+      "cns11643-attributes-2026-08-05"
+    ],
+    "radical.residual_strokes": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.source_assignment": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.additional_assignments": [
+      "unicode-unihan-17.0.0"
+    ],
     "ids_decomposition": [
       "makemeahanzi-dictionary-master-audit"
     ],
@@ -245,10 +267,12 @@
       "makemeahanzi-dictionary-master-audit"
     ],
     "readings.pinyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
     "readings.zhuyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
@@ -276,6 +300,9 @@
     "definitions": [
       "unicode-unihan-17.0.0",
       "cc-cedict-editor-2026-08-11"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "kangxi_citation": [
       "unicode-unihan-17.0.0"

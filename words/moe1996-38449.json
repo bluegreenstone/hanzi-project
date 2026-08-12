@@ -10,8 +10,8 @@
     {
       "reading": "hē chá",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        22575
+      "source_entry_ids": [
+        "047190015"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄏㄜ ㄔㄚˊ",
       "pinyin": "hē chá",
-      "source_entry_indices": [
-        22575
+      "source_entry_ids": [
+        "047190015"
       ]
     }
   ],
@@ -99,11 +99,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -118,5 +120,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.飲用茶水。如：「渴死了！我請你上茶館喝茶。」《三俠五義》第五回：「我不喝茶，你也不用鬧酸款。欠我的四百多錢總要還我的。」\n2.代指訂婚。因訂婚時，準新娘要捧茶請男方長輩喝茶，故稱。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "047190015",
+      "verbatim": true
+    }
+  ]
 }

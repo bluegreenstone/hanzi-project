@@ -7,19 +7,19 @@
   ],
   "pinyin": [
     {
-      "reading": "xī",
+      "reading": "xí",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        41850
+      "source_entry_ids": [
+        "3863"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄒㄧ",
-      "pinyin": "xī",
-      "source_entry_indices": [
-        41850
+      "reading": "ㄒㄧˊ",
+      "pinyin": "xí",
+      "source_entry_ids": [
+        "3863"
       ]
     }
   ],
@@ -122,11 +122,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -141,5 +143,81 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "xí"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "3863"
+          ]
+        },
+        {
+          "value": [
+            "xī"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            41850
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    },
+    {
+      "field": "zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            {
+              "pinyin": "xí",
+              "reading": "ㄒㄧˊ"
+            }
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "3863"
+          ]
+        },
+        {
+          "value": [
+            {
+              "pinyin": "xī",
+              "reading": "ㄒㄧ"
+            }
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11",
+            "cns11643-attributes-2026-08-05"
+          ],
+          "source_entry_indices": [
+            41850
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE Concised Dictionary Zhuyin is canonical. The previous value was mechanically converted from CC-CEDICT Pinyin through the CNS syllable table and remains comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.呼吸時出入的氣流。[例]氣息、鼻息、奄奄一息\n2.停止、消失。[例]止息、息怒、川流不息\n3.停止活動，放鬆身心。[例]歇息、休息\n4.音訊、音信。[例]信息、訊息\n5.利錢。[例]利息、月息、年息\n6.子女、兒子。[例]子息、兒息",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "3863",
+      "verbatim": true
+    }
+  ]
 }

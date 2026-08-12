@@ -8,19 +8,19 @@
   ],
   "pinyin": [
     {
-      "reading": "bìng jūn",
+      "reading": "bìng jùn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        75563
+      "source_entry_ids": [
+        "027800017"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄅㄧㄥˋ ㄐㄩㄣ",
-      "pinyin": "bìng jūn",
-      "source_entry_indices": [
-        75563
+      "reading": "ㄅㄧㄥˋ ㄐㄩㄣˋ",
+      "pinyin": "bìng jùn",
+      "source_entry_ids": [
+        "027800017"
       ]
     }
   ],
@@ -91,11 +91,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -110,5 +112,81 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "bìng jùn"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "027800017"
+          ]
+        },
+        {
+          "value": [
+            "bìng jūn"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            75563
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    },
+    {
+      "field": "zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            {
+              "pinyin": "bìng jùn",
+              "reading": "ㄅㄧㄥˋ ㄐㄩㄣˋ"
+            }
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "027800017"
+          ]
+        },
+        {
+          "value": [
+            {
+              "pinyin": "bìng jūn",
+              "reading": "ㄅㄧㄥˋ ㄐㄩㄣ"
+            }
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11",
+            "cns11643-attributes-2026-08-05"
+          ],
+          "source_entry_indices": [
+            75563
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE Concised Dictionary Zhuyin is canonical. The previous value was mechanically converted from CC-CEDICT Pinyin through the CNS syllable table and remains comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "使人或其他生物生病的細菌。[例]居家環境四周要隨時保持清潔，以防止病菌的傳播。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "027800017",
+      "verbatim": true
+    }
+  ]
 }

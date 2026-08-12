@@ -9,15 +9,15 @@
     {
       "reading": "liù",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        11954
+      "source_entry_ids": [
+        "1973"
       ]
     },
     {
       "reading": "lù",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        11955
+      "source_entry_ids": [
+        "2090"
       ]
     }
   ],
@@ -25,15 +25,15 @@
     {
       "reading": "ㄌㄧㄡˋ",
       "pinyin": "liù",
-      "source_entry_indices": [
-        11954
+      "source_entry_ids": [
+        "1973"
       ]
     },
     {
       "reading": "ㄌㄨˋ",
       "pinyin": "lù",
-      "source_entry_indices": [
-        11955
+      "source_entry_ids": [
+        "2090"
       ]
     }
   ],
@@ -105,11 +105,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -124,5 +126,23 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "介於五與七之間的自然數。大寫作「陸」，阿拉伯數字作「6」。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "1973",
+      "verbatim": true
+    },
+    {
+      "text": "周朝時的六國，故址約在今安徽省六安縣。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "2090",
+      "verbatim": true
+    }
+  ]
 }

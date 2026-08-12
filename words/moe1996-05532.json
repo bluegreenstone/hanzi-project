@@ -9,14 +9,22 @@
   ],
   "pinyin": [
     {
-      "reading": "lái bu jí",
+      "reading": "lái bù jí",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        7622
+      "source_entry_ids": [
+        "175700002"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄌㄞˊ ㄅㄨˋ ㄐㄧˊ",
+      "pinyin": "lái bù jí",
+      "source_entry_ids": [
+        "175700002"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "there's not enough time (to do sth); it's too late",
@@ -68,15 +76,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "zhuyin": [
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "grading.hsk",
       "reason": "source_unavailable",
@@ -88,5 +97,45 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "lái bù jí"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "175700002"
+          ]
+        },
+        {
+          "value": [
+            "lái bu jí"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            7622
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "無法趕上。[例]由於塞車非常嚴重，害我來不及參加會議的開幕儀式。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "175700002",
+      "verbatim": true
+    }
+  ]
 }

@@ -8,19 +8,33 @@
   ],
   "pinyin": [
     {
+      "reading": "gāng xing",
+      "context": "dictionary_entry",
+      "source_entry_ids": [
+        "040950032"
+      ]
+    },
+    {
       "reading": "gāng xìng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        14575
+      "source_entry_ids": [
+        "040950031"
       ]
     }
   ],
   "zhuyin": [
     {
+      "reading": "ㄍㄤ ˙ㄒㄧㄥ",
+      "pinyin": "gāng xing",
+      "source_entry_ids": [
+        "040950032"
+      ]
+    },
+    {
       "reading": "ㄍㄤ ㄒㄧㄥˋ",
       "pinyin": "gāng xìng",
-      "source_entry_indices": [
-        14575
+      "source_entry_ids": [
+        "040950031"
       ]
     }
   ],
@@ -75,11 +89,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -94,5 +110,96 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "gāng xing",
+            "gāng xìng"
+          ],
+          "source_ids": [
+            "moe-tw-revised-dictionary-2015-20260625"
+          ],
+          "source_entry_ids": [
+            "040950031",
+            "040950032"
+          ]
+        },
+        {
+          "value": [
+            "gāng xìng"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            14575
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Revised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    },
+    {
+      "field": "zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            {
+              "pinyin": "gāng xing",
+              "reading": "ㄍㄤ ˙ㄒㄧㄥ"
+            },
+            {
+              "pinyin": "gāng xìng",
+              "reading": "ㄍㄤ ㄒㄧㄥˋ"
+            }
+          ],
+          "source_ids": [
+            "moe-tw-revised-dictionary-2015-20260625"
+          ],
+          "source_entry_ids": [
+            "040950031",
+            "040950032"
+          ]
+        },
+        {
+          "value": [
+            {
+              "pinyin": "gāng xìng",
+              "reading": "ㄍㄤ ㄒㄧㄥˋ"
+            }
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11",
+            "cns11643-attributes-2026-08-05"
+          ],
+          "source_entry_indices": [
+            14575
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE Revised Dictionary Zhuyin is canonical. The previous value was mechanically converted from CC-CEDICT Pinyin through the CNS syllable table and remains comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.剛硬而不變形的性質。\n2.物體對於變形的抵抗本領。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "040950031",
+      "verbatim": true
+    },
+    {
+      "text": "剛強的性質或性情。《紅樓夢》第六〇回：「呸！你這下流沒剛性的，也只好受這些毛崽子的氣。」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "040950032",
+      "verbatim": true
+    }
+  ]
 }

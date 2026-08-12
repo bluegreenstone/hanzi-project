@@ -10,8 +10,8 @@
     {
       "reading": "jiāo jí",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        69971
+      "source_entry_ids": [
+        "319600006"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄐㄧㄠ ㄐㄧˊ",
       "pinyin": "jiāo jí",
-      "source_entry_indices": [
-        69971
+      "source_entry_ids": [
+        "319600006"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "焦慮著急。[例]火車快開了，同伴卻還沒來，真令人焦急。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "319600006",
+      "verbatim": true
+    }
+  ]
 }

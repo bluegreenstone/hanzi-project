@@ -8,14 +8,22 @@
   ],
   "pinyin": [
     {
-      "reading": "ké sou",
+      "reading": "ké sòu",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        21358
+      "source_entry_ids": [
+        "250600001"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄎㄜˊ ㄙㄡˋ",
+      "pinyin": "ké sòu",
+      "source_entry_ids": [
+        "250600001"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "to cough",
@@ -75,15 +83,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "zhuyin": [
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "constituent_chars.local_records",
       "reason": "source_unavailable",
@@ -100,5 +109,45 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "ké sòu"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "250600001"
+          ]
+        },
+        {
+          "value": [
+            "ké sou"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            21358
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "喉部或氣管的黏膜受痰或氣體的刺激，引起反射作用，把氣或痰用力排出。[例]他咳嗽不斷，八成是感冒了。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "250600001",
+      "verbatim": true
+    }
+  ]
 }

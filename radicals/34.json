@@ -127,12 +127,6 @@
     "shuowen": [
       "zhwikisource-shuowen-2026-08-10"
     ],
-    "shuowen.seal_glyph": [
-      "commons-shuowen-540-svg-series-2026-08-10"
-    ],
-    "historical_forms.shuowen_seal_說文解字": [
-      "commons-shuowen-540-svg-series-2026-08-10"
-    ],
     "historical_forms.oracle_bone_甲骨文": [
       "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
     ],
@@ -144,6 +138,17 @@
     ],
     "english_definition": [
       "unicode-unihan-17.0.0"
+    ],
+    "historical_forms.shuowen_seal_說文解字": [
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
+    ],
+    "shuowen.seal_glyph": [
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
+    ],
+    "example_characters": [
+      "moe-tw-common-terms-1996",
+      "cns11643-attributes-2026-08-05",
+      "cc-cedict-editor-2026-08-11"
     ],
     "stroke_order.svg_asset_id": [
       "makemeahanzi-graphics-master-audit"
@@ -197,6 +202,11 @@
       "detail": "No approved Phase 2 source provides a systematic semantic-field taxonomy for all 214 radicals."
     },
     {
+      "field": "example_characters",
+      "reason": "not_attested",
+      "detail": "No character assigned to this radical is present in the Taiwan MOE top-2,000 character set with at least one eligible ranked common-word link."
+    },
+    {
       "field": "stroke_order.stroke_types",
       "reason": "source_unavailable",
       "detail": "Make Me a Hanzi supplies ordered paths but no authoritative per-path stroke-type names; Taiwan CNS types are retained separately and are not assigned to PRC path indices."
@@ -237,11 +247,11 @@
     ],
     "shuowen_seal_說文解字": [
       {
-        "asset_id": "shuowen-540-U+5902",
-        "path": "assets/shuowen_seal/U+5902/shuowen-540-U+5902.svg",
-        "source_id": "commons-shuowen-540-svg-series-2026-08-10",
-        "source_file": "Shuowen Seal Radical 203.svg",
-        "license_id": "cc-by-sa-3.0"
+        "asset_id": "sinica-shuowen-seal-U+5902",
+        "path": "assets/shuowen_seal/U+5902/sinica-shuowen-seal-U+5902.png",
+        "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+        "source_file": "27.F4DF",
+        "license_id": "CC0-1.0"
       }
     ],
     "liushutong_六書通": [
@@ -250,13 +260,6 @@
         "path": "assets/liushutong/U+5902/codh-liushutong-TE00008-U+5902-001.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+5902_TE00008_0031_2_X0166_Y0909.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+5902-001",
-        "path": "assets/liushutong/U+5902/codh-liushutong-TE00015-U+5902-001.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+5902_TE00015_0031_2_X0166_Y0909.jpg",
         "license_id": "CC-BY-SA-4.0"
       }
     ]
@@ -274,14 +277,15 @@
     "revision_id": 1870764,
     "revision_timestamp": "2020-06-05T17:12:28Z",
     "seal_glyph": {
-      "asset_id": "shuowen-540-U+5902",
-      "path": "assets/shuowen_seal/U+5902/shuowen-540-U+5902.svg",
-      "source_id": "commons-shuowen-540-svg-series-2026-08-10",
-      "source_file": "Shuowen Seal Radical 203.svg",
-      "license_id": "cc-by-sa-3.0"
+      "asset_id": "sinica-shuowen-seal-U+5902",
+      "path": "assets/shuowen_seal/U+5902/sinica-shuowen-seal-U+5902.png",
+      "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+      "source_file": "27.F4DF",
+      "license_id": "CC0-1.0"
     }
   },
   "english_definition": "go; Kangxi radical 34",
+  "example_characters": [],
   "stroke_order": {
     "svg_asset_id": "stroke-order-U+5902-mmah-bddc96d4",
     "standard": "PRC GF 0023-2020 (provisional baseline)",

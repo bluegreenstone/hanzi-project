@@ -12,8 +12,8 @@
     {
       "reading": "wù yǐ lèi jù",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        71539
+      "source_entry_ids": [
+        "6262000221"
       ]
     }
   ],
@@ -21,8 +21,8 @@
     {
       "reading": "ㄨˋ ㄧˇ ㄌㄟˋ ㄐㄩˋ",
       "pinyin": "wù yǐ lèi jù",
-      "source_entry_indices": [
-        71539
+      "source_entry_ids": [
+        "6262000221"
       ]
     }
   ],
@@ -85,11 +85,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -104,5 +106,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "性質相近的東西常聚集在一起。亦比喻壞人互相勾結。語本《易經．繫辭上》。[例]這些遊手好閒的人就是喜歡湊在一起，真是物以類聚。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "6262000221",
+      "verbatim": true
+    }
+  ]
 }

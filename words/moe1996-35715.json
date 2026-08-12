@@ -10,8 +10,8 @@
     {
       "reading": "huāng táng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        93813
+      "source_entry_ids": [
+        "295900007"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄏㄨㄤ ㄊㄤˊ",
       "pinyin": "huāng táng",
-      "source_entry_indices": [
-        93813
+      "source_entry_ids": [
+        "295900007"
       ]
     }
   ],
@@ -107,11 +107,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -126,5 +128,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.誇大空幻。[例]雖然有些寓言故事的情節描述得很荒唐，但若深入體會，總可獲得一些啟示。\n2.言行乖謬，不合禮法。[例]他為自己忤逆長上的荒唐行為感到愧疚。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "295900007",
+      "verbatim": true
+    }
+  ]
 }

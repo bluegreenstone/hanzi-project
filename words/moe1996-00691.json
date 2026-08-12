@@ -9,9 +9,8 @@
     {
       "reading": "zuò",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        25225,
-        25226
+      "source_entry_ids": [
+        "5388"
       ]
     }
   ],
@@ -19,9 +18,8 @@
     {
       "reading": "ㄗㄨㄛˋ",
       "pinyin": "zuò",
-      "source_entry_indices": [
-        25225,
-        25226
+      "source_entry_ids": [
+        "5388"
       ]
     }
   ],
@@ -117,11 +115,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -136,5 +136,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.彎曲下肢，將臀部附著在座位上休息。與「站」相對。[例]坐著、正襟危坐、如坐針氈　◎\n2.居、處。[例]坐落、坐北朝南、坐二望一\n3.搭乘。[例]坐車、坐船\n4.比喻平白的、不勞而獲的。[例]坐享其成、坐收漁利\n5.指物體向後或向下壓。[例]槍的坐力大。\n6.判決、定罪。[例]連坐\n7.席位。通「座」。[例]坐位",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "5388",
+      "verbatim": true
+    }
+  ]
 }

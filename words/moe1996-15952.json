@@ -11,8 +11,8 @@
     {
       "reading": "kāi pǔ dūn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        113248
+      "source_entry_ids": [
+        "044570025"
       ]
     }
   ],
@@ -20,8 +20,8 @@
     {
       "reading": "ㄎㄞ ㄆㄨˇ ㄉㄨㄣ",
       "pinyin": "kāi pǔ dūn",
-      "source_entry_indices": [
-        113248
+      "source_entry_ids": [
+        "044570025"
       ]
     }
   ],
@@ -76,11 +76,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -95,5 +97,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "城市名。南非共和國西南部的城市，面臨大西洋，是議會、行政機關所在地。為世界最美的港口之一。位居交通要衝，航空業極盛。產品以黃金、鑽石為大宗，馳名世界。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "044570025",
+      "verbatim": true
+    }
+  ]
 }

@@ -10,9 +10,8 @@
     {
       "reading": "tiě quán",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        112373,
-        112374
+      "source_entry_ids": [
+        "026700124"
       ]
     }
   ],
@@ -20,9 +19,8 @@
     {
       "reading": "ㄊㄧㄝˇ ㄑㄩㄢˊ",
       "pinyin": "tiě quán",
-      "source_entry_indices": [
-        112373,
-        112374
+      "source_entry_ids": [
+        "026700124"
       ]
     }
   ],
@@ -86,11 +84,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -110,5 +110,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "如鐵般的拳頭。比喻巨大的打擊力量。如：「我們要運用鐵拳，打擊犯罪。」清．徐珂《清稗類鈔．技勇類．卞鐵拳擊斷巨碑》：「於是擇一巨碑，作勢運氣，擊之，轟然一聲，碑已中斷，來者驚謝去。由是玉清宮拳術，遠邇咸聞，而卞尤以鐵拳稱於時。」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "026700124",
+      "verbatim": true
+    }
+  ]
 }

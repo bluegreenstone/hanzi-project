@@ -12,8 +12,8 @@
     {
       "reading": "fēng fēng yǔ yǔ",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        119184
+      "source_entry_ids": [
+        "091300010"
       ]
     }
   ],
@@ -21,8 +21,8 @@
     {
       "reading": "ㄈㄥ ㄈㄥ ㄩˇ ㄩˇ",
       "pinyin": "fēng fēng yǔ yǔ",
-      "source_entry_indices": [
-        119184
+      "source_entry_ids": [
+        "091300010"
       ]
     }
   ],
@@ -85,11 +85,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -104,5 +106,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.比喻重重障礙、困難。[例]經過了無數的風風雨雨，他終於得以完成學業，了卻父母的心願。\n2.比喻議論紛紛。[例]這件工程糾紛已鬧得全市風風雨雨，難以收拾。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "091300010",
+      "verbatim": true
+    }
+  ]
 }

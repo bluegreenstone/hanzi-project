@@ -23,12 +23,13 @@ from acquire_historical_assets import local_target
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DATA = ROOT / "source-data" / "wikimedia-2026-08-10"
 MIRROR_DATA = ROOT / "source-data" / "github-analects-data-2026-08-10"
-CANDIDATES = ROOT / "phase2-historical-asset-candidates.json"
+CANDIDATES = ROOT / "metadata" / "audits" / "phase2-historical-asset-candidates.json"
 METADATA = SOURCE_DATA / "commons-acc-historical-file-metadata.json"
 REVISION_METADATA = SOURCE_DATA / "commons-acc-historical-file-revisions.json"
 COMMON_LOG = SOURCE_DATA / "commons-acc-historical-original-acquisition-log.json"
 MIRROR_LOG = MIRROR_DATA / "mirror-acquisition-log.json"
 TREE_SNAPSHOT = MIRROR_DATA / "tree.json"
+ASSET_MANIFEST = ROOT / "assets" / "manifest.json"
 SOURCE_ID = "github-analects-data-commons-mirror-2026-08-10"
 CONTENT_SOURCE_ID = "commons-ancient-chinese-historical-form-files-2026-08-10"
 OWNER = "plexus"
@@ -84,6 +85,47 @@ def write_common_log(
     )
 
 
+def recover_common_entries_from_manifest() -> list[dict[str, Any]]:
+    """Recover the compact acquisition ledger from quarantined asset evidence."""
+    manifest = json.loads(ASSET_MANIFEST.read_text(encoding="utf-8"))
+    assets = [
+        asset
+        for asset in manifest.get("quarantined_assets", [])
+        if asset.get("source_id") == CONTENT_SOURCE_ID
+    ]
+    if len(assets) != 455:
+        raise RuntimeError(
+            "missing Commons acquisition log and manifest does not preserve all 455 entries"
+        )
+    entries: list[dict[str, Any]] = []
+    for asset in assets:
+        route = asset["acquisition_route"]
+        if isinstance(route, dict):
+            resolved_url = route.get("url") or route.get("replay_url")
+        else:
+            resolved_url = asset["original_url"]
+        entry = {
+            "asset_id": asset["asset_id"],
+            "source_file": asset["source_file"],
+            "kangxi_number": asset["kangxi_number"],
+            "kind": asset["historical_form"],
+            "local_path": asset["local_path"],
+            "retrieved_at": asset["retrieved_at"],
+            "acquisition_route": route,
+            "request_url": asset["original_url"],
+            "resolved_url": resolved_url,
+            "commons_sha1": asset["commons_sha1"],
+            "sha256": asset["sha256"],
+            "bytes": asset["bytes"],
+        }
+        if asset.get("commons_timestamp"):
+            entry["commons_timestamp"] = asset["commons_timestamp"]
+        if asset.get("commons_revision"):
+            entry["commons_revision"] = asset["commons_revision"]
+        entries.append(entry)
+    return sorted(entries, key=lambda item: (item["kangxi_number"], item["kind"]))
+
+
 def main() -> None:
     candidates = json.loads(CANDIDATES.read_text(encoding="utf-8"))
     decisions = sorted(
@@ -106,7 +148,11 @@ def main() -> None:
     historical_revision_by_file = {
         item["source_file"]: item for item in revision_metadata["matches"]
     }
-    common = json.loads(COMMON_LOG.read_text(encoding="utf-8")) if COMMON_LOG.exists() else {}
+    common = (
+        json.loads(COMMON_LOG.read_text(encoding="utf-8"))
+        if COMMON_LOG.exists()
+        else {"entries": recover_common_entries_from_manifest()}
+    )
     entry_by_file = {entry["source_file"]: entry for entry in common.get("entries", [])}
     failure_by_file = {
         failure["source_file"]: failure for failure in common.get("failures", [])

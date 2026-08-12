@@ -7,33 +7,33 @@
   ],
   "pinyin": [
     {
-      "reading": "ōu",
+      "reading": "qū",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        16438
+      "source_entry_ids": [
+        "3752"
       ]
     },
     {
-      "reading": "qū",
+      "reading": "ōu",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        16439
+      "source_entry_ids": [
+        "5792"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄡ",
-      "pinyin": "ōu",
-      "source_entry_indices": [
-        16438
+      "reading": "ㄑㄩ",
+      "pinyin": "qū",
+      "source_entry_ids": [
+        "3752"
       ]
     },
     {
-      "reading": "ㄑㄩ",
-      "pinyin": "qū",
-      "source_entry_indices": [
-        16439
+      "reading": "ㄡ",
+      "pinyin": "ōu",
+      "source_entry_ids": [
+        "5792"
       ]
     }
   ],
@@ -137,11 +137,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -156,5 +158,23 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.分別。[例]區別、區劃、區隔\n\t\n2.一定範圍的地域。[例]工業區、風景區、吸煙區\n\t\n3.行政上劃分的地方自治單位。[例]萬華區、大同區\n",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "3752",
+      "verbatim": true
+    },
+    {
+      "text": "1.古代的一種容器，可容一斗六升。[例]豆、區、釜、鍾\n\t\n2.姓。\n",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "5792",
+      "verbatim": true
+    }
+  ]
 }

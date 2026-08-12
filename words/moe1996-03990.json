@@ -10,8 +10,8 @@
     {
       "reading": "guān qiè",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        113734
+      "source_entry_ids": [
+        "244200015"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄍㄨㄢ ㄑㄧㄝˋ",
       "pinyin": "guān qiè",
-      "source_entry_indices": [
-        113734
+      "source_entry_ids": [
+        "244200015"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "關心、注意。[例]他最近上課總是心不在焉，引起了老師的關切。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "244200015",
+      "verbatim": true
+    }
+  ]
 }

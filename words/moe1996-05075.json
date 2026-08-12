@@ -9,8 +9,8 @@
     {
       "reading": "xù",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        87006
+      "source_entry_ids": [
+        "4145"
       ]
     }
   ],
@@ -18,8 +18,8 @@
     {
       "reading": "ㄒㄩˋ",
       "pinyin": "xù",
-      "source_entry_indices": [
-        87006
+      "source_entry_ids": [
+        "4145"
       ]
     }
   ],
@@ -82,11 +82,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -101,5 +103,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.接連不斷或接在原來的之後。[例]連續、接續、續杯\n2.辦事的程序。[例]手續\n3.承繼、繼世。[例]嗣續",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "4145",
+      "verbatim": true
+    }
+  ]
 }

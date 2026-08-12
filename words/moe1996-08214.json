@@ -10,8 +10,8 @@
     {
       "reading": "cí dié",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        79774
+      "source_entry_ids": [
+        "543100003"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄘˊ ㄉㄧㄝˊ",
       "pinyin": "cí dié",
-      "source_entry_indices": [
-        79774
+      "source_entry_ids": [
+        "543100003"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.一種電腦的資料儲存設備。為雙面均塗有磁性物質的圓形薄片。硬式磁碟由鋁合金製成，一般裝置於直接存取磁碟的儲存體中。軟式磁碟的材質為塑膠片，能交換至不同機器中使用。[例]將硬式磁碟中的資料拷貝到軟式磁碟中保存，是管理電腦資料較穩當的作法。　△磁片\n2.一種操縱磁碟進行讀寫資料的裝置。可分為軟式磁碟及硬式磁碟。[例]磁碟的磁頭若是受損，就無法讀寫磁片上的資料。　△磁碟機",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "543100003",
+      "verbatim": true
+    }
+  ]
 }

@@ -62,7 +62,10 @@
         "reading": "huā",
         "context": "primary",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "05005"
+        ]
       }
     ],
     "zhuyin": [
@@ -149,6 +152,16 @@
       "source_id": "cc-cedict-editor-2026-08-11"
     }
   ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.種子植物的繁殖器官。由花瓣、花萼、花托、花蕊組合，可供人觀賞。[例]菊花、梅花、桃花　◎\r\n2.形狀像花的物體。[例]浪花、雪花、爆米花\r\n3.比喻女人。[例]姊妹花、交際花、尋花問柳\r\n4.有圖紋的、雜色的。[例]花邊、花布、花貓\r\n5.式樣、種類繁多的。[例]花絮、花式\r\n6.虛假的、巧妙的。[例]花招、花言巧語\r\n7.模糊不清。[例]頭昏眼花\r\n8.心性不定、好玩樂的。[例]花心\r\n9.耗費。[例]花費、花錢、花時間\r\n10.姓。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "2843",
+      "verbatim": true
+    }
+  ],
   "frequency": {
     "rank": 390,
     "selection_rank": 390,
@@ -175,9 +188,6 @@
     "variants_異體字": [
       "unicode-unihan-17.0.0"
     ],
-    "radical": [
-      "unicode-unihan-17.0.0"
-    ],
     "total_strokes": [
       "moe-tw-common-terms-1996"
     ],
@@ -198,6 +208,18 @@
     "simplification_note": [
       "cc-cedict-editor-2026-08-11"
     ],
+    "radical.kangxi_number": [
+      "cns11643-attributes-2026-08-05"
+    ],
+    "radical.residual_strokes": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.source_assignment": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.additional_assignments": [
+      "unicode-unihan-17.0.0"
+    ],
     "ids_decomposition": [
       "makemeahanzi-dictionary-master-audit"
     ],
@@ -205,10 +227,12 @@
       "makemeahanzi-dictionary-master-audit"
     ],
     "readings.pinyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
     "readings.zhuyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
@@ -233,6 +257,9 @@
     "definitions": [
       "unicode-unihan-17.0.0",
       "cc-cedict-editor-2026-08-11"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "kangxi_citation": [
       "unicode-unihan-17.0.0"
@@ -363,7 +390,7 @@
           ]
         }
       ],
-      "detail": "The Unihan radical assignment and delivered radical count do not add to the Taiwan MOE total; both values are retained for review."
+      "detail": "The attested radical assignment and delivered radical count do not add to the Taiwan MOE total; both values are retained for review."
     }
   ],
   "english_translation": "flower; blossoms",

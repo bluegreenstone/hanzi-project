@@ -11,8 +11,8 @@
     {
       "reading": "pí fū bìng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        77033
+      "source_entry_ids": [
+        "0428000051"
       ]
     }
   ],
@@ -20,8 +20,8 @@
     {
       "reading": "ㄆㄧˊ ㄈㄨ ㄅㄧㄥˋ",
       "pinyin": "pí fū bìng",
-      "source_entry_indices": [
-        77033
+      "source_entry_ids": [
+        "0428000051"
       ]
     }
   ],
@@ -76,11 +76,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -95,5 +97,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "發生於皮膚和毛髮、指甲等部位的疾病。產生的原因很多，如細菌、黴菌、病毒等的感染，日光照射，內分泌失調等，都能引起皮膚病。[例]疱疹是由濾過性病毒所引起的皮膚病。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "0428000051",
+      "verbatim": true
+    }
+  ]
 }

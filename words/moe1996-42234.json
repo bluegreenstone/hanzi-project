@@ -12,8 +12,8 @@
     {
       "reading": "guǎn xián yuè tuán",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        83080
+      "source_entry_ids": [
+        "043230073"
       ]
     }
   ],
@@ -21,8 +21,8 @@
     {
       "reading": "ㄍㄨㄢˇ ㄒㄧㄢˊ ㄩㄝˋ ㄊㄨㄢˊ",
       "pinyin": "guǎn xián yuè tuán",
-      "source_entry_indices": [
-        83080
+      "source_entry_ids": [
+        "043230073"
       ]
     }
   ],
@@ -77,11 +77,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -96,5 +98,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "orchestra中譯名。字義源於古希臘劇場中合唱團所在的位置名稱，後延伸為樂器合奏團，通常用於18世紀後的樂團，涵蓋弦樂器、木管樂器、銅管樂器、擊樂器等，以演奏管弦樂曲為主。一般樂團約介於40-70人間，50人以下的亦稱chamber orchestra（室內管弦樂團）；一些大型的管弦樂團也被稱為交響樂團（symphonic orchestra）或愛樂樂團（philharmonic orchestra），兩者稱謂之間並沒有實質上的區別。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "043230073",
+      "verbatim": true
+    }
+  ]
 }

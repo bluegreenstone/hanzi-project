@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DATA = ROOT / "source-data" / "wikimedia-2026-08-10"
 MAPPINGS = SOURCE_DATA / "commons-acc-radical-historical-candidates.json"
 METADATA = SOURCE_DATA / "commons-acc-historical-file-metadata.json"
-OUTPUT = ROOT / "phase2-historical-asset-candidates.json"
+OUTPUT = ROOT / "metadata" / "audits" / "phase2-historical-asset-candidates.json"
 
 
 def metadata_value(metadata: dict[str, Any], name: str) -> str:

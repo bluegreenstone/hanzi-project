@@ -28,7 +28,10 @@
         "reading": "xiāo",
         "context": "primary",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "06989"
+        ]
       }
     ],
     "zhuyin": [
@@ -86,6 +89,16 @@
       "source_id": "cc-cedict-editor-2026-08-11"
     }
   ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.除去。[例]消滅、消毒、消除\n\t\n2.耗損、耗費。[例]消費、消耗\n\t\n3.排遣、打發。[例]消遣、消夜、消暑、消憂\n\t\n4.離散、溶解。[例]冰消瓦解、煙消雲散\n\t\n5.享用。[例]消受\n\t\n6.減退、衰退。[例]彼消我長\n\t\n7.需要。[例]這件事不消你說，我也知道。\n",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "3948",
+      "verbatim": true
+    }
+  ],
   "frequency": {
     "rank": 434,
     "selection_rank": 434,
@@ -112,9 +125,6 @@
     "variants_異體字": [
       "unicode-unihan-17.0.0"
     ],
-    "radical": [
-      "unicode-unihan-17.0.0"
-    ],
     "total_strokes": [
       "moe-tw-common-terms-1996"
     ],
@@ -132,6 +142,18 @@
     "simplified": [
       "cc-cedict-editor-2026-08-11"
     ],
+    "radical.kangxi_number": [
+      "cns11643-attributes-2026-08-05"
+    ],
+    "radical.residual_strokes": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.source_assignment": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.additional_assignments": [
+      "unicode-unihan-17.0.0"
+    ],
     "ids_decomposition": [
       "makemeahanzi-dictionary-master-audit"
     ],
@@ -139,10 +161,12 @@
       "makemeahanzi-dictionary-master-audit"
     ],
     "readings.pinyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
     "readings.zhuyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
@@ -167,6 +191,9 @@
     "definitions": [
       "unicode-unihan-17.0.0",
       "cc-cedict-editor-2026-08-11"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "kangxi_citation": [
       "unicode-unihan-17.0.0"
@@ -258,7 +285,7 @@
           ]
         }
       ],
-      "detail": "The Unihan radical assignment and delivered radical count do not add to the Taiwan MOE total; both values are retained for review."
+      "detail": "The attested radical assignment and delivered radical count do not add to the Taiwan MOE total; both values are retained for review."
     }
   ],
   "english_translation": "vanish, die out; melt away",

@@ -7,19 +7,19 @@
   ],
   "pinyin": [
     {
-      "reading": "jiū",
+      "reading": "jiù",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        81743
+      "source_entry_ids": [
+        "3247"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄐㄧㄡ",
-      "pinyin": "jiū",
-      "source_entry_indices": [
-        81743
+      "reading": "ㄐㄧㄡˋ",
+      "pinyin": "jiù",
+      "source_entry_ids": [
+        "3247"
       ]
     }
   ],
@@ -98,11 +98,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -117,5 +119,81 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "jiù"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "3247"
+          ]
+        },
+        {
+          "value": [
+            "jiū"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            81743
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    },
+    {
+      "field": "zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            {
+              "pinyin": "jiù",
+              "reading": "ㄐㄧㄡˋ"
+            }
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "3247"
+          ]
+        },
+        {
+          "value": [
+            {
+              "pinyin": "jiū",
+              "reading": "ㄐㄧㄡ"
+            }
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11",
+            "cns11643-attributes-2026-08-05"
+          ],
+          "source_entry_indices": [
+            81743
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE Concised Dictionary Zhuyin is canonical. The previous value was mechanically converted from CC-CEDICT Pinyin through the CNS syllable table and remains comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.推尋、探查。[例]研究、追究、追根究底\n2.窮、盡。[例]究竟、終究",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "3247",
+      "verbatim": true
+    }
+  ]
 }

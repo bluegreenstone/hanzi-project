@@ -8,14 +8,22 @@
   ],
   "pinyin": [
     {
-      "reading": "bāo fu",
+      "reading": "bāo fú",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        15991
+      "source_entry_ids": [
+        "008900004"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄅㄠ ㄈㄨˊ",
+      "pinyin": "bāo fú",
+      "source_entry_ids": [
+        "008900004"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "wrapping cloth",
@@ -115,15 +123,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "zhuyin": [
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "constituent_chars.local_records",
       "reason": "source_unavailable",
@@ -140,5 +149,45 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "bāo fú"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "008900004"
+          ]
+        },
+        {
+          "value": [
+            "bāo fu"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            15991
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.用布包裹，便於攜帶的行李。[例]收拾包袱起程吧！\n2.借指累贅或負擔。[例]傳統包袱、人情包袱\n3.指相聲或快書等曲藝中的笑料。[例]相聲表演中常運用繞口令來抖包袱。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "008900004",
+      "verbatim": true
+    }
+  ]
 }

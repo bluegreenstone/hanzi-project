@@ -10,19 +10,19 @@
   ],
   "pinyin": [
     {
-      "reading": "chuān liú bù xī",
+      "reading": "chuān liú bù xí",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        36177
+      "source_entry_ids": [
+        "484600001"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄔㄨㄢ ㄌㄧㄡˊ ㄅㄨˋ ㄒㄧ",
-      "pinyin": "chuān liú bù xī",
-      "source_entry_indices": [
-        36177
+      "reading": "ㄔㄨㄢ ㄌㄧㄡˊ ㄅㄨˋ ㄒㄧˊ",
+      "pinyin": "chuān liú bù xí",
+      "source_entry_ids": [
+        "484600001"
       ]
     }
   ],
@@ -77,11 +77,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -96,5 +98,81 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "chuān liú bù xí"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "484600001"
+          ]
+        },
+        {
+          "value": [
+            "chuān liú bù xī"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            36177
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    },
+    {
+      "field": "zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            {
+              "pinyin": "chuān liú bù xí",
+              "reading": "ㄔㄨㄢ ㄌㄧㄡˊ ㄅㄨˋ ㄒㄧˊ"
+            }
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "484600001"
+          ]
+        },
+        {
+          "value": [
+            {
+              "pinyin": "chuān liú bù xī",
+              "reading": "ㄔㄨㄢ ㄌㄧㄡˊ ㄅㄨˋ ㄒㄧ"
+            }
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11",
+            "cns11643-attributes-2026-08-05"
+          ],
+          "source_entry_indices": [
+            36177
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE Concised Dictionary Zhuyin is canonical. The previous value was mechanically converted from CC-CEDICT Pinyin through the CNS syllable table and remains comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "形容像水流一樣連續不斷。[例]展覽會場內參觀人潮川流不息，場面十分熱烈。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "484600001",
+      "verbatim": true
+    }
+  ]
 }

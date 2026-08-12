@@ -10,8 +10,8 @@
     {
       "reading": "bái yáng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        76339
+      "source_entry_ids": [
+        "001320571"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄅㄞˊ ㄧㄤˊ",
       "pinyin": "bái yáng",
-      "source_entry_indices": [
-        76339
+      "source_entry_ids": [
+        "001320571"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.宮觀的名稱。漢．揚雄〈羽獵賦〉：「營合圍會，然後先置乎白楊之南，昆明靈沼之東。」\n2.植物名。楊柳科楊屬，約十餘種落葉喬木之通稱，包括銀白楊，毛白楊等。樹皮暗灰色，葉互生，卵形或長橢圓形而尖，萌枝之葉分裂或有鋸齒。春月開花，排列成下垂柔荑花序。蒴果疏生於花軸上，種子有白毛，如綿。其用途廣泛，可作為防風林、行道樹。枝條可編籃筐，木材可作為製紙原料和火柴桿。也稱為「大葉楊」。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "001320571",
+      "verbatim": true
+    }
+  ]
 }

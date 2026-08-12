@@ -9,14 +9,22 @@
   ],
   "pinyin": [
     {
-      "reading": "dà zhàng fu",
+      "reading": "dà zhàng fū",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        27565
+      "source_entry_ids": [
+        "019130968"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄉㄚˋ ㄓㄤˋ ㄈㄨ",
+      "pinyin": "dà zhàng fū",
+      "source_entry_ids": [
+        "019130968"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "a manly man",
@@ -76,15 +84,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "zhuyin": [
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "grading.hsk",
       "reason": "source_unavailable",
@@ -96,5 +105,45 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "dà zhàng fū"
+          ],
+          "source_ids": [
+            "moe-tw-revised-dictionary-2015-20260625"
+          ],
+          "source_entry_ids": [
+            "019130968"
+          ]
+        },
+        {
+          "value": [
+            "dà zhàng fu"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            27565
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Revised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "有志氣而勇敢剛毅的男子。《孟子．滕文公下》：「富貴不能淫，貧賤不能移，威武不能屈，此之謂大丈夫。」《史記．卷八．高祖本紀》：「觀秦皇帝，喟然太息曰：『嗟乎，大丈夫當如此也！』」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "019130968",
+      "verbatim": true
+    }
+  ]
 }

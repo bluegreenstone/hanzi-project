@@ -9,8 +9,8 @@
     {
       "reading": "tuō",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        46212
+      "source_entry_ids": [
+        "1521"
       ]
     }
   ],
@@ -18,8 +18,8 @@
     {
       "reading": "ㄊㄨㄛ",
       "pinyin": "tuō",
-      "source_entry_indices": [
-        46212
+      "source_entry_ids": [
+        "1521"
       ]
     }
   ],
@@ -122,11 +122,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -141,5 +143,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.牽拉，一般指拉著較重的物體。[例]拖拉、拖車、拖小孩　◎\n2.垂著，在身體後面搭著。[例]她拖著兩條辮子。\n3.拉著物體使挨著另一物體的表面移動。[例]拖地、長擺拖地、以拖把拖地\n4.延遲擱置。[例]拖延、拖時間、拖拖拉拉",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "1521",
+      "verbatim": true
+    }
+  ]
 }

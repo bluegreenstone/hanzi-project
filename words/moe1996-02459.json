@@ -10,8 +10,8 @@
     {
       "reading": "jīn mén",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        111012
+      "source_entry_ids": [
+        "058380041"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄐㄧㄣ ㄇㄣˊ",
       "pinyin": "jīn mén",
-      "source_entry_indices": [
-        111012
+      "source_entry_ids": [
+        "058380041"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.飾以黃金的門。指天子之門。唐．王維〈早朝〉詩：「銀燭已成行，金門儼騶馭。」\n2.金馬門的簡稱。參見「金馬門」條。《文選．揚雄．解嘲》：「今吾子幸得遭明盛之世，處不諱之朝，與群賢同行，歷金門，上玉堂，有日矣。」唐．王維〈送綦毋潛落第還鄉〉詩：「既至金門遠，孰云吾道非。」\n3.縣名。參見「金門縣」條。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "058380041",
+      "verbatim": true
+    }
+  ]
 }

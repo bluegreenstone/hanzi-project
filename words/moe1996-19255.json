@@ -12,8 +12,8 @@
     {
       "reading": "shàng fāng bǎo jiàn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        34865
+      "source_entry_ids": [
+        "090190004"
       ]
     }
   ],
@@ -21,8 +21,8 @@
     {
       "reading": "ㄕㄤˋ ㄈㄤ ㄅㄠˇ ㄐㄧㄢˋ",
       "pinyin": "shàng fāng bǎo jiàn",
-      "source_entry_indices": [
-        34865
+      "source_entry_ids": [
+        "090190004"
       ]
     }
   ],
@@ -93,11 +93,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -112,5 +114,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "古代指皇帝御用的寶劍。戲曲或小說中常可見持有御賜尚方寶劍的大臣，有先斬後奏的特權。也稱為「勢劍」。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "090190004",
+      "verbatim": true
+    }
+  ]
 }

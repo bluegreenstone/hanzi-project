@@ -10,8 +10,8 @@
     {
       "reading": "zhōng bù",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        3746
+      "source_entry_ids": [
+        "081300016"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄓㄨㄥ ㄅㄨˋ",
       "pinyin": "zhōng bù",
-      "source_entry_indices": [
-        3746
+      "source_entry_ids": [
+        "081300016"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "地理位置介於兩端的中間。如：「臺中市位於臺灣的中部。」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "081300016",
+      "verbatim": true
+    }
+  ]
 }

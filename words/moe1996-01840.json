@@ -10,8 +10,8 @@
     {
       "reading": "kōng jūn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        81897
+      "source_entry_ids": [
+        "266100019"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄎㄨㄥ ㄐㄩㄣ",
       "pinyin": "kōng jūn",
-      "source_entry_indices": [
-        81897
+      "source_entry_ids": [
+        "266100019"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "以空中作戰為主的軍種。基於其特性與作戰的需要，由作戰、後勤、基地勤務支援等部隊組成。既能單獨作戰，又能為陸、海軍的後援。[例]在這次軍事演習中，空軍展現了強大的攻堅能力。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "266100019",
+      "verbatim": true
+    }
+  ]
 }

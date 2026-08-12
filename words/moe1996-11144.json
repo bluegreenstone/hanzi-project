@@ -8,19 +8,19 @@
   ],
   "pinyin": [
     {
-      "reading": "xī yáng",
+      "reading": "xì yáng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        26943
+      "source_entry_ids": [
+        "387900002"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄒㄧ ㄧㄤˊ",
-      "pinyin": "xī yáng",
-      "source_entry_indices": [
-        26943
+      "reading": "ㄒㄧˋ ㄧㄤˊ",
+      "pinyin": "xì yáng",
+      "source_entry_ids": [
+        "387900002"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -102,5 +104,81 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "xì yáng"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "387900002"
+          ]
+        },
+        {
+          "value": [
+            "xī yáng"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            26943
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    },
+    {
+      "field": "zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            {
+              "pinyin": "xì yáng",
+              "reading": "ㄒㄧˋ ㄧㄤˊ"
+            }
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "387900002"
+          ]
+        },
+        {
+          "value": [
+            {
+              "pinyin": "xī yáng",
+              "reading": "ㄒㄧ ㄧㄤˊ"
+            }
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11",
+            "cns11643-attributes-2026-08-05"
+          ],
+          "source_entry_indices": [
+            26943
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE Concised Dictionary Zhuyin is canonical. The previous value was mechanically converted from CC-CEDICT Pinyin through the CNS syllable table and remains comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.傍晚時將西下的太陽。[例]夕陽西下，斷腸人在天涯。（元．馬致遠〈天淨沙．枯藤老樹昏鴉〉曲）\r\n2.比喻沒落。[例]夕陽工業",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "387900002",
+      "verbatim": true
+    }
+  ]
 }

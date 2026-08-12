@@ -10,8 +10,8 @@
     {
       "reading": "cháo zhōu",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        68072
+      "source_entry_ids": [
+        "083040020"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄔㄠˊ ㄓㄡ",
       "pinyin": "cháo zhōu",
-      "source_entry_indices": [
-        68072
+      "source_entry_ids": [
+        "083040020"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.地名。大陸地區廣東省舊府名，今潮安縣為其舊治。\n2.鄉鎮名。位於屏東縣，面積四十二點四三三一平方公里。因先人自大陸潮州移居至此，為紀念故鄉而命名為潮州。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "083040020",
+      "verbatim": true
+    }
+  ]
 }

@@ -10,8 +10,8 @@
     {
       "reading": "zì rán",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        91564
+      "source_entry_ids": [
+        "530000111"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄗˋ ㄖㄢˊ",
       "pinyin": "zì rán",
-      "source_entry_indices": [
-        91564
+      "source_entry_ids": [
+        "530000111"
       ]
     }
   ],
@@ -91,11 +91,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -110,5 +112,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.所有天然生成的東西，如空氣、日光、山河等皆是。[例]大自然、自然界\n2.自行生成非經人工製造的。[例]自然免疫\n3.理所當然的、一定的。[例]父慈子孝是自然的道理。\n4.不拘束、不呆板、不做作。[例]態度自然、語氣自然\n5.現今國民小學課程中，自然科學的簡稱。內容包括自然界的物質與現象的介紹。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "530000111",
+      "verbatim": true
+    }
+  ]
 }

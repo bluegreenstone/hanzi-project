@@ -11,8 +11,8 @@
     {
       "reading": "fā xiáng dì",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        76113
+      "source_entry_ids": [
+        "080500060"
       ]
     }
   ],
@@ -20,8 +20,8 @@
     {
       "reading": "ㄈㄚ ㄒㄧㄤˊ ㄉㄧˋ",
       "pinyin": "fā xiáng dì",
-      "source_entry_indices": [
-        76113
+      "source_entry_ids": [
+        "080500060"
       ]
     }
   ],
@@ -84,11 +84,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -103,5 +105,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "事物興起、發源的地方。[例]透過考古，許多民族可以找到更精確的發祥地。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "080500060",
+      "verbatim": true
+    }
+  ]
 }

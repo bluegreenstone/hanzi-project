@@ -10,8 +10,8 @@
     {
       "reading": "cháng yán",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        90774
+      "source_entry_ids": [
+        "084630034"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄔㄤˊ ㄧㄢˊ",
       "pinyin": "cháng yán",
-      "source_entry_indices": [
-        90774
+      "source_entry_ids": [
+        "084630034"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "病名。由不易消化或刺激性的食物、毒物、病原微生物、過敏及壓力等引起的腸道炎症。急性腸炎多由細菌或攝食不當所引起，症狀為發病急驟、腹痛劇烈、腹瀉頻繁、頭痛、寒戰、發熱等，且會導致脫水。慢性腸炎多由慢性細菌性痢疾或阿米巴痢疾所引起，症狀為長期腹瀉、腹痛、營養不良、體質虛弱等。治療時需注意補充體液。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "084630034",
+      "verbatim": true
+    }
+  ]
 }

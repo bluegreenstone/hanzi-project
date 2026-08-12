@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "notice": "These profiles separate payloads by content and redistribution obligations. They are descriptive metadata, not legal advice or a replacement for the source licenses and required notices in docs/attribution.md.",
+  "obligation_classes": {
+    "public-domain": {
+      "description": "Public-domain or CC0 material.",
+      "license_ids": [
+        "CC0-1.0",
+        "PDM-1.0"
+      ]
+    },
+    "attribution": {
+      "description": "Reuse is permitted subject to the named license and attribution or notice requirements.",
+      "license_ids": [
+        "CC-BY-4.0",
+        "MIT",
+        "OGDL-Taiwan-1.0",
+        "Unicode-3.0"
+      ]
+    },
+    "share-alike": {
+      "description": "Adapted or redistributed material may carry ShareAlike obligations.",
+      "license_ids": [
+        "CC-BY-SA-3.0",
+        "CC-BY-SA-4.0"
+      ]
+    },
+    "no-derivatives": {
+      "description": "Material must remain verbatim and may not be adapted under the cited license.",
+      "license_ids": [
+        "CC-BY-ND-3.0-TW"
+      ]
+    },
+    "copyleft": {
+      "description": "Source-specific copyleft or font-license terms apply.",
+      "license_ids": [
+        "Arphic-1999",
+        "LGPL-3.0-or-later"
+      ]
+    },
+    "restricted": {
+      "description": "The source is excluded, reference-only, noncommercial, or not covered by a verified open redistribution license.",
+      "license_ids": [
+        "CC-BY-NC-ND-3.0-TW",
+        "MOE-site-copyright-factual-citation-only",
+        "NOASSERTION",
+        "PRC-MOE-verification-only"
+      ]
+    },
+    "conditional": {
+      "description": "The effective license must be resolved from the originating or per-file asset metadata.",
+      "license_ids": [
+        "inherits-origin-file-license",
+        "per-file"
+      ]
+    }
+  },
+  "profiles": {
+    "core": {
+      "description": "Queryable radical, character, word, relationship, reading, English-definition, provenance, and search data. Verbatim Taiwan definitions and binary visual assets are separate layers.",
+      "sqlite_tables": [
+        "metadata",
+        "character_nodes",
+        "radicals",
+        "characters",
+        "words",
+        "radical_examples",
+        "character_components",
+        "character_common_words",
+        "word_constituents",
+        "readings",
+        "definitions",
+        "record_field_sources",
+        "sources",
+        "license_obligations",
+        "license_profiles",
+        "license_profile_tables",
+        "search_documents"
+      ],
+      "jsonl_path": "query/jsonl/core/",
+      "parquet_path": "query/parquet/core/",
+      "required_notices": [
+        "docs/attribution.md",
+        "licenses/profiles.json"
+      ]
+    },
+    "verbatim-tw-definitions": {
+      "description": "Exact Taiwan MOE definition cells isolated from core query records. Preserve the strings verbatim and follow CC BY-ND 3.0 Taiwan requirements.",
+      "sqlite_tables": [
+        "taiwan_definitions"
+      ],
+      "jsonl_path": "query/jsonl/verbatim-tw-definitions/",
+      "parquet_path": "query/parquet/verbatim-tw-definitions/",
+      "required_notices": [
+        "docs/attribution.md",
+        "docs/caveats.md",
+        "licenses/profiles.json"
+      ]
+    },
+    "visual-assets": {
+      "description": "Asset metadata and the separately manifested image and stroke-order files. License and attribution requirements vary per asset.",
+      "sqlite_tables": [
+        "assets"
+      ],
+      "jsonl_path": "query/jsonl/visual-assets/",
+      "parquet_path": "query/parquet/visual-assets/",
+      "asset_manifest": "assets/manifest.json",
+      "required_notices": [
+        "docs/attribution.md",
+        "assets/manifest.json",
+        "licenses/profiles.json"
+      ]
+    }
+  }
+}

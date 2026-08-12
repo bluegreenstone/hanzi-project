@@ -11,8 +11,8 @@
     {
       "reading": "hū jiào qì",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        21016
+      "source_entry_ids": [
+        "280300009"
       ]
     }
   ],
@@ -20,8 +20,8 @@
     {
       "reading": "ㄏㄨ ㄐㄧㄠˋ ㄑㄧˋ",
       "pinyin": "hū jiào qì",
-      "source_entry_indices": [
-        21016
+      "source_entry_ids": [
+        "280300009"
       ]
     }
   ],
@@ -76,11 +76,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -95,5 +97,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "一種通信設施。發信人經由電信網路及無線電發射臺將信息傳送至呼叫器，而呼叫器持有人可在一定的區域內接收此信息，隨時與發信人保持聯繫。呼叫器網絡有時也提供各種增值信息，如新聞與股市信息。呼叫器現為手機所取代。但因其具有無干擾及提醒功能之特性，目前醫院、餐館等特殊場合仍在使用。[例]許多餐廳在客人點餐後，會拿到一臺呼叫器，則可先就座等候。餐點準備好時，則用無線電遙控呼叫器發出閃光及聲音，提醒客人取餐。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "280300009",
+      "verbatim": true
+    }
+  ]
 }

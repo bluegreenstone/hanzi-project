@@ -10,8 +10,8 @@
     {
       "reading": "zuò xiǎng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        25230
+      "source_entry_ids": [
+        "096190080"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄗㄨㄛˋ ㄒㄧㄤˇ",
       "pinyin": "zuò xiǎng",
-      "source_entry_indices": [
-        25230
+      "source_entry_ids": [
+        "096190080"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "不出力而獲利。《五代史平話．周史．卷下》：「朕於宮中食珍膳，深愧無功於民，而坐享天祿。」《紅樓夢》第一六回：「這裡鳳姐卻坐享了三千兩，王夫人等連一點消息也不知道。」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "096190080",
+      "verbatim": true
+    }
+  ]
 }

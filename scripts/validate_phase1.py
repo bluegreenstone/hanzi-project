@@ -23,8 +23,8 @@ import build_phase1 as builder  # noqa: E402
 
 RADICALS_PATH = ROOT / "radicals"
 SCHEMA_PATH = ROOT / "schema" / "radical.schema.json"
-VALIDATION_REPORT_PATH = ROOT / "validation-report.md"
-GAPS_REPORT_PATH = ROOT / "gaps-report.md"
+VALIDATION_REPORT_PATH = ROOT / "docs" / "validation.md"
+GAPS_REPORT_PATH = ROOT / "docs" / "gaps.md"
 PHASE_REPORT_PATH = ROOT / "phase1-report.md"
 
 CODEPOINT_RE = re.compile(r"^U\+([0-9A-F]{4,6})$")

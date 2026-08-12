@@ -12,8 +12,8 @@
     {
       "reading": "nǎo xià chuí tǐ",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        90561
+      "source_entry_ids": [
+        "161200021"
       ]
     }
   ],
@@ -21,8 +21,8 @@
     {
       "reading": "ㄋㄠˇ ㄒㄧㄚˋ ㄔㄨㄟˊ ㄊㄧˇ",
       "pinyin": "nǎo xià chuí tǐ",
-      "source_entry_indices": [
-        90561
+      "source_entry_ids": [
+        "161200021"
       ]
     }
   ],
@@ -77,11 +77,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -96,5 +98,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "位於中腦下面，由前、中、後三葉所組成的內分沁腺控制中心。[例]腦下垂體分泌過多或不足，都會使身體發育失常。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "161200021",
+      "verbatim": true
+    }
+  ]
 }

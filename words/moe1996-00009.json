@@ -7,33 +7,33 @@
   ],
   "pinyin": [
     {
-      "reading": "wéi",
+      "reading": "wèi",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        69177
+      "source_entry_ids": [
+        "6340"
       ]
     },
     {
-      "reading": "wèi",
+      "reading": "wéi",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        69178
+      "source_entry_ids": [
+        "6309"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄨㄟˊ",
-      "pinyin": "wéi",
-      "source_entry_indices": [
-        69177
+      "reading": "ㄨㄟˋ",
+      "pinyin": "wèi",
+      "source_entry_ids": [
+        "6340"
       ]
     },
     {
-      "reading": "ㄨㄟˋ",
-      "pinyin": "wèi",
-      "source_entry_indices": [
-        69178
+      "reading": "ㄨㄟˊ",
+      "pinyin": "wéi",
+      "source_entry_ids": [
+        "6309"
       ]
     }
   ],
@@ -177,11 +177,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -196,5 +198,23 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.行、作。[例]為善最樂、事在人為\n2.擔任。[例]大家選他為班代表。\n3.變成。[例]指鹿為馬、一分為二、化為烏有\n4.是。[例]失敗為成功之母",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "6309",
+      "verbatim": true
+    },
+    {
+      "text": "介詞：(1) 相當於「因」，表示原因。[例]為什麼你不贊成明天開會？　(2) 相當於「替」、「給」，表示關切的對象。[例]為民服務、為國增光　(3) 相當於「對」、「向」，表示行為的對象。[例]這點小事不足為外人道。　(4) 相當於「為了」，表示行為的目的。[例]這次義演是為勸募救災基金而舉辦的。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "6340",
+      "verbatim": true
+    }
+  ]
 }

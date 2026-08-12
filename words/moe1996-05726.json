@@ -9,19 +9,19 @@
   ],
   "pinyin": [
     {
-      "reading": "nǎo yì xuè",
+      "reading": "nǎo yì xiě",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        90604
+      "source_entry_ids": [
+        "161200036"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄋㄠˇ ㄧˋ ㄒㄩㄝˋ",
-      "pinyin": "nǎo yì xuè",
-      "source_entry_indices": [
-        90604
+      "reading": "ㄋㄠˇ ㄧˋ ㄒㄧㄝˇ",
+      "pinyin": "nǎo yì xiě",
+      "source_entry_ids": [
+        "161200036"
       ]
     }
   ],
@@ -84,11 +84,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -108,5 +110,81 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "nǎo yì xiě"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "161200036"
+          ]
+        },
+        {
+          "value": [
+            "nǎo yì xuè"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            90604
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    },
+    {
+      "field": "zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            {
+              "pinyin": "nǎo yì xiě",
+              "reading": "ㄋㄠˇ ㄧˋ ㄒㄧㄝˇ"
+            }
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "161200036"
+          ]
+        },
+        {
+          "value": [
+            {
+              "pinyin": "nǎo yì xuè",
+              "reading": "ㄋㄠˇ ㄧˋ ㄒㄩㄝˋ"
+            }
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11",
+            "cns11643-attributes-2026-08-05"
+          ],
+          "source_entry_indices": [
+            90604
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE Concised Dictionary Zhuyin is canonical. The previous value was mechanically converted from CC-CEDICT Pinyin through the CNS syllable table and remains comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "因血管硬化、酒精中毒、精神受刺激等引起腦髓中血管破裂、血液溢出的疾病。患者會猝然昏倒，而昏迷至死；或者雖復醒，而變成癱瘓性麻木。[例]經常測量血壓，注意飲食及規律的生活等可以減低腦溢血發生的機率。　△腦中風、腦出血、中風、卒中",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "161200036",
+      "verbatim": true
+    }
+  ]
 }

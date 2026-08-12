@@ -10,8 +10,8 @@
     {
       "reading": "zuò mèng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        7398
+      "source_entry_ids": [
+        "096100023"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄗㄨㄛˋ ㄇㄥˋ",
       "pinyin": "zuò mèng",
-      "source_entry_indices": [
-        7398
+      "source_entry_ids": [
+        "096100023"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.睡時依身體內外的刺激而起幻象。\n2.比喻空想、幻想。《紅樓夢》第二五回：「你作夢。你給我們家做了媳婦，少什麼？」\n3.牌局中，輪替休息的人。通常是指五人參與的牌局而言。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "096100023",
+      "verbatim": true
+    }
+  ]
 }

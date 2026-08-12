@@ -10,8 +10,8 @@
     {
       "reading": "kàn chéng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        77989
+      "source_entry_ids": [
+        "045190082"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄎㄢˋ ㄔㄥˊ",
       "pinyin": "kàn chéng",
-      "source_entry_indices": [
-        77989
+      "source_entry_ids": [
+        "045190082"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.對待。元．關漢卿《魯齋郎》第三折：「孔目，你放心，就是我孩兒一般看成。」元．侯克用〈醉花陰．涼夜厭厭露華冷套．水仙子〉曲：「氣命兒般看成，心肝般欽敬。」也作「看待」、「看承」。\n2.誤看做、誤以為。如：「那小女孩把長鬍子的老先生看成是她爺爺了。」也作「看承」。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "045190082",
+      "verbatim": true
+    }
+  ]
 }

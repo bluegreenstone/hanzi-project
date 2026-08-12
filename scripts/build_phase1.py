@@ -19,7 +19,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY_PATH = ROOT / "sources.json"
 RADICALS_PATH = ROOT / "radicals"
-MANIFEST_PATH = ROOT / "phase1-manifest.json"
+MANIFEST_PATH = ROOT / "metadata" / "manifests" / "phase1.json"
 
 UNIHAN_ID = "unicode-unihan-17.0.0"
 CJK_RADICALS_ID = "unicode-cjk-radicals-17.0.0"

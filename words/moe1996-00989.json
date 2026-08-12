@@ -8,14 +8,22 @@
   ],
   "pinyin": [
     {
-      "reading": "tài du",
+      "reading": "tài dù",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        42871
+      "source_entry_ids": [
+        "135500001"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄊㄞˋ ㄉㄨˋ",
+      "pinyin": "tài dù",
+      "source_entry_ids": [
+        "135500001"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "manner",
@@ -99,15 +107,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "zhuyin": [
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "grading.hsk",
       "reason": "source_unavailable",
@@ -119,5 +128,45 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "tài dù"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "135500001"
+          ]
+        },
+        {
+          "value": [
+            "tài du"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            42871
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.人的容貌舉止。[例]他的態度從容，一副很鎮定的樣子。\n2.對事情採取的主張或立場。[例]對於這件事，他尚未表明態度，我們先不要下定論。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "135500001",
+      "verbatim": true
+    }
+  ]
 }

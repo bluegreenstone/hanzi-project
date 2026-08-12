@@ -10,8 +10,8 @@
     {
       "reading": "gàng gǎn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        58727
+      "source_entry_ids": [
+        "231300001"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄍㄤˋ ㄍㄢˇ",
       "pinyin": "gàng gǎn",
-      "source_entry_indices": [
-        58727
+      "source_entry_ids": [
+        "231300001"
       ]
     }
   ],
@@ -99,11 +99,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -123,5 +125,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "力學中的簡單機械。一桿上定有三點：加重物的一點稱為「重點」；用力的一點稱為「力點」；做支軸的一點稱為「支點」。如支點距重點近，距力點遠時，則抬起重物時所用的力較省。日常生活中的剪刀、鍘刀、鑷子等，就是運用此種原理。[例]輪軸是利用槓桿原理製成的省力機械。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "231300001",
+      "verbatim": true
+    }
+  ]
 }

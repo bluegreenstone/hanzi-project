@@ -38,25 +38,34 @@
         "reading": "bàng",
         "context": "primary",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Variants-2024",
+        "source_entry_ids": [
+          "A01762"
+        ]
       },
       {
         "reading": "páng",
         "context": "additional",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Variants-2024",
+        "source_entry_ids": [
+          "A01762"
+        ]
       },
       {
-        "reading": "péng",
+        "reading": "bēng",
         "context": "additional",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Variants-2024",
+        "source_entry_ids": [
+          "A01762"
+        ]
       }
     ],
     "zhuyin": [
       "ㄅㄤˋ",
       "ㄆㄤˊ",
-      "ㄆㄥˊ"
+      "ㄅㄥ"
     ],
     "pinyin_variants": [
       {
@@ -129,6 +138,24 @@
       "source_id": "cc-cedict-editor-2026-08-11"
     }
   ],
+  "definitions_zh_TW": [
+    {
+      "text": "依靠、臨近。通「傍」。[例]依山旁水",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "0144",
+      "verbatim": true
+    },
+    {
+      "text": "1.邊側。[例]兩旁、路旁、身旁\n2.別的、其他的。[例]旁人\n3.歧出的。[例]主幹旁枝\n4.不正的、偏邪的。[例]旁門左道\n5.從旁。[例]旁徵博引、旁敲側擊",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "0384",
+      "verbatim": true
+    }
+  ],
   "frequency": {
     "rank": 1105,
     "selection_rank": 1104,
@@ -155,9 +182,6 @@
     "variants_異體字": [
       "unicode-unihan-17.0.0"
     ],
-    "radical": [
-      "unicode-unihan-17.0.0"
-    ],
     "total_strokes": [
       "moe-tw-common-terms-1996"
     ],
@@ -175,6 +199,18 @@
     "simplified": [
       "cc-cedict-editor-2026-08-11"
     ],
+    "radical.kangxi_number": [
+      "cns11643-attributes-2026-08-05"
+    ],
+    "radical.residual_strokes": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.source_assignment": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.additional_assignments": [
+      "unicode-unihan-17.0.0"
+    ],
     "ids_decomposition": [
       "makemeahanzi-dictionary-master-audit"
     ],
@@ -185,12 +221,10 @@
       "makemeahanzi-dictionary-master-audit"
     ],
     "readings.pinyin": [
-      "cns11643-attributes-2026-08-05",
-      "unicode-unihan-17.0.0"
+      "moe-tw-dictionary-variants-2024-targeted-readings"
     ],
     "readings.zhuyin": [
-      "cns11643-attributes-2026-08-05",
-      "unicode-unihan-17.0.0"
+      "moe-tw-dictionary-variants-2024-targeted-readings"
     ],
     "readings.pinyin_variants": [
       "unicode-unihan-17.0.0"
@@ -216,6 +250,9 @@
     "definitions": [
       "unicode-unihan-17.0.0",
       "cc-cedict-editor-2026-08-11"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "kangxi_citation": [
       "unicode-unihan-17.0.0"
@@ -279,7 +316,82 @@
       "detail": "The GF 0023-2020 publication is reference-only and the path source claims PRC convention without formal per-character conformance evidence."
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    {
+      "field": "readings.pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "bàng",
+            "páng",
+            "péng"
+          ],
+          "source_ids": [
+            "cns11643-attributes-2026-08-05",
+            "unicode-unihan-17.0.0"
+          ]
+        },
+        {
+          "value": [
+            "bàng",
+            "páng"
+          ],
+          "source_ids": [
+            "moe-tw-revised-dictionary-2015-20260625"
+          ]
+        },
+        {
+          "value": [
+            "páng",
+            "bàng",
+            "bēng"
+          ],
+          "source_ids": [
+            "moe-tw-dictionary-variants-2024-targeted-readings"
+          ]
+        }
+      ],
+      "detail": "For a character-level record, the exact-codepoint 正字 reading set from the Taiwan MOE Dictionary of Character Variants is canonical. The downloadable Revised Dictionary lexical set and earlier CNS/Unihan evidence remain here for transparent cross-reference."
+    },
+    {
+      "field": "readings.zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "ㄅㄤˋ",
+            "ㄆㄤˊ",
+            "ㄆㄥˊ"
+          ],
+          "source_ids": [
+            "cns11643-attributes-2026-08-05",
+            "unicode-unihan-17.0.0"
+          ]
+        },
+        {
+          "value": [
+            "ㄅㄤˋ",
+            "ㄆㄤˊ"
+          ],
+          "source_ids": [
+            "moe-tw-revised-dictionary-2015-20260625"
+          ]
+        },
+        {
+          "value": [
+            "ㄆㄤˊ",
+            "ㄅㄤˋ",
+            "ㄅㄥ"
+          ],
+          "source_ids": [
+            "moe-tw-dictionary-variants-2024-targeted-readings"
+          ]
+        }
+      ],
+      "detail": "For a character-level record, the exact-codepoint 正字 reading set from the Taiwan MOE Dictionary of Character Variants is canonical. The downloadable Revised Dictionary lexical set and earlier CNS/Unihan evidence remain here for transparent cross-reference."
+    }
+  ],
   "english_translation": "side; by side, close by, near",
   "common_words": [
     "moe1996-01105",

@@ -18,13 +18,14 @@ import jsonschema
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import build_phase3 as builder  # noqa: E402
+import validate_phase2 as validate2  # noqa: E402
 
 
 CHARACTERS_PATH = ROOT / "characters"
 SCHEMA_PATH = ROOT / "schema" / "character.schema.json"
-MANIFEST_PATH = ROOT / "phase3-manifest.json"
-VALIDATION_REPORT_PATH = ROOT / "validation-report.md"
-GAPS_REPORT_PATH = ROOT / "gaps-report.md"
+MANIFEST_PATH = ROOT / "metadata" / "manifests" / "phase3.json"
+VALIDATION_REPORT_PATH = ROOT / "docs" / "validation.md"
+GAPS_REPORT_PATH = ROOT / "docs" / "gaps.md"
 PHASE_REPORT_PATH = ROOT / "phase3-report.md"
 
 CODEPOINT_RE = re.compile(r"^U\+([0-9A-F]{4,6})$")
@@ -111,6 +112,8 @@ def load_context(registry: dict[str, Any]) -> dict[str, Any]:
             builder.MMAH_DICTIONARY_ID,
             builder.MMAH_GRAPHICS_ID,
             builder.CC_CEDICT_ID,
+            builder.PRC_STANDARD_ID,
+            builder.MOE_CONCISED_ID,
         )
     }
     rows, corpus_total, exclusions = builder.read_moe_frequency(
@@ -131,7 +134,7 @@ def load_context(registry: dict[str, Any]) -> dict[str, Any]:
     unihan, all_variants = builder.parse_unihan(
         paths[builder.UNIHAN_ID], selected_cps
     )
-    cns_readings, bopomofo_to_pinyin, cns_sequences = builder.parse_cns(
+    cns_readings, bopomofo_to_pinyin, cns_sequences, cns_radicals = builder.parse_cns(
         registry, paths[builder.CNS_ID]
     )
     mmah_dictionary = builder.parse_mmah_dictionary(
@@ -143,6 +146,10 @@ def load_context(registry: dict[str, Any]) -> dict[str, Any]:
     cedict, cedict_inverse = builder.parse_cc_cedict(
         registry, paths[builder.CC_CEDICT_ID], selected_cps
     )
+    simplification_audit = builder.load_simplification_audit(
+        registry, selected_cps
+    )
+    moe_concised = builder.load_moe_rows(paths[builder.MOE_CONCISED_ID])
     radical_strokes: dict[int, tuple[int, list[str]]] = {}
     for number in range(1, 215):
         record = json.loads(
@@ -165,10 +172,13 @@ def load_context(registry: dict[str, Any]) -> dict[str, Any]:
         "cns_readings": cns_readings,
         "bopomofo_to_pinyin": bopomofo_to_pinyin,
         "cns_sequences": cns_sequences,
+        "cns_radicals": cns_radicals,
         "mmah_dictionary": mmah_dictionary,
         "mmah_graphics": mmah_graphics,
         "cedict": cedict,
         "cedict_inverse": cedict_inverse,
+        "simplification_audit": simplification_audit,
+        "moe_concised": moe_concised,
         "radical_strokes": radical_strokes,
     }
 
@@ -242,6 +252,8 @@ def check_deterministic_rebuild(
                 context["all_variants"],
                 context["cedict"].get(cp, {}),
                 context["cedict_inverse"],
+                context["simplification_audit"],
+                context["moe_concised"].get(row["character"], []),
                 context["mmah_dictionary"].get(cp),
                 context["mmah_graphics"].get(cp),
                 context["radical_map"],
@@ -251,8 +263,35 @@ def check_deterministic_rebuild(
                 context["cns_readings"],
                 context["bopomofo_to_pinyin"],
                 context["cns_sequences"],
+                context["cns_radicals"],
             )
         )
+    # The source rebuild is followed by the audited Taiwan-MOE pronunciation
+    # overlay. Applying the same deterministic overlay here keeps this check a
+    # true rebuild test rather than treating deliberate corrections as drift.
+    import integrate_moe_character_pronunciations as moe_characters
+
+    revised = moe_characters.load_moe_rows(ROOT / moe_characters.REVISED_XLSX)
+    variant_log = json.loads(
+        (ROOT / moe_characters.VARIANTS_LOG).read_text(encoding="utf-8")
+    )
+    variants = {
+        entry["codepoint"]: entry for entry in variant_log["entries"]
+    }
+    rebuilt = [
+        (
+            moe_characters.update_targeted_record(
+                record,
+                revised[record["traditional"]],
+                variants[record["codepoint"]],
+            )
+            if record["codepoint"] in variants
+            else moe_characters.update_revised_record(
+                record, revised[record["traditional"]]
+            )
+        )
+        for record in rebuilt
+    ]
     for actual, expected in zip(records, rebuilt):
         if phase3_projection(actual) != expected:
             errors.append(f"{actual['codepoint']}: differs from deterministic source rebuild")
@@ -389,9 +428,10 @@ def check_codepoints_and_blocks(records: list[dict[str, Any]], **_: Any) -> list
             component_cp = parse_codepoint(component)
             if component_cp not in {parse_codepoint(item["codepoint"]) for item in records}:
                 errors.append(f"{record['codepoint']}: unresolved component {component}")
-        serialized = json.dumps(record, ensure_ascii=False)
-        if not unicodedata.is_normalized("NFC", serialized):
-            errors.append(f"{record['codepoint']}: record is not NFC")
+        if not builder.is_nfc_except_verbatim_text(record):
+            errors.append(
+                f"{record['codepoint']}: a non-verbatim record field is not NFC"
+            )
     supplementary = chr(0x20000)
     decoded = json.loads(json.dumps({"char": supplementary}, ensure_ascii=False))["char"]
     if len(decoded) != 1 or ord(decoded) != 0x20000:
@@ -444,6 +484,81 @@ def check_simplification_flags(records: list[dict[str, Any]], **_: Any) -> list[
                 errors.append(
                     f"{record['codepoint']}: null Simplified mapping is neither conflicted nor unattested"
                 )
+    return errors
+
+
+def check_official_simplification_audit(
+    records: list[dict[str, Any]], context: dict[str, Any], **_: Any
+) -> list[str]:
+    errors: list[str] = []
+    by_cp = {parse_codepoint(record["codepoint"]): record for record in records}
+    audit = context["simplification_audit"]
+    if len(audit) != 37:
+        errors.append(f"official audit covers {len(audit)} records, expected 37")
+    for cp, decision in sorted(audit.items()):
+        record = by_cp[cp]
+        conflicts = [
+            item for item in record["conflicts"] if item["field"] == "simplified"
+        ]
+        if len(conflicts) != 1:
+            errors.append(
+                f"{record['codepoint']}: audited mapping does not have exactly one conflict"
+            )
+            continue
+        conflict = conflicts[0]
+        if conflict["detail"] != decision["detail"]:
+            errors.append(f"{record['codepoint']}: audit decision detail differs")
+        if decision["decision"] == "selected":
+            if record["simplified"] != decision["selected"]:
+                errors.append(f"{record['codepoint']}: official selected mapping differs")
+            if builder.PRC_STANDARD_ID not in record["sources"].get("simplified", []):
+                errors.append(f"{record['codepoint']}: official mapping source is absent")
+            if (
+                conflict["resolution"]
+                != "prc_standard_canonical_other_candidates_retained"
+            ):
+                errors.append(f"{record['codepoint']}: official selection resolution differs")
+        else:
+            if record["simplified"] is not None:
+                errors.append(f"{record['codepoint']}: context-dependent mapping is not null")
+            if "simplified" in record["sources"]:
+                errors.append(f"{record['codepoint']}: null mapping has a field source")
+            matching_gaps = [
+                gap
+                for gap in record["gaps"]
+                if gap["field"] == "simplified"
+                and gap["reason"] == "conflicting_sources"
+                and gap["detail"] == decision["detail"]
+            ]
+            if len(matching_gaps) != 1:
+                errors.append(f"{record['codepoint']}: context-dependent gap differs")
+            if conflict["resolution"] != "context_dependent_official_standard":
+                errors.append(f"{record['codepoint']}: context-dependent resolution differs")
+        if not any(
+            builder.PRC_STANDARD_ID in value["source_ids"]
+            for value in conflict["values"]
+        ):
+            errors.append(f"{record['codepoint']}: official evidence is absent from conflict")
+    return errors
+
+
+def check_taiwan_definitions(
+    records: list[dict[str, Any]], context: dict[str, Any], **_: Any
+) -> list[str]:
+    errors: list[str] = []
+    for record in records:
+        expected = builder.build_taiwan_definitions(
+            context["moe_concised"].get(record["traditional"], []),
+            builder.MOE_CONCISED_ID,
+        )
+        if not expected:
+            errors.append(f"{record['codepoint']}: no exact Concised definition")
+        elif record.get("definitions_zh_TW") != expected:
+            errors.append(f"{record['codepoint']}: Taiwan definition differs from source")
+        if record["sources"].get("definitions_zh_TW") != [
+            builder.MOE_CONCISED_ID
+        ]:
+            errors.append(f"{record['codepoint']}: Taiwan definition provenance differs")
     return errors
 
 
@@ -504,46 +619,42 @@ def check_manifest(records: list[dict[str, Any]], context: dict[str, Any], **_: 
 
 def check_phase2_regression(**_: Any) -> list[str]:
     errors: list[str] = []
-    phase2 = json.loads((ROOT / "phase2-manifest.json").read_text(encoding="utf-8"))
+    phase2 = json.loads((ROOT / "metadata" / "manifests" / "phase2.json").read_text(encoding="utf-8"))
     radical_records = [
         json.loads((ROOT / "radicals" / f"{number}.json").read_text(encoding="utf-8"))
         for number in range(1, 215)
     ]
-    phase2_records = []
-    for record in radical_records:
-        projected = json.loads(json.dumps(record, ensure_ascii=False))
-        projected.pop("stroke_order", None)
-        projected.get("sources", {}).pop("stroke_order", None)
-        for source_path in list(projected.get("sources", {})):
-            if source_path.startswith("stroke_order."):
-                projected["sources"].pop(source_path)
-        projected["gaps"] = [
-            gap
-            for gap in projected.get("gaps", [])
-            if not gap.get("field", "").startswith("stroke_order")
-        ]
-        phase2_records.append(projected)
+    phase2_records = [
+        validate2.phase2_projection(record) for record in radical_records
+    ]
     if builder.deterministic_record_digest(phase2_records) != phase2["record_digest_sha256"]:
         errors.append("Phase 2 radical-record digest changed during Phase 3")
     asset_manifest = json.loads(
         (ROOT / phase2["asset_manifest"]["local_path"]).read_text(encoding="utf-8")
     )
     assets = asset_manifest["assets"]
-    if len(assets) != phase2["historical_asset_count"] + 214:
+    if len(assets) != (
+        phase2["historical_asset_count"] + phase2["shuowen_asset_count"]
+    ):
         errors.append("Phase 2 asset-manifest record count changed during Phase 3")
     historical_counts = Counter(
         item["historical_form"]
         for item in assets
-        if item.get("historical_form") is not None
+        if item.get("historical_form") not in (None, "shuowen_seal_說文解字")
     )
     if dict(historical_counts) != phase2["historical_form_reference_counts"]:
         errors.append("Phase 2 historical-form reference counts changed during Phase 3")
     source_counts = Counter(
         item["source_id"]
         for item in assets
-        if item.get("historical_form") is not None
+        if item.get("historical_form") not in (None, "shuowen_seal_說文解字")
     )
-    if dict(source_counts) != phase2["historical_asset_source_counts"]:
+    expected_source_counts = {
+        source_id: count
+        for source_id, count in phase2["historical_asset_source_counts"].items()
+        if count
+    }
+    if dict(source_counts) != expected_source_counts:
         errors.append("Phase 2 historical asset source counts changed during Phase 3")
     asset_ids = [item["asset_id"] for item in assets]
     if len(set(asset_ids)) != len(asset_ids):
@@ -658,12 +769,15 @@ def write_reports(
         "IDS decomposition": sum(record["ids_decomposition"] is not None for record in records),
         "locally resolvable component list": sum(record["components"] is not None for record in records),
         "Make Me a Hanzi etymology": sum(record["liushu_六書"] is not None for record in records),
-        "Taiwan CNS Pinyin": sum(
-            record["readings"].get("pinyin", [{}])[0].get("standard") == "TW-CNS11643"
+        "Taiwan MOE canonical Pinyin": sum(
+            record["readings"].get("pinyin", [{}])[0].get("region") == "TW"
             for record in records
         ),
         "Zhuyin": sum(bool(record["readings"].get("zhuyin")) for record in records),
         "English definition": sum(record["definitions"] is not None for record in records),
+        "verbatim Taiwan MOE definition": sum(
+            bool(record["definitions_zh_TW"]) for record in records
+        ),
         "Kangxi citation": sum(record["kangxi_citation"] is not None for record in records),
     }
     gap_counts = Counter(gap["reason"] for record in records for gap in record["gaps"])
@@ -706,12 +820,14 @@ def write_reports(
             "2. The MOE CSV's published `筆畫` value is the canonical Taiwan MOE stroke count. CNS sequence length, Unicode IRG values, and Make Me a Hanzi PRC path counts are retained as variants whenever they differ.",
             "3. Components outside the selected top-2,000 set are not emitted as dangling references. The full normalized IDS remains available, while `components` is null with a gap until the character set expands.",
             "4. Make Me a Hanzi `pictophonetic` is normalized to `形聲`. Its broader `pictographic` and `ideographic` labels are preserved without forcing a narrower 六書 classification.",
-            "5. Only exact one-character CC-CEDICT headwords populate character mappings and definitions. Word entries remain Phase 4 work.",
+            "5. English definitions use exact one-character Unihan/CC-CEDICT evidence. A separate definitions_zh_TW array copies exact-headword Taiwan MOE Concised Dictionary cells verbatim with entry IDs.",
+            "6. The official PRC 2013 table adjudicates all 37 conflicting Simplified candidates: 21 context-independent mappings are selected and 16 context-dependent cases remain null with explicit evidence.",
+            "7. Taiwan CNS radical assignments are canonical. Five differing first Unihan assignments remain explicit conflicts, and same-radical Unihan residuals are retained to represent positional radical forms.",
             "",
-            "## Deferred by phase boundary",
+            "## Handled by later phases in this snapshot",
             "",
-            "- Common-word joins and word records remain Phase 4.",
-            "- Stroke-order SVG assets remain Phase 5; Phase 3 uses only path counts as explicit PRC comparison evidence.",
+            "- Phase 4 supplies common-word joins, word records, prioritized Taiwan MOE word readings, and verbatim Taiwan definitions.",
+            "- Phase 5 supplies stroke-order SVG assets; Phase 3 retains path counts only as explicit PRC comparison evidence.",
             "- HSK, TOCFL, and curated confusable fields remain null because no approved versioned sources passed the audit.",
             "",
         ]
@@ -736,6 +852,8 @@ def main() -> None:
         ("P3-07 Unicode scope", "Codepoints round-trip, remain NFC, avoid forbidden radical/compatibility blocks, and component references resolve.", check_codepoints_and_blocks),
         ("P3-08 Reading syntax", "Pinyin is tone-marked rather than numeric and Zhuyin uses valid Bopomofo codepoints.", check_readings),
         ("P3-09 Simplification", "One-to-many mappings are flagged and unresolved mappings remain explicit.", check_simplification_flags),
+        ("P3-09b Official simplification audit", "All 37 formerly unresolved mappings reproduce the official PRC-table adjudication and preserve context-dependent cases.", check_official_simplification_audit),
+        ("P3-09c Taiwan definitions", "All 2,000 definition arrays exactly reproduce decoded Concised Dictionary cells and entry IDs.", check_taiwan_definitions),
         ("P3-10 Structural conflicts", "Every radical-plus-residual mismatch is retained exactly once as a conflict.", check_structural_flags),
         ("P3-11 Manifest", "Manifest counts, exclusions, and deterministic digest match the corpus.", check_manifest),
         ("P3-12 Phase 2 regression", "Phase 2 radical digest and validated asset inventory remain unchanged.", check_phase2_regression),

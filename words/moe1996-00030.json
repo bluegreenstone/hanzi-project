@@ -7,33 +7,33 @@
   ],
   "pinyin": [
     {
-      "reading": "yāo",
+      "reading": "yào",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        99271
+      "source_entry_ids": [
+        "6020"
       ]
     },
     {
-      "reading": "yào",
+      "reading": "yāo",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        99272
+      "source_entry_ids": [
+        "5998"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄧㄠ",
-      "pinyin": "yāo",
-      "source_entry_indices": [
-        99271
+      "reading": "ㄧㄠˋ",
+      "pinyin": "yào",
+      "source_entry_ids": [
+        "6020"
       ]
     },
     {
-      "reading": "ㄧㄠˋ",
-      "pinyin": "yào",
-      "source_entry_indices": [
-        99272
+      "reading": "ㄧㄠ",
+      "pinyin": "yāo",
+      "source_entry_ids": [
+        "5998"
       ]
     }
   ],
@@ -129,11 +129,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -148,5 +150,23 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.約定、約會。[例]要約、久要\n2.求取。[例]要求、要功、要利\n3.脅迫。[例]要挾、要君",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "5998",
+      "verbatim": true
+    },
+    {
+      "text": "1.重大的、重要的。[例]要點、要道、要職\n2.關鍵、重點。[例]提要、綱要、摘要\n3.應該、必須。[例]當學生就要努力學習。\n4.將要、即將。[例]我要去上班了，有話快說。\n5.要是、如果。[例]他要來了，就把東西交給他。\n6.索取、希望得到。[例]要帳、要債、要錢\n7.收為己有。[例]這件衣服我要了。\n8.請求。[例]他要我幫這個忙。\n9.概括、總括。用於文言文。[例]要言之，為人應以誠字居心。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "6020",
+      "verbatim": true
+    }
+  ]
 }

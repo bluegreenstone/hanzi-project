@@ -11,8 +11,8 @@
     {
       "reading": "zhēn zhū gǎng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        73004
+      "source_entry_ids": [
+        "078150026"
       ]
     }
   ],
@@ -20,8 +20,8 @@
     {
       "reading": "ㄓㄣ ㄓㄨ ㄍㄤˇ",
       "pinyin": "zhēn zhū gǎng",
-      "source_entry_indices": [
-        73004
+      "source_entry_ids": [
+        "078150026"
       ]
     }
   ],
@@ -76,11 +76,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -95,5 +97,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "地名。位於美國夏威夷州歐胡島的南海岸，檀香山的西方，是美國重要的海軍軍港，有美國直布羅陀之稱。港區自西而東有懷帕胡、珍珠城、火奴魯魯等城市。港灣幾乎被陸地封閉，只有珍珠灣與太平洋聯通。西元一九四一年十二月七日遭日軍偷襲，美軍損失慘重。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "078150026",
+      "verbatim": true
+    }
+  ]
 }

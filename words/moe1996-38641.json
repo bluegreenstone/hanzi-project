@@ -11,8 +11,8 @@
     {
       "reading": "péng jiā yǔ",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        39622
+      "source_entry_ids": [
+        "007900018"
       ]
     }
   ],
@@ -20,8 +20,8 @@
     {
       "reading": "ㄆㄥˊ ㄐㄧㄚ ㄩˇ",
       "pinyin": "péng jiā yǔ",
-      "source_entry_indices": [
-        39622
+      "source_entry_ids": [
+        "007900018"
       ]
     }
   ],
@@ -76,11 +76,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -100,5 +102,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "島名。位於基隆東北方隸屬基隆市。島上東、南、北三面都是斷崖，西岸多礁石，唯一安全的登陸點是西南岸的碼頭。島上無常住人口，只有看守燈塔及氣象站的工作人員。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "007900018",
+      "verbatim": true
+    }
+  ]
 }

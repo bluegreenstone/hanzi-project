@@ -10,8 +10,8 @@
     {
       "reading": "jiā zuò",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        7528
+      "source_entry_ids": [
+        "311800012"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄐㄧㄚ ㄗㄨㄛˋ",
       "pinyin": "jiā zuò",
-      "source_entry_indices": [
-        7528
+      "source_entry_ids": [
+        "311800012"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.優良的作品。[例]這幅畫是出自名師的佳作，在此次聯合畫展中最受矚目。\n2.為評定比賽作品設定的等級之一。[例]弟弟的文章獲得全國徵文比賽佳作，全家都為他高興不已。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "311800012",
+      "verbatim": true
+    }
+  ]
 }

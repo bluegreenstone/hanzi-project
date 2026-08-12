@@ -11,8 +11,8 @@
     {
       "reading": "wéi yě nà",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        85925
+      "source_entry_ids": [
+        "113850030"
       ]
     }
   ],
@@ -20,8 +20,8 @@
     {
       "reading": "ㄨㄟˊ ㄧㄝˇ ㄋㄚˋ",
       "pinyin": "wéi yě nà",
-      "source_entry_indices": [
-        85925
+      "source_entry_ids": [
+        "113850030"
       ]
     }
   ],
@@ -76,11 +76,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -95,5 +97,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "城市名。位於奧地利國境東北部，瀕多瑙河，正處於歐洲的心臟位置，是奧地利的首都。人口約一百六十萬。鐵路四通八達，是國內交通中心及主要工業中心。貿易發達，文化遺產豐富。市內街道整潔，風景美麗，有著名的大學和博物館等。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "113850030",
+      "verbatim": true
+    }
+  ]
 }

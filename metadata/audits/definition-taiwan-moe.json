@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-08-12T02:33:59Z",
+  "scope": "All 2,000 character records and 13,368 word records; exact NFC Traditional-headword joins to the pinned Taiwan MOE Concised Dictionary first and Revised Dictionary second.",
+  "policy": {
+    "copy_mode": "verbatim_decoded_xlsx_cell",
+    "allowed_transform": "Decode standards-defined OOXML _xHHHH_ character escapes; make no editorial, whitespace, Unicode-compatibility, sense, ordering, or wording changes to the resulting cell string.",
+    "entry_identity": "Retain the source workbook entry ID on every definition.",
+    "no_match": "Keep definitions_zh_TW null with an exact not_attested gap; never use script conversion, substring, or fuzzy matching."
+  },
+  "sources": [
+    {
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "version": "2014_20260626",
+      "workbook_sha256": "a9a4fd7259180113bfae2e94110eae87ac4dcf0bfcc91a6437c3ad4773ab7865",
+      "workbook_bytes": 7076857,
+      "indexed_exact_headwords_with_readings": 44398,
+      "license_id": "CC-BY-ND-3.0-TW"
+    },
+    {
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "version": "2015_20260625",
+      "workbook_sha256": "df94ae4384ae3f33f573ded5c2f142041ea7530d381a285163593d6252ea4a9a",
+      "workbook_bytes": 31186920,
+      "indexed_exact_headwords_with_readings": 159776,
+      "license_id": "CC-BY-ND-3.0-TW"
+    }
+  ],
+  "summary": {
+    "character_record_count": 2000,
+    "character_exact_concised_count": 2000,
+    "character_definition_entry_count": 2373,
+    "word_record_count": 13368,
+    "word_exact_concised_count": 10640,
+    "word_exact_revised_additional_count": 1251,
+    "word_exact_definition_covered_count": 11891,
+    "word_exact_definition_coverage_rate": 0.889512,
+    "word_dual_source_gap_count": 1477,
+    "word_definition_entry_count": 12277,
+    "verbatim_non_nfc_record_count": 1,
+    "verbatim_non_nfc_records": [
+      "moe1996-09926"
+    ],
+    "verification_error_count": 0,
+    "status": "PASS_WITH_EXPLICIT_GAPS"
+  },
+  "errors": []
+}

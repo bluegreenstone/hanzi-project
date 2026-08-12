@@ -9,14 +9,22 @@
   ],
   "pinyin": [
     {
-      "reading": "chà bu duō",
+      "reading": "chā bù duō",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        36555
+      "source_entry_ids": [
+        "465500003"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄔㄚ ㄅㄨˋ ㄉㄨㄛ",
+      "pinyin": "chā bù duō",
+      "source_entry_ids": [
+        "465500003"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "almost",
@@ -108,15 +116,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "zhuyin": [
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "grading.hsk",
       "reason": "source_unavailable",
@@ -128,5 +137,45 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "chā bù duō"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "465500003"
+          ]
+        },
+        {
+          "value": [
+            "chà bu duō"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            36555
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.相似、相差有限。[例]她們姊妹倆身材差不多，許多衣服都交換著穿。\n2.大概、大約。[例]這批貨差不多可在一個月內交貨。\n3.表示即將結束、用盡。[例]他每個月的薪水扣掉房租、會錢及基本生活費用就差不多了。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "465500003",
+      "verbatim": true
+    }
+  ]
 }

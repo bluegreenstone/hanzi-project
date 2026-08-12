@@ -10,8 +10,8 @@
     {
       "reading": "shēn zhí",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        6986
+      "source_entry_ids": [
+        "089620013"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄕㄣ ㄓˊ",
       "pinyin": "shēn zhí",
-      "source_entry_indices": [
-        6986
+      "source_entry_ids": [
+        "089620013"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "伸展使其平直。如：「他將兩手伸直，一跳一跳地假裝成殭屍。」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "089620013",
+      "verbatim": true
+    }
+  ]
 }

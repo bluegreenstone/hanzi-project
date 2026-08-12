@@ -12,8 +12,8 @@
     {
       "reading": "yī hū bǎi nuò",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        449
+      "source_entry_ids": [
+        "104820637"
       ]
     }
   ],
@@ -21,8 +21,8 @@
     {
       "reading": "ㄧ ㄏㄨ ㄅㄞˇ ㄋㄨㄛˋ",
       "pinyin": "yī hū bǎi nuò",
-      "source_entry_indices": [
-        449
+      "source_entry_ids": [
+        "104820637"
       ]
     }
   ],
@@ -77,11 +77,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -96,5 +98,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "一人呼喚，百人應和。形容權勢顯赫，隨從盛多。《孤本元明雜劇．南牢記．第一折》：「廳上一呼百諾應，白金橫帶錦袍寬。」清．孔尚任《桃花扇》第一三齣：「羅公獨坐當中，一呼百諾，掌著生殺之權。」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "104820637",
+      "verbatim": true
+    }
+  ]
 }

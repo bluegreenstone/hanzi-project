@@ -18,6 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE_ROOT = ROOT / "source-data" / "sinica-xiaoxuetang-2026-08-10"
 INDEX = SOURCE_ROOT / "radical-historical-glyph-index.json"
 LOG_PATH = SOURCE_ROOT / "representative-original-acquisition-log.json"
+ASSET_MANIFEST = ROOT / "assets" / "manifest.json"
 SOURCE_ID = "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
 USER_AGENT = "hanzi-project/1.0 (Sinica radical glyph acquisition)"
 KIND_SLUG = {
@@ -111,7 +112,22 @@ def main() -> None:
     ]
     representatives.sort(key=lambda record: (record["kangxi_number"], record["kind"]))
     candidate_counts = {key: len(records) for key, records in grouped.items()}
-    prior = json.loads(LOG_PATH.read_text(encoding="utf-8")) if LOG_PATH.exists() else {}
+    if LOG_PATH.exists():
+        prior = json.loads(LOG_PATH.read_text(encoding="utf-8"))
+    else:
+        manifest = json.loads(ASSET_MANIFEST.read_text(encoding="utf-8"))
+        prior = {
+            "entries": [
+                entry
+                for entry in manifest.get("assets", [])
+                if entry.get("source_id") == SOURCE_ID
+                and entry.get("historical_form") in KIND_SLUG
+            ]
+        }
+        if len(prior["entries"]) != 325:
+            raise RuntimeError(
+                "missing Sinica representative log and manifest does not preserve all 325 entries"
+            )
     prior_by_asset = {entry["asset_id"]: entry for entry in prior.get("entries", [])}
     payload_by_url: dict[str, bytes] = {}
     entries: list[dict[str, Any]] = []

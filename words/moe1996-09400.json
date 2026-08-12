@@ -10,8 +10,8 @@
     {
       "reading": "lǔ xùn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        122197
+      "source_entry_ids": [
+        "037440037"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄌㄨˇ ㄒㄩㄣˋ",
       "pinyin": "lǔ xùn",
-      "source_entry_indices": [
-        122197
+      "source_entry_ids": [
+        "037440037"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "人名。（西元1881～1936）中國現代小說家。浙江省紹興縣人，本名周樹人。作品思想深刻，具體反映中國三十年代的社會狀況；在藝術上，融冶中外小說的技法而別開新局，好以諷刺的筆法，針砭中國社會的病態與人性弱點。代表作有《狂人日記》、《阿Ｑ正傳》等，作品編為《魯迅全集》二十卷。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "037440037",
+      "verbatim": true
+    }
+  ]
 }

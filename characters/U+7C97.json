@@ -58,7 +58,10 @@
         "reading": "cū",
         "context": "primary",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "09808"
+        ]
       }
     ],
     "zhuyin": [
@@ -116,6 +119,16 @@
       "source_id": "cc-cedict-editor-2026-08-11"
     }
   ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.顆粒較大。與「細」相對。[例]粗沙、粗鹽\r\n2.長條物橫切面較大。與「細」相對。[例]粗繩、粗線　◎\r\n3.聲音較厚重。[例]粗聲、粗嗓子\r\n4.不周密、不仔細。[例]粗心、粗略\r\n5.不精緻、不細膩。與「精」相對。[例]粗糙、粗劣、粗茶淡飯\r\n6.魯莽、不文雅。[例]粗魯、粗話、粗野\r\n7.稍微、略微。[例]粗具規模",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "5491",
+      "verbatim": true
+    }
+  ],
   "frequency": {
     "rank": 1611,
     "selection_rank": 1605,
@@ -142,9 +155,6 @@
     "variants_異體字": [
       "unicode-unihan-17.0.0"
     ],
-    "radical": [
-      "unicode-unihan-17.0.0"
-    ],
     "total_strokes": [
       "moe-tw-common-terms-1996"
     ],
@@ -165,6 +175,18 @@
     "simplification_note": [
       "cc-cedict-editor-2026-08-11"
     ],
+    "radical.kangxi_number": [
+      "cns11643-attributes-2026-08-05"
+    ],
+    "radical.residual_strokes": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.source_assignment": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.additional_assignments": [
+      "unicode-unihan-17.0.0"
+    ],
     "ids_decomposition": [
       "makemeahanzi-dictionary-master-audit"
     ],
@@ -175,10 +197,12 @@
       "makemeahanzi-dictionary-master-audit"
     ],
     "readings.pinyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
     "readings.zhuyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
@@ -203,6 +227,9 @@
     "definitions": [
       "unicode-unihan-17.0.0",
       "cc-cedict-editor-2026-08-11"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "kangxi_citation": [
       "unicode-unihan-17.0.0"

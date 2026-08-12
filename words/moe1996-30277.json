@@ -10,8 +10,8 @@
     {
       "reading": "dù juān",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        55983
+      "source_entry_ids": [
+        "124800002"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄉㄨˋ ㄐㄩㄢ",
       "pinyin": "dù juān",
-      "source_entry_indices": [
-        55983
+      "source_entry_ids": [
+        "124800002"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -107,5 +109,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.動物名。鳥綱鵑形目。身體呈灰褐色，口大，尾羽長，胸腹有黑色橫紋。初夏時常啼叫不停，鳴聲淒厲。[例]杜鵑的叫聲特殊，在古代的文學著作中經常提及。\n2.植物名。杜鵑花科杜鵑花屬，常綠灌木。葉呈橢圓形，春夏開紅、紫或白花。[例]春天一到，陽明山上的杜鵑便綻放著嬌豔的花朵。　△映山紅",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "124800002",
+      "verbatim": true
+    }
+  ]
 }

@@ -8,33 +8,19 @@
   ],
   "pinyin": [
     {
-      "reading": "hòu báo",
-      "context": "dictionary_entry",
-      "source_entry_indices": [
-        17811
-      ]
-    },
-    {
       "reading": "hòu bó",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        17812
+      "source_entry_ids": [
+        "274500001"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄏㄡˋ ㄅㄠˊ",
-      "pinyin": "hòu báo",
-      "source_entry_indices": [
-        17811
-      ]
-    },
-    {
       "reading": "ㄏㄡˋ ㄅㄛˊ",
       "pinyin": "hòu bó",
-      "source_entry_indices": [
-        17812
+      "source_entry_ids": [
+        "274500001"
       ]
     }
   ],
@@ -106,11 +92,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -125,5 +113,88 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "hòu bó"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "274500001"
+          ]
+        },
+        {
+          "value": [
+            "hòu báo",
+            "hòu bó"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            17811,
+            17812
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    },
+    {
+      "field": "zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            {
+              "pinyin": "hòu bó",
+              "reading": "ㄏㄡˋ ㄅㄛˊ"
+            }
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "274500001"
+          ]
+        },
+        {
+          "value": [
+            {
+              "pinyin": "hòu báo",
+              "reading": "ㄏㄡˋ ㄅㄠˊ"
+            },
+            {
+              "pinyin": "hòu bó",
+              "reading": "ㄏㄡˋ ㄅㄛˊ"
+            }
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11",
+            "cns11643-attributes-2026-08-05"
+          ],
+          "source_entry_indices": [
+            17811,
+            17812
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE Concised Dictionary Zhuyin is canonical. The previous value was mechanically converted from CC-CEDICT Pinyin through the CNS syllable table and remains comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.厚度的大小。[例]餃子是否好吃，除了餡以外，皮的厚薄也是重要的關鍵。\n2.多寡、親疏。[例]患難之時，最能看出人情的厚薄冷暖。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "274500001",
+      "verbatim": true
+    }
+  ]
 }

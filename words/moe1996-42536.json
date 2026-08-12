@@ -10,8 +10,8 @@
     {
       "reading": "yòu fā",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        100890
+      "source_entry_ids": [
+        "606600003"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄧㄡˋ ㄈㄚ",
       "pinyin": "yòu fā",
-      "source_entry_indices": [
-        100890
+      "source_entry_ids": [
+        "606600003"
       ]
     }
   ],
@@ -99,11 +99,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -118,5 +120,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.誘導啟發。[例]美術課上，老師利用動畫和彩圖誘發學生的學習興趣。\n2.導致發生。[例]不良的社會風氣是誘發犯罪的主因之一。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "606600003",
+      "verbatim": true
+    }
+  ]
 }

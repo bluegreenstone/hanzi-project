@@ -10,8 +10,8 @@
     {
       "reading": "shū huǎn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        84682
+      "source_entry_ids": [
+        "090480003"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄕㄨ ㄏㄨㄢˇ",
       "pinyin": "shū huǎn",
-      "source_entry_indices": [
-        84682
+      "source_entry_ids": [
+        "090480003"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -107,5 +109,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.移動緩慢。清．江永《鄉黨圖考．卷三．朝聘．趨進考》：「經文曰：『擯者進。』即此趨進之進，不言趨者，省文耳。其時賓已致命，君已左還北鄉，將拜。擯者從中庭進，至阼階西，有數十步，不宜紓緩，故必當趨。」也作「舒緩」。\r\n2.和緩、寬緩。《舊五代史．卷一三一．周書．列傳．申文炳》：「文炳為文典雅，有訓誥之風。執性紓緩，待縉紳以禮，中年而卒，皆惜之。」宋．梁克家《淳熙三山志．卷三九．土俗類一．土貢》：「民生其間，故其性紓緩而能強力，善治，可以久安，真樂土也。」清．李鍇《尚史．卷九六．地理志上》：「齊地負海，舄鹵而通魚鹽之利。其士多好經術，矜功名，紓緩闊達而足智。」也作「舒緩」。\r\n3.怠忽、廢弛。《詩經．小雅．采菽》：「彼交匪紓，天子所予。」漢．鄭玄．箋：「彼與人交接，自偪束如此，則非有懈怠紓緩之心，天子以是故賜予之。」宋．朱熹《宋名臣言行錄後集．卷六．王安石》：「是時見兩蕃不服，及朝廷州縣多紓緩，不及漢、唐全盛時，每與大臣論議，有怫然不悅之色。」清．陳廷敬〈家氏鉉翁原夏正辨〉：「《榖梁》云：『無冰，時燠也。』范氏云：『皆君不明去就，政治紓緩之所致。』」也作「舒緩」。\r\n4.減輕、減緩。如：「在競賽前，他藉由閉目養神來紓緩緊張的情緒。」宋．呂誨〈蘄州謝上表〉：「授符淮甸，畫壤江壖，魚稻之饒，寔惟紓緩民社之重，獲展勤勞。天幸叢來，國恩彌渥。」宋．李心傳《建炎以來繫年要錄》卷七四：「世忠大兵尋復輟行，敵之氣力固已復蘇，而叛豫之心亦云紓緩。」也作「舒緩」。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "090480003",
+      "verbatim": true
+    }
+  ]
 }

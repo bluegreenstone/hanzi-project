@@ -11,12 +11,20 @@
     {
       "reading": "huī gū niang",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        68884
+      "source_entry_ids": [
+        "288400005"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄏㄨㄟ ㄍㄨ ˙ㄋㄧㄤ",
+      "pinyin": "huī gū niang",
+      "source_entry_ids": [
+        "288400005"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "Cinderella",
@@ -76,15 +84,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "zhuyin": [
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "constituent_chars.local_records",
       "reason": "source_unavailable",
@@ -101,5 +110,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.格林童話中記載的歐洲民間故事。敘述一個名叫仙蒂瑞拉（Cinderella）的女孩，性情善良，卻受到繼母及其帶來的兩個女兒的虐待，每天都有做不完的家事，弄得全身髒兮兮的，所以被稱為「灰姑娘」。後來得到仙女的幫助，和王子結婚，從此過著幸福快樂的生活。§英Cinderella[例]小芬在睡覺前，總會要求媽媽講灰姑娘的故事給她聽。\r\n2.比喻本來是平凡、不起眼的女孩，在別人的幫助下突然改頭換面，最終改變了境遇，成為眾人羨慕的對象。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "288400005",
+      "verbatim": true
+    }
+  ]
 }

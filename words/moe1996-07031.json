@@ -8,14 +8,22 @@
   ],
   "pinyin": [
     {
-      "reading": "jiè zhi",
+      "reading": "jiè zhǐ",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        43778
+      "source_entry_ids": [
+        "318200007"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄐㄧㄝˋ ㄓˇ",
+      "pinyin": "jiè zhǐ",
+      "source_entry_ids": [
+        "318200007"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "(finger) ring",
@@ -67,15 +75,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "zhuyin": [
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "grading.hsk",
       "reason": "source_unavailable",
@@ -87,5 +96,45 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "jiè zhǐ"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "318200007"
+          ]
+        },
+        {
+          "value": [
+            "jiè zhi"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            43778
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "套在手指上的環形飾物。[例]這只戒指是母親送我的生日禮物。　△指環、約指",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "318200007",
+      "verbatim": true
+    }
+  ]
 }

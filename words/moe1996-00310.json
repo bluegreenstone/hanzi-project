@@ -8,19 +8,33 @@
   ],
   "pinyin": [
     {
+      "reading": "dà gū",
+      "context": "dictionary_entry",
+      "source_entry_ids": [
+        "1015002582"
+      ]
+    },
+    {
       "reading": "dà jiā",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        27808
+      "source_entry_ids": [
+        "101500258"
       ]
     }
   ],
   "zhuyin": [
     {
+      "reading": "ㄉㄚˋ ㄍㄨ",
+      "pinyin": "dà gū",
+      "source_entry_ids": [
+        "1015002582"
+      ]
+    },
+    {
       "reading": "ㄉㄚˋ ㄐㄧㄚ",
       "pinyin": "dà jiā",
-      "source_entry_indices": [
-        27808
+      "source_entry_ids": [
+        "101500258"
       ]
     }
   ],
@@ -91,11 +105,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -110,5 +126,96 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "dà gū",
+            "dà jiā"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "101500258",
+            "1015002582"
+          ]
+        },
+        {
+          "value": [
+            "dà jiā"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            27808
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    },
+    {
+      "field": "zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            {
+              "pinyin": "dà gū",
+              "reading": "ㄉㄚˋ ㄍㄨ"
+            },
+            {
+              "pinyin": "dà jiā",
+              "reading": "ㄉㄚˋ ㄐㄧㄚ"
+            }
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "101500258",
+            "1015002582"
+          ]
+        },
+        {
+          "value": [
+            {
+              "pinyin": "dà jiā",
+              "reading": "ㄉㄚˋ ㄐㄧㄚ"
+            }
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11",
+            "cns11643-attributes-2026-08-05"
+          ],
+          "source_entry_indices": [
+            27808
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE Concised Dictionary Zhuyin is canonical. The previous value was mechanically converted from CC-CEDICT Pinyin through the CNS syllable table and remains comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.眾人。[例]大家好、大家一起來\n\t\n2.世家望族。[例]大家閨秀、大家風範\n\t\n3.著名的專家。[例]唐宋古文八大家\n",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "101500258",
+      "verbatim": true
+    },
+    {
+      "text": "古時對女子的尊稱。[例]世稱漢代班昭為曹大家。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "1015002582",
+      "verbatim": true
+    }
+  ]
 }

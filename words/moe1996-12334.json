@@ -10,8 +10,8 @@
     {
       "reading": "wéi měi",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        21983
+      "source_entry_ids": [
+        "631600001"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄨㄟˊ ㄇㄟˇ",
       "pinyin": "wéi měi",
-      "source_entry_indices": [
-        21983
+      "source_entry_ids": [
+        "631600001"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "一種以美為中心，而厭棄物質與現實境況、蔑視一切社會道德的思想。[例]這部電影完全講求唯美，絲毫不帶一點功利社會的影子。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "631600001",
+      "verbatim": true
+    }
+  ]
 }

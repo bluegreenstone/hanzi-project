@@ -10,8 +10,8 @@
     {
       "reading": "gōng zhài",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        11692
+      "source_entry_ids": [
+        "2472000691"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄍㄨㄥ ㄓㄞˋ",
       "pinyin": "gōng zhài",
-      "source_entry_indices": [
-        11692
+      "source_entry_ids": [
+        "2472000691"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "政府為了應付短時期的財政調度困難或是某一特定政策的需要，而在財政收支不足支應時，發行債券向國民借款，稱為「公債」。[例]中央公債、土地建設公債",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "2472000691",
+      "verbatim": true
+    }
+  ]
 }

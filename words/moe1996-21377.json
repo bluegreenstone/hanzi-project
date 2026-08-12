@@ -10,8 +10,8 @@
     {
       "reading": "yīn yù",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        114743
+      "source_entry_ids": [
+        "613700034"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄧㄣ ㄩˋ",
       "pinyin": "yīn yù",
-      "source_entry_indices": [
-        114743
+      "source_entry_ids": [
+        "613700034"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.陰深且幽暗。[例]這片陰鬱的樹林有著許多神祕的傳說。\n2.深沉憂鬱的樣子。[例]他陰鬱不開朗的個性，導致他沒有多少知心朋友。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "613700034",
+      "verbatim": true
+    }
+  ]
 }

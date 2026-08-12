@@ -10,15 +10,8 @@
     {
       "reading": "gào sù",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        20808
-      ]
-    },
-    {
-      "reading": "gào su",
-      "context": "dictionary_entry",
-      "source_entry_indices": [
-        20809
+      "source_entry_ids": [
+        "225100015"
       ]
     }
   ],
@@ -26,8 +19,8 @@
     {
       "reading": "ㄍㄠˋ ㄙㄨˋ",
       "pinyin": "gào sù",
-      "source_entry_indices": [
-        20808
+      "source_entry_ids": [
+        "225100015"
       ]
     }
   ],
@@ -91,19 +84,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin.partial",
-      "reason": "not_attested",
-      "detail": "The pinned CNS syllable table has no unique full conversion for: gào su"
-    },
     {
       "field": "grading.hsk",
       "reason": "source_unavailable",
@@ -115,5 +105,47 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "gào sù"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "225100015"
+          ]
+        },
+        {
+          "value": [
+            "gào su",
+            "gào sù"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            20808,
+            20809
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.被害人向高級長官或法政機關告發，稱為「告訴」。[例]他因為土地被侵占，而向法院提出告訴。\n\t\n2.通知。[例]老師要班長告訴大家，明天學校將舉行大掃除。\n",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "225100015",
+      "verbatim": true
+    }
+  ]
 }

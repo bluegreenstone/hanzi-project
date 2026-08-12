@@ -10,8 +10,8 @@
     {
       "reading": "huá wū",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        94229
+      "source_entry_ids": [
+        "050100076"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄏㄨㄚˊ ㄨ",
       "pinyin": "huá wū",
-      "source_entry_indices": [
-        94229
+      "source_entry_ids": [
+        "050100076"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "華美的房屋。《史記．卷一二六．滑稽傳．優孟傳》：「楚莊王之時，有所愛馬，衣以文繡，置之華屋之下。」宋．蘇軾〈賀新郎．乳燕飛華屋〉詞：「乳燕飛華屋，悄無人，桐陰轉午，晚涼新浴。」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "050100076",
+      "verbatim": true
+    }
+  ]
 }

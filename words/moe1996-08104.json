@@ -10,8 +10,8 @@
     {
       "reading": "bō cài",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        94166
+      "source_entry_ids": [
+        "002700001"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄅㄛ ㄘㄞˋ",
       "pinyin": "bō cài",
-      "source_entry_indices": [
-        94166
+      "source_entry_ids": [
+        "002700001"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -107,5 +109,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "植物名。藜科，二年生草本。根部紅色，葉嫩綠，略呈三角形，有甜味，含有豐富的鐵質，可供作蔬菜食用。[例]炒菠菜時，若能打個蛋，則翠綠中帶銀白，色香味俱全。　△菠稜菜、飛龍菜　◎",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "002700001",
+      "verbatim": true
+    }
+  ]
 }

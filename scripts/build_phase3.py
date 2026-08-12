@@ -17,11 +17,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from moe_concised import load_moe_rows
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY_PATH = ROOT / "sources.json"
 CHARACTERS_PATH = ROOT / "characters"
-MANIFEST_PATH = ROOT / "phase3-manifest.json"
+MANIFEST_PATH = ROOT / "metadata" / "manifests" / "phase3.json"
 
 MOE_ID = "moe-tw-common-terms-1996"
 UNIHAN_ID = "unicode-unihan-17.0.0"
@@ -31,6 +33,8 @@ CNS_ID = "cns11643-attributes-2026-08-05"
 MMAH_DICTIONARY_ID = "makemeahanzi-dictionary-master-audit"
 MMAH_GRAPHICS_ID = "makemeahanzi-graphics-master-audit"
 CC_CEDICT_ID = "cc-cedict-editor-2026-08-11"
+PRC_STANDARD_ID = "prc-standard-characters-2013"
+MOE_CONCISED_ID = "moe-tw-concised-dictionary-2014-20260626"
 
 CODEPOINT_RE = re.compile(r"U\+([0-9A-F]{4,6})")
 CC_CEDICT_RE = re.compile(r"^(\S+) (\S+) \[([^]]*)\] /(.*)/$")
@@ -121,8 +125,35 @@ def normalize_tree(value: Any) -> Any:
     if isinstance(value, list):
         return [normalize_tree(item) for item in value]
     if isinstance(value, dict):
-        return {normalize_tree(key): normalize_tree(item) for key, item in value.items()}
+        preserve_text = value.get("verbatim") is True
+        return {
+            normalize_tree(key): (
+                item
+                if preserve_text and key == "text" and isinstance(item, str)
+                else normalize_tree(item)
+            )
+            for key, item in value.items()
+        }
     return value
+
+
+def is_nfc_except_verbatim_text(value: Any) -> bool:
+    if isinstance(value, str):
+        return unicodedata.is_normalized("NFC", value)
+    if isinstance(value, list):
+        return all(is_nfc_except_verbatim_text(item) for item in value)
+    if isinstance(value, dict):
+        preserve_text = value.get("verbatim") is True
+        return all(
+            is_nfc_except_verbatim_text(key)
+            and (
+                True
+                if preserve_text and key == "text" and isinstance(item, str)
+                else is_nfc_except_verbatim_text(item)
+            )
+            for key, item in value.items()
+        )
+    return True
 
 
 def load_registry() -> dict[str, Any]:
@@ -148,6 +179,75 @@ def acquired_path(registry: dict[str, Any], source_id: str) -> Path:
     if acquisition.get("expected_bytes") not in (None, path.stat().st_size):
         raise RuntimeError(f"byte-length mismatch for {source_id}")
     return path
+
+
+def load_simplification_audit(
+    registry: dict[str, Any], selected_cps: set[int]
+) -> dict[int, dict[str, Any]]:
+    source = registry["sources"][PRC_STANDARD_ID]
+    acquisition = source["acquisition"]
+    audit_meta = acquisition["audit"]
+    path = ROOT / audit_meta["local_path"]
+    if not path.is_file():
+        raise FileNotFoundError(path)
+    if sha256_path(path) != audit_meta["sha256"]:
+        raise RuntimeError("PRC simplification-audit SHA-256 mismatch")
+    if path.stat().st_size != audit_meta["bytes"]:
+        raise RuntimeError("PRC simplification-audit byte-length mismatch")
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    if payload.get("source_id") != PRC_STANDARD_ID:
+        raise RuntimeError("PRC simplification audit has the wrong source ID")
+    entries = payload.get("entries")
+    if not isinstance(entries, list) or len(entries) != 37:
+        raise RuntimeError("PRC simplification audit must contain exactly 37 entries")
+
+    result: dict[int, dict[str, Any]] = {}
+    decision_counts: defaultdict[str, int] = defaultdict(int)
+    document_pages = acquisition["document"]["pages"]
+    for entry in entries:
+        cp_value = entry.get("codepoint", "")
+        match = CODEPOINT_RE.fullmatch(cp_value)
+        if not match:
+            raise RuntimeError(f"invalid audited codepoint: {cp_value!r}")
+        cp = int(match.group(1), 16)
+        if cp in result:
+            raise RuntimeError(f"duplicate PRC simplification audit entry: {cp_value}")
+        if cp not in selected_cps or entry.get("traditional") != chr(cp):
+            raise RuntimeError(f"PRC audit identity is outside Phase 3: {cp_value}")
+        decision = entry.get("decision")
+        selected = entry.get("selected")
+        if decision == "selected":
+            if not isinstance(selected, str) or len(selected) != 1:
+                raise RuntimeError(f"selected PRC mapping is invalid: {cp_value}")
+        elif decision == "context_dependent":
+            if selected is not None:
+                raise RuntimeError(f"context-dependent PRC mapping selects a value: {cp_value}")
+        else:
+            raise RuntimeError(f"unknown PRC simplification decision: {decision!r}")
+        evidence = entry.get("official_evidence")
+        if not isinstance(evidence, list) or not evidence:
+            raise RuntimeError(f"PRC audit lacks official evidence: {cp_value}")
+        for item in evidence:
+            standard = item.get("standard")
+            pdf_page = item.get("pdf_page")
+            if not isinstance(standard, str) or len(standard) != 1:
+                raise RuntimeError(f"invalid official target in PRC audit: {cp_value}")
+            if not isinstance(pdf_page, int) or not 1 <= pdf_page <= document_pages:
+                raise RuntimeError(f"invalid official PDF locator in PRC audit: {cp_value}")
+        if not isinstance(entry.get("detail"), str) or not entry["detail"].strip():
+            raise RuntimeError(f"PRC audit lacks a decision detail: {cp_value}")
+        result[cp] = entry
+        decision_counts[decision] += 1
+
+    expected_counts = {
+        "selected": audit_meta["selected_mappings"],
+        "context_dependent": audit_meta["context_dependent_mappings"],
+    }
+    if dict(decision_counts) != expected_counts:
+        raise RuntimeError("PRC simplification-audit decision counts differ from registry")
+    if len(result) != audit_meta["reviewed_phase3_conflicts"]:
+        raise RuntimeError("PRC simplification-audit coverage differs from registry")
+    return result
 
 
 def is_han_unified(cp: int) -> bool:
@@ -308,7 +408,7 @@ def parse_unihan(
 
 def parse_cns(
     registry: dict[str, Any], path: Path
-) -> tuple[dict[str, list[str]], dict[str, str], dict[str, str]]:
+) -> tuple[dict[str, list[str]], dict[str, str], dict[str, str], dict[str, int]]:
     acquisition = registry["sources"][CNS_ID]["acquisition"]
     with zipfile.ZipFile(path) as archive:
         payloads: dict[str, bytes] = {}
@@ -338,7 +438,15 @@ def parse_cns(
         if not sequence or any(item not in "12345" for item in sequence):
             raise RuntimeError("malformed CNS stroke-sequence row")
         stroke_sequences[cns_code] = sequence
-    return readings, bopomofo_to_pinyin, stroke_sequences
+
+    radicals: dict[str, int] = {}
+    for line in payloads["CNS_radical.txt"].decode("utf-8-sig").splitlines():
+        cns_code_value, number_text = line.split("\t", 1)
+        number = int(number_text)
+        if not 1 <= number <= 214:
+            raise RuntimeError("malformed CNS radical assignment")
+        radicals[cns_code_value] = number
+    return readings, bopomofo_to_pinyin, stroke_sequences, radicals
 
 
 def parse_mmah_dictionary(path: Path, wanted: set[int]) -> dict[int, dict[str, Any]]:
@@ -504,6 +612,7 @@ def build_simplification(
     all_variants: dict[int, dict[str, str]],
     cedict: dict[str, Any],
     cedict_inverse: dict[int, set[int]],
+    simplification_audit: dict[int, dict[str, Any]],
     sources: dict[str, list[str]],
     gaps: list[dict[str, str]],
     conflicts: list[dict[str, Any]],
@@ -522,7 +631,75 @@ def build_simplification(
     if cedict_values:
         used_sources.append(CC_CEDICT_ID)
 
-    if len(candidates) == 1 and not (
+    audit = simplification_audit.get(cp)
+    if audit is not None:
+        official_values = {
+            ord(item["standard"]) for item in audit["official_evidence"]
+        }
+        if not official_values.issubset(candidates):
+            missing = ", ".join(
+                codepoint(value) for value in sorted(official_values - candidates)
+            )
+            raise RuntimeError(
+                f"official PRC values are absent from comparison sources for {codepoint(cp)}: {missing}"
+            )
+
+        candidate_sources: defaultdict[int, list[str]] = defaultdict(list)
+        for value in sorted(official_values):
+            candidate_sources[value].append(PRC_STANDARD_ID)
+        for source_id, values in (
+            (UNIHAN_ID, sorted(unihan_values)),
+            (CC_CEDICT_ID, sorted(cedict_values)),
+        ):
+            for value in values:
+                candidate_sources[value].append(source_id)
+        conflict_values = [
+            {
+                "value": codepoint(value),
+                "source_ids": unique(candidate_sources[value]),
+            }
+            for value in sorted(candidate_sources)
+        ]
+
+        if audit["decision"] == "selected":
+            simplified_cp = ord(audit["selected"])
+            if simplified_cp not in official_values or simplified_cp not in candidates:
+                raise RuntimeError(
+                    f"audited PRC selection is unsupported for {codepoint(cp)}"
+                )
+            simplified = chr(simplified_cp)
+            sources["simplified"] = [PRC_STANDARD_ID]
+            if simplified_cp in unihan_values:
+                sources["simplified"].append(UNIHAN_ID)
+            if simplified_cp in cedict_values:
+                sources["simplified"].append(CC_CEDICT_ID)
+            conflicts.append(
+                make_conflict(
+                    "simplified",
+                    "prc_standard_canonical_other_candidates_retained",
+                    conflict_values,
+                    audit["detail"],
+                )
+            )
+        else:
+            simplified_cp = None
+            simplified = None
+            gaps.append(
+                make_gap(
+                    "simplified",
+                    "conflicting_sources",
+                    audit["detail"],
+                )
+            )
+            conflicts.append(
+                make_conflict(
+                    "simplified",
+                    "context_dependent_official_standard",
+                    conflict_values,
+                    audit["detail"],
+                )
+            )
+    elif len(candidates) == 1 and not (
         unihan_values and cedict_values and unihan_values != cedict_values
     ):
         simplified_cp = next(iter(candidates))
@@ -636,7 +813,14 @@ def build_variants(unihan: dict[str, str]) -> list[dict[str, str]]:
     return rows
 
 
-def build_radical(unihan: dict[str, str]) -> dict[str, Any]:
+def build_radical(
+    unihan: dict[str, str],
+    cns_radicals: dict[str, int],
+    total_strokes: int,
+    radical_stroke_counts: dict[int, tuple[int, list[str]]],
+    sources: dict[str, list[str]],
+    conflicts: list[dict[str, Any]],
+) -> dict[str, Any]:
     assignments = unihan.get("kRSUnicode", "").split()
     parsed: list[tuple[str, int, int, bool]] = []
     for assignment in assignments:
@@ -652,12 +836,61 @@ def build_radical(unihan: dict[str, str]) -> dict[str, Any]:
             )
     if not parsed:
         raise RuntimeError("selected character has no usable Unihan kRSUnicode assignment")
-    primary = next((item for item in parsed if not item[3]), parsed[0])
+    unihan_primary = next((item for item in parsed if not item[3]), parsed[0])
+    code = cns_code(unihan)
+    if code not in cns_radicals:
+        raise RuntimeError(f"character has no Taiwan CNS radical assignment: {code!r}")
+    cns_number = cns_radicals[code]
+    matching_assignment = next(
+        (item for item in parsed if item[1] == cns_number), None
+    )
+    sources["radical.kangxi_number"] = [CNS_ID]
+    if matching_assignment is not None:
+        residual_strokes = matching_assignment[2]
+        canonical_assignment = matching_assignment[0]
+        sources["radical.residual_strokes"] = [UNIHAN_ID]
+        sources["radical.source_assignment"] = [UNIHAN_ID]
+    else:
+        radical_strokes, radical_sources = radical_stroke_counts[cns_number]
+        residual_strokes = total_strokes - radical_strokes
+        if residual_strokes < 0:
+            raise RuntimeError(
+                "Taiwan CNS radical count exceeds Taiwan MOE total strokes and no matching Unihan residual is attested"
+            )
+        canonical_assignment = f"{cns_number}.{residual_strokes}"
+        derived_sources = unique([CNS_ID, MOE_ID] + radical_sources)
+        sources["radical.residual_strokes"] = derived_sources
+        sources["radical.source_assignment"] = derived_sources
+    sources["radical.additional_assignments"] = [UNIHAN_ID]
+    unihan_assignments = [item[0] for item in parsed]
+    additional_assignments = [
+        assignment
+        for assignment in unihan_assignments
+        if assignment != canonical_assignment
+    ]
+    if unihan_primary[1] != cns_number:
+        conflicts.append(
+            make_conflict(
+                "radical.kangxi_number",
+                "tw_cns_canonical_unihan_retained",
+                [
+                    {
+                        "value": cns_number,
+                        "source_ids": [CNS_ID, MOE_ID],
+                    },
+                    {
+                        "value": unihan_primary[1],
+                        "source_ids": [UNIHAN_ID],
+                    },
+                ],
+                "The Taiwan CNS radical is canonical. The differing first Unihan kRSUnicode assignment remains in radical.additional_assignments.",
+            )
+        )
     return {
-        "kangxi_number": primary[1],
-        "residual_strokes": primary[2],
-        "source_assignment": primary[0],
-        "additional_assignments": [item[0] for item in parsed if item != primary],
+        "kangxi_number": cns_number,
+        "residual_strokes": residual_strokes,
+        "source_assignment": canonical_assignment,
+        "additional_assignments": additional_assignments,
     }
 
 
@@ -1201,6 +1434,33 @@ def build_definitions(
     return (result or None), source_ids
 
 
+def build_taiwan_definitions(
+    rows: list[dict[str, str]], source_id: str
+) -> list[dict[str, Any]]:
+    result: list[dict[str, Any]] = []
+    seen: set[tuple[str, str]] = set()
+    for row in rows:
+        entry_id = row["entry_id"]
+        definition = row["definition"]
+        key = (entry_id, definition)
+        if not entry_id or not definition:
+            raise RuntimeError("Taiwan MOE definition row lacks an entry ID or text")
+        if key in seen:
+            continue
+        seen.add(key)
+        result.append(
+            {
+                "text": definition,
+                "lang": "zh-Hant-TW",
+                "register": "dictionary",
+                "source_id": source_id,
+                "source_entry_id": entry_id,
+                "verbatim": True,
+            }
+        )
+    return result
+
+
 def build_record(
     selection_rank: int,
     row: dict[str, Any],
@@ -1209,6 +1469,8 @@ def build_record(
     all_variants: dict[int, dict[str, str]],
     cedict: dict[str, Any],
     cedict_inverse: dict[int, set[int]],
+    simplification_audit: dict[int, dict[str, Any]],
+    moe_definition_rows: list[dict[str, str]],
     mmah_dictionary: dict[str, Any] | None,
     mmah_graphics_count: int | None,
     radical_map: dict[int, int],
@@ -1218,6 +1480,7 @@ def build_record(
     cns_readings: dict[str, list[str]],
     bopomofo_to_pinyin: dict[str, str],
     cns_sequences: dict[str, str],
+    cns_radicals: dict[str, int],
 ) -> dict[str, Any]:
     char = row["character"]
     cp = ord(char)
@@ -1225,7 +1488,6 @@ def build_record(
         "codepoint": [MOE_ID],
         "traditional": [MOE_ID],
         "variants_異體字": [UNIHAN_ID],
-        "radical": [UNIHAN_ID],
         "total_strokes": [MOE_ID],
         "total_strokes_standard": [MOE_ID],
         "stroke_count_variants": [CNS_ID, UNIHAN_ID, MMAH_GRAPHICS_ID],
@@ -1240,12 +1502,20 @@ def build_record(
         all_variants,
         cedict,
         cedict_inverse,
+        simplification_audit,
         sources,
         gaps,
         conflicts,
     )
     variants = build_variants(unihan)
-    radical = build_radical(unihan)
+    radical = build_radical(
+        unihan,
+        cns_radicals,
+        row["strokes"],
+        radical_stroke_counts,
+        sources,
+        conflicts,
+    )
     stroke_variants = build_stroke_data(
         row["strokes"],
         unihan,
@@ -1284,6 +1554,14 @@ def build_record(
                 "Neither Unihan nor an exact one-character CC-CEDICT entry supplies an English definition.",
             )
         )
+    definitions_zh_tw = build_taiwan_definitions(
+        moe_definition_rows, MOE_CONCISED_ID
+    )
+    if not definitions_zh_tw:
+        raise RuntimeError(
+            f"selected character lacks an exact Taiwan MOE definition: {codepoint(cp)}"
+        )
+    sources["definitions_zh_TW"] = [MOE_CONCISED_ID]
 
     radical_count, radical_count_sources = radical_stroke_counts[
         radical["kangxi_number"]
@@ -1301,11 +1579,14 @@ def build_record(
                             "residual_strokes": radical["residual_strokes"],
                             "sum": structural_sum,
                         },
-                        "source_ids": unique([UNIHAN_ID] + radical_count_sources),
+                        "source_ids": unique(
+                            sources["radical.residual_strokes"]
+                            + radical_count_sources
+                        ),
                     },
                     {"value": row["strokes"], "source_ids": [MOE_ID]},
                 ],
-                "The Unihan radical assignment and delivered radical count do not add to the Taiwan MOE total; both values are retained for review.",
+                "The attested radical assignment and delivered radical count do not add to the Taiwan MOE total; both values are retained for review.",
             )
         )
 
@@ -1371,6 +1652,7 @@ def build_record(
         "liushu_六書": liushu,
         "readings": readings,
         "definitions": definitions,
+        "definitions_zh_TW": definitions_zh_tw,
         "frequency": {
             "rank": row["rank"],
             "selection_rank": selection_rank,
@@ -1408,6 +1690,8 @@ def main() -> None:
     mmah_dictionary_path = acquired_path(registry, MMAH_DICTIONARY_ID)
     mmah_graphics_path = acquired_path(registry, MMAH_GRAPHICS_ID)
     cedict_path = acquired_path(registry, CC_CEDICT_ID)
+    acquired_path(registry, PRC_STANDARD_ID)
+    moe_concised_path = acquired_path(registry, MOE_CONCISED_ID)
 
     selected_rows, corpus_total, exclusions = read_moe_frequency(
         registry, moe_path
@@ -1429,12 +1713,14 @@ def main() -> None:
             "selected characters absent from parsed Unihan: "
             + ", ".join(codepoint(cp) for cp in sorted(missing_unihan))
         )
-    cns_readings, bopomofo_to_pinyin, cns_sequences = parse_cns(
+    cns_readings, bopomofo_to_pinyin, cns_sequences, cns_radicals = parse_cns(
         registry, cns_path
     )
     mmah_dictionary = parse_mmah_dictionary(mmah_dictionary_path, selected_cps)
     mmah_graphics = parse_mmah_graphics(mmah_graphics_path, selected_cps)
     cedict, cedict_inverse = parse_cc_cedict(registry, cedict_path, selected_cps)
+    simplification_audit = load_simplification_audit(registry, selected_cps)
+    moe_concised = load_moe_rows(moe_concised_path)
 
     radical_stroke_counts: dict[int, tuple[int, list[str]]] = {}
     for number in range(1, 215):
@@ -1456,6 +1742,8 @@ def main() -> None:
             all_variants,
             cedict.get(cp, {}),
             cedict_inverse,
+            simplification_audit,
+            moe_concised.get(row["character"], []),
             mmah_dictionary.get(cp),
             mmah_graphics.get(cp),
             radical_map,
@@ -1465,6 +1753,7 @@ def main() -> None:
             cns_readings,
             bopomofo_to_pinyin,
             cns_sequences,
+            cns_radicals,
         )
         output = json.dumps(record, ensure_ascii=False, indent=2) + "\n"
         if not unicodedata.is_normalized("NFC", output):
@@ -1483,6 +1772,8 @@ def main() -> None:
         MMAH_DICTIONARY_ID,
         MMAH_GRAPHICS_ID,
         CC_CEDICT_ID,
+        PRC_STANDARD_ID,
+        MOE_CONCISED_ID,
     ]
     manifest = {
         "phase": 3,

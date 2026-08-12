@@ -15,8 +15,8 @@
     {
       "reading": "suí jī cún qǔ jì yì tǐ",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        115197
+      "source_entry_ids": [
+        "101500041"
       ]
     }
   ],
@@ -24,8 +24,8 @@
     {
       "reading": "ㄙㄨㄟˊ ㄐㄧ ㄘㄨㄣˊ ㄑㄩˇ ㄐㄧˋ ㄧˋ ㄊㄧˇ",
       "pinyin": "suí jī cún qǔ jì yì tǐ",
-      "source_entry_indices": [
-        115197
+      "source_entry_ids": [
+        "101500041"
       ]
     }
   ],
@@ -80,11 +80,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -99,5 +101,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "電腦主記憶體的一部分。程式開發人員可以隨機選擇暫時儲存的記憶體位置，直接儲存或擷取資料。英文簡稱為RAM。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "101500041",
+      "verbatim": true
+    }
+  ]
 }

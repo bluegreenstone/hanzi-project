@@ -10,8 +10,8 @@
     {
       "reading": "lù xiàn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        104848
+      "source_entry_ids": [
+        "210200021"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄌㄨˋ ㄒㄧㄢˋ",
       "pinyin": "lù xiàn",
-      "source_entry_indices": [
-        104848
+      "source_entry_ids": [
+        "210200021"
       ]
     }
   ],
@@ -99,11 +99,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -118,5 +120,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.既定的路徑。[例]登山路線、公車路線\n2.比喻途徑、方法。[例]他向來堅持溫和、理性的政治路線，絕對不採激烈抗爭。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "210200021",
+      "verbatim": true
+    }
+  ]
 }

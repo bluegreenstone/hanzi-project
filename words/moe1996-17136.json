@@ -12,8 +12,8 @@
     {
       "reading": "lì zhēng shàng yóu",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        15047
+      "source_entry_ids": [
+        "189000011"
       ]
     }
   ],
@@ -21,8 +21,8 @@
     {
       "reading": "ㄌㄧˋ ㄓㄥ ㄕㄤˋ ㄧㄡˊ",
       "pinyin": "lì zhēng shàng yóu",
-      "source_entry_indices": [
-        15047
+      "source_entry_ids": [
+        "189000011"
       ]
     }
   ],
@@ -85,11 +85,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -104,5 +106,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "努力求取上進。[例]中華健兒力爭上游，終於獲得冠軍。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "189000011",
+      "verbatim": true
+    }
+  ]
 }

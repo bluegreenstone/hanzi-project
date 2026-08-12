@@ -20,8 +20,8 @@ import validate_phase1 as validator1  # noqa: E402
 
 RADICALS_PATH = ROOT / "radicals"
 SCHEMA_PATH = ROOT / "schema" / "radical.schema.json"
-VALIDATION_REPORT_PATH = ROOT / "validation-report.md"
-GAPS_REPORT_PATH = ROOT / "gaps-report.md"
+VALIDATION_REPORT_PATH = ROOT / "docs" / "validation.md"
+GAPS_REPORT_PATH = ROOT / "docs" / "gaps.md"
 PHASE_REPORT_PATH = ROOT / "phase2-report.md"
 
 PHASE2_FIELD_PREFIXES = (
@@ -35,9 +35,11 @@ PHASE2_FIELD_PREFIXES = (
 
 
 def phase2_projection(record: dict[str, Any]) -> dict[str, Any]:
-    """Remove backward-compatible Phase 5 stroke-order enrichment."""
+    """Remove backward-compatible Phase 4/5 enrichment."""
     projected = json.loads(json.dumps(record, ensure_ascii=False))
+    projected.pop("example_characters", None)
     projected.pop("stroke_order", None)
+    projected.get("sources", {}).pop("example_characters", None)
     projected.get("sources", {}).pop("stroke_order", None)
     for source_path in list(projected.get("sources", {})):
         if source_path.startswith("stroke_order."):
@@ -45,7 +47,8 @@ def phase2_projection(record: dict[str, Any]) -> dict[str, Any]:
     projected["gaps"] = [
         gap
         for gap in projected.get("gaps", [])
-        if not gap.get("field", "").startswith("stroke_order")
+        if gap.get("field") != "example_characters"
+        and not gap.get("field", "").startswith("stroke_order")
     ]
     return projected
 
@@ -187,6 +190,11 @@ def check_historical_assets(
 ) -> list[str]:
     errors: list[str] = []
     assets = asset_manifest.get("assets", [])
+    quarantined_assets = asset_manifest.get("quarantined_assets", [])
+    provenance_alias_assets = asset_manifest.get("provenance_alias_assets", [])
+    retired_unverified_assets = asset_manifest.get(
+        "retired_unverified_assets", []
+    )
     library_assets = asset_manifest.get("library_assets", [])
     stroke_order_assets = asset_manifest.get("stroke_order_assets", [])
     by_id = {asset["asset_id"]: asset for asset in assets}
@@ -194,13 +202,23 @@ def check_historical_assets(
         errors.append("asset manifest contains duplicate asset IDs")
     all_asset_ids = [
         asset["asset_id"]
-        for asset in assets + library_assets + stroke_order_assets
+        for asset in assets
+        + quarantined_assets
+        + provenance_alias_assets
+        + retired_unverified_assets
+        + library_assets
+        + stroke_order_assets
     ]
     if len(all_asset_ids) != len(set(all_asset_ids)):
         errors.append("logical and supplemental asset IDs are not globally unique")
     expected_delivered_paths = {
         asset["local_path"]
-        for asset in assets + library_assets + stroke_order_assets
+        for asset in assets
+        + quarantined_assets
+        + provenance_alias_assets
+        + retired_unverified_assets
+        + library_assets
+        + stroke_order_assets
     }
     actual_delivered_paths = {
         str(path.relative_to(ROOT))
@@ -222,13 +240,13 @@ def check_historical_assets(
     seal_assets = [
         asset
         for asset in assets
-        if asset.get("historical_form") in (None, "shuowen_seal_說文解字")
+        if asset.get("historical_form") == "shuowen_seal_說文解字"
     ]
     historical_assets = [asset for asset in assets if asset not in seal_assets]
     by_number: dict[int, list[dict[str, Any]]] = defaultdict(list)
     for asset in seal_assets:
         by_number[asset.get("kangxi_number")].append(asset)
-    expected_numbers = set(range(1, 215))
+    expected_numbers = set(range(1, 215)) - {8, 90, 174}
     if set(by_number) != expected_numbers:
         missing = sorted(expected_numbers - set(by_number))
         extra = sorted(set(by_number) - expected_numbers, key=str)
@@ -239,17 +257,13 @@ def check_historical_assets(
     )
     if duplicate_numbers:
         errors.append(f"radicals do not have exactly one logical seal asset: {duplicate_numbers}")
-    if len({asset.get("local_path") for asset in seal_assets}) != 214:
-        errors.append("the delivered seal library does not contain 214 distinct individual files")
+    if len({asset.get("local_path") for asset in seal_assets}) != 211:
+        errors.append("the published seal library does not contain 211 distinct files")
     if any(asset.get("source_id") == phase2.SHUOWEN_540_COMPOSITE_ID for asset in seal_assets):
         errors.append("a radical record still depends on the supplemental composite fallback")
 
     content_sources = {
-        phase2.SHUOWEN_ASSET_ID,
-        phase2.SHUOWEN_540_SERIES_ID,
         phase2.SHUOWEN_540_COMPOSITE_ID,
-        phase2.EXACT_CHARACTER_SEAL_ID,
-        "commons-ancient-chinese-historical-form-files-2026-08-10",
         "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
         "codh-henrui-liushutong-te00010-2026-08-10",
         "codh-henrui-liushutong-te00008-21-series-2026-08-11",
@@ -258,7 +272,6 @@ def check_historical_assets(
         phase2.WAYBACK_MIRROR_ID,
         phase2.GITHUB_MIRROR_ID,
         "github-analects-data-commons-mirror-2026-08-10",
-        "commons-ancient-chinese-historical-form-files-2026-08-10",
         "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
         "codh-henrui-liushutong-te00010-2026-08-10",
         "codh-henrui-liushutong-te00008-21-series-2026-08-11",
@@ -268,6 +281,78 @@ def check_historical_assets(
         source = registry.get("sources", {}).get(source_id)
         if not source or source.get("status") != "approved":
             errors.append(f"asset source is absent or not approved: {source_id}")
+    quarantine_source = registry.get("sources", {}).get(
+        "commons-ancient-chinese-historical-form-files-2026-08-10"
+    )
+    if not quarantine_source or quarantine_source.get("status") != "quarantine":
+        errors.append("unverified Commons historical source is not quarantined")
+    retired_source_ids = {
+        phase2.SHUOWEN_ASSET_ID,
+        phase2.SHUOWEN_540_SERIES_ID,
+        phase2.EXACT_CHARACTER_SEAL_ID,
+    }
+    for source_id in retired_source_ids:
+        source = registry.get("sources", {}).get(source_id)
+        if not source or source.get("status") != "quarantine":
+            errors.append(f"retired Commons seal source is not quarantined: {source_id}")
+    if len(quarantined_assets) != 455:
+        errors.append(
+            f"expected 455 identity-quarantined historical assets, found {len(quarantined_assets)}"
+        )
+    active_ids = {asset["asset_id"] for asset in assets}
+    for asset in quarantined_assets:
+        if asset.get("source_id") != "commons-ancient-chinese-historical-form-files-2026-08-10":
+            errors.append(f"{asset.get('asset_id')}: unexpected quarantine source")
+        if asset.get("publication_status") != "quarantined_identity_unverified":
+            errors.append(f"{asset.get('asset_id')}: quarantine status is absent")
+        if not asset.get("release_excluded"):
+            errors.append(f"{asset.get('asset_id')}: release exclusion is absent")
+        if asset.get("asset_id") in active_ids:
+            errors.append(f"{asset.get('asset_id')}: asset is both active and quarantined")
+        path = ROOT / asset["local_path"]
+        if not path.is_file() or sha256_path(path) != asset["sha256"]:
+            errors.append(f"{asset.get('asset_id')}: quarantined file integrity differs")
+    if len(retired_unverified_assets) != 214:
+        errors.append(
+            "expected 214 superseded Commons seal assets, found "
+            f"{len(retired_unverified_assets)}"
+        )
+    for asset in retired_unverified_assets:
+        if asset.get("source_id") not in retired_source_ids:
+            errors.append(f"{asset.get('asset_id')}: unexpected retired seal source")
+        if (
+            asset.get("publication_status")
+            != "superseded_unverified_community_vector"
+        ):
+            errors.append(f"{asset.get('asset_id')}: retired status is absent")
+        if not asset.get("release_excluded"):
+            errors.append(f"{asset.get('asset_id')}: retirement exclusion is absent")
+        if asset.get("asset_id") in active_ids:
+            errors.append(f"{asset.get('asset_id')}: asset is active and retired")
+        path = ROOT / asset["local_path"]
+        if not path.is_file() or sha256_path(path) != asset["sha256"]:
+            errors.append(f"{asset.get('asset_id')}: retired file integrity differs")
+    if len(provenance_alias_assets) != 1676:
+        errors.append(
+            f"expected 1,676 exact-duplicate provenance aliases, found {len(provenance_alias_assets)}"
+        )
+    for asset in provenance_alias_assets:
+        canonical = by_id.get(asset.get("alias_of_asset_id"))
+        if asset.get("publication_status") != "provenance_alias_exact_duplicate":
+            errors.append(f"{asset.get('asset_id')}: provenance-alias status is absent")
+        if not asset.get("release_excluded"):
+            errors.append(f"{asset.get('asset_id')}: provenance alias is not release-excluded")
+        if canonical is None:
+            errors.append(f"{asset.get('asset_id')}: canonical alias target is absent")
+        elif (
+            canonical["sha256"] != asset["sha256"]
+            or canonical.get("kangxi_number") != asset.get("kangxi_number")
+            or canonical.get("historical_form") != asset.get("historical_form")
+        ):
+            errors.append(f"{asset.get('asset_id')}: alias target identity differs")
+        path = ROOT / asset["local_path"]
+        if not path.is_file() or sha256_path(path) != asset["sha256"]:
+            errors.append(f"{asset.get('asset_id')}: provenance-alias file integrity differs")
 
     # Keep the first Commons candidate route as audit history. Its HTTP-429 failures
     # are superseded by the complete numbered series/composite and exact-character
@@ -280,7 +365,7 @@ def check_historical_assets(
         errors.append("free-license candidates are incorrectly labeled as license rejections")
     legacy_successes = {
         asset["source_file"]
-        for asset in assets
+        for asset in retired_unverified_assets
         if asset["source_id"] == phase2.SHUOWEN_ASSET_ID
     }
     if legacy_successes | {item["source_file"] for item in unacquired} != candidate_files:
@@ -330,9 +415,32 @@ def check_historical_assets(
                 errors.append(f"radical {number}: empty {field} retains provenance")
         seal_forms = forms["shuowen_seal_說文解字"]
         shuowen = record["shuowen"]
-        if len(seal_forms) != 1:
-            errors.append(f"radical {number}: expected exactly one seal-form reference")
+        seal_gap_numbers = {8, 90, 174}
+        if not seal_forms:
+            if number not in seal_gap_numbers:
+                errors.append(
+                    f"radical {number}: missing an exact-query seal-form reference"
+                )
+            if "historical_forms.shuowen_seal_說文解字" not in gaps:
+                errors.append(
+                    f"radical {number}: empty seal-form array lacks an exact-query gap"
+                )
+            if record["sources"].get(
+                "historical_forms.shuowen_seal_說文解字"
+            ) is not None:
+                errors.append(
+                    f"radical {number}: empty seal-form array retains provenance"
+                )
+            if shuowen is not None and shuowen["seal_glyph"] is not None:
+                errors.append(
+                    f"radical {number}: missing seal asset retains a Shuowen reference"
+                )
             continue
+        if len(seal_forms) != 1:
+            errors.append(f"radical {number}: multiple seal-form references")
+            continue
+        if number in seal_gap_numbers:
+            errors.append(f"radical {number}: exact-query gap unexpectedly has an asset")
         if "historical_forms.shuowen_seal_說文解字" in gaps:
             errors.append(f"radical {number}: populated seal-form array retains an absence gap")
         reference = seal_forms[0]
@@ -352,39 +460,28 @@ def check_historical_assets(
         )
         if historical_source != [source_id]:
             errors.append(f"radical {number}: historical-form provenance differs from asset")
+        if source_id != "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10":
+            errors.append(f"radical {number}: seal form is not the official Sinica asset")
+        if (
+            asset.get("historical_form") != "shuowen_seal_說文解字"
+            or asset.get("primary") != primary
+            or asset.get("mapping_method")
+            != "exact_traditional_primary_small_seal_character_page"
+            or not asset.get("source_reference", "").startswith("說文‧")
+            or asset.get("source_query_method") != "POST"
+        ):
+            errors.append(f"radical {number}: exact-query seal metadata is invalid")
 
         if shuowen is None:
-            if source_id != phase2.EXACT_CHARACTER_SEAL_ID:
-                errors.append(f"radical {number}: unmapped radical does not use an exact-character seal")
             if record["sources"].get("shuowen.seal_glyph") is not None:
                 errors.append(f"radical {number}: null Shuowen object has seal-glyph provenance")
-            if not asset.get("source_file", "").startswith(primary):
-                errors.append(f"radical {number}: exact-character source filename does not begin with {primary}")
         else:
             if shuowen["seal_glyph"] != reference:
                 errors.append(f"radical {number}: Shuowen and historical-form references disagree")
             if record["sources"].get("shuowen.seal_glyph") != [source_id]:
                 errors.append(f"radical {number}: Shuowen seal-glyph provenance differs from asset")
-            if source_id not in {
-                phase2.SHUOWEN_ASSET_ID,
-                phase2.SHUOWEN_540_SERIES_ID,
-                phase2.SHUOWEN_540_COMPOSITE_ID,
-            }:
-                errors.append(f"radical {number}: mapped heading uses an exact-character-only source")
-            if source_id in {
-                phase2.SHUOWEN_540_SERIES_ID,
-                phase2.SHUOWEN_540_COMPOSITE_ID,
-            } and asset.get("shuowen_radical_number") != shuowen["radical_number"]:
-                errors.append(f"radical {number}: numbered asset locator differs from Shuowen mapping")
-            if source_id == phase2.SHUOWEN_540_COMPOSITE_ID:
-                expected_locator = {
-                    "kind": "shuowen_radical_number",
-                    "value": shuowen["radical_number"],
-                }
-                if asset.get("locator") != expected_locator or reference.get("locator") != expected_locator:
-                    errors.append(f"radical {number}: composite reference lacks the exact Shuowen-number locator")
-            elif "locator" in reference or asset.get("locator") is not None:
-                errors.append(f"radical {number}: individual SVG unexpectedly has a composite locator")
+            if "locator" in reference or asset.get("locator") is not None:
+                errors.append(f"radical {number}: official PNG has an unexpected locator")
 
     if set(manifest_uses) != set(by_id) or any(count != 1 for count in manifest_uses.values()):
         errors.append("every logical asset must be referenced by exactly one radical")
@@ -481,15 +578,26 @@ def check_phase2_acquisitions(
         phase1.UNIHAN_ID,
         phase2.SHUOWEN_ID,
         phase2.KANGXI_COUNTS_ID,
-        phase2.SHUOWEN_ASSET_ID,
-        phase2.SHUOWEN_540_SERIES_ID,
         phase2.SHUOWEN_540_COMPOSITE_ID,
-        phase2.EXACT_CHARACTER_SEAL_ID,
     ):
         try:
             phase1.acquired_path(registry, source_id)
         except (KeyError, OSError, RuntimeError) as exc:
             errors.append(f"{source_id}: {exc}")
+    for source_id in (
+        phase2.SHUOWEN_ASSET_ID,
+        phase2.SHUOWEN_540_SERIES_ID,
+        phase2.EXACT_CHARACTER_SEAL_ID,
+    ):
+        source = registry.get("sources", {}).get(source_id, {})
+        if source.get("status") != "quarantine":
+            errors.append(f"retired seal source is not quarantined: {source_id}")
+        acquisition = source.get("acquisition", {})
+        path = ROOT / acquisition.get("local_path", "missing")
+        if not path.is_file():
+            errors.append(f"retired seal acquisition is missing: {source_id}")
+        elif sha256_path(path) != acquisition.get("sha256"):
+            errors.append(f"retired seal acquisition SHA-256 mismatch: {source_id}")
     for source_id in (
         phase2.SHUOWEN_SCAN_ID,
         phase2.LIUSHUTONG_ID,
@@ -512,6 +620,18 @@ def check_phase2_acquisitions(
             errors.append(f"asset metadata acquisition is missing: {key}")
         elif sha256_path(metadata_path) != metadata.get("sha256"):
             errors.append(f"asset metadata acquisition SHA-256 mismatch: {key}")
+    seal_acquisition = asset_manifest.get("sinica_small_seal_acquisition", {})
+    seal_log_path = ROOT / seal_acquisition.get("local_path", "missing")
+    if not seal_log_path.is_file():
+        errors.append("Academia Sinica small-seal acquisition log is missing")
+    elif (
+        sha256_path(seal_log_path) != seal_acquisition.get("sha256")
+        or seal_log_path.stat().st_size != seal_acquisition.get("bytes")
+        or seal_acquisition.get("completed_count") != 211
+        or seal_acquisition.get("gap_count") != 3
+        or seal_acquisition.get("gap_radicals") != [8, 90, 174]
+    ):
+        errors.append("Academia Sinica small-seal acquisition metadata differs")
     historical_sources = asset_manifest.get("historical_sources", {})
     expected_historical_keys = {
         "commons_candidates",
@@ -574,8 +694,12 @@ def check_manifest_digest(records: list[dict[str, Any]], **_: Any) -> list[str]:
         errors.append("Phase 2 deterministic record digest does not match records")
     if manifest.get("shuowen_mapped_count") != 204:
         errors.append("Phase 2 manifest Shuowen mapped count is not 204")
-    if manifest.get("shuowen_asset_count") != 214:
-        errors.append("Phase 2 manifest seal-form coverage count is not 214")
+    if manifest.get("shuowen_asset_count") != 211:
+        errors.append("Phase 2 manifest seal-form coverage count is not 211")
+    if manifest.get("shuowen_exact_query_gap_count") != 3:
+        errors.append("Phase 2 manifest exact-query seal gap count is not 3")
+    if manifest.get("retired_unverified_seal_asset_count") != 214:
+        errors.append("Phase 2 manifest retired Commons seal count is not 214")
     if manifest.get("transport_sources") != [
         phase2.WAYBACK_MIRROR_ID,
         phase2.GITHUB_MIRROR_ID,
@@ -602,6 +726,14 @@ def check_manifest_digest(records: list[dict[str, Any]], **_: Any) -> list[str]:
     expected_historical_assets = sum(expected_reference_counts.values())
     if manifest.get("historical_asset_count") != expected_historical_assets:
         errors.append("Phase 2 manifest historical asset count is stale")
+    if manifest.get("quarantined_historical_asset_count") != 455:
+        errors.append("Phase 2 manifest quarantine count is stale")
+    if manifest.get("provenance_alias_historical_asset_count") != 1676:
+        errors.append("Phase 2 manifest provenance-alias count is stale")
+    if manifest.get("historical_asset_source_counts", {}).get(
+        "commons-ancient-chinese-historical-form-files-2026-08-10"
+    ) != 0:
+        errors.append("Phase 2 manifest still counts quarantined Commons assets as active")
     return errors
 
 

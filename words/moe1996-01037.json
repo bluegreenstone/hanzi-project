@@ -9,16 +9,15 @@
     {
       "reading": "jiào",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        50597,
-        50599
+      "source_entry_ids": [
+        "3225"
       ]
     },
     {
       "reading": "jiāo",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        50598
+      "source_entry_ids": [
+        "3194"
       ]
     }
   ],
@@ -26,16 +25,15 @@
     {
       "reading": "ㄐㄧㄠˋ",
       "pinyin": "jiào",
-      "source_entry_indices": [
-        50597,
-        50599
+      "source_entry_ids": [
+        "3225"
       ]
     },
     {
       "reading": "ㄐㄧㄠ",
       "pinyin": "jiāo",
-      "source_entry_indices": [
-        50598
+      "source_entry_ids": [
+        "3194"
       ]
     }
   ],
@@ -124,11 +122,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -143,5 +143,23 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "傳授。[例]教唱、教書",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "3194",
+      "verbatim": true
+    },
+    {
+      "text": "1.訓誨、誘導。[例]教育、教子有方\n2.指宗教。[例]佛教、基督教\n3.禮儀、規矩。[例]家教、禮教\n4.使、讓。[例]打起黃鶯兒，莫教枝上啼。（唐．金昌緒〈春怨〉詩）",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "3225",
+      "verbatim": true
+    }
+  ]
 }

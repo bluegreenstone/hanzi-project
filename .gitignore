@@ -1,0 +1,32 @@
+# Operating-system and editor metadata
+.DS_Store
+**/.DS_Store
+*~
+*.swp
+
+# Python environments and caches
+.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Raw acquisitions, review scratch space, and quarantined inputs
+source-data/
+tmp/
+quarantine/
+build/
+
+# Generated phase narratives are internal build logs, not release documentation
+phase*-report.md
+
+# Generated distribution and release artifacts
+dist/
+query/hanzi.sqlite3
+query/jsonl/
+query/parquet/
+query/manifest.json

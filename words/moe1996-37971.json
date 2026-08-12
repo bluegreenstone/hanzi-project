@@ -10,8 +10,8 @@
     {
       "reading": "lián héng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        107718
+      "source_entry_ids": [
+        "198100018"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄌㄧㄢˊ ㄏㄥˊ",
       "pinyin": "lián héng",
-      "source_entry_indices": [
-        107718
+      "source_entry_ids": [
+        "198100018"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.戰國時秦國張儀所倡的外交政策。目的在打破六國合縱政策，利誘六國分別與秦國親善，然後再各個擊破，達到統一天下的目的。[例]連橫政策達到破壞六國團結抗秦的目的後，六國隨即為秦併滅。\n2.人名。（西元1878∼1936）字武公，號雅堂，又號劍花。臺灣臺南人，原籍福建龍溪。擅寫詩文，精通史學，曾任職《臺灣日報》、《臺南新報》漢文部，民國元年入清史館工作。畢生致力於保存臺灣文獻，著有《臺灣通史》、《臺灣語典》、《臺灣詩乘》、《 劍花室詩集》、《文集》等。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "198100018",
+      "verbatim": true
+    }
+  ]
 }

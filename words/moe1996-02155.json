@@ -8,19 +8,19 @@
   ],
   "pinyin": [
     {
-      "reading": "dào shi",
+      "reading": "dào shì",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        8630
+      "source_entry_ids": [
+        "019670103"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄉㄠˋ ˙ㄕ",
-      "pinyin": "dào shi",
-      "source_entry_indices": [
-        8630
+      "reading": "ㄉㄠˋ ㄕˋ",
+      "pinyin": "dào shì",
+      "source_entry_ids": [
+        "019670103"
       ]
     }
   ],
@@ -99,11 +99,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -118,5 +120,81 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "dào shì"
+          ],
+          "source_ids": [
+            "moe-tw-revised-dictionary-2015-20260625"
+          ],
+          "source_entry_ids": [
+            "019670103"
+          ]
+        },
+        {
+          "value": [
+            "dào shi"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            8630
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Revised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    },
+    {
+      "field": "zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            {
+              "pinyin": "dào shì",
+              "reading": "ㄉㄠˋ ㄕˋ"
+            }
+          ],
+          "source_ids": [
+            "moe-tw-revised-dictionary-2015-20260625"
+          ],
+          "source_entry_ids": [
+            "019670103"
+          ]
+        },
+        {
+          "value": [
+            {
+              "pinyin": "dào shi",
+              "reading": "ㄉㄠˋ ˙ㄕ"
+            }
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11",
+            "cns11643-attributes-2026-08-05"
+          ],
+          "source_entry_indices": [
+            8630
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE Revised Dictionary Zhuyin is canonical. The previous value was mechanically converted from CC-CEDICT Pinyin through the CNS syllable table and remains comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "卻是。如：「他說的話或許不好聽，倒是很有道理。」《紅樓夢》第七九回：「倒是這唐突閨閣，萬萬使不得的。」《儒林外史》第一四回：「倒是我多事，不該來惹這婆子口舌！」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "019670103",
+      "verbatim": true
+    }
+  ]
 }

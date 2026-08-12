@@ -10,9 +10,8 @@
     {
       "reading": "yù shān",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        72667,
-        72668
+      "source_entry_ids": [
+        "116450297"
       ]
     }
   ],
@@ -20,9 +19,8 @@
     {
       "reading": "ㄩˋ ㄕㄢ",
       "pinyin": "yù shān",
-      "source_entry_indices": [
-        72667,
-        72668
+      "source_entry_ids": [
+        "116450297"
       ]
     }
   ],
@@ -86,11 +84,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -105,5 +105,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.連年下雪的山。《晉書．卷三五．列傳．裴秀》：「楷風神高邁，容儀俊爽，博涉群書，特精理義，時人謂之『玉人』，又稱『見裴叔則如近玉山，映照人也』。」唐．韋莊〈對雪獻薛常侍〉詩：「皓鶴褵褷不辨，玉山重疊凍相連。」\r\n2.神話傳說中西王母所居住的山。《山海經．西山經》：「又西三百五十里，曰玉山，是西王母所居也。」\r\n3.山名。臺灣最高峰，高三九五二公尺，位於臺灣中部的嘉義、南投、高雄三地交界處，在北回歸線以北、嘉義市正東。冬季經常積雪，所以稱為「玉山」，日治時代稱為「新高山」。\r\n4.縣名。在大陸地區江西省東北，瀕信江西岸。因境內有懷玉山而得名。浙贛鐵路經此。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "116450297",
+      "verbatim": true
+    }
+  ]
 }

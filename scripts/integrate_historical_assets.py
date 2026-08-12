@@ -18,9 +18,9 @@ import build_phase2 as phase2  # noqa: E402
 
 
 MANIFEST = ROOT / "assets" / "manifest.json"
-PHASE2_MANIFEST = ROOT / "phase2-manifest.json"
+PHASE2_MANIFEST = ROOT / "metadata" / "manifests" / "phase2.json"
 SOURCES = ROOT / "sources.json"
-COMMON_CANDIDATES = ROOT / "phase2-historical-asset-candidates.json"
+COMMON_CANDIDATES = ROOT / "metadata" / "audits" / "phase2-historical-asset-candidates.json"
 COMMON_METADATA = (
     ROOT
     / "source-data"
@@ -302,13 +302,103 @@ def build_codh_assets() -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
 
 
 def asset_reference(asset: dict[str, Any]) -> dict[str, Any]:
-    return {
+    reference = {
         "asset_id": asset["asset_id"],
         "path": asset["local_path"],
         "source_id": asset["source_id"],
         "source_file": asset["source_file"],
         "license_id": asset["license_id"],
     }
+    if asset.get("identity_status"):
+        reference["identity_status"] = asset["identity_status"]
+        reference["cross_identified_with"] = asset["cross_identified_with"]
+    return reference
+
+
+def annotate_cross_identifications(
+    assets: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    by_hash: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for asset in assets:
+        asset.pop("identity_status", None)
+        asset.pop("cross_identified_with", None)
+        by_hash[asset["sha256"]].append(asset)
+    groups = []
+    for sha256, group in sorted(by_hash.items()):
+        if len({asset.get("kangxi_number") for asset in group}) < 2:
+            continue
+        groups.append(
+            {
+                "sha256": sha256,
+                "asset_ids": sorted(asset["asset_id"] for asset in group),
+                "status": "source_cross_identified",
+            }
+        )
+        for asset in group:
+            asset["identity_status"] = "source_cross_identified"
+            asset["cross_identified_with"] = sorted(
+                [
+                    {
+                        "kangxi_number": other["kangxi_number"],
+                        "primary": other["primary"],
+                        "asset_id": other["asset_id"],
+                    }
+                    for other in group
+                    if other["kangxi_number"] != asset["kangxi_number"]
+                ],
+                key=lambda item: (item["kangxi_number"], item["asset_id"]),
+            )
+    return groups
+
+
+def deduplicate_same_radical_assets(
+    assets: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], int]:
+    grouped: dict[tuple[int | None, str | None, str], list[dict[str, Any]]] = (
+        defaultdict(list)
+    )
+    for asset in assets:
+        asset.pop("provenance_alias_asset_ids", None)
+        asset.pop("identity_status", None)
+        asset.pop("cross_identified_with", None)
+        grouped[
+            (
+                asset.get("kangxi_number"),
+                asset.get("historical_form"),
+                asset["sha256"],
+            )
+        ].append(asset)
+
+    published: list[dict[str, Any]] = []
+    aliases: list[dict[str, Any]] = []
+    duplicate_groups = 0
+    for group in grouped.values():
+        radical_numbers = {asset.get("kangxi_number") for asset in group}
+        if len(group) == 1 or len(radical_numbers) != 1:
+            published.extend(group)
+            continue
+        duplicate_groups += 1
+        canonical = min(group, key=lambda asset: asset["asset_id"])
+        alias_rows = [asset for asset in group if asset is not canonical]
+        canonical["provenance_alias_asset_ids"] = sorted(
+            asset["asset_id"] for asset in alias_rows
+        )
+        published.append(canonical)
+        for asset in alias_rows:
+            aliases.append(
+                {
+                    **asset,
+                    "publication_status": "provenance_alias_exact_duplicate",
+                    "release_excluded": True,
+                    "alias_of_asset_id": canonical["asset_id"],
+                    "alias_reason": (
+                        "Exact SHA-256 duplicate for the same radical and "
+                        "historical-form field; retained as source/edition "
+                        "provenance rather than counted as a distinct glyph."
+                    ),
+                }
+            )
+    return published, sorted(aliases, key=lambda asset: asset["asset_id"]), duplicate_groups
 
 
 def gap_detail(
@@ -316,9 +406,18 @@ def gap_detail(
     number: int,
     common_decisions: dict[tuple[int, str], dict[str, Any]],
     acquired_keys: set[tuple[int, str]],
+    quarantined_keys: set[tuple[int, str]],
 ) -> str:
     key = (number, field)
     decision = common_decisions.get(key)
+    if key in quarantined_keys:
+        return (
+            f"The pinned Commons radical index supplies {decision['source_file']}, "
+            "but that community-derived mapping is quarantined from publication "
+            "until an independent scholarly catalogue or primary scan verifies "
+            "the character-to-image identity. Absence here is not proof of "
+            "historical non-attestation."
+        )
     if decision and decision["decision"] == "admitted" and key not in acquired_keys:
         return (
             f"The pinned Commons radical index maps {decision['source_file']}, but no "
@@ -346,20 +445,37 @@ def main() -> None:
     seal_assets = [
         asset
         for asset in manifest["assets"]
-        if asset.get("historical_form") in (None, "shuowen_seal_說文解字")
-        and asset["source_id"] != COMMON_SOURCE_ID
-        and asset["source_id"]
-        not in {SINICA_SOURCE_ID, CODH_SOURCE_ID, CODH_SERIES_SOURCE_ID}
+        if asset.get("historical_form") == "shuowen_seal_說文解字"
+        or (
+            asset.get("historical_form") is None
+            and asset["source_id"] != COMMON_SOURCE_ID
+            and asset["source_id"]
+            not in {SINICA_SOURCE_ID, CODH_SOURCE_ID, CODH_SERIES_SOURCE_ID}
+        )
     ]
     commons_assets = build_commons_assets()
     sinica_assets = build_sinica_assets()
     codh_assets, codh_series_assets = build_codh_assets()
     update_commons_source_registry(commons_assets)
     update_codh_series_source_registry(codh_series_assets)
-    historical_assets = (
-        commons_assets + sinica_assets + codh_assets + codh_series_assets
-    )
-    asset_ids = [asset["asset_id"] for asset in seal_assets + historical_assets]
+    historical_assets = sinica_assets + codh_assets + codh_series_assets
+    quarantined_assets = [
+        {
+            **asset,
+            "publication_status": "quarantined_identity_unverified",
+            "release_excluded": True,
+            "quarantine_reason": (
+                "The mapping is supported by a Commons community project table, "
+                "filename, and category, but lacks an independent scholarly "
+                "catalogue or primary-image identity comparison."
+            ),
+        }
+        for asset in commons_assets
+    ]
+    asset_ids = [
+        asset["asset_id"]
+        for asset in seal_assets + historical_assets + quarantined_assets
+    ]
     if len(asset_ids) != len(set(asset_ids)):
         raise RuntimeError("historical integration would create duplicate asset IDs")
     assets = seal_assets + historical_assets
@@ -372,6 +488,10 @@ def main() -> None:
             asset["asset_id"],
         )
     )
+    assets, provenance_alias_assets, duplicate_group_count = (
+        deduplicate_same_radical_assets(assets)
+    )
+    cross_identified_groups = annotate_cross_identifications(assets)
 
     common_candidates = json.loads(COMMON_CANDIDATES.read_text(encoding="utf-8"))
     common_decisions = {
@@ -382,6 +502,10 @@ def main() -> None:
     acquired_keys = {
         (asset["kangxi_number"], asset["historical_form"])
         for asset in historical_assets
+    }
+    quarantined_keys = {
+        (asset["kangxi_number"], asset["historical_form"])
+        for asset in quarantined_assets
     }
     transport_gaps = [
         decision
@@ -395,6 +519,12 @@ def main() -> None:
         if decision["decision"] == "not_acquired"
     ]
     manifest["assets"] = assets
+    manifest["quarantined_assets"] = sorted(
+        quarantined_assets, key=lambda asset: asset["asset_id"]
+    )
+    manifest["provenance_alias_assets"] = provenance_alias_assets
+    manifest["same_radical_duplicate_group_count"] = duplicate_group_count
+    manifest["cross_identified_asset_groups"] = cross_identified_groups
     manifest["generated_at"] = utc_now()
     manifest["historical_sources"] = {
         "commons_candidates": source_pointer(
@@ -497,7 +627,11 @@ def main() -> None:
                         "field": source_key,
                         "reason": "source_unavailable",
                         "detail": gap_detail(
-                            field, number, common_decisions, acquired_keys
+                            field,
+                            number,
+                            common_decisions,
+                            acquired_keys,
+                            quarantined_keys,
                         ),
                     }
                 )
@@ -524,6 +658,12 @@ def main() -> None:
             CODH_SOURCE_ID,
             CODH_SERIES_SOURCE_ID,
         )
+    }
+    phase_manifest["quarantined_historical_asset_count"] = len(
+        quarantined_assets
+    )
+    phase_manifest["quarantined_historical_asset_source_counts"] = {
+        COMMON_SOURCE_ID: len(quarantined_assets)
     }
     phase_manifest["historical_form_coverage"] = {
         field: sum(bool(record["historical_forms"][field]) for record in records)

@@ -10,8 +10,8 @@
     {
       "reading": "yán lù",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        63543
+      "source_entry_ids": [
+        "608500002"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄧㄢˊ ㄌㄨˋ",
       "pinyin": "yán lù",
-      "source_entry_indices": [
-        63543
+      "source_entry_ids": [
+        "608500002"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "一路上。[例]馬拉松賽跑的過程中，沿路都有加油打氣的民眾。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "608500002",
+      "verbatim": true
+    }
+  ]
 }

@@ -10,8 +10,8 @@
     {
       "reading": "léi yǔ",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        116543
+      "source_entry_ids": [
+        "032280078"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄌㄟˊ ㄩˇ",
       "pinyin": "léi yǔ",
-      "source_entry_indices": [
-        116543
+      "source_entry_ids": [
+        "032280078"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "由堆積雨雲所產生的地方性風暴，經常伴隨著閃電及雷聲，並常有強風、陣雨，偶爾亦夾帶冰雹。歷時甚短，通常不超過兩小時。如臺灣地區夏日午後常見的雷陣雨。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "032280078",
+      "verbatim": true
+    }
+  ]
 }

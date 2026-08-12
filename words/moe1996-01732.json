@@ -7,33 +7,33 @@
   ],
   "pinyin": [
     {
-      "reading": "xǐ",
+      "reading": "xiǎn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        64273
+      "source_entry_ids": [
+        "4018"
       ]
     },
     {
-      "reading": "xiǎn",
+      "reading": "xǐ",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        64274
+      "source_entry_ids": [
+        "3873"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄒㄧˇ",
-      "pinyin": "xǐ",
-      "source_entry_indices": [
-        64273
+      "reading": "ㄒㄧㄢˇ",
+      "pinyin": "xiǎn",
+      "source_entry_ids": [
+        "4018"
       ]
     },
     {
-      "reading": "ㄒㄧㄢˇ",
-      "pinyin": "xiǎn",
-      "source_entry_indices": [
-        64274
+      "reading": "ㄒㄧˇ",
+      "pinyin": "xǐ",
+      "source_entry_ids": [
+        "3873"
       ]
     }
   ],
@@ -121,11 +121,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -140,5 +142,23 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.用水去除汙穢、汙垢。[例]洗衣、洗手、洗澡　◎\n2.清除、伸雪。[例]洗罪、洗冤\n3.盛水盥滌的器具。[例]筆洗\n4.除去磁帶、磁片上已記錄的聲音、影像或資料。[例]他一不小心，把昨晚錄好的歌曲洗掉了。\n5.將拍攝好的底片顯影定影。[例]洗相片",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "3873",
+      "verbatim": true
+    },
+    {
+      "text": "姓。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "4018",
+      "verbatim": true
+    }
+  ]
 }

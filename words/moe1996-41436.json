@@ -10,8 +10,8 @@
     {
       "reading": "bī rén",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        107954
+      "source_entry_ids": [
+        "016100009"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄅㄧ ㄖㄣˊ",
       "pinyin": "bī rén",
-      "source_entry_indices": [
-        107954
+      "source_entry_ids": [
+        "016100009"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.逼迫、脅迫人。[例]咄咄逼人、逼人太甚、寒氣逼人\n2.強過、勝過別人。[例]英氣逼人、鋒芒逼人",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "016100009",
+      "verbatim": true
+    }
+  ]
 }

@@ -12,8 +12,8 @@
     {
       "reading": "yà bó lā hǎn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        5154
+      "source_entry_ids": [
+        "107250001"
       ]
     }
   ],
@@ -21,8 +21,8 @@
     {
       "reading": "ㄧㄚˋ ㄅㄛˊ ㄌㄚ ㄏㄢˇ",
       "pinyin": "yà bó lā hǎn",
-      "source_entry_indices": [
-        5154
+      "source_entry_ids": [
+        "107250001"
       ]
     }
   ],
@@ -85,11 +85,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -109,5 +111,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "希伯來人的族長，原居幼發拉底河上游吾珥（Ur）地方。約在西元前二千年徙居於巴勒斯坦，後成為猶太教、基督教和伊斯蘭的共同祖先。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "107250001",
+      "verbatim": true
+    }
+  ]
 }

@@ -10,8 +10,8 @@
     {
       "reading": "yǐ xī",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        4210
+      "source_entry_ids": [
+        "105540005"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄧˇ ㄒㄧ",
       "pinyin": "yǐ xī",
-      "source_entry_indices": [
-        4210
+      "source_entry_ids": [
+        "105540005"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -99,5 +101,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "分子式CH2=CH2，由石油裂解而成的氣體。無色，略有甜香味，可促進水果的熟成。乙烯是石化工業重要的基本原料，可衍生製造塑膠產品及人造纖維等；金工方面可焊接及切割金屬。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "105540005",
+      "verbatim": true
+    }
+  ]
 }

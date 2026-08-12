@@ -10,8 +10,8 @@
     {
       "reading": "fú tiē",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        55093
+      "source_entry_ids": [
+        "0958000031"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄈㄨˊ ㄊㄧㄝ",
       "pinyin": "fú tiē",
-      "source_entry_indices": [
-        55093
+      "source_entry_ids": [
+        "0958000031"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.合身舒適。[例]這件衣服質料不錯，剪裁也很合身，穿起來極服貼。\r\n2.順服、順從。[例]我自小乖巧服貼，甚得家人喜愛。　△服帖、伏帖",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "0958000031",
+      "verbatim": true
+    }
+  ]
 }

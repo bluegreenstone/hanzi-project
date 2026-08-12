@@ -10,8 +10,8 @@
     {
       "reading": "fēng yíng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        102396
+      "source_entry_ids": [
+        "017350068"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄈㄥ ㄧㄥˊ",
       "pinyin": "fēng yíng",
-      "source_entry_indices": [
-        102396
+      "source_entry_ids": [
+        "017350068"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.肌膚豐滿。如：「那位入圍的環球小姐豐盈美麗，有摘下后冠的可能。」東周戰國．宋玉〈神女賦〉：「貌豐盈以莊姝兮，苞溫潤之玉顏。」\n2.豐厚。漢．揚雄〈太玄賦〉：「豐盈禍所棲兮，名譽怨所集。」\n3.豐富充足。《戰國策．趙策一》：「年穀豐盈，眾人喜之。」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "017350068",
+      "verbatim": true
+    }
+  ]
 }

@@ -8,14 +8,22 @@
   ],
   "pinyin": [
     {
-      "reading": "shì qing",
+      "reading": "shì qíng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        4629
+      "source_entry_ids": [
+        "493000020"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄕˋ ㄑㄧㄥˊ",
+      "pinyin": "shì qíng",
+      "source_entry_ids": [
+        "493000020"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "affair; matter; thing; business",
@@ -75,15 +83,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "zhuyin": [
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "grading.hsk",
       "reason": "source_unavailable",
@@ -95,5 +104,45 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "shì qíng"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "493000020"
+          ]
+        },
+        {
+          "value": [
+            "shì qing"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            4629
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "事物的實際情形，包括人類一切行為及自然界所有的現象或活動。[例]只要是正當的事情，都可以大膽去做。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "493000020",
+      "verbatim": true
+    }
+  ]
 }

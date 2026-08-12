@@ -10,8 +10,8 @@
     {
       "reading": "yùn hán",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        96258
+      "source_entry_ids": [
+        "118590002"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄩㄣˋ ㄏㄢˊ",
       "pinyin": "yùn hán",
-      "source_entry_indices": [
-        96258
+      "source_entry_ids": [
+        "118590002"
       ]
     }
   ],
@@ -115,11 +115,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -139,5 +141,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.蘊藏包含。清．方苞〈余東木時文序〉：「蓋久困於舉場，故擇義遣辭，不敢過為艱深怪特，而中所蘊涵，則非順時取譽者所能貌似，此好古積學之自然而流露者也。」清．王先謙《東華錄．順治二十四》：「十三經、二十一史及諸子之不悖於聖經者，莫不蘊涵事理，成一家言。但卷帙浩繁，若以之教人恐未能一時盡解，其義亦未能一時盡得。」也作「蘊含」。\r\n2.蘊藏的意涵。清．梁詩正〈御繪詩經全圖贊〉：「五際六情，條綱可述，理趣環深，蘊涵微密。」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "118590002",
+      "verbatim": true
+    }
+  ]
 }

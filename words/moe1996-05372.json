@@ -8,19 +8,33 @@
   ],
   "pinyin": [
     {
+      "reading": "xìng qǐ",
+      "context": "dictionary_entry",
+      "source_entry_ids": [
+        "411200003"
+      ]
+    },
+    {
       "reading": "xīng qǐ",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        92062
+      "source_entry_ids": [
+        "409100010"
       ]
     }
   ],
   "zhuyin": [
     {
+      "reading": "ㄒㄧㄥˋ ㄑㄧˇ",
+      "pinyin": "xìng qǐ",
+      "source_entry_ids": [
+        "411200003"
+      ]
+    },
+    {
       "reading": "ㄒㄧㄥ ㄑㄧˇ",
       "pinyin": "xīng qǐ",
-      "source_entry_indices": [
-        92062
+      "source_entry_ids": [
+        "409100010"
       ]
     }
   ],
@@ -107,11 +121,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -126,5 +142,96 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "xìng qǐ",
+            "xīng qǐ"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "409100010",
+            "411200003"
+          ]
+        },
+        {
+          "value": [
+            "xīng qǐ"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            92062
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    },
+    {
+      "field": "zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            {
+              "pinyin": "xìng qǐ",
+              "reading": "ㄒㄧㄥˋ ㄑㄧˇ"
+            },
+            {
+              "pinyin": "xīng qǐ",
+              "reading": "ㄒㄧㄥ ㄑㄧˇ"
+            }
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "409100010",
+            "411200003"
+          ]
+        },
+        {
+          "value": [
+            {
+              "pinyin": "xīng qǐ",
+              "reading": "ㄒㄧㄥ ㄑㄧˇ"
+            }
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11",
+            "cns11643-attributes-2026-08-05"
+          ],
+          "source_entry_indices": [
+            92062
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE Concised Dictionary Zhuyin is canonical. The previous value was mechanically converted from CC-CEDICT Pinyin through the CNS syllable table and remains comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "開始逐漸發展。[例]目前飲食界正興起一股銷售健康食品的潮流。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "409100010",
+      "verbatim": true
+    },
+    {
+      "text": "產生興趣。[例]做事只憑一時興起而無法持之以恆，是難以有所成就的。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "411200003",
+      "verbatim": true
+    }
+  ]
 }

@@ -10,8 +10,8 @@
     {
       "reading": "diàn chí",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        116702
+      "source_entry_ids": [
+        "120900099"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄉㄧㄢˋ ㄔˊ",
       "pinyin": "diàn chí",
-      "source_entry_indices": [
-        116702
+      "source_entry_ids": [
+        "120900099"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "將機械能以外的其他形式能量直接轉化為電能的裝置。如化學電池、太陽能電池等。[例]這臺照相機的電池沒有裝好，難怪無法拍攝。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "120900099",
+      "verbatim": true
+    }
+  ]
 }

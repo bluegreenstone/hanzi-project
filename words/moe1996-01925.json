@@ -9,15 +9,15 @@
     {
       "reading": "lǜ",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        72644
+      "source_entry_ids": [
+        "2183"
       ]
     },
     {
       "reading": "shuài",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        72645
+      "source_entry_ids": [
+        "5161"
       ]
     }
   ],
@@ -25,15 +25,15 @@
     {
       "reading": "ㄌㄩˋ",
       "pinyin": "lǜ",
-      "source_entry_indices": [
-        72644
+      "source_entry_ids": [
+        "2183"
       ]
     },
     {
       "reading": "ㄕㄨㄞˋ",
       "pinyin": "shuài",
-      "source_entry_indices": [
-        72645
+      "source_entry_ids": [
+        "5161"
       ]
     }
   ],
@@ -153,11 +153,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -172,5 +174,23 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "比例中相比的數。[例]速率、效率、百分率",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "2183",
+      "verbatim": true
+    },
+    {
+      "text": "1.帶領。[例]率領、率團、率隊\r\n2.遵循。[例]率由舊章\r\n3.輕浮、不細心。[例]輕率、草率\r\n4.坦白、豪爽。[例]坦率、直率、率性\r\n5.大約、通常。[例]大率、率皆如此",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "5161",
+      "verbatim": true
+    }
+  ]
 }

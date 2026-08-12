@@ -10,8 +10,8 @@
     {
       "reading": "běn qián",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        55637
+      "source_entry_ids": [
+        "013300027"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄅㄣˇ ㄑㄧㄢˊ",
       "pinyin": "běn qián",
-      "source_entry_indices": [
-        55637
+      "source_entry_ids": [
+        "013300027"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.用來生利息的母金。[例]你的本錢少，利息當然也少。\n2.經營事業所投下的資本。[例]做這種生意得花不少本錢。\n3.貨物的成本。[例]這種產品本錢少，利潤高，可多加生產。\n4.借指可以憑藉的資歷、能力等。[例]年輕就是本錢。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "013300027",
+      "verbatim": true
+    }
+  ]
 }

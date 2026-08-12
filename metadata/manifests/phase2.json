@@ -1,0 +1,266 @@
+{
+  "phase": 2,
+  "generated_at": "2026-08-12T00:03:03Z",
+  "record_count": 214,
+  "shuowen_heading_count": 540,
+  "shuowen_mapped_count": 204,
+  "shuowen_asset_count": 211,
+  "record_digest_sha256": "397e4f0ba5c775f3c0b6a2774bc9c7580cafb3678b38092a9f3ca42f4182abb7",
+  "source_acquisitions": {
+    "unicode-unihan-17.0.0": {
+      "retrieved_at": "2026-08-11T03:10:01Z",
+      "local_path": "source-data/unicode-17.0.0/Unihan.zip",
+      "sha256": "f7a48b2b545acfaa77b2d607ae28747404ce02baefee16396c5d2d7a8ef34b5e"
+    },
+    "zhwikisource-shuowen-2026-08-10": {
+      "retrieved_at": "2026-08-11T03:49:47Z",
+      "local_path": "source-data/wikimedia-2026-08-10/zhwikisource-shuowen-api.json",
+      "sha256": "a8c6f519482a54abe667abd435c362891d8ea0c5866fde3714014a4e0ad4f5e8",
+      "bytes": 668395,
+      "api": "MediaWiki action=query, prop=revisions, rvprop=ids|timestamp|content, rvslots=main, formatversion=2",
+      "revisions": {
+        "說文解字": {
+          "page_id": 52680,
+          "revision_id": 2392932,
+          "timestamp": "2024-04-16T09:10:20Z"
+        },
+        "說文解字/01": {
+          "page_id": 52683,
+          "revision_id": 2665967,
+          "timestamp": "2026-03-04T10:43:29Z"
+        },
+        "說文解字/02": {
+          "page_id": 52684,
+          "revision_id": 1559144,
+          "timestamp": "2019-04-22T05:38:39Z"
+        },
+        "說文解字/03": {
+          "page_id": 99562,
+          "revision_id": 2012003,
+          "timestamp": "2021-01-04T12:18:46Z"
+        },
+        "說文解字/04": {
+          "page_id": 99563,
+          "revision_id": 1566990,
+          "timestamp": "2019-05-26T02:13:08Z"
+        },
+        "說文解字/05": {
+          "page_id": 99564,
+          "revision_id": 1870764,
+          "timestamp": "2020-06-05T17:12:28Z"
+        },
+        "說文解字/06": {
+          "page_id": 99565,
+          "revision_id": 1962671,
+          "timestamp": "2020-08-31T07:08:06Z"
+        },
+        "說文解字/07": {
+          "page_id": 99574,
+          "revision_id": 1870775,
+          "timestamp": "2020-06-05T17:40:35Z"
+        },
+        "說文解字/08": {
+          "page_id": 99566,
+          "revision_id": 1566246,
+          "timestamp": "2019-05-21T10:47:48Z"
+        },
+        "說文解字/09": {
+          "page_id": 99567,
+          "revision_id": 2025949,
+          "timestamp": "2021-04-12T07:11:14Z"
+        },
+        "說文解字/10": {
+          "page_id": 99568,
+          "revision_id": 2026004,
+          "timestamp": "2021-04-13T02:58:06Z"
+        },
+        "說文解字/11": {
+          "page_id": 99569,
+          "revision_id": 1870771,
+          "timestamp": "2020-06-05T17:35:04Z"
+        },
+        "說文解字/12": {
+          "page_id": 99570,
+          "revision_id": 1559174,
+          "timestamp": "2019-04-22T06:13:38Z"
+        },
+        "說文解字/13": {
+          "page_id": 99571,
+          "revision_id": 1870769,
+          "timestamp": "2020-06-05T17:33:25Z"
+        },
+        "說文解字/14": {
+          "page_id": 99572,
+          "revision_id": 1957454,
+          "timestamp": "2020-07-14T11:34:22Z"
+        },
+        "說文解字/15": {
+          "page_id": 99573,
+          "revision_id": 2607988,
+          "timestamp": "2025-10-19T05:02:11Z"
+        }
+      }
+    },
+    "enwiki-kangxi-radicals-2026-08-10": {
+      "retrieved_at": "2026-08-11T03:50:02Z",
+      "local_path": "source-data/wikimedia-2026-08-10/enwiki-kangxi-radicals-api.json",
+      "sha256": "5dfef9951f7466e075f899ac94d50c61722c22ec059920557a89b37baf641ca8",
+      "bytes": 78581,
+      "page_id": 1709013,
+      "revision_id": 1362962863,
+      "revision_timestamp": "2026-07-07T05:49:52Z",
+      "api": "MediaWiki action=query, prop=revisions, rvprop=ids|timestamp|content, rvslots=main, formatversion=2"
+    },
+    "commons-shuowen-seal-files-2026-08-10": {
+      "retrieved_at": "2026-08-11T04:01:15Z",
+      "local_path": "source-data/wikimedia-2026-08-10/commons-shuowen-seal-metadata.json",
+      "sha256": "f00f91e1767afa9d8082d787ae4f0cefb006aca6a938d06f6a691aa871a1c76a",
+      "bytes": 738348,
+      "requested_file_count": 101,
+      "api": "MediaWiki action=query, prop=imageinfo, iiprop=url|size|mime|sha1|timestamp|mediatype|extmetadata, formatversion=2",
+      "per_asset_manifest": "assets/manifest.json"
+    },
+    "commons-shuowen-540-svg-series-2026-08-10": {
+      "retrieved_at": "2026-08-11T04:17:04Z",
+      "local_path": "source-data/wikimedia-2026-08-10/commons-shuowen-540-series-metadata.json",
+      "sha256": "c84c0a25d7bfe6f9961dc09c7bd2a35bfe6b8a2a7c8dd5537e500d4daf496da6",
+      "bytes": 780236,
+      "requested_file_count": 204,
+      "resolved_file_count": 204,
+      "license_result": "204 CC BY-SA 3.0 original SVG files by LiliCharlie",
+      "api": "MediaWiki action=query, prop=imageinfo, iiprop=url|size|mime|sha1|timestamp|mediatype|extmetadata, formatversion=2",
+      "per_asset_manifest": "assets/manifest.json"
+    },
+    "commons-shuowen-540-numbered-composite-2026-08-10": {
+      "retrieved_at": "2026-08-11T04:25:34Z",
+      "local_path": "source-data/wikimedia-2026-08-10/commons-shuowen-540-numbered-composite-metadata.json",
+      "sha256": "c1c01759b66a042b43b8f21b81877d0adc62f9fb83d2804e72436f2b6f193373",
+      "bytes": 4509,
+      "page_id": 37744677,
+      "original_bytes": 2261415,
+      "original_commons_sha1": "1993f15f2987fb5552780294b9d6444e0669b3ae",
+      "original_timestamp": "2020-09-16T10:08:10Z",
+      "api": "MediaWiki action=query, prop=imageinfo, iiprop=url|size|mime|sha1|timestamp|mediatype|extmetadata, formatversion=2",
+      "per_asset_manifest": "assets/manifest.json"
+    },
+    "commons-ancient-chinese-character-seal-files-2026-08-10": {
+      "retrieved_at": "2026-08-12T00:55:53Z",
+      "local_path": "source-data/wikimedia-2026-08-10/commons-unmapped-kangxi-seal-metadata.json",
+      "sha256": "2d0f9b6fc470069f8e3bb6328238e3baeef0cf3118e9b68a0559b62a3991d16c",
+      "bytes": 105445,
+      "requested_file_count": 10,
+      "resolved_file_count": 10,
+      "license_result": "10 public-domain original SVG files",
+      "api": "MediaWiki action=query, prop=imageinfo, iiprop=url|size|mime|sha1|timestamp|mediatype|extmetadata, iilimit=max, formatversion=2",
+      "per_asset_manifest": "assets/manifest.json",
+      "superseded_snapshot": {
+        "retrieved_at": "2026-08-11T04:31:36Z",
+        "sha256": "8dd17e21b7b6bc13df1549b7a180a0e6c8c5a8a688c29a6a79fdc298c858379a",
+        "bytes": 105799,
+        "reason": "The earlier live Commons API response is no longer locally available. A fresh response was pinned; the ten file titles and admitted file revisions remain audit-only and quarantined."
+      }
+    },
+    "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10": {
+      "retrieved_at": "2026-08-12T01:34:40Z",
+      "path": "source-data/sinica-xiaoxuetang-2026-08-10/radical-historical-glyph-index.json",
+      "sha256": "7448034e92a4f0c8fd1788692879cea4216a9bd6c4dbbc29fd690b2ea8ea6cb9",
+      "bytes": 9064594,
+      "query_count": 428,
+      "mapping_count": 9487,
+      "unique_glyph_code_count": 9331,
+      "oracle_mapping_count": 3127,
+      "bronze_mapping_count": 6360,
+      "request_method": "One exact Traditional-primary character POST query per radical to each of the 甲骨文 and 金文 interfaces, with at least 1.1 seconds between same-host requests; every raw response retained and hashed.",
+      "superseded_snapshot": {
+        "retrieved_at": "2026-08-11T05:52:08Z",
+        "sha256": "7ae428e087fad26aa2d201e0b8e034dc82c40db08ed046402b3d02254f9eff48",
+        "bytes": 9064594,
+        "reason": "The earlier raw-response snapshot is no longer local. The replacement preserves the same 428 queries, 9,487 mappings, 9,331 glyph codes, and form counts; volatile response bytes are newly pinned rather than represented as identical."
+      },
+      "representative_originals": {
+        "path": "source-data/sinica-xiaoxuetang-2026-08-10/representative-original-acquisition-log.json",
+        "sha256": "200c536f6310cb6de2bdb9d9c72d34fd3ba98bf2a62853f0c436386afe68b1b7",
+        "bytes": 468434,
+        "updated_at": "2026-08-12T01:36:11Z",
+        "mapping_count": 325,
+        "unique_source_glyph_count": 322,
+        "oracle_count": 159,
+        "bronze_count": 166,
+        "selection_policy": "First source-ordered glyph for each exact Traditional-primary radical/form query with results; every discovered variant remains indexed in the full candidate snapshot.",
+        "image_policy": "Unchanged official 300-point, 96-dpi PNG response, the highest size offered by the source interface; all 325 responses are 413 by 401 pixels.",
+        "superseded_log_sha256": "6a52e1d5ede84cdd0fc8ff1762edea54fc215d574a678f7582a822a10141d2e1"
+      },
+      "license_evidence_files": [
+        {
+          "path": "source-data/sinica-xiaoxuetang-2026-08-10/license.html",
+          "sha256": "95664e7e16436aa8120aa969c99fca3044c7b197805bb1bedc4a4f603d513135",
+          "bytes": 538
+        },
+        {
+          "path": "source-data/sinica-xiaoxuetang-2026-08-10/guide.html",
+          "sha256": "26cf39926bc4b533be1d402918da7b7944f5525f05bf3f581a368868f4e8d6c2",
+          "bytes": 8126
+        }
+      ],
+      "small_seal_originals": {
+        "path": "source-data/sinica-xiaoxuetang-seal-2026-08-11/radical-seal-acquisition-log.json",
+        "sha256": "40c30dafc17f1e6da967b4eb1ee954bae8607cbedb3c09317c8566b4d42a359a",
+        "bytes": 448548,
+        "retrieved_at": "2026-08-11T23:52:10Z",
+        "query_count": 214,
+        "original_image_count": 211,
+        "exact_query_gap_count": 3,
+        "exact_query_gap_radicals": [
+          8,
+          90,
+          174
+        ],
+        "selection_policy": "POST the exact Traditional-primary radical to the official 小篆 query endpoint and select the first source-ordered result. Each result must expose a 27.* glyph code, a 說文 source reference, and the official 北師大說文小篆 image-font endpoint. The query response and complete returned-candidate count are preserved.",
+        "image_policy": "Official 300-point, 96-dpi PNG response; no local crop, resize, re-encoding, tracing, or other transformation."
+      }
+    }
+  },
+  "transport_sources": [
+    "internet-archive-wayback-commons-mirror-2026-08-10",
+    "github-hanzi-etymology-commons-mirror-2026-08-10",
+    "github-analects-data-commons-mirror-2026-08-10"
+  ],
+  "asset_manifest": {
+    "local_path": "assets/manifest.json",
+    "sha256": "475216f6badcae7ca1276ba3f22a26c26e2af46de707c77c70951fd1c59e6597"
+  },
+  "builder": "scripts/build_phase2.py",
+  "schema": "schema/radical.schema.json",
+  "historical_asset_count": 2112,
+  "historical_asset_source_counts": {
+    "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10": 325,
+    "codh-henrui-liushutong-te00008-21-series-2026-08-11": 1784,
+    "codh-henrui-liushutong-te00010-2026-08-10": 3,
+    "commons-ancient-chinese-historical-form-files-2026-08-10": 0
+  },
+  "historical_form_coverage": {
+    "oracle_bone_甲骨文": 159,
+    "bronze_金文": 166,
+    "liushutong_六書通": 196
+  },
+  "historical_form_reference_counts": {
+    "oracle_bone_甲骨文": 159,
+    "bronze_金文": 166,
+    "liushutong_六書通": 1787
+  },
+  "historical_transport_gap_count": 56,
+  "historical_source_gap_count": 131,
+  "english_definition_count": 214,
+  "last_updated_at": "2026-08-11T15:54:42Z",
+  "quarantined_historical_asset_count": 455,
+  "quarantined_historical_asset_source_counts": {
+    "commons-ancient-chinese-historical-form-files-2026-08-10": 455
+  },
+  "provenance_alias_historical_asset_count": 1676,
+  "provenance_alias_historical_asset_source_counts": {
+    "codh-henrui-liushutong-te00008-21-series-2026-08-11": 1554,
+    "codh-henrui-liushutong-te00010-2026-08-10": 122
+  },
+  "shuowen_exact_query_gap_count": 3,
+  "retired_unverified_seal_asset_count": 214
+}

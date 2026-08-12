@@ -10,8 +10,8 @@
     {
       "reading": "yá chǐ",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        71338
+      "source_entry_ids": [
+        "595000004"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄧㄚˊ ㄔˇ",
       "pinyin": "yá chǐ",
-      "source_entry_indices": [
-        71338
+      "source_entry_ids": [
+        "595000004"
       ]
     }
   ],
@@ -91,11 +91,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -110,5 +112,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "動物體的咀嚼器官，為固立於上下顎骨之齒槽突的硬組織突起物。其構造可分為硬組織形成的琺瑯質、象牙質和牙骨質，以及包在硬組織中心而屬於軟組織的牙髓。人的牙齒包括門牙、犬齒、臼齒三部分。除了咀嚼食物的主要功能外，對於發音及臉部的美感也很重要。[例]保持口腔的清潔與衛生，才能擁有一口健康的牙齒。　◎◎◎",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "595000004",
+      "verbatim": true
+    }
+  ]
 }

@@ -16,7 +16,7 @@ from urllib.error import HTTPError, URLError
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DATA = ROOT / "source-data" / "wikimedia-2026-08-10"
-CANDIDATES = ROOT / "phase2-historical-asset-candidates.json"
+CANDIDATES = ROOT / "metadata" / "audits" / "phase2-historical-asset-candidates.json"
 METADATA = SOURCE_DATA / "commons-acc-historical-file-metadata.json"
 LOG_PATH = SOURCE_DATA / "commons-acc-historical-original-acquisition-log.json"
 MANIFEST = ROOT / "assets" / "manifest.json"

@@ -141,26 +141,28 @@
     "shuowen": [
       "zhwikisource-shuowen-2026-08-10"
     ],
-    "shuowen.seal_glyph": [
-      "commons-shuowen-540-svg-series-2026-08-10"
-    ],
-    "historical_forms.shuowen_seal_說文解字": [
-      "commons-shuowen-540-svg-series-2026-08-10"
-    ],
     "historical_forms.oracle_bone_甲骨文": [
-      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
-      "commons-ancient-chinese-historical-form-files-2026-08-10"
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
     ],
     "historical_forms.bronze_金文": [
-      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
-      "commons-ancient-chinese-historical-form-files-2026-08-10"
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
     ],
     "historical_forms.liushutong_六書通": [
-      "commons-ancient-chinese-historical-form-files-2026-08-10",
       "codh-henrui-liushutong-te00008-21-series-2026-08-11"
     ],
     "english_definition": [
       "unicode-unihan-17.0.0"
+    ],
+    "historical_forms.shuowen_seal_說文解字": [
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
+    ],
+    "shuowen.seal_glyph": [
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
+    ],
+    "example_characters": [
+      "moe-tw-common-terms-1996",
+      "cns11643-attributes-2026-08-05",
+      "cc-cedict-editor-2026-08-11"
     ],
     "stroke_order.svg_asset_id": [
       "makemeahanzi-graphics-master-audit"
@@ -231,13 +233,6 @@
         "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
         "source_file": "41.E000",
         "license_id": "CC0-1.0"
-      },
-      {
-        "asset_id": "oracle-U+4E00-commons-index",
-        "path": "assets/oracle/U+4E00/oracle-U+4E00-commons-index.svg",
-        "source_id": "commons-ancient-chinese-historical-form-files-2026-08-10",
-        "source_file": "一-oracle.svg",
-        "license_id": "pd"
       }
     ],
     "bronze_金文": [
@@ -247,44 +242,23 @@
         "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
         "source_file": "31.E001",
         "license_id": "CC0-1.0"
-      },
-      {
-        "asset_id": "bronze-U+4E00-commons-index",
-        "path": "assets/bronze/U+4E00/bronze-U+4E00-commons-index.svg",
-        "source_id": "commons-ancient-chinese-historical-form-files-2026-08-10",
-        "source_file": "一-bronze.svg",
-        "license_id": "pd"
       }
     ],
     "shuowen_seal_說文解字": [
       {
-        "asset_id": "shuowen-540-U+4E00",
-        "path": "assets/shuowen_seal/U+4E00/shuowen-540-U+4E00.svg",
-        "source_id": "commons-shuowen-540-svg-series-2026-08-10",
-        "source_file": "Shuowen Seal Radical 001.svg",
-        "license_id": "cc-by-sa-3.0"
+        "asset_id": "sinica-shuowen-seal-U+4E00",
+        "path": "assets/shuowen_seal/U+4E00/sinica-shuowen-seal-U+4E00.png",
+        "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+        "source_file": "27.4E00",
+        "license_id": "CC0-1.0"
       }
     ],
     "liushutong_六書通": [
-      {
-        "asset_id": "liushutong-U+4E00-commons-index",
-        "path": "assets/liushutong/U+4E00/liushutong-U+4E00-commons-index.svg",
-        "source_id": "commons-ancient-chinese-historical-form-files-2026-08-10",
-        "source_file": "一-bigseal.svg",
-        "license_id": "pd"
-      },
       {
         "asset_id": "codh-liushutong-TE00008-U+4E00-001",
         "path": "assets/liushutong/U+4E00/codh-liushutong-TE00008-U+4E00-001.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+4E00_TE00008_0025_2_X1409_Y1209.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+4E00-001",
-        "path": "assets/liushutong/U+4E00/codh-liushutong-TE00015-U+4E00-001.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+4E00_TE00015_0025_2_X1409_Y1209.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -295,13 +269,6 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+4E00-002",
-        "path": "assets/liushutong/U+4E00/codh-liushutong-TE00015-U+4E00-002.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+4E00_TE00015_0025_2_X1412_Y1014.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+4E00-003",
         "path": "assets/liushutong/U+4E00/codh-liushutong-TE00008-U+4E00-003.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
@@ -309,24 +276,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+4E00-003",
-        "path": "assets/liushutong/U+4E00/codh-liushutong-TE00015-U+4E00-003.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+4E00_TE00015_0025_2_X1425_Y3032.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+4E00-004",
         "path": "assets/liushutong/U+4E00/codh-liushutong-TE00008-U+4E00-004.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+4E00_TE00008_0025_2_X1440_Y3659.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+4E00-004",
-        "path": "assets/liushutong/U+4E00/codh-liushutong-TE00015-U+4E00-004.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+4E00_TE00015_0025_2_X1440_Y3659.jpg",
         "license_id": "CC-BY-SA-4.0"
       }
     ]
@@ -344,14 +297,28 @@
     "revision_id": 2665967,
     "revision_timestamp": "2026-03-04T10:43:29Z",
     "seal_glyph": {
-      "asset_id": "shuowen-540-U+4E00",
-      "path": "assets/shuowen_seal/U+4E00/shuowen-540-U+4E00.svg",
-      "source_id": "commons-shuowen-540-svg-series-2026-08-10",
-      "source_file": "Shuowen Seal Radical 001.svg",
-      "license_id": "cc-by-sa-3.0"
+      "asset_id": "sinica-shuowen-seal-U+4E00",
+      "path": "assets/shuowen_seal/U+4E00/sinica-shuowen-seal-U+4E00.png",
+      "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+      "source_file": "27.4E00",
+      "license_id": "CC0-1.0"
     }
   },
   "english_definition": "one; a, an; alone",
+  "example_characters": [
+    "U+4E00",
+    "U+4E0D",
+    "U+4E0A",
+    "U+4E0B",
+    "U+4E09",
+    "U+4E26",
+    "U+4E03",
+    "U+4E16",
+    "U+4E14",
+    "U+4E01",
+    "U+4E1F",
+    "U+4E08"
+  ],
   "stroke_order": {
     "svg_asset_id": "stroke-order-U+4E00-mmah-bddc96d4",
     "standard": "PRC GF 0023-2020 (provisional baseline)",

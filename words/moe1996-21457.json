@@ -9,19 +9,19 @@
   ],
   "pinyin": [
     {
-      "reading": "lǎ ba kù",
+      "reading": "lǎ bā kù",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        22413
+      "source_entry_ids": [
+        "174100002"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄌㄚˇ ˙ㄅㄚ ㄎㄨˋ",
-      "pinyin": "lǎ ba kù",
-      "source_entry_indices": [
-        22413
+      "reading": "ㄌㄚˇ ㄅㄚ ㄎㄨˋ",
+      "pinyin": "lǎ bā kù",
+      "source_entry_ids": [
+        "174100002"
       ]
     }
   ],
@@ -84,11 +84,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -103,5 +105,81 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "lǎ bā kù"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "174100002"
+          ]
+        },
+        {
+          "value": [
+            "lǎ ba kù"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            22413
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    },
+    {
+      "field": "zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            {
+              "pinyin": "lǎ bā kù",
+              "reading": "ㄌㄚˇ ㄅㄚ ㄎㄨˋ"
+            }
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "174100002"
+          ]
+        },
+        {
+          "value": [
+            {
+              "pinyin": "lǎ ba kù",
+              "reading": "ㄌㄚˇ ˙ㄅㄚ ㄎㄨˋ"
+            }
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11",
+            "cns11643-attributes-2026-08-05"
+          ],
+          "source_entry_indices": [
+            22413
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE Concised Dictionary Zhuyin is canonical. The previous value was mechanically converted from CC-CEDICT Pinyin through the CNS syllable table and remains comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "一種長褲。特色為臀部及大腿部分較合身，褲管自膝蓋以下漸寬大，呈喇叭狀。[例]他今天穿著喇叭褲，更顯得俊俏挺拔。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "174100002",
+      "verbatim": true
+    }
+  ]
 }

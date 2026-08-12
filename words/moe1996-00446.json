@@ -10,8 +10,8 @@
     {
       "reading": "zhōng guó",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        3278
+      "source_entry_ids": [
+        "081300154"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄓㄨㄥ ㄍㄨㄛˊ",
       "pinyin": "zhōng guó",
-      "source_entry_indices": [
-        3278
+      "source_entry_ids": [
+        "081300154"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.上古時代，漢族文化發源黃河流域，以為居天下之中，故稱其地為「中國」。後各朝疆土漸廣，凡所轄境，皆稱為「中國」。《詩經．小雅．六月．序》：「小雅盡廢，則四夷交侵，中國微矣！」《公羊傳．昭公二十三年》：「曷為以詐戰之辭言之，不與夷狄之主中國也。」\n2.朝廷。《禮記．檀弓上》：「今之大夫交政於中國，雖欲勿哭，焉得而弗哭。」《漢書．卷九五．西南夷傳》：「聖王不以勞中國，宜罷郡，放棄其民，絕其王侯勿復通。」\n3.京師。《詩經．大雅．民勞》：「惠此中國，以綏四方。」漢．毛亨．傳：「中國，京師也。」《史記．卷一．五帝本紀》：「夫而後之中國踐天子位焉，是為帝舜。」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "081300154",
+      "verbatim": true
+    }
+  ]
 }

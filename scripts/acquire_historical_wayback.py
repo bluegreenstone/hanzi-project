@@ -21,7 +21,7 @@ from acquire_historical_assets import local_target
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DATA = ROOT / "source-data" / "wikimedia-2026-08-10"
-CANDIDATES = ROOT / "phase2-historical-asset-candidates.json"
+CANDIDATES = ROOT / "metadata" / "audits" / "phase2-historical-asset-candidates.json"
 METADATA = SOURCE_DATA / "commons-acc-historical-file-metadata.json"
 COMMON_LOG = SOURCE_DATA / "commons-acc-historical-original-acquisition-log.json"
 WAYBACK_LOG = SOURCE_DATA / "commons-acc-historical-wayback-acquisition-log.json"

@@ -11,8 +11,8 @@
     {
       "reading": "niǔ yuē zhōu",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        84667
+      "source_entry_ids": [
+        "0307700101"
       ]
     }
   ],
@@ -20,8 +20,8 @@
     {
       "reading": "ㄋㄧㄡˇ ㄩㄝ ㄓㄡ",
       "pinyin": "niǔ yuē zhōu",
-      "source_entry_indices": [
-        84667
+      "source_entry_ids": [
+        "0307700101"
       ]
     }
   ],
@@ -76,11 +76,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -95,5 +97,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "州名。位於美國東北部，濱大西洋，面積約十二萬七千平方公里，首邑為奧爾巴尼。土地肥沃，農產品豐富，製造業也極為興盛。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "0307700101",
+      "verbatim": true
+    }
+  ]
 }

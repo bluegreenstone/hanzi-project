@@ -11,8 +11,8 @@
     {
       "reading": "yìn xiàng pài",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        17601
+      "source_entry_ids": [
+        "6156000101"
       ]
     }
   ],
@@ -20,8 +20,8 @@
     {
       "reading": "ㄧㄣˋ ㄒㄧㄤˋ ㄆㄞˋ",
       "pinyin": "yìn xiàng pài",
-      "source_entry_indices": [
-        17601
+      "source_entry_ids": [
+        "6156000101"
       ]
     }
   ],
@@ -76,11 +76,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -95,5 +97,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "十九世紀中期後半的法國畫派之一。此一畫派的畫家普遍贊成藝術的根本目的是以客觀、科學、無我的精神，記錄自然的剎那現象。其畫家以莫內（Claude Monet）為先驅，另有馬奈（Édouard Manet）、雷諾瓦（Pierre Auguste Renoir）、特嘉（Edgar Da-gas）等。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "6156000101",
+      "verbatim": true
+    }
+  ]
 }

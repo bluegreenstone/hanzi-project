@@ -121,23 +121,25 @@
     "character_count_in_kangxi_status": [
       "enwiki-kangxi-radicals-2026-08-10"
     ],
-    "historical_forms.shuowen_seal_說文解字": [
-      "commons-ancient-chinese-character-seal-files-2026-08-10"
-    ],
     "historical_forms.oracle_bone_甲骨文": [
-      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
-      "commons-ancient-chinese-historical-form-files-2026-08-10"
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
     ],
     "historical_forms.bronze_金文": [
-      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
-      "commons-ancient-chinese-historical-form-files-2026-08-10"
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
     ],
     "historical_forms.liushutong_六書通": [
-      "commons-ancient-chinese-historical-form-files-2026-08-10",
       "codh-henrui-liushutong-te00008-21-series-2026-08-11"
     ],
     "english_definition": [
       "unicode-unihan-17.0.0"
+    ],
+    "historical_forms.shuowen_seal_說文解字": [
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
+    ],
+    "example_characters": [
+      "moe-tw-common-terms-1996",
+      "cns11643-attributes-2026-08-05",
+      "cc-cedict-editor-2026-08-11"
     ],
     "stroke_order.svg_asset_id": [
       "makemeahanzi-graphics-master-audit"
@@ -223,13 +225,6 @@
         "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
         "source_file": "45.E2A5",
         "license_id": "CC0-1.0"
-      },
-      {
-        "asset_id": "oracle-U+5F0B-commons-index",
-        "path": "assets/oracle/U+5F0B/oracle-U+5F0B-commons-index.svg",
-        "source_id": "commons-ancient-chinese-historical-form-files-2026-08-10",
-        "source_file": "弋-oracle.svg",
-        "license_id": "pd"
       }
     ],
     "bronze_金文": [
@@ -239,44 +234,23 @@
         "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
         "source_file": "33.F2AF",
         "license_id": "CC0-1.0"
-      },
-      {
-        "asset_id": "bronze-U+5F0B-commons-index",
-        "path": "assets/bronze/U+5F0B/bronze-U+5F0B-commons-index.svg",
-        "source_id": "commons-ancient-chinese-historical-form-files-2026-08-10",
-        "source_file": "弋-bronze.svg",
-        "license_id": "pd"
       }
     ],
     "shuowen_seal_說文解字": [
       {
-        "asset_id": "character-seal-U+5F0B",
-        "path": "assets/shuowen_seal/U+5F0B/character-seal-U+5F0B.svg",
-        "source_id": "commons-ancient-chinese-character-seal-files-2026-08-10",
-        "source_file": "弋-seal.svg",
-        "license_id": "pd"
+        "asset_id": "sinica-shuowen-seal-U+5F0B",
+        "path": "assets/shuowen_seal/U+5F0B/sinica-shuowen-seal-U+5F0B.png",
+        "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+        "source_file": "27.5F0B",
+        "license_id": "CC0-1.0"
       }
     ],
     "liushutong_六書通": [
-      {
-        "asset_id": "liushutong-U+5F0B-commons-index",
-        "path": "assets/liushutong/U+5F0B/liushutong-U+5F0B-commons-index.svg",
-        "source_id": "commons-ancient-chinese-historical-form-files-2026-08-10",
-        "source_file": "弋-bigseal.svg",
-        "license_id": "pd"
-      },
       {
         "asset_id": "codh-liushutong-TE00008-U+5F0B-001",
         "path": "assets/liushutong/U+5F0B/codh-liushutong-TE00008-U+5F0B-001.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+5F0B_TE00008_0035_1_X1930_Y1066.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+5F0B-001",
-        "path": "assets/liushutong/U+5F0B/codh-liushutong-TE00015-U+5F0B-001.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+5F0B_TE00015_0035_1_X1953_Y2501.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -287,13 +261,6 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+5F0B-002",
-        "path": "assets/liushutong/U+5F0B/codh-liushutong-TE00015-U+5F0B-002.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+5F0B_TE00015_0035_1_X1962_Y1927.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+5F0B-003",
         "path": "assets/liushutong/U+5F0B/codh-liushutong-TE00008-U+5F0B-003.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
@@ -301,24 +268,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+5F0B-003",
-        "path": "assets/liushutong/U+5F0B/codh-liushutong-TE00015-U+5F0B-003.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+5F0B_TE00015_0035_1_X1975_Y0623.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+5F0B-004",
         "path": "assets/liushutong/U+5F0B/codh-liushutong-TE00008-U+5F0B-004.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+5F0B_TE00008_0035_1_X1962_Y1927.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+5F0B-004",
-        "path": "assets/liushutong/U+5F0B/codh-liushutong-TE00015-U+5F0B-004.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+5F0B_TE00015_0035_1_X2291_Y1180.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -348,6 +301,9 @@
   "character_count_in_kangxi_status": "secondary_source_unverified",
   "shuowen": null,
   "english_definition": "catch, arrest; shoot with bow",
+  "example_characters": [
+    "U+5F0F"
+  ],
   "stroke_order": {
     "svg_asset_id": "stroke-order-U+5F0B-mmah-bddc96d4",
     "standard": "PRC GF 0023-2020 (provisional baseline)",

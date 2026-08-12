@@ -10,8 +10,8 @@
     {
       "reading": "jù chǎng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        14870
+      "source_entry_ids": [
+        "345600011"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄐㄩˋ ㄔㄤˇ",
       "pinyin": "jù chǎng",
-      "source_entry_indices": [
-        14870
+      "source_entry_ids": [
+        "345600011"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.戲劇等表演藝術的演出場所。[例]這個劇團成立近二十年，足跡遍布全國各地劇場。\n2.表演藝術的單位或團體。[例]劇場成員在導演引導下，全心投入演出。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "345600011",
+      "verbatim": true
+    }
+  ]
 }

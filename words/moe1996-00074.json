@@ -7,33 +7,33 @@
   ],
   "pinyin": [
     {
-      "reading": "kān",
+      "reading": "kàn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        77940
+      "source_entry_ids": [
+        "2562"
       ]
     },
     {
-      "reading": "kàn",
+      "reading": "kān",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        77941
+      "source_entry_ids": [
+        "2550"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄎㄢ",
-      "pinyin": "kān",
-      "source_entry_indices": [
-        77940
+      "reading": "ㄎㄢˋ",
+      "pinyin": "kàn",
+      "source_entry_ids": [
+        "2562"
       ]
     },
     {
-      "reading": "ㄎㄢˋ",
-      "pinyin": "kàn",
-      "source_entry_indices": [
-        77941
+      "reading": "ㄎㄢ",
+      "pinyin": "kān",
+      "source_entry_ids": [
+        "2550"
       ]
     }
   ],
@@ -187,11 +187,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -206,5 +208,23 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "守護。[例]看門、看護、看守",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "2550",
+      "verbatim": true
+    },
+    {
+      "text": "1.視、瞧。[例]看見、收看、觀看\n2.觀賞。[例]看戲、看熱鬧、看風景\n3.對待。[例]刮目相看、另眼看待\n4.拜訪、探望。[例]他南下看老朋友去了。\n5.估量、觀察判斷。[例]這個計畫，你看行得通嗎？\n6.診斷醫治。[例]看病、看診\n7.用在動詞之後，表示姑且試試的語氣。[例]想想看、等等看、試試看",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "2562",
+      "verbatim": true
+    }
+  ]
 }

@@ -9,9 +9,8 @@
     {
       "reading": "dāo",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        13307,
-        13308
+      "source_entry_ids": [
+        "1044"
       ]
     }
   ],
@@ -19,9 +18,8 @@
     {
       "reading": "ㄉㄠ",
       "pinyin": "dāo",
-      "source_entry_indices": [
-        13307,
-        13308
+      "source_entry_ids": [
+        "1044"
       ]
     }
   ],
@@ -125,11 +123,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -144,5 +144,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.可用來砍殺的兵器。[例]大刀、軍刀、武士刀\n2.切、削、剪、刻、割、斬的工具。多以鋼鐵製成。[例]菜刀、剪刀、鐮刀 　◎\n3.古代的錢幣。外形如刀。[例]刀布\n4.量詞。計算紙張的單位。一百張紙為一刀。[例]一刀稿紙",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "1044",
+      "verbatim": true
+    }
+  ]
 }

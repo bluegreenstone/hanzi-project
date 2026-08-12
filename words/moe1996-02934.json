@@ -10,8 +10,8 @@
     {
       "reading": "kāi qǐ",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        113142
+      "source_entry_ids": [
+        "252100063"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄎㄞ ㄑㄧˇ",
       "pinyin": "kāi qǐ",
-      "source_entry_indices": [
-        113142
+      "source_entry_ids": [
+        "252100063"
       ]
     }
   ],
@@ -99,11 +99,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -118,5 +120,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.打開。[例]這把鎖生鏽了，很難開啟。\n2.開創。[例]雷射技術的應用，為近代醫學發展開啟了新紀元。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "252100063",
+      "verbatim": true
+    }
+  ]
 }

@@ -7,40 +7,33 @@
   ],
   "pinyin": [
     {
-      "reading": "guō",
-      "context": "dictionary_entry",
-      "source_entry_indices": [
-        108174
-      ]
-    },
-    {
       "reading": "guò",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        108175
+      "source_entry_ids": [
+        "2404"
       ]
     },
     {
-      "reading": "guo",
+      "reading": "guō",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        108176
+      "source_entry_ids": [
+        "2392"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄍㄨㄛ",
-      "pinyin": "guō",
-      "source_entry_indices": [
-        108174
+      "reading": "ㄍㄨㄛˋ",
+      "pinyin": "guò",
+      "source_entry_ids": [
+        "2404"
       ]
     },
     {
-      "reading": "ㄍㄨㄛˋ",
-      "pinyin": "guò",
-      "source_entry_indices": [
-        108175
+      "reading": "ㄍㄨㄛ",
+      "pinyin": "guō",
+      "source_entry_ids": [
+        "2392"
       ]
     }
   ],
@@ -169,19 +162,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin.partial",
-      "reason": "not_attested",
-      "detail": "The pinned CNS syllable table has no unique full conversion for: guo"
-    },
     {
       "field": "grading.hsk",
       "reason": "source_unavailable",
@@ -193,5 +183,59 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "guò",
+            "guō"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "2392",
+            "2404"
+          ]
+        },
+        {
+          "value": [
+            "guo",
+            "guò",
+            "guō"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            108174,
+            108175,
+            108176
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "姓。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "2392",
+      "verbatim": true
+    },
+    {
+      "text": "1.表示經歷、跨越、由甲至乙的過程。[例]路過、過年、過客\n2.超越某種界限或範圍。[例]過量、過度、過期\n3.太、甚。[例]過多、過謙\n4.忍受、領受。[例]難過、心裡不好過\n5.錯誤。[例]過錯、知過能改、勇於改過\n6.轉移。[例]過戶、過帳\n7.放在動詞後面：(1)表示隨動作經過某處或從一處到另一處。[例]走過校門口、跨過水溝　(2)表示隨動作改變方向。[例]別過臉去、轉過頭來\n8.助詞。放在動詞後面，表示完畢或某種行為曾經發生。[例]看過、聽過",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "2404",
+      "verbatim": true
+    }
+  ]
 }

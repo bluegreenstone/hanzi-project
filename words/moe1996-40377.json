@@ -9,14 +9,22 @@
   ],
   "pinyin": [
     {
-      "reading": "rě má fan",
+      "reading": "rě má fán",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        42444
+      "source_entry_ids": [
+        "091810002"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄖㄜˇ ㄇㄚˊ ㄈㄢˊ",
+      "pinyin": "rě má fán",
+      "source_entry_ids": [
+        "091810002"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "to create difficulties; to be troublesome; to invite trouble",
@@ -68,15 +76,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "zhuyin": [
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "constituent_chars.local_records",
       "reason": "source_unavailable",
@@ -93,5 +102,45 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "rě má fán"
+          ],
+          "source_ids": [
+            "moe-tw-revised-dictionary-2015-20260625"
+          ],
+          "source_entry_ids": [
+            "091810002"
+          ]
+        },
+        {
+          "value": [
+            "rě má fan"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            42444
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Revised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "引出麻煩事。如：「我警告你別再給我惹麻煩！」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "091810002",
+      "verbatim": true
+    }
+  ]
 }

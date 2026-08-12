@@ -22,6 +22,7 @@ INDEX = SOURCE_ROOT / "radical-candidates-series.json"
 PAGES = SOURCE_ROOT / "pages"
 LOG = SOURCE_ROOT / "original-acquisition-log.json"
 REGISTRY = ROOT / "sources.json"
+ASSET_MANIFEST = ROOT / "assets" / "manifest.json"
 SOURCE_ID = "codh-henrui-liushutong-te00008-21-series-2026-08-11"
 USER_AGENT = "hanzi-project/1.0 (licensed Liushutong series glyph acquisition)"
 IMAGE_RE = re.compile(
@@ -109,7 +110,22 @@ def main() -> None:
         raise RuntimeError("CODH Liushutong series index fails the registry SHA-256")
 
     index = json.loads(INDEX.read_text(encoding="utf-8"))
-    prior = json.loads(LOG.read_text(encoding="utf-8")) if LOG.exists() else {}
+    if LOG.exists():
+        prior = json.loads(LOG.read_text(encoding="utf-8"))
+    else:
+        manifest = json.loads(ASSET_MANIFEST.read_text(encoding="utf-8"))
+        prior = {
+            "entries": [
+                entry
+                for key in ("assets", "provenance_alias_assets")
+                for entry in manifest.get(key, [])
+                if entry.get("source_id") == SOURCE_ID and entry.get("original_url")
+            ]
+        }
+        if len(prior["entries"]) != 3338:
+            raise RuntimeError(
+                "missing series log and manifest does not preserve all 3,338 entries"
+            )
     entry_by_url = {entry["original_url"]: entry for entry in prior.get("entries", [])}
     failures_by_url = {
         failure["original_url"]: failure for failure in prior.get("failures", [])

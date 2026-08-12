@@ -125,18 +125,22 @@
     "shuowen": [
       "zhwikisource-shuowen-2026-08-10"
     ],
-    "shuowen.seal_glyph": [
-      "commons-shuowen-540-svg-series-2026-08-10"
-    ],
-    "historical_forms.shuowen_seal_說文解字": [
-      "commons-shuowen-540-svg-series-2026-08-10"
-    ],
     "historical_forms.liushutong_六書通": [
-      "commons-ancient-chinese-historical-form-files-2026-08-10",
       "codh-henrui-liushutong-te00008-21-series-2026-08-11"
     ],
     "english_definition": [
       "unicode-unihan-17.0.0"
+    ],
+    "historical_forms.shuowen_seal_說文解字": [
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
+    ],
+    "shuowen.seal_glyph": [
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
+    ],
+    "example_characters": [
+      "moe-tw-common-terms-1996",
+      "cns11643-attributes-2026-08-05",
+      "cc-cedict-editor-2026-08-11"
     ],
     "stroke_order.svg_asset_id": [
       "makemeahanzi-graphics-master-audit"
@@ -167,12 +171,12 @@
     {
       "field": "historical_forms.bronze_金文",
       "reason": "source_unavailable",
-      "detail": "The exact Traditional-primary 小學堂 bronze query returned no candidate, and no deliverable from the pinned Commons radical index was acquired. These source absences are not proof of historical non-attestation."
+      "detail": "No independently verified bronze-script asset remains for this radical. Community-derived Commons files are retained in the audit manifest but quarantined from publication until a scholarly catalogue or primary scan verifies the character-to-image mapping. Absence here is not proof of historical non-attestation."
     },
     {
       "field": "historical_forms.oracle_bone_甲骨文",
       "reason": "source_unavailable",
-      "detail": "The exact Traditional-primary 小學堂 oracle-bone query returned no candidate, and no deliverable from the pinned Commons radical index was acquired. These source absences are not proof of historical non-attestation."
+      "detail": "No independently verified oracle-bone asset remains for this radical. Community-derived Commons files are retained in the audit manifest but quarantined from publication until a scholarly catalogue or primary scan verifies the character-to-image mapping. Absence here is not proof of historical non-attestation."
     },
     {
       "field": "names.ko",
@@ -214,33 +218,19 @@
     "bronze_金文": [],
     "shuowen_seal_說文解字": [
       {
-        "asset_id": "shuowen-540-U+821B",
-        "path": "assets/shuowen_seal/U+821B/shuowen-540-U+821B.svg",
-        "source_id": "commons-shuowen-540-svg-series-2026-08-10",
-        "source_file": "Shuowen Seal Radical 199.svg",
-        "license_id": "cc-by-sa-3.0"
+        "asset_id": "sinica-shuowen-seal-U+821B",
+        "path": "assets/shuowen_seal/U+821B/sinica-shuowen-seal-U+821B.png",
+        "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+        "source_file": "27.821B",
+        "license_id": "CC0-1.0"
       }
     ],
     "liushutong_六書通": [
-      {
-        "asset_id": "liushutong-U+821B-commons-index",
-        "path": "assets/liushutong/U+821B/liushutong-U+821B-commons-index.svg",
-        "source_id": "commons-ancient-chinese-historical-form-files-2026-08-10",
-        "source_file": "舛-bigseal.svg",
-        "license_id": "pd"
-      },
       {
         "asset_id": "codh-liushutong-TE00008-U+821B-001",
         "path": "assets/liushutong/U+821B/codh-liushutong-TE00008-U+821B-001.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+821B_TE00008_0071_1_X1929_Y2947.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+821B-001",
-        "path": "assets/liushutong/U+821B/codh-liushutong-TE00015-U+821B-001.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+821B_TE00015_0071_1_X1929_Y2947.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -251,24 +241,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+821B-002",
-        "path": "assets/liushutong/U+821B/codh-liushutong-TE00015-U+821B-002.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+821B_TE00015_0071_1_X1939_Y1212.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+821B-003",
         "path": "assets/liushutong/U+821B/codh-liushutong-TE00008-U+821B-003.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+821B_TE00008_0071_1_X1955_Y1482.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+821B-003",
-        "path": "assets/liushutong/U+821B/codh-liushutong-TE00015-U+821B-003.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+821B_TE00015_0071_1_X1955_Y1482.jpg",
         "license_id": "CC-BY-SA-4.0"
       }
     ]
@@ -286,14 +262,17 @@
     "revision_id": 1870764,
     "revision_timestamp": "2020-06-05T17:12:28Z",
     "seal_glyph": {
-      "asset_id": "shuowen-540-U+821B",
-      "path": "assets/shuowen_seal/U+821B/shuowen-540-U+821B.svg",
-      "source_id": "commons-shuowen-540-svg-series-2026-08-10",
-      "source_file": "Shuowen Seal Radical 199.svg",
-      "license_id": "cc-by-sa-3.0"
+      "asset_id": "sinica-shuowen-seal-U+821B",
+      "path": "assets/shuowen_seal/U+821B/sinica-shuowen-seal-U+821B.png",
+      "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+      "source_file": "27.821B",
+      "license_id": "CC0-1.0"
     }
   },
   "english_definition": "oppose, deviate, be contrary to; Kangxi radical 136",
+  "example_characters": [
+    "U+821E"
+  ],
   "stroke_order": {
     "svg_asset_id": "stroke-order-U+821B-mmah-bddc96d4",
     "standard": "PRC GF 0023-2020 (provisional baseline)",

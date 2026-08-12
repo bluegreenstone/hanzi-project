@@ -38,7 +38,7 @@ def main() -> None:
         )
         records.append(normalized)
 
-    manifest_path = ROOT / "phase2-manifest.json"
+    manifest_path = ROOT / "metadata" / "manifests" / "phase2.json"
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     manifest["english_definition_count"] = len(records)
     manifest["record_digest_sha256"] = phase2.deterministic_record_digest(records)

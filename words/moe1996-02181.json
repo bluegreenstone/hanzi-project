@@ -9,9 +9,8 @@
     {
       "reading": "lóng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        124569,
-        124570
+      "source_entry_ids": [
+        "2156"
       ]
     }
   ],
@@ -19,9 +18,8 @@
     {
       "reading": "ㄌㄨㄥˊ",
       "pinyin": "lóng",
-      "source_entry_indices": [
-        124569,
-        124570
+      "source_entry_ids": [
+        "2156"
       ]
     }
   ],
@@ -109,11 +107,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -128,5 +128,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.一種傳說中的動物。大致由鹿的角、馬的齒、蛇的身、魚的鱗、雞的爪等形象組合而成。[例]騰龍駕霧、五彩金龍　◎\n2.古代帝王的象徵。[例]龍袍、龍床、龍顏\n3.借指首領或豪傑才俊。[例]人中龍鳳\n4.像龍形的長條物。[例]水龍、車水馬龍\n5.古生物學上指生存於三疊紀到白堊紀時期的巨大動物。[例]恐龍、暴龍、雷龍\n6.人造化學纖維紡織品的簡稱。[例]尼龍、達克龍\n7.姓。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "2156",
+      "verbatim": true
+    }
+  ]
 }

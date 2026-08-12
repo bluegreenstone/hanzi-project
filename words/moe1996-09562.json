@@ -10,8 +10,8 @@
     {
       "reading": "jī yā",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        87501
+      "source_entry_ids": [
+        "303400003"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄐㄧ ㄧㄚ",
       "pinyin": "jī yā",
-      "source_entry_indices": [
-        87501
+      "source_entry_ids": [
+        "303400003"
       ]
     }
   ],
@@ -99,11 +99,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -123,5 +125,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "法院或檢察官在處理刑事案件時，為執行刑罰、保全事證的真實，或方便訴訟的進行，而對刑事被告依法拘禁，限制其自由。[例]為防止串供，檢察官諭令先行羈押被告，再偵訊其他涉案人員。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "303400003",
+      "verbatim": true
+    }
+  ]
 }

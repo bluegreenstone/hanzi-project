@@ -11,8 +11,8 @@
     {
       "reading": "táo yuán shì",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        57473
+      "source_entry_ids": [
+        "025060096"
       ]
     }
   ],
@@ -20,8 +20,8 @@
     {
       "reading": "ㄊㄠˊ ㄩㄢˊ ㄕˋ",
       "pinyin": "táo yuán shì",
-      "source_entry_indices": [
-        57473
+      "source_entry_ids": [
+        "025060096"
       ]
     }
   ],
@@ -76,11 +76,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -95,5 +97,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "城市名。原指桃園縣內的縣轄市，今指民國一百零三年十二月二十五日由桃園縣改制的直轄市。位於臺灣西北部，北臨新北市，南接新竹縣，東鄰宜蘭縣，西瀕臺灣海峽。境內有大漢溪，農業以水稻為主。交通有高鐵、縱貫鐵路、高速公路通過，此外，我國國際機場亦座落本市，航線遍及世界各地。居民為閩客混居形態。市內的大溪因有古色古香的建築街區而得名，大溪豆干為其著名特產。另有石門水庫、拉拉山、慈湖等觀光勝地。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "025060096",
+      "verbatim": true
+    }
+  ]
 }

@@ -139,12 +139,6 @@
     "shuowen": [
       "zhwikisource-shuowen-2026-08-10"
     ],
-    "shuowen.seal_glyph": [
-      "commons-shuowen-540-svg-series-2026-08-10"
-    ],
-    "historical_forms.shuowen_seal_說文解字": [
-      "commons-shuowen-540-svg-series-2026-08-10"
-    ],
     "historical_forms.oracle_bone_甲骨文": [
       "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
     ],
@@ -152,11 +146,21 @@
       "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
     ],
     "historical_forms.liushutong_六書通": [
-      "codh-henrui-liushutong-te00010-2026-08-10",
       "codh-henrui-liushutong-te00008-21-series-2026-08-11"
     ],
     "english_definition": [
       "unicode-unihan-17.0.0"
+    ],
+    "historical_forms.shuowen_seal_說文解字": [
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
+    ],
+    "shuowen.seal_glyph": [
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
+    ],
+    "example_characters": [
+      "moe-tw-common-terms-1996",
+      "cns11643-attributes-2026-08-05",
+      "cc-cedict-editor-2026-08-11"
     ],
     "stroke_order.svg_asset_id": [
       "makemeahanzi-graphics-master-audit"
@@ -240,35 +244,14 @@
     ],
     "shuowen_seal_說文解字": [
       {
-        "asset_id": "shuowen-540-U+9EA5",
-        "path": "assets/shuowen_seal/U+9EA5/shuowen-540-U+9EA5.svg",
-        "source_id": "commons-shuowen-540-svg-series-2026-08-10",
-        "source_file": "Shuowen Seal Radical 197.svg",
-        "license_id": "cc-by-sa-3.0"
+        "asset_id": "sinica-shuowen-seal-U+9EA5",
+        "path": "assets/shuowen_seal/U+9EA5/sinica-shuowen-seal-U+9EA5.png",
+        "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+        "source_file": "27.9EA5",
+        "license_id": "CC0-1.0"
       }
     ],
     "liushutong_六書通": [
-      {
-        "asset_id": "codh-liushutong-U+9EA5-001",
-        "path": "assets/liushutong/U+9EA5/codh-liushutong-U+9EA5-001.jpg",
-        "source_id": "codh-henrui-liushutong-te00010-2026-08-10",
-        "source_file": "U+9EA5_TE00010_0042_1_X1930_Y2367.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-U+9EA5-002",
-        "path": "assets/liushutong/U+9EA5/codh-liushutong-U+9EA5-002.jpg",
-        "source_id": "codh-henrui-liushutong-te00010-2026-08-10",
-        "source_file": "U+9EA5_TE00010_0042_1_X1950_Y0957.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-U+9EA5-003",
-        "path": "assets/liushutong/U+9EA5/codh-liushutong-U+9EA5-003.jpg",
-        "source_id": "codh-henrui-liushutong-te00010-2026-08-10",
-        "source_file": "U+9EA5_TE00010_0042_1_X1959_Y2784.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
       {
         "asset_id": "codh-liushutong-TE00017-U+9EA5-001",
         "path": "assets/liushutong/U+9EA5/codh-liushutong-TE00017-U+9EA5-001.jpg",
@@ -305,14 +288,18 @@
     "revision_id": 1870764,
     "revision_timestamp": "2020-06-05T17:12:28Z",
     "seal_glyph": {
-      "asset_id": "shuowen-540-U+9EA5",
-      "path": "assets/shuowen_seal/U+9EA5/shuowen-540-U+9EA5.svg",
-      "source_id": "commons-shuowen-540-svg-series-2026-08-10",
-      "source_file": "Shuowen Seal Radical 197.svg",
-      "license_id": "cc-by-sa-3.0"
+      "asset_id": "sinica-shuowen-seal-U+9EA5",
+      "path": "assets/shuowen_seal/U+9EA5/sinica-shuowen-seal-U+9EA5.png",
+      "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+      "source_file": "27.9EA5",
+      "license_id": "CC0-1.0"
     }
   },
   "english_definition": "wheat, barley, oats; Kangxi radical 199",
+  "example_characters": [
+    "U+9EA5",
+    "U+9EB5"
+  ],
   "stroke_order": {
     "svg_asset_id": "stroke-order-U+9EA5-mmah-bddc96d4",
     "standard": "PRC GF 0023-2020 (provisional baseline)",

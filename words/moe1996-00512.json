@@ -9,15 +9,15 @@
     {
       "reading": "jiào",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        99667
+      "source_entry_ids": [
+        "3231"
       ]
     },
     {
       "reading": "jué",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        99668
+      "source_entry_ids": [
+        "3485"
       ]
     }
   ],
@@ -25,15 +25,15 @@
     {
       "reading": "ㄐㄧㄠˋ",
       "pinyin": "jiào",
-      "source_entry_indices": [
-        99667
+      "source_entry_ids": [
+        "3231"
       ]
     },
     {
       "reading": "ㄐㄩㄝˊ",
       "pinyin": "jué",
-      "source_entry_indices": [
-        99668
+      "source_entry_ids": [
+        "3485"
       ]
     }
   ],
@@ -145,11 +145,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -164,5 +166,23 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.睡眠。[例]睡覺、睡午覺\n2.量詞。計算入睡次數的單位。[例]睡了一覺",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "3231",
+      "verbatim": true
+    },
+    {
+      "text": "1.感受到、意識到。[例]發覺、警覺、覺悟\n2.感官接受外物刺激產生的辨識反應。[例]知覺、味覺、視覺\n3.賢能且有智慧的人。[例]先覺",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "3485",
+      "verbatim": true
+    }
+  ]
 }

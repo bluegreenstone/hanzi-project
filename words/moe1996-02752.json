@@ -10,8 +10,8 @@
     {
       "reading": "rèn dìng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        100816
+      "source_entry_ids": [
+        "521300003"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄖㄣˋ ㄉㄧㄥˋ",
       "pinyin": "rèn dìng",
-      "source_entry_indices": [
-        100816
+      "source_entry_ids": [
+        "521300003"
       ]
     }
   ],
@@ -123,11 +123,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -142,5 +144,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.確切的認同。[例]只要認定目標，勇往直前，最後必能成功。\n2.法律上指未證明事實的真相，推定為或然者，稱為「認定」。[例]檢察官依偵查所得的證據，認定被告有犯罪嫌疑，決定提起公訴。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "521300003",
+      "verbatim": true
+    }
+  ]
 }

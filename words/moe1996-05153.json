@@ -9,22 +9,22 @@
     {
       "reading": "shé",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        45514
-      ]
-    },
-    {
-      "reading": "zhē",
-      "context": "dictionary_entry",
-      "source_entry_indices": [
-        45515
+      "source_entry_ids": [
+        "4966"
       ]
     },
     {
       "reading": "zhé",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        45516
+      "source_entry_ids": [
+        "4322"
+      ]
+    },
+    {
+      "reading": "zhē",
+      "context": "dictionary_entry",
+      "source_entry_ids": [
+        "4319"
       ]
     }
   ],
@@ -32,22 +32,22 @@
     {
       "reading": "ㄕㄜˊ",
       "pinyin": "shé",
-      "source_entry_indices": [
-        45514
-      ]
-    },
-    {
-      "reading": "ㄓㄜ",
-      "pinyin": "zhē",
-      "source_entry_indices": [
-        45515
+      "source_entry_ids": [
+        "4966"
       ]
     },
     {
       "reading": "ㄓㄜˊ",
       "pinyin": "zhé",
-      "source_entry_indices": [
-        45516
+      "source_entry_ids": [
+        "4322"
+      ]
+    },
+    {
+      "reading": "ㄓㄜ",
+      "pinyin": "zhē",
+      "source_entry_ids": [
+        "4319"
       ]
     }
   ],
@@ -265,11 +265,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -284,5 +286,31 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "翻轉、迴旋。[例]折騰、折跟頭",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "4319",
+      "verbatim": true
+    },
+    {
+      "text": "1.弄斷。[例]折枝、折斷　◎\r\n2.彎、曲。[例]折腰、曲折\r\n3.翻轉物體的一部分，使與其他部分相疊合。同「摺」。[例]折紙、折痕\r\n4.損失、喪失。[例]折壽、損兵折將\r\n5.對換、相抵。[例]折現、折抵\r\n6.挫敗、難關。[例]挫折、百折不撓\r\n7.折扣的簡稱。[例]八折、對折\r\n8.國字筆畫名稱。\r\n9.量詞：(1) 計算折疊次數的單位。[例]把紙折成三折　(2) 計算戲曲分段的單位。[例]《竇娥冤》共分四折。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "4322",
+      "verbatim": true
+    },
+    {
+      "text": "1.斷。[例]這根棍子已經折了！\n2.虧損。[例]折本、折錢",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "4966",
+      "verbatim": true
+    }
+  ]
 }

@@ -9,14 +9,22 @@
   ],
   "pinyin": [
     {
-      "reading": "wán yì r",
+      "reading": "wán yìr",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        72903
+      "source_entry_ids": [
+        "636300015"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄨㄢˊ ㄧˋㄦ",
+      "pinyin": "wán yìr",
+      "source_entry_ids": [
+        "636300015"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "erhua variant of 玩意[wan2 yi4]",
@@ -68,15 +76,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "zhuyin": [
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "grading.hsk",
       "reason": "source_unavailable",
@@ -88,5 +97,45 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "wán yìr"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "636300015"
+          ]
+        },
+        {
+          "value": [
+            "wán yì r"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            72903
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.小玩具或裝飾品。[例]藝品店玻璃櫃裡擺的泥人、木偶等小玩意兒，色澤鮮豔，造型可愛，令人愛不釋手。\n\t\n2.對人、事、物的鄙稱。[例]他是什麼玩意兒？竟敢插手我的事。\n\t\n3.用來寄託情趣或打發時間的事物。如唱戲、打牌等。[例]他退休後閒居無事，打算找些玩意兒來打發時間。\n",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "636300015",
+      "verbatim": true
+    }
+  ]
 }

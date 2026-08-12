@@ -7,33 +7,33 @@
   ],
   "pinyin": [
     {
-      "reading": "zhān",
+      "reading": "zhàn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        17328
+      "source_entry_ids": [
+        "4404"
       ]
     },
     {
-      "reading": "zhàn",
+      "reading": "zhān",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        17329
+      "source_entry_ids": [
+        "4390"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄓㄢ",
-      "pinyin": "zhān",
-      "source_entry_indices": [
-        17328
+      "reading": "ㄓㄢˋ",
+      "pinyin": "zhàn",
+      "source_entry_ids": [
+        "4404"
       ]
     },
     {
-      "reading": "ㄓㄢˋ",
-      "pinyin": "zhàn",
-      "source_entry_indices": [
-        17329
+      "reading": "ㄓㄢ",
+      "pinyin": "zhān",
+      "source_entry_ids": [
+        "4390"
       ]
     }
   ],
@@ -121,11 +121,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -140,5 +142,23 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "根據徵兆以推知吉凶。[例]占卜、占夢、占卦",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "4390",
+      "verbatim": true
+    },
+    {
+      "text": "1.擁有、據有。[例]霸占、攻占、侵占\n2.口述文辭。[例]口占",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "4404",
+      "verbatim": true
+    }
+  ]
 }

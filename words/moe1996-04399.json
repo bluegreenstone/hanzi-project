@@ -10,8 +10,8 @@
     {
       "reading": "xīn diàn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        51744
+      "source_entry_ids": [
+        "071630051"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄒㄧㄣ ㄉㄧㄢˋ",
       "pinyin": "xīn diàn",
-      "source_entry_indices": [
-        51744
+      "source_entry_ids": [
+        "071630051"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "地名。隸屬新北市新店區，位於新北市中部偏南，臺北盆地東南端，面積約一百二十平方公里。因地當原住民交易大道，居民多與原住民經營交換商業，故稱為「新店」。新店溪流經境內，為新北市南區的交通中心。農業以稻米、甘薯、柑桔、竹筍、蔬菜為主；工業以汽車機車機械、紡織、化學、食品、電子等最具潛力。特產文山包種茶。境內碧潭為著名風景區。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "071630051",
+      "verbatim": true
+    }
+  ]
 }

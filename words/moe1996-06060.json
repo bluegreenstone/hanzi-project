@@ -8,14 +8,22 @@
   ],
   "pinyin": [
     {
-      "reading": "xiào hua",
+      "reading": "xiào huà",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        82591
+      "source_entry_ids": [
+        "397400009"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄒㄧㄠˋ ㄏㄨㄚˋ",
+      "pinyin": "xiào huà",
+      "source_entry_ids": [
+        "397400009"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "joke; jest",
@@ -83,15 +91,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "zhuyin": [
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "grading.hsk",
       "reason": "source_unavailable",
@@ -103,5 +112,45 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "xiào huà"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "397400009"
+          ]
+        },
+        {
+          "value": [
+            "xiào hua"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            82591
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.能引人發笑的言語，或內容好笑的事物。[例]這則笑話，不僅好笑，還發人深省。\r\n2.表示輕視語氣的詞。有譏諷人自不量力的意思。[例]他想和我比腕力？笑話！",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "397400009",
+      "verbatim": true
+    }
+  ]
 }

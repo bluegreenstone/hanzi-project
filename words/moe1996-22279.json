@@ -90,15 +90,31 @@
       "detail": "The word contains unified Han characters outside the Phase 3 top-2,000 set: U+80C3"
     },
     {
+      "field": "definitions_zh_TW",
+      "reason": "not_attested",
+      "detail": "The exact NFC Traditional headword is absent from both pinned Taiwan MOE dictionary downloads; no definition is inferred through script conversion or approximate matching."
+    },
+    {
       "field": "grading.hsk",
       "reason": "source_unavailable",
       "detail": "No versioned redistribution-approved HSK word source passed the Phase 0 audit."
     },
     {
+      "field": "pinyin.taiwan_verification",
+      "reason": "not_attested",
+      "detail": "The exact NFC Traditional headword is absent from both pinned Taiwan MOE downloads: the Concised Mandarin Dictionary (2014_20260626) and the Revised Mandarin Dictionary (2015_20260625). Existing CC-CEDICT/CNS pronunciation data is provisional until another Taiwanese lexical authority or a documented manual review confirms the word reading; dictionary absence is not evidence that the reading is invalid."
+    },
+    {
       "field": "segmentation_tool",
       "reason": "source_unavailable",
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
+    },
+    {
+      "field": "zhuyin.taiwan_verification",
+      "reason": "not_attested",
+      "detail": "The exact NFC Traditional headword is absent from both pinned Taiwan MOE downloads: the Concised Mandarin Dictionary (2014_20260626) and the Revised Mandarin Dictionary (2015_20260625). Existing CC-CEDICT/CNS pronunciation data is provisional until another Taiwanese lexical authority or a documented manual review confirms the word reading; dictionary absence is not evidence that the reading is invalid."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": null
 }

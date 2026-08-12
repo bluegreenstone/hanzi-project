@@ -121,9 +121,6 @@
     "character_count_in_kangxi_status": [
       "enwiki-kangxi-radicals-2026-08-10"
     ],
-    "historical_forms.shuowen_seal_說文解字": [
-      "commons-ancient-chinese-character-seal-files-2026-08-10"
-    ],
     "historical_forms.oracle_bone_甲骨文": [
       "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
     ],
@@ -132,6 +129,14 @@
     ],
     "english_definition": [
       "unicode-unihan-17.0.0"
+    ],
+    "historical_forms.shuowen_seal_說文解字": [
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
+    ],
+    "example_characters": [
+      "moe-tw-common-terms-1996",
+      "cns11643-attributes-2026-08-05",
+      "cc-cedict-editor-2026-08-11"
     ],
     "stroke_order.svg_asset_id": [
       "makemeahanzi-graphics-master-audit"
@@ -162,7 +167,7 @@
     {
       "field": "historical_forms.bronze_金文",
       "reason": "source_unavailable",
-      "detail": "The exact Traditional-primary 小學堂 bronze query returned no candidate, and no deliverable from the pinned Commons radical index was acquired. These source absences are not proof of historical non-attestation."
+      "detail": "No independently verified bronze-script asset remains for this radical. Community-derived Commons files are retained in the audit manifest but quarantined from publication until a scholarly catalogue or primary scan verifies the character-to-image mapping. Absence here is not proof of historical non-attestation."
     },
     {
       "field": "names.ko",
@@ -227,11 +232,11 @@
     "bronze_金文": [],
     "shuowen_seal_說文解字": [
       {
-        "asset_id": "character-seal-U+961C",
-        "path": "assets/shuowen_seal/U+961C/character-seal-U+961C.svg",
-        "source_id": "commons-ancient-chinese-character-seal-files-2026-08-10",
-        "source_file": "阜-seal.svg",
-        "license_id": "pd"
+        "asset_id": "sinica-shuowen-seal-U+961C",
+        "path": "assets/shuowen_seal/U+961C/sinica-shuowen-seal-U+961C.png",
+        "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+        "source_file": "27.961C",
+        "license_id": "CC0-1.0"
       }
     ],
     "liushutong_六書通": [
@@ -243,24 +248,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00016-U+961C-001",
-        "path": "assets/liushutong/U+961C/codh-liushutong-TE00016-U+961C-001.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+961C_TE00016_0029_2_X0820_Y0654.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00009-U+961C-002",
         "path": "assets/liushutong/U+961C/codh-liushutong-TE00009-U+961C-002.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+961C_TE00009_0029_2_X1091_Y1211.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00016-U+961C-002",
-        "path": "assets/liushutong/U+961C/codh-liushutong-TE00016-U+961C-002.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+961C_TE00016_0029_2_X1091_Y1211.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -271,24 +262,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00016-U+961C-003",
-        "path": "assets/liushutong/U+961C/codh-liushutong-TE00016-U+961C-003.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+961C_TE00016_0029_2_X1106_Y0931.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00009-U+961C-004",
         "path": "assets/liushutong/U+961C/codh-liushutong-TE00009-U+961C-004.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+961C_TE00009_0029_2_X1116_Y2974.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00016-U+961C-004",
-        "path": "assets/liushutong/U+961C/codh-liushutong-TE00016-U+961C-004.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+961C_TE00016_0029_2_X1116_Y2974.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -299,24 +276,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00016-U+961C-005",
-        "path": "assets/liushutong/U+961C/codh-liushutong-TE00016-U+961C-005.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+961C_TE00016_0029_2_X1132_Y3544.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00009-U+961C-006",
         "path": "assets/liushutong/U+961C/codh-liushutong-TE00009-U+961C-006.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+961C_TE00009_0029_2_X1142_Y2344.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00016-U+961C-006",
-        "path": "assets/liushutong/U+961C/codh-liushutong-TE00016-U+961C-006.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+961C_TE00016_0029_2_X1142_Y2344.jpg",
         "license_id": "CC-BY-SA-4.0"
       }
     ]
@@ -325,6 +288,35 @@
   "character_count_in_kangxi_status": "secondary_source_unverified",
   "shuowen": null,
   "english_definition": "mound; abundant, ample, numerous; Kangxi radical 170",
+  "example_characters": [
+    "U+9664",
+    "U+9662",
+    "U+968A",
+    "U+969B",
+    "U+9678",
+    "U+9673",
+    "U+96A8",
+    "U+9632",
+    "U+96AA",
+    "U+9650",
+    "U+964D",
+    "U+963F",
+    "U+9644",
+    "U+967D",
+    "U+9663",
+    "U+968E",
+    "U+9686",
+    "U+9694",
+    "U+9670",
+    "U+969C",
+    "U+96B1",
+    "U+963B",
+    "U+9677",
+    "U+966A",
+    "U+9676",
+    "U+962E",
+    "U+962A"
+  ],
   "stroke_order": {
     "svg_asset_id": "stroke-order-U+961C-mmah-bddc96d4",
     "standard": "PRC GF 0023-2020 (provisional baseline)",

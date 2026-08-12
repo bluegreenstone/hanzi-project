@@ -12,8 +12,8 @@
     {
       "reading": "páng rán dà wù",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        124745
+      "source_entry_ids": [
+        "0392000021"
       ]
     }
   ],
@@ -21,8 +21,8 @@
     {
       "reading": "ㄆㄤˊ ㄖㄢˊ ㄉㄚˋ ㄨˋ",
       "pinyin": "páng rán dà wù",
-      "source_entry_indices": [
-        124745
+      "source_entry_ids": [
+        "0392000021"
       ]
     }
   ],
@@ -77,11 +77,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -96,5 +98,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "龐然，巨大的樣子。龐然大物，形容體積大而笨重的物品。[例]工人用吊車把鋼琴這個龐然大物吊上樓去。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "0392000021",
+      "verbatim": true
+    }
+  ]
 }

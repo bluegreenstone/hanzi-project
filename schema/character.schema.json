@@ -20,6 +20,7 @@
     "readings",
     "english_translation",
     "definitions",
+    "definitions_zh_TW",
     "frequency",
     "grading",
     "confusable_with",
@@ -88,6 +89,16 @@
           "type": "array",
           "minItems": 1,
           "items": { "$ref": "#/$defs/definition" }
+        },
+        { "type": "null" }
+      ]
+    },
+    "definitions_zh_TW": {
+      "oneOf": [
+        {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/taiwanDefinition" }
         },
         { "type": "null" }
       ]
@@ -279,7 +290,18 @@
               "context": { "enum": ["primary", "additional"] },
               "region": { "enum": ["TW", "und"] },
               "standard": {
-                "enum": ["TW-CNS11643", "Unicode-kMandarin-fallback"]
+                "enum": [
+                  "TW-CNS11643",
+                  "Unicode-kMandarin-fallback",
+                  "TW-MOE-Revised-2015",
+                  "TW-MOE-Variants-2024"
+                ]
+              },
+              "source_entry_ids": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": { "type": "string", "minLength": 1 }
               }
             }
           }
@@ -325,6 +347,26 @@
         "lang": { "const": "en" },
         "register": { "const": "modern" },
         "source_id": { "type": "string", "minLength": 1 }
+      }
+    },
+    "taiwanDefinition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "lang",
+        "register",
+        "source_id",
+        "source_entry_id",
+        "verbatim"
+      ],
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "lang": { "const": "zh-Hant-TW" },
+        "register": { "const": "dictionary" },
+        "source_id": { "type": "string", "minLength": 1 },
+        "source_entry_id": { "type": "string", "minLength": 1 },
+        "verbatim": { "const": true }
       }
     },
     "strokeType": {
@@ -470,6 +512,10 @@
           "enum": [
             "tw_canonical_variant_retained",
             "tw_canonical_prc_variant_retained",
+            "tw_cns_canonical_unihan_retained",
+            "taiwan_moe_canonical",
+            "prc_standard_canonical_other_candidates_retained",
+            "context_dependent_official_standard",
             "unresolved",
             "recorded_no_value_change"
           ]

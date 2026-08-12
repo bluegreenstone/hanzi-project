@@ -10,8 +10,8 @@
     {
       "reading": "zhǔ jì",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        3973
+      "source_entry_ids": [
+        "451600025"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄓㄨˇ ㄐㄧˋ",
       "pinyin": "zhǔ jì",
-      "source_entry_indices": [
-        3973
+      "source_entry_ids": [
+        "451600025"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.主持祭祀。[例]這次的祭孔大典將由市長來主祭。\n2.主持祭禮的人。[例]祭拜陣亡將士的典禮，將由總統擔任主祭。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "451600025",
+      "verbatim": true
+    }
+  ]
 }

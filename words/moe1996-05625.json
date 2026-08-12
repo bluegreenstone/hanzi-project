@@ -8,19 +8,19 @@
   ],
   "pinyin": [
     {
-      "reading": "sù zhì",
+      "reading": "sù zhí",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        84850
+      "source_entry_ids": [
+        "564200006"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄙㄨˋ ㄓˋ",
-      "pinyin": "sù zhì",
-      "source_entry_indices": [
-        84850
+      "reading": "ㄙㄨˋ ㄓˊ",
+      "pinyin": "sù zhí",
+      "source_entry_ids": [
+        "564200006"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -102,5 +104,81 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "sù zhí"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "564200006"
+          ]
+        },
+        {
+          "value": [
+            "sù zhì"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            84850
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    },
+    {
+      "field": "zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            {
+              "pinyin": "sù zhí",
+              "reading": "ㄙㄨˋ ㄓˊ"
+            }
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "564200006"
+          ]
+        },
+        {
+          "value": [
+            {
+              "pinyin": "sù zhì",
+              "reading": "ㄙㄨˋ ㄓˋ"
+            }
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11",
+            "cns11643-attributes-2026-08-05"
+          ],
+          "source_entry_indices": [
+            84850
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE Concised Dictionary Zhuyin is canonical. The previous value was mechanically converted from CC-CEDICT Pinyin through the CNS syllable table and remains comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "原有的資質。[例]他在音樂方面的素質很高，只要稍加磨練，一定會有出色的表現。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "564200006",
+      "verbatim": true
+    }
+  ]
 }

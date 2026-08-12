@@ -41,13 +41,19 @@
         "reading": "ài",
         "context": "primary",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "10333"
+        ]
       },
       {
         "reading": "yì",
         "context": "additional",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "10581"
+        ]
       }
     ],
     "zhuyin": [
@@ -116,6 +122,24 @@
       "source_id": "cc-cedict-editor-2026-08-11"
     }
   ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.植物名。菊科艾屬，多年生草本。莖質硬。葉具香氣，互生，呈長卵形，葉背密生白毛。秋天開淡黃或淡褐色花。葉揉成艾絨，可作印泥，亦可灸病。[例]艾的莖、葉點燃後可驅蚊蠅。　△白艾、艾草\n2.絕、停止。[例]方興未艾\n3.姓。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "5761",
+      "verbatim": true
+    },
+    {
+      "text": "通「乂」。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "5883",
+      "verbatim": true
+    }
+  ],
   "frequency": {
     "rank": 1228,
     "selection_rank": 1225,
@@ -142,9 +166,6 @@
     "variants_異體字": [
       "unicode-unihan-17.0.0"
     ],
-    "radical": [
-      "unicode-unihan-17.0.0"
-    ],
     "total_strokes": [
       "moe-tw-common-terms-1996"
     ],
@@ -162,6 +183,18 @@
     "simplified": [
       "cc-cedict-editor-2026-08-11"
     ],
+    "radical.kangxi_number": [
+      "cns11643-attributes-2026-08-05"
+    ],
+    "radical.residual_strokes": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.source_assignment": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.additional_assignments": [
+      "unicode-unihan-17.0.0"
+    ],
     "ids_decomposition": [
       "makemeahanzi-dictionary-master-audit"
     ],
@@ -169,10 +202,12 @@
       "makemeahanzi-dictionary-master-audit"
     ],
     "readings.pinyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
     "readings.zhuyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
@@ -197,6 +232,9 @@
     "definitions": [
       "unicode-unihan-17.0.0",
       "cc-cedict-editor-2026-08-11"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "kangxi_citation": [
       "unicode-unihan-17.0.0"
@@ -322,7 +360,7 @@
           ]
         }
       ],
-      "detail": "The Unihan radical assignment and delivered radical count do not add to the Taiwan MOE total; both values are retained for review."
+      "detail": "The attested radical assignment and delivered radical count do not add to the Taiwan MOE total; both values are retained for review."
     }
   ],
   "english_translation": "artemisia, mugwort",

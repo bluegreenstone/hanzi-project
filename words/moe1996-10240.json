@@ -10,8 +10,8 @@
     {
       "reading": "xiū jiǎn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        8354
+      "source_entry_ids": [
+        "397900013"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄒㄧㄡ ㄐㄧㄢˇ",
       "pinyin": "xiū jiǎn",
-      "source_entry_indices": [
-        8354
+      "source_entry_ids": [
+        "397900013"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.用剪刀修裁。[例]修剪指甲、修剪頭髮\n2.修改剪接。[例]這部片子經修剪後，許多恐怖的鏡頭都不見了。\n3.園藝上指將枝條之尖端剪短，或將一部分枝條完全從基部剪去的作業。[例]父親固定每個月都會修剪庭園裡的花木。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "397900013",
+      "verbatim": true
+    }
+  ]
 }

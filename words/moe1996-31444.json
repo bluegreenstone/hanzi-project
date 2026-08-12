@@ -9,16 +9,15 @@
     {
       "reading": "tuò",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        46150,
-        46152
+      "source_entry_ids": [
+        "1533"
       ]
     },
     {
       "reading": "tà",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        46151
+      "source_entry_ids": [
+        "1325"
       ]
     }
   ],
@@ -26,16 +25,15 @@
     {
       "reading": "ㄊㄨㄛˋ",
       "pinyin": "tuò",
-      "source_entry_indices": [
-        46150,
-        46152
+      "source_entry_ids": [
+        "1533"
       ]
     },
     {
       "reading": "ㄊㄚˋ",
       "pinyin": "tà",
-      "source_entry_indices": [
-        46151
+      "source_entry_ids": [
+        "1325"
       ]
     }
   ],
@@ -132,11 +130,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -151,5 +151,23 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "用紙將碑刻、銅器、甲骨等器物上的文字或圖案摹印出來。方法是先在物體表面蒙上一層棉紙或宣紙，用髮束、木槌等均勻輕拍拓紙，再用布包蘸墨或顏料加以打印，以顯出所欲摹印的文字或圖像。[例]拓印、拓本",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "1325",
+      "verbatim": true
+    },
+    {
+      "text": "開展、開闢。[例]開拓、拓展、拓荒",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "1533",
+      "verbatim": true
+    }
+  ]
 }

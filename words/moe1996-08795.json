@@ -10,8 +10,8 @@
     {
       "reading": "mù shī",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        71513
+      "source_entry_ids": [
+        "079400007"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄇㄨˋ ㄕ",
       "pinyin": "mù shī",
-      "source_entry_indices": [
-        71513
+      "source_entry_ids": [
+        "079400007"
       ]
     }
   ],
@@ -123,11 +123,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -142,5 +144,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "基督新教的傳教士稱為牧師，取牧者與教師二義。[例]在禮拜堂中，牧師就是耶穌的代言人，也是傳播福音的使者。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "079400007",
+      "verbatim": true
+    }
+  ]
 }

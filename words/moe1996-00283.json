@@ -9,16 +9,15 @@
     {
       "reading": "chē",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        105394,
-        105395
+      "source_entry_ids": [
+        "4668"
       ]
     },
     {
       "reading": "jū",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        105396
+      "source_entry_ids": [
+        "3414"
       ]
     }
   ],
@@ -26,16 +25,15 @@
     {
       "reading": "ㄔㄜ",
       "pinyin": "chē",
-      "source_entry_indices": [
-        105394,
-        105395
+      "source_entry_ids": [
+        "4668"
       ]
     },
     {
       "reading": "ㄐㄩ",
       "pinyin": "jū",
-      "source_entry_indices": [
-        105396
+      "source_entry_ids": [
+        "3414"
       ]
     }
   ],
@@ -164,11 +162,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -183,5 +183,23 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "象棋棋子之一。[例]將軍抽車、棄車保帥",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "3414",
+      "verbatim": true
+    },
+    {
+      "text": "1.通稱在陸地上靠輪子轉動而運行的交通工具。[例]汽車、火車、學富五車\n2.利用輪軸轉動的機械。[例]紡車、風車、水車\n3.利用機器轉動來加以縫紉、切削。[例]車布邊、車衣服、車玻璃\n4.量詞。計算車載物的單位。[例]一車砂石\n5.姓。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "4668",
+      "verbatim": true
+    }
+  ]
 }

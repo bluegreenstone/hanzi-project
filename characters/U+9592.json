@@ -1,8 +1,15 @@
 {
   "codepoint": "U+9592",
   "traditional": "閒",
-  "simplified": null,
-  "simplification_note": null,
+  "simplified": "闲",
+  "simplification_note": {
+    "mapping_type": "many_traditional_to_one_simplified",
+    "simplified": "U+95F2",
+    "traditional_origins": [
+      "U+9591",
+      "U+9592"
+    ]
+  },
   "variants_異體字": [
     {
       "char": "間",
@@ -38,19 +45,28 @@
         "reading": "jiān",
         "context": "primary",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "05753"
+        ]
       },
       {
         "reading": "jiàn",
         "context": "additional",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "05813"
+        ]
       },
       {
         "reading": "xián",
         "context": "additional",
         "region": "TW",
-        "standard": "TW-CNS11643"
+        "standard": "TW-MOE-Revised-2015",
+        "source_entry_ids": [
+          "07099"
+        ]
       }
     ],
     "zhuyin": [
@@ -120,6 +136,16 @@
       "source_id": "cc-cedict-editor-2026-08-11"
     }
   ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.空暇無事的時候。[例]農閒、賦閒、忙中偷閒\n2.空暇無事。通「閑」。[例]悠閒、閒情逸致、閒雲野鶴\n3.與正事無關的、不緊要的。[例]閒書、閒錢、閒事\n4.隨意的、不經心的。[例]閒扯、閒聊、閒逛",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "4012",
+      "verbatim": true
+    }
+  ],
   "frequency": {
     "rank": 1120,
     "selection_rank": 1119,
@@ -146,9 +172,6 @@
     "variants_異體字": [
       "unicode-unihan-17.0.0"
     ],
-    "radical": [
-      "unicode-unihan-17.0.0"
-    ],
     "total_strokes": [
       "moe-tw-common-terms-1996"
     ],
@@ -163,6 +186,27 @@
     "frequency": [
       "moe-tw-common-terms-1996"
     ],
+    "simplified": [
+      "prc-standard-characters-2013",
+      "unicode-unihan-17.0.0",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "simplification_note": [
+      "unicode-unihan-17.0.0",
+      "cc-cedict-editor-2026-08-11"
+    ],
+    "radical.kangxi_number": [
+      "cns11643-attributes-2026-08-05"
+    ],
+    "radical.residual_strokes": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.source_assignment": [
+      "unicode-unihan-17.0.0"
+    ],
+    "radical.additional_assignments": [
+      "unicode-unihan-17.0.0"
+    ],
     "ids_decomposition": [
       "makemeahanzi-dictionary-master-audit"
     ],
@@ -173,10 +217,12 @@
       "makemeahanzi-dictionary-master-audit"
     ],
     "readings.pinyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
     "readings.zhuyin": [
+      "moe-tw-revised-dictionary-2015-20260625",
       "cns11643-attributes-2026-08-05",
       "unicode-unihan-17.0.0"
     ],
@@ -198,6 +244,9 @@
     "definitions": [
       "unicode-unihan-17.0.0",
       "cc-cedict-editor-2026-08-11"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "kangxi_citation": [
       "unicode-unihan-17.0.0"
@@ -230,16 +279,6 @@
     ]
   },
   "gaps": [
-    {
-      "field": "simplified",
-      "reason": "conflicting_sources",
-      "detail": "The approved mapping sources do not yield one unambiguous Simplified character."
-    },
-    {
-      "field": "simplification_note",
-      "reason": "conflicting_sources",
-      "detail": "A many-to-one note cannot be computed while the Simplified mapping itself remains unresolved."
-    },
     {
       "field": "liushu_六書.type",
       "reason": "source_unavailable",
@@ -294,14 +333,8 @@
   "conflicts": [
     {
       "field": "simplified",
-      "resolution": "unresolved",
+      "resolution": "prc_standard_canonical_other_candidates_retained",
       "values": [
-        {
-          "value": "U+95F2",
-          "source_ids": [
-            "unicode-unihan-17.0.0"
-          ]
-        },
         {
           "value": "U+9592",
           "source_ids": [
@@ -311,11 +344,13 @@
         {
           "value": "U+95F2",
           "source_ids": [
+            "prc-standard-characters-2013",
+            "unicode-unihan-17.0.0",
             "cc-cedict-editor-2026-08-11"
           ]
         }
       ],
-      "detail": "Multiple or disagreeing Simplified mappings are preserved without selecting one."
+      "detail": "The official table places 閒 under normative 闲."
     }
   ],
   "english_translation": "leisure; idle; peaceful, tranquil, calm",

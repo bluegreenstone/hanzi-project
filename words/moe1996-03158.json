@@ -11,8 +11,8 @@
     {
       "reading": "gāo kē jì",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        121511
+      "source_entry_ids": [
+        "224000034"
       ]
     }
   ],
@@ -20,8 +20,8 @@
     {
       "reading": "ㄍㄠ ㄎㄜ ㄐㄧˋ",
       "pinyin": "gāo kē jì",
-      "source_entry_indices": [
-        121511
+      "source_entry_ids": [
+        "224000034"
       ]
     }
   ],
@@ -76,11 +76,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -95,5 +97,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "需要高水準人才和設備的精密工業技術。如電腦科學、太空科學等。[例]電腦是一種現代化的高科技產品。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "224000034",
+      "verbatim": true
+    }
+  ]
 }

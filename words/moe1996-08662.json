@@ -10,19 +10,19 @@
   ],
   "pinyin": [
     {
-      "reading": "xuè yè xún huán",
+      "reading": "xiě yè xún huán",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        97615
+      "source_entry_ids": [
+        "069460118"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄒㄩㄝˋ ㄧㄝˋ ㄒㄩㄣˊ ㄏㄨㄢˊ",
-      "pinyin": "xuè yè xún huán",
-      "source_entry_indices": [
-        97615
+      "reading": "ㄒㄧㄝˇ ㄧㄝˋ ㄒㄩㄣˊ ㄏㄨㄢˊ",
+      "pinyin": "xiě yè xún huán",
+      "source_entry_ids": [
+        "069460118"
       ]
     }
   ],
@@ -77,11 +77,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -96,5 +98,81 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "xiě yè xún huán"
+          ],
+          "source_ids": [
+            "moe-tw-revised-dictionary-2015-20260625"
+          ],
+          "source_entry_ids": [
+            "069460118"
+          ]
+        },
+        {
+          "value": [
+            "xuè yè xún huán"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            97615
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Revised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    },
+    {
+      "field": "zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            {
+              "pinyin": "xiě yè xún huán",
+              "reading": "ㄒㄧㄝˇ ㄧㄝˋ ㄒㄩㄣˊ ㄏㄨㄢˊ"
+            }
+          ],
+          "source_ids": [
+            "moe-tw-revised-dictionary-2015-20260625"
+          ],
+          "source_entry_ids": [
+            "069460118"
+          ]
+        },
+        {
+          "value": [
+            {
+              "pinyin": "xuè yè xún huán",
+              "reading": "ㄒㄩㄝˋ ㄧㄝˋ ㄒㄩㄣˊ ㄏㄨㄢˊ"
+            }
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11",
+            "cns11643-attributes-2026-08-05"
+          ],
+          "source_entry_indices": [
+            97615
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE Revised Dictionary Zhuyin is canonical. The previous value was mechanically converted from CC-CEDICT Pinyin through the CNS syllable table and remains comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "血液經由一定路線，周而復始的循環作用。人體血液自左心室流向大動脈，經全身組織，交換養分、代謝物之後，由靜脈流入右心室，再經肺動脈，進入肺內交換氣體，由肺靜脈流回左心房後，即完成了一次血液循環。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "069460118",
+      "verbatim": true
+    }
+  ]
 }

@@ -20,9 +20,9 @@ import build_phase1 as phase1  # noqa: E402
 
 
 RADICALS_PATH = ROOT / "radicals"
-MANIFEST_PATH = ROOT / "phase2-manifest.json"
+MANIFEST_PATH = ROOT / "metadata" / "manifests" / "phase2.json"
 ASSET_MANIFEST_PATH = ROOT / "assets" / "manifest.json"
-ASSET_CANDIDATES_PATH = ROOT / "phase2-asset-candidates.json"
+ASSET_CANDIDATES_PATH = ROOT / "metadata" / "audits" / "phase2-asset-candidates.json"
 
 SHUOWEN_ID = "zhwikisource-shuowen-2026-08-10"
 SHUOWEN_ASSET_ID = "commons-shuowen-seal-files-2026-08-10"
@@ -227,6 +227,9 @@ def asset_reference(asset: dict[str, Any]) -> dict[str, Any]:
     }
     if asset.get("locator"):
         reference["locator"] = asset["locator"]
+    if asset.get("identity_status"):
+        reference["identity_status"] = asset["identity_status"]
+        reference["cross_identified_with"] = asset["cross_identified_with"]
     return reference
 
 

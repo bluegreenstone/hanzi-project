@@ -12,8 +12,8 @@
     {
       "reading": "luò yì bù jué",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        85470
+      "source_entry_ids": [
+        "212600002"
       ]
     }
   ],
@@ -21,8 +21,8 @@
     {
       "reading": "ㄌㄨㄛˋ ㄧˋ ㄅㄨˋ ㄐㄩㄝˊ",
       "pinyin": "luò yì bù jué",
-      "source_entry_indices": [
-        85470
+      "source_entry_ids": [
+        "212600002"
       ]
     }
   ],
@@ -77,11 +77,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -101,5 +103,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "連續不斷。[例]每到假日，各名勝風景區都可看到絡繹不絕的遊客。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "212600002",
+      "verbatim": true
+    }
+  ]
 }

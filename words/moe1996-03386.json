@@ -8,14 +8,36 @@
   ],
   "pinyin": [
     {
-      "reading": "nà r",
+      "reading": "nàr",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        109221
+      "source_entry_ids": [
+        "029300031"
+      ]
+    },
+    {
+      "reading": "nǎr",
+      "context": "dictionary_entry",
+      "source_entry_ids": [
+        "029200034"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄋㄚˋㄦ",
+      "pinyin": "nàr",
+      "source_entry_ids": [
+        "029300031"
+      ]
+    },
+    {
+      "reading": "ㄋㄚˇㄦ",
+      "pinyin": "nǎr",
+      "source_entry_ids": [
+        "029200034"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "there",
@@ -67,15 +89,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "zhuyin": [
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "grading.hsk",
       "reason": "source_unavailable",
@@ -87,5 +110,55 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "nàr",
+            "nǎr"
+          ],
+          "source_ids": [
+            "moe-tw-revised-dictionary-2015-20260625"
+          ],
+          "source_entry_ids": [
+            "029200034",
+            "029300031"
+          ]
+        },
+        {
+          "value": [
+            "nà r"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            109221
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Revised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.何處。如：「你家住在那兒？」也作「那裡」。\n2.否定的謙詞。如：「那兒！那兒！多虧您的資助，才能渡此難關。」也作「那裡」。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "029200034",
+      "verbatim": true
+    },
+    {
+      "text": "1.彼處。如：「別把東西放在那兒，容易攪混。」\n2.彼時。如：「打那兒起，他就每天清晨念半個小時的英文。」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "029300031",
+      "verbatim": true
+    }
+  ]
 }

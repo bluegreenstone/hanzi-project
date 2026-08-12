@@ -139,22 +139,25 @@
     "shuowen": [
       "zhwikisource-shuowen-2026-08-10"
     ],
-    "shuowen.seal_glyph": [
-      "commons-shuowen-540-svg-series-2026-08-10"
-    ],
-    "historical_forms.shuowen_seal_說文解字": [
-      "commons-shuowen-540-svg-series-2026-08-10"
-    ],
     "historical_forms.bronze_金文": [
-      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
-      "commons-ancient-chinese-historical-form-files-2026-08-10"
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
     ],
     "historical_forms.liushutong_六書通": [
-      "commons-ancient-chinese-historical-form-files-2026-08-10",
       "codh-henrui-liushutong-te00008-21-series-2026-08-11"
     ],
     "english_definition": [
       "unicode-unihan-17.0.0"
+    ],
+    "historical_forms.shuowen_seal_說文解字": [
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
+    ],
+    "shuowen.seal_glyph": [
+      "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10"
+    ],
+    "example_characters": [
+      "moe-tw-common-terms-1996",
+      "cns11643-attributes-2026-08-05",
+      "cc-cedict-editor-2026-08-11"
     ],
     "stroke_order.svg_asset_id": [
       "makemeahanzi-graphics-master-audit"
@@ -185,7 +188,7 @@
     {
       "field": "historical_forms.oracle_bone_甲骨文",
       "reason": "source_unavailable",
-      "detail": "The exact Traditional-primary 小學堂 oracle-bone query returned no candidate, and no deliverable from the pinned Commons radical index was acquired. These source absences are not proof of historical non-attestation."
+      "detail": "No independently verified oracle-bone asset remains for this radical. Community-derived Commons files are retained in the audit manifest but quarantined from publication until a scholarly catalogue or primary scan verifies the character-to-image mapping. Absence here is not proof of historical non-attestation."
     },
     {
       "field": "names.ko",
@@ -231,44 +234,23 @@
         "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
         "source_file": "38.EFAC",
         "license_id": "CC0-1.0"
-      },
-      {
-        "asset_id": "bronze-U+6BCB-commons-index",
-        "path": "assets/bronze/U+6BCB/bronze-U+6BCB-commons-index.svg",
-        "source_id": "commons-ancient-chinese-historical-form-files-2026-08-10",
-        "source_file": "毋-bronze.svg",
-        "license_id": "pd"
       }
     ],
     "shuowen_seal_說文解字": [
       {
-        "asset_id": "shuowen-540-U+6BCB",
-        "path": "assets/shuowen_seal/U+6BCB/shuowen-540-U+6BCB.svg",
-        "source_id": "commons-shuowen-540-svg-series-2026-08-10",
-        "source_file": "Shuowen Seal Radical 388.svg",
-        "license_id": "cc-by-sa-3.0"
+        "asset_id": "sinica-shuowen-seal-U+6BCB",
+        "path": "assets/shuowen_seal/U+6BCB/sinica-shuowen-seal-U+6BCB.png",
+        "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+        "source_file": "27.6BCB",
+        "license_id": "CC0-1.0"
       }
     ],
     "liushutong_六書通": [
-      {
-        "asset_id": "liushutong-U+6BCB-commons-index",
-        "path": "assets/liushutong/U+6BCB/liushutong-U+6BCB-commons-index.svg",
-        "source_id": "commons-ancient-chinese-historical-form-files-2026-08-10",
-        "source_file": "毋-bigseal.svg",
-        "license_id": "pd"
-      },
       {
         "asset_id": "codh-liushutong-TE00008-U+6BCB-001",
         "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00008-U+6BCB-001.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+6BCB_TE00008_0041_1_X0410_Y0860.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-001",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-001.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0041_1_X0410_Y0860.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -279,24 +261,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-002",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-002.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0041_1_X0416_Y2020.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+6BCB-003",
         "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00008-U+6BCB-003.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+6BCB_TE00008_0041_1_X0416_Y2584.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-003",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-003.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0041_1_X0416_Y2584.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -307,24 +275,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-004",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-004.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0041_1_X0418_Y1435.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+6BCB-005",
         "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00008-U+6BCB-005.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+6BCB_TE00008_0041_1_X0708_Y2159.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-005",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-005.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0041_1_X0708_Y2159.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -335,24 +289,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-006",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-006.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0041_1_X0712_Y3334.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+6BCB-007",
         "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00008-U+6BCB-007.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+6BCB_TE00008_0041_1_X0715_Y0596.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-007",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-007.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0041_1_X0715_Y0596.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -363,24 +303,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-008",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-008.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0041_1_X0725_Y1572.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+6BCB-009",
         "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00008-U+6BCB-009.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+6BCB_TE00008_0041_1_X0729_Y2727.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-009",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-009.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0041_1_X0729_Y2727.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -391,24 +317,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-010",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-010.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0041_1_X0735_Y3785.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+6BCB-011",
         "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00008-U+6BCB-011.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+6BCB_TE00008_0041_1_X0736_Y1140.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-011",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-011.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0041_1_X0736_Y1140.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -419,24 +331,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-012",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-012.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0041_1_X0977_Y2135.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+6BCB-013",
         "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00008-U+6BCB-013.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+6BCB_TE00008_0041_1_X1010_Y2588.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-013",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-013.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0041_1_X1010_Y2588.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -447,24 +345,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-014",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-014.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0041_1_X1023_Y0861.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+6BCB-015",
         "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00008-U+6BCB-015.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+6BCB_TE00008_0041_1_X1031_Y3177.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-015",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-015.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0041_1_X1031_Y3177.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -475,24 +359,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-016",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-016.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0041_1_X1048_Y3618.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+6BCB-017",
         "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00008-U+6BCB-017.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+6BCB_TE00008_0067_1_X0100_Y2939.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-017",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-017.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0067_1_X0100_Y2939.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -503,24 +373,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-018",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-018.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0067_1_X0112_Y0623.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+6BCB-019",
         "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00008-U+6BCB-019.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+6BCB_TE00008_0067_1_X0114_Y3529.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-019",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-019.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0067_1_X0114_Y3529.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -531,24 +387,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-020",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-020.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0067_1_X0119_Y2388.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+6BCB-021",
         "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00008-U+6BCB-021.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+6BCB_TE00008_0067_1_X0131_Y1219.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-021",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-021.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0067_1_X0131_Y1219.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -559,24 +401,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-022",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-022.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0067_1_X0132_Y1839.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+6BCB-023",
         "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00008-U+6BCB-023.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+6BCB_TE00008_0067_1_X0401_Y0914.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-023",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-023.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0067_1_X0401_Y0914.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -587,24 +415,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-024",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-024.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0067_1_X0411_Y2942.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+6BCB-025",
         "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00008-U+6BCB-025.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+6BCB_TE00008_0067_1_X0413_Y3540.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-025",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-025.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0067_1_X0413_Y3540.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -615,24 +429,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-026",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-026.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0067_1_X0418_Y2504.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+6BCB-027",
         "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00008-U+6BCB-027.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+6BCB_TE00008_0067_2_X2314_Y1018.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-027",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-027.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0067_2_X2314_Y1018.jpg",
         "license_id": "CC-BY-SA-4.0"
       },
       {
@@ -643,13 +443,6 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-028",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-028.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0067_2_X2342_Y1589.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+6BCB-029",
         "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00008-U+6BCB-029.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
@@ -657,24 +450,10 @@
         "license_id": "CC-BY-SA-4.0"
       },
       {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-029",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-029.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0067_2_X2344_Y1890.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
         "asset_id": "codh-liushutong-TE00008-U+6BCB-030",
         "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00008-U+6BCB-030.jpg",
         "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
         "source_file": "U+6BCB_TE00008_0067_2_X2350_Y0579.jpg",
-        "license_id": "CC-BY-SA-4.0"
-      },
-      {
-        "asset_id": "codh-liushutong-TE00015-U+6BCB-030",
-        "path": "assets/liushutong/U+6BCB/codh-liushutong-TE00015-U+6BCB-030.jpg",
-        "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
-        "source_file": "U+6BCB_TE00015_0067_2_X2350_Y0579.jpg",
         "license_id": "CC-BY-SA-4.0"
       }
     ]
@@ -692,14 +471,19 @@
     "revision_id": 1559174,
     "revision_timestamp": "2019-04-22T06:13:38Z",
     "seal_glyph": {
-      "asset_id": "shuowen-540-U+6BCB",
-      "path": "assets/shuowen_seal/U+6BCB/shuowen-540-U+6BCB.svg",
-      "source_id": "commons-shuowen-540-svg-series-2026-08-10",
-      "source_file": "Shuowen Seal Radical 388.svg",
-      "license_id": "cc-by-sa-3.0"
+      "asset_id": "sinica-shuowen-seal-U+6BCB",
+      "path": "assets/shuowen_seal/U+6BCB/sinica-shuowen-seal-U+6BCB.png",
+      "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+      "source_file": "27.6BCB",
+      "license_id": "CC0-1.0"
     }
   },
   "english_definition": "do not; not; surname; rad. 80",
+  "example_characters": [
+    "U+6BCF",
+    "U+6BCD",
+    "U+6BD2"
+  ],
   "stroke_order": {
     "svg_asset_id": "stroke-order-U+6BCB-mmah-bddc96d4",
     "standard": "PRC GF 0023-2020 (provisional baseline)",

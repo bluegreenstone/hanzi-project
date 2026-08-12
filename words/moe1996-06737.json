@@ -11,8 +11,8 @@
     {
       "reading": "shí yàn shì",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        33361
+      "source_entry_ids": [
+        "087230118"
       ]
     }
   ],
@@ -20,8 +20,8 @@
     {
       "reading": "ㄕˊ ㄧㄢˋ ㄕˋ",
       "pinyin": "shí yàn shì",
-      "source_entry_indices": [
-        33361
+      "source_entry_ids": [
+        "087230118"
       ]
     }
   ],
@@ -84,11 +84,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -103,5 +105,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "學校或學術研究機構，設置各種器具藥品，供科學研究，實行試驗的特別房舍。如：「化學實驗室」、「物理實驗室」、「貝爾實驗室」。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "087230118",
+      "verbatim": true
+    }
+  ]
 }

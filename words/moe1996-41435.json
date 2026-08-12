@@ -12,8 +12,8 @@
     {
       "reading": "dá lài lǎ ma",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        108499
+      "source_entry_ids": [
+        "101100003"
       ]
     }
   ],
@@ -21,8 +21,8 @@
     {
       "reading": "ㄉㄚˊ ㄌㄞˋ ㄌㄚˇ ˙ㄇㄚ",
       "pinyin": "dá lài lǎ ma",
-      "source_entry_indices": [
-        108499
+      "source_entry_ids": [
+        "101100003"
       ]
     }
   ],
@@ -77,11 +77,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -96,5 +98,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "西藏宗教領袖。格魯派最重要轉世活佛的稱號。達賴為蒙古語Dalai的音譯，意為海洋。十六世紀由蒙古阿勒坦汗贈予西藏高僧索南嘉措的尊號。以比況其人之智慧深廣如海洋。喇嘛，乃上師之意。達賴喇嘛被視為菩薩的化身。自第五世成為西藏政教領袖。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "101100003",
+      "verbatim": true
+    }
+  ]
 }

@@ -10,8 +10,8 @@
     {
       "reading": "xǐ liàn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        64328
+      "source_entry_ids": [
+        "068270021"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄒㄧˇ ㄌㄧㄢˋ",
       "pinyin": "xǐ liàn",
-      "source_entry_indices": [
-        64328
+      "source_entry_ids": [
+        "068270021"
       ]
     }
   ],
@@ -91,11 +91,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -110,5 +112,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.清洗磨練，指修身養性。《宋書．卷八一．列傳．顧覬之》：「豈若澡雪靈府，洗練神宅，據道為心，依德為慮，使跡窮則義斯暢，身泰則理兼通，豈不美哉！」\n2.形容語言、文字、技藝等，運用得非常簡練俐落。如：「這篇小說的文字精簡洗練，人物描摹生動。」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "068270021",
+      "verbatim": true
+    }
+  ]
 }

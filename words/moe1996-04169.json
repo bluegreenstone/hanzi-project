@@ -8,14 +8,22 @@
   ],
   "pinyin": [
     {
-      "reading": "kuān chang",
+      "reading": "kuān chǎng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        33550
+      "source_entry_ids": [
+        "263100009"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄎㄨㄢ ㄔㄤˇ",
+      "pinyin": "kuān chǎng",
+      "source_entry_ids": [
+        "263100009"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "spacious",
@@ -75,15 +83,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "zhuyin": [
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "constituent_chars.local_records",
       "reason": "source_unavailable",
@@ -100,5 +109,45 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "kuān chǎng"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "263100009"
+          ]
+        },
+        {
+          "value": [
+            "kuān chang"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            33550
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "空間寬大。[例]整修好的辦公室寬敞舒適，相信必能提高工作效率。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "263100009",
+      "verbatim": true
+    }
+  ]
 }

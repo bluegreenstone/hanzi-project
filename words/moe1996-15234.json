@@ -10,8 +10,8 @@
     {
       "reading": "wū guī",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        69390
+      "source_entry_ids": [
+        "112270051"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄨ ㄍㄨㄟ",
       "pinyin": "wū guī",
-      "source_entry_indices": [
-        69390
+      "source_entry_ids": [
+        "112270051"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.動物名。身體呈扁形，背部有長圓形硬殼，黑褐色。有花紋，頭尾及四肢皆可縮入甲殼內。趾有蹼，能游泳，生長在湖泊、河川中，以雜草、小動物為食。甲殼可以入藥。也稱為「王八」、「元緒」。\r\n2.譏諷妻子與外人有不正常性關係的人。《五雜組．卷八．人部四》：「今人以妻之外淫者，目其夫為烏龜，蓋龜不能交而縱牝者與蛇交也。」《清稗類鈔．獄訟類．王祥雲殺徐二案》：「兒童六七……，大呼曰：『烏龜來矣。』……祥雲乃箕踞而問曰：『子呼我烏龜，何意？』兒曰：『汝妻與徐二共枕衾，子安得非烏龜？』」也稱為「王八」。\r\n3.罵人的話。指辦事不力、逃避現實而沒有擔當的人。如：「縮頭烏龜」。《文明小史》第一二回：「你們這些瞎眼的烏龜，還不替我睜開眼睛看看箱子上的封條，可是我們制臺大人的不是？」\r\n4.譏稱妓院的男主人或男僕。《初刻拍案驚奇》卷二：「你不懂，但凡娼家烏龜，必是性狠的。你妹子既來歷不明，他家必緊防漏洩。」《負曝閑談》第一三回：「正待開言，樓下烏龜一疊連聲的喊著客人來。」也稱為「八老」、「王八」、「忘八」。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "112270051",
+      "verbatim": true
+    }
+  ]
 }

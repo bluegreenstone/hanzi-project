@@ -10,8 +10,8 @@
     {
       "reading": "bí tóu",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        124407
+      "source_entry_ids": [
+        "003180009"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄅㄧˊ ㄊㄡˊ",
       "pinyin": "bí tóu",
-      "source_entry_indices": [
-        124407
+      "source_entry_ids": [
+        "003180009"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.鼻梁下半部，靠鼻孔的部分。唐．白居易〈自覺詩〉二首之二：「結為腸間痛，聚作鼻頭辛。」《宋書．卷三一．五行志二》：「趙王倫既篡，洛中童謠曰：『虎從北來鼻頭汗，龍從南來登城看，水從西來何灌灌。』」\r\n2.鼻子的尖端。也稱為「鼻尖」、「鼻端」。\r\n3.鼻子。《西遊記》第六一回：「哪吒見說，將縛妖索子解下，跨在他那頸項上，一把拿住鼻頭，將索穿在鼻孔裡，用手牽來。」《三寶太監西洋記通俗演義》第三一回：「那些犀牛見了蜈蚣蟲，就是指頭兒捺上了雙鍠鎖，不是知音不得聞。一個個都鑽到犀牛的鼻頭裡面去了。」\r\n4.器物上突起的部位。宋．魏了翁《儀禮要義．卷三三．喪服經傳六》：「絇者，屨鼻頭有飾，為行戒。」《三寶太監西洋記通俗演義》第一七回：「還要百十根綜纜，每根要吊桶樣的粗大，穿起錨的鼻頭來，纔歸一統。」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "003180009",
+      "verbatim": true
+    }
+  ]
 }

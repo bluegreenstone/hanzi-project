@@ -10,8 +10,8 @@
     {
       "reading": "guān miào",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        113754
+      "source_entry_ids": [
+        "043150018"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄍㄨㄢ ㄇㄧㄠˋ",
       "pinyin": "guān miào",
-      "source_entry_indices": [
-        113754
+      "source_entry_ids": [
+        "043150018"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.奉祀關公的寺廟。\n2.地名。隸屬臺南市關廟區。面積五十三平方公里，地形三面高聳，一面低平。原名關帝廟街，民國九年改名為關廟庄，為臺南市公路中心。曾以藤器製造著名，有藤鄉之稱。近年以鳳梨、綠竹筍等農產品最為著稱。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "043150018",
+      "verbatim": true
+    }
+  ]
 }

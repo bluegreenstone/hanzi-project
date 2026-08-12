@@ -10,8 +10,8 @@
     {
       "reading": "zhōng xīn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        3513
+      "source_entry_ids": [
+        "460100042"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄓㄨㄥ ㄒㄧㄣ",
       "pinyin": "zhōng xīn",
-      "source_entry_indices": [
-        3513
+      "source_entry_ids": [
+        "460100042"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.正中央的位置。[例]車站位於本鎮的中心。\n2.核心，事物的主體。[例]中心思想\n3.泛指某一具有特定性質或樞紐地位的地點。[例]地方圖書館是一般鄉鎮的文化中心。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "460100042",
+      "verbatim": true
+    }
+  ]
 }

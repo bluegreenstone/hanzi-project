@@ -23,23 +23,31 @@ import validate_phase3 as validate3  # noqa: E402
 
 WORDS_PATH = ROOT / "words"
 CHARACTERS_PATH = ROOT / "characters"
-MANIFEST_PATH = ROOT / "phase4-manifest.json"
+RADICALS_PATH = ROOT / "radicals"
+MANIFEST_PATH = ROOT / "metadata" / "manifests" / "phase4.json"
 WORD_SCHEMA_PATH = ROOT / "schema" / "word.schema.json"
 CHARACTER_SCHEMA_PATH = ROOT / "schema" / "character.schema.json"
-VALIDATION_REPORT_PATH = ROOT / "validation-report.md"
-GAPS_REPORT_PATH = ROOT / "gaps-report.md"
+RADICAL_SCHEMA_PATH = ROOT / "schema" / "radical.schema.json"
+VALIDATION_REPORT_PATH = ROOT / "docs" / "validation.md"
+GAPS_REPORT_PATH = ROOT / "docs" / "gaps.md"
 PHASE_REPORT_PATH = ROOT / "phase4-report.md"
 
 WORD_ID_RE = re.compile(r"^moe1996-([0-9]{5})$")
 CODEPOINT_RE = re.compile(r"^U\+([0-9A-F]{4,6})$")
 
 
-def load_records() -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[str]]:
+def load_records() -> tuple[
+    list[dict[str, Any]],
+    list[dict[str, Any]],
+    list[dict[str, Any]],
+    list[str],
+]:
     errors: list[str] = []
     word_files = sorted(WORDS_PATH.glob("*.json"))
     character_files = sorted(CHARACTERS_PATH.glob("*.json"))
     words: list[dict[str, Any]] = []
     characters: list[dict[str, Any]] = []
+    radicals: list[dict[str, Any]] = []
     seen_ids: set[str] = set()
     for path in word_files:
         try:
@@ -63,15 +71,28 @@ def load_records() -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[str
         if path.stem != record.get("codepoint"):
             errors.append(f"{path.name}: filename does not match codepoint")
         characters.append(record)
+    for number in range(1, 215):
+        path = RADICALS_PATH / f"{number}.json"
+        try:
+            record = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, UnicodeError, json.JSONDecodeError) as exc:
+            errors.append(f"{path.name}: {exc}")
+            continue
+        if record.get("kangxi_number") != number:
+            errors.append(f"{path.name}: filename does not match kangxi_number")
+        radicals.append(record)
     words.sort(key=lambda item: item.get("frequency", {}).get("rank", 0))
     characters.sort(key=lambda item: item.get("frequency", {}).get("selection_rank", 0))
-    return words, characters, errors
+    radicals.sort(key=lambda item: item.get("kangxi_number", 0))
+    return words, characters, radicals, errors
 
 
 def load_context(registry: dict[str, Any]) -> dict[str, Any]:
     moe_path = phase3.acquired_path(registry, phase3.MOE_ID)
     cedict_path = phase3.acquired_path(registry, phase3.CC_CEDICT_ID)
     cns_path = phase3.acquired_path(registry, phase3.CNS_ID)
+    moe_concised_path = phase3.acquired_path(registry, builder.MOE_CONCISED_ID)
+    moe_revised_path = phase3.acquired_path(registry, builder.MOE_REVISED_ID)
     rows, corpus_total = builder.read_moe_words(registry, moe_path)
     cedict = builder.parse_cc_cedict_words(
         registry, cedict_path, {row["traditional"] for row in rows}
@@ -86,11 +107,13 @@ def load_context(registry: dict[str, Any]) -> dict[str, Any]:
     common, chosen_rows, skipped = builder.select_common_words(
         rows, cedict, selected_cps
     )
-    _, bopomofo_to_pinyin, _ = phase3.parse_cns(registry, cns_path)
+    _, bopomofo_to_pinyin, _, _ = phase3.parse_cns(registry, cns_path)
     pinyin_to_bopomofo: dict[str, list[str]] = defaultdict(list)
     for bopomofo, pinyin in bopomofo_to_pinyin.items():
         if bopomofo not in pinyin_to_bopomofo[pinyin]:
             pinyin_to_bopomofo[pinyin].append(bopomofo)
+    moe_concised = builder.load_moe_rows(moe_concised_path)
+    moe_revised = builder.load_moe_rows(moe_revised_path)
     expected_words = [
         builder.build_word_record(
             chosen_rows[rank],
@@ -98,6 +121,8 @@ def load_context(registry: dict[str, Any]) -> dict[str, Any]:
             cedict[chosen_rows[rank]["traditional"]],
             selected_cps,
             pinyin_to_bopomofo,
+            moe_concised.get(chosen_rows[rank]["traditional"], []),
+            moe_revised.get(chosen_rows[rank]["traditional"], []),
         )
         for rank in sorted(chosen_rows)
     ]
@@ -110,6 +135,8 @@ def load_context(registry: dict[str, Any]) -> dict[str, Any]:
         "chosen_rows": chosen_rows,
         "skipped": skipped,
         "pinyin_to_bopomofo": pinyin_to_bopomofo,
+        "moe_concised": moe_concised,
+        "moe_revised": moe_revised,
         "expected_words": expected_words,
     }
 
@@ -117,6 +144,7 @@ def load_context(registry: dict[str, Any]) -> dict[str, Any]:
 def check_record_sets(
     words: list[dict[str, Any]],
     characters: list[dict[str, Any]],
+    radicals: list[dict[str, Any]],
     initial_errors: list[str],
     manifest: dict[str, Any],
     **_: Any,
@@ -129,6 +157,8 @@ def check_record_sets(
         )
     if len(characters) != 2000:
         errors.append(f"characters/ has {len(characters)} JSON files, expected 2000")
+    if len(radicals) != 214:
+        errors.append(f"radicals/ has {len(radicals)} JSON files, expected 214")
     if [record.get("frequency", {}).get("selection_rank") for record in characters] != list(
         range(1, 2001)
     ):
@@ -144,12 +174,16 @@ def check_record_sets(
 
 
 def check_schema(
-    words: list[dict[str, Any]], characters: list[dict[str, Any]], **_: Any
+    words: list[dict[str, Any]],
+    characters: list[dict[str, Any]],
+    radicals: list[dict[str, Any]],
+    **_: Any,
 ) -> list[str]:
     errors: list[str] = []
     for schema_path, records, key in (
         (WORD_SCHEMA_PATH, words, "id"),
         (CHARACTER_SCHEMA_PATH, characters, "codepoint"),
+        (RADICAL_SCHEMA_PATH, radicals, "kangxi_number"),
     ):
         schema = json.loads(schema_path.read_text(encoding="utf-8"))
         validator = jsonschema.Draft202012Validator(schema)
@@ -223,6 +257,64 @@ def check_character_links(
     return errors
 
 
+def check_radical_examples(
+    radicals: list[dict[str, Any]],
+    characters: list[dict[str, Any]],
+    context: dict[str, Any],
+    **_: Any,
+) -> list[str]:
+    errors: list[str] = []
+    character_map = {record["codepoint"]: record for record in characters}
+    expected = builder.derive_radical_examples(characters, context["common"])
+    expected_sources = [phase3.MOE_ID, phase3.CNS_ID, phase3.CC_CEDICT_ID]
+    seen: set[str] = set()
+    for radical in radicals:
+        number = radical["kangxi_number"]
+        actual = radical.get("example_characters")
+        if actual != expected[number]:
+            errors.append(
+                f"radical {number}: example_characters differs from the ranked eligible set"
+            )
+            continue
+        if radical.get("sources", {}).get("example_characters") != expected_sources:
+            errors.append(f"radical {number}: example-character provenance differs")
+        matching_gaps = [
+            gap for gap in radical["gaps"] if gap["field"] == "example_characters"
+        ]
+        expected_gap_count = 0 if actual else 1
+        if len(matching_gaps) != expected_gap_count:
+            errors.append(
+                f"radical {number}: example-character coverage and gap disagree"
+            )
+        ranks: list[int] = []
+        for codepoint in actual:
+            if codepoint in seen:
+                errors.append(f"{codepoint}: assigned to more than one radical example list")
+            seen.add(codepoint)
+            character = character_map.get(codepoint)
+            if character is None:
+                errors.append(f"radical {number}: unresolved example {codepoint}")
+                continue
+            if character["radical"]["kangxi_number"] != number:
+                errors.append(f"radical {number}: {codepoint} has a different assignment")
+            cp = builder.parse_codepoint(codepoint)
+            if not context["common"].get(cp):
+                errors.append(f"radical {number}: {codepoint} lacks ranked-word evidence")
+            ranks.append(character["frequency"]["rank"])
+        if ranks != sorted(ranks):
+            errors.append(f"radical {number}: examples are not in character-frequency order")
+    eligible = {
+        record["codepoint"]
+        for record in characters
+        if context["common"].get(builder.parse_codepoint(record["codepoint"]))
+    }
+    if seen != eligible:
+        errors.append(
+            f"radical example union differs from eligible characters: {len(seen)} != {len(eligible)}"
+        )
+    return errors
+
+
 def check_english_translations(
     characters: list[dict[str, Any]], **_: Any
 ) -> list[str]:
@@ -246,6 +338,38 @@ def check_english_translations(
             errors.append(
                 f"{record['codepoint']}: english_translation provenance is not exact"
             )
+    return errors
+
+
+def check_taiwan_definitions(
+    words: list[dict[str, Any]], context: dict[str, Any], **_: Any
+) -> list[str]:
+    errors: list[str] = []
+    for record in words:
+        term = record["traditional"]
+        concised_rows = context["moe_concised"].get(term, [])
+        revised_rows = context["moe_revised"].get(term, [])
+        rows = concised_rows or revised_rows
+        source_id = (
+            builder.MOE_CONCISED_ID if concised_rows else builder.MOE_REVISED_ID
+        )
+        expected = (
+            phase3.build_taiwan_definitions(rows, source_id) if rows else None
+        )
+        if record.get("definitions_zh_TW") != expected:
+            errors.append(f"{record['id']}: Taiwan definition differs from source")
+        if expected is not None:
+            if record["sources"].get("definitions_zh_TW") != [source_id]:
+                errors.append(f"{record['id']}: Taiwan definition provenance differs")
+        else:
+            matching_gaps = [
+                gap
+                for gap in record["gaps"]
+                if gap["field"] == "definitions_zh_TW"
+                and gap["reason"] == "not_attested"
+            ]
+            if len(matching_gaps) != 1:
+                errors.append(f"{record['id']}: Taiwan definition gap differs")
     return errors
 
 
@@ -340,9 +464,8 @@ def check_null_gaps(words: list[dict[str, Any]], **_: Any) -> list[str]:
 def check_unicode_scope(words: list[dict[str, Any]], **_: Any) -> list[str]:
     errors: list[str] = []
     for record in words:
-        serialized = json.dumps(record, ensure_ascii=False)
-        if not unicodedata.is_normalized("NFC", serialized):
-            errors.append(f"{record['id']}: record is not NFC")
+        if not phase3.is_nfc_except_verbatim_text(record):
+            errors.append(f"{record['id']}: a non-verbatim record field is not NFC")
         expected_constituents = [
             phase3.codepoint(ord(char))
             for char in record["traditional"]
@@ -370,7 +493,7 @@ def check_readings(words: list[dict[str, Any]], **_: Any) -> list[str]:
     tone_marks = {0x02C7, 0x02CA, 0x02CB, 0x02D9}
     for record in words:
         pinyin_by_value = {
-            item["reading"]: item["source_entry_indices"]
+            item["reading"]: builder.moe_pronunciations.source_refs(item)
             for item in record["pinyin"] or []
         }
         for reading in pinyin_by_value:
@@ -381,8 +504,8 @@ def check_readings(words: list[dict[str, Any]], **_: Any) -> list[str]:
         for item in record["zhuyin"] or []:
             if item["pinyin"] not in pinyin_by_value:
                 errors.append(f"{record['id']}: Zhuyin has no matching Pinyin")
-            elif item["source_entry_indices"] != pinyin_by_value[item["pinyin"]]:
-                errors.append(f"{record['id']}: Zhuyin/Pinyin entry indices differ")
+            elif builder.moe_pronunciations.source_refs(item) != pinyin_by_value[item["pinyin"]]:
+                errors.append(f"{record['id']}: Zhuyin/Pinyin source entries differ")
             for char in item["reading"]:
                 cp = ord(char)
                 if char == " ":
@@ -413,6 +536,48 @@ def check_exact_join(
         expected_indices = sorted(entry["entry_index"] for entry in entries)
         if record["cc_cedict_entry_indices"] != expected_indices:
             errors.append(f"{record['id']}: exact CC-CEDICT entry indices differ")
+        moe_rows = context["moe_concised"].get(record["traditional"], [])
+        if moe_rows:
+            expected_pinyin, expected_zhuyin = (
+                builder.moe_pronunciations.moe_readings(moe_rows)
+            )
+            if record.get("pinyin") != expected_pinyin:
+                errors.append(f"{record['id']}: exact Taiwan MOE Pinyin differs")
+            if record.get("zhuyin") != expected_zhuyin:
+                errors.append(f"{record['id']}: exact Taiwan MOE Zhuyin differs")
+            if record["sources"].get("pinyin") != [builder.MOE_CONCISED_ID]:
+                errors.append(f"{record['id']}: Concised Pinyin provenance differs")
+            if record["sources"].get("zhuyin") != [builder.MOE_CONCISED_ID]:
+                errors.append(f"{record['id']}: Concised Zhuyin provenance differs")
+        else:
+            revised_rows = context["moe_revised"].get(record["traditional"], [])
+            if revised_rows:
+                expected_pinyin, expected_zhuyin = (
+                    builder.moe_pronunciations.moe_readings(revised_rows)
+                )
+                if record.get("pinyin") != expected_pinyin:
+                    errors.append(
+                        f"{record['id']}: exact Revised Dictionary Pinyin differs"
+                    )
+                if record.get("zhuyin") != expected_zhuyin:
+                    errors.append(
+                        f"{record['id']}: exact Revised Dictionary Zhuyin differs"
+                    )
+                if record["sources"].get("pinyin") != [builder.MOE_REVISED_ID]:
+                    errors.append(
+                        f"{record['id']}: Revised Dictionary Pinyin provenance differs"
+                    )
+                if record["sources"].get("zhuyin") != [builder.MOE_REVISED_ID]:
+                    errors.append(
+                        f"{record['id']}: Revised Dictionary Zhuyin provenance differs"
+                    )
+                continue
+            gap_fields = {gap["field"] for gap in record["gaps"]}
+            for field in builder.moe_pronunciations.TAIWAN_GAP_FIELDS:
+                if field not in gap_fields:
+                    errors.append(
+                        f"{record['id']}: uncovered Taiwan pronunciation lacks {field} gap"
+                    )
     return errors
 
 
@@ -421,7 +586,7 @@ def check_phase3_regression(
 ) -> list[str]:
     errors: list[str] = []
     phase3_manifest = json.loads(
-        (ROOT / "phase3-manifest.json").read_text(encoding="utf-8")
+        (ROOT / "metadata" / "manifests" / "phase3.json").read_text(encoding="utf-8")
     )
     projection = [builder.phase3_projection(record) for record in characters]
     digest = phase3.deterministic_record_digest(projection)
@@ -434,6 +599,7 @@ def check_phase3_regression(
 def check_manifest(
     words: list[dict[str, Any]],
     characters: list[dict[str, Any]],
+    radicals: list[dict[str, Any]],
     context: dict[str, Any],
     manifest: dict[str, Any],
     **_: Any,
@@ -446,8 +612,29 @@ def check_manifest(
         "common_word_reference_count": sum(
             len(record["common_words"]) for record in characters
         ),
+        "radical_record_count": len(radicals),
+        "radical_example_character_reference_count": sum(
+            len(record.get("example_characters", [])) for record in radicals
+        ),
+        "radicals_with_example_characters": sum(
+            bool(record.get("example_characters")) for record in radicals
+        ),
+        "radicals_without_example_characters": [
+            record["kangxi_number"]
+            for record in radicals
+            if not record.get("example_characters")
+        ],
+        "radical_example_digest_sha256": phase3.deterministic_record_digest(
+            builder.radical_example_projection(radicals)
+        ),
         "english_translation_count": sum(
             bool(record.get("english_translation")) for record in characters
+        ),
+        "taiwan_definition_covered_count": sum(
+            bool(record.get("definitions_zh_TW")) for record in words
+        ),
+        "taiwan_definition_gap_count": sum(
+            record.get("definitions_zh_TW") is None for record in words
         ),
         "words_per_character_limit": builder.WORDS_PER_CHARACTER,
         "single_character_word_count": sum(
@@ -461,7 +648,57 @@ def check_manifest(
             [builder.phase3_projection(record) for record in characters]
         ),
         "word_records_with_conflicts": sum(bool(record["conflicts"]) for record in words),
+        "moe_pronunciation_covered_count": sum(
+            record["sources"].get("pinyin") == [builder.MOE_CONCISED_ID]
+            for record in words
+        ),
+        "moe_pronunciation_conflict_count": sum(
+            any(
+                conflict.get("resolution") == "taiwan_moe_canonical"
+                for conflict in record["conflicts"]
+            )
+            for record in words
+        ),
+        "taiwan_pronunciation_verification_gap_count": sum(
+            any(
+                gap.get("field") == "pinyin.taiwan_verification"
+                for gap in record["gaps"]
+            )
+            for record in words
+        ),
         "word_gap_count": sum(len(record["gaps"]) for record in words),
+        "moe_revised_additional_word_covered_count": sum(
+            record["sources"].get("pinyin") == [builder.MOE_REVISED_ID]
+            and record["sources"].get("zhuyin") == [builder.MOE_REVISED_ID]
+            for record in words
+        ),
+        "moe_revised_additional_conflict_count": sum(
+            record["sources"].get("pinyin") == [builder.MOE_REVISED_ID]
+            and any(
+                conflict.get("resolution") == "taiwan_moe_canonical"
+                for conflict in record["conflicts"]
+            )
+            for record in words
+        ),
+        "moe_revised_additional_zhuyin_fill_count": len(
+            builder.moe_pronunciations.REVISED_ZHUYIN_FILL_IDS
+        ),
+        "taiwan_word_pronunciation_covered_count": sum(
+            record["sources"].get("pinyin")
+            in ([builder.MOE_CONCISED_ID], [builder.MOE_REVISED_ID])
+            and record["sources"].get("zhuyin")
+            in ([builder.MOE_CONCISED_ID], [builder.MOE_REVISED_ID])
+            and record["sources"].get("pinyin")
+            == record["sources"].get("zhuyin")
+            for record in words
+        ),
+        "unresolved_word_pronunciation_count": sum(
+            any(
+                gap.get("field") == "pinyin.taiwan_verification"
+                for gap in record["gaps"]
+            )
+            for record in words
+        ),
         "selection_skip_counts": context["skipped"],
     }
     for key, value in expected.items():
@@ -479,18 +716,7 @@ def check_manifest(
 
 def phase4_projection(record: dict[str, Any]) -> dict[str, Any]:
     """Remove backward-compatible Phase 5 enrichment from a Phase 4 character."""
-    projected = json.loads(json.dumps(record, ensure_ascii=False))
-    projected.pop("stroke_order", None)
-    projected.get("sources", {}).pop("stroke_order", None)
-    for source_path in list(projected.get("sources", {})):
-        if source_path.startswith("stroke_order."):
-            projected["sources"].pop(source_path)
-    projected["gaps"] = [
-        gap
-        for gap in projected.get("gaps", [])
-        if not gap.get("field", "").startswith("stroke_order")
-    ]
-    return projected
+    return builder.phase4_character_projection(record)
 
 
 def format_ids(values: list[str], width: int = 12) -> list[str]:
@@ -503,6 +729,7 @@ def format_ids(values: list[str], width: int = 12) -> list[str]:
 def write_reports(
     words: list[dict[str, Any]],
     characters: list[dict[str, Any]],
+    radicals: list[dict[str, Any]],
     checks: list[tuple[str, str, list[str]]],
     manifest: dict[str, Any],
 ) -> None:
@@ -540,6 +767,12 @@ def write_reports(
             grouped[(gap["reason"], f"word.{gap['field']}", gap["detail"])].append(
                 record["id"]
             )
+    for record in radicals:
+        for gap in record["gaps"]:
+            if gap["field"] == "example_characters":
+                grouped[(gap["reason"], f"radical.{gap['field']}", gap["detail"])].append(
+                    f"R{record['kangxi_number']:03d}"
+                )
     gap_lines = [
         "# Gaps report",
         "",
@@ -590,7 +823,9 @@ def write_reports(
         "",
         f"- Word records: **{len(words):,}**.",
         f"- Character-to-word references: **{manifest['common_word_reference_count']:,}**.",
+        f"- Radical-to-common-character references: **{manifest['radical_example_character_reference_count']:,}**, covering **{manifest['radicals_with_example_characters']} / 214** radicals.",
         f"- Characters with a dedicated English translation: **{manifest['english_translation_count']:,} / {len(characters):,}**.",
+        f"- Words with an exact verbatim Taiwan MOE definition: **{manifest['taiwan_definition_covered_count']:,} / {len(words):,}**; exact-headword gaps: **{manifest['taiwan_definition_gap_count']:,}**.",
         f"- Characters with 10 words: **{distribution.get('10', 0):,} / {len(characters):,}**.",
         f"- Single-character published MOE word rows retained: **{manifest['single_character_word_count']:,}**.",
         f"- Word records flagged by mapping conflicts: **{manifest['word_records_with_conflicts']:,}**.",
@@ -631,14 +866,16 @@ def write_reports(
             "2. One-character rows are retained because the source publishes them as word rows and no approved rule excludes them.",
             "3. Eligibility requires an exact NFC Traditional headword match in the pinned CC-CEDICT snapshot. No local segmentation, script conversion, substring lookup, or approximate matching is used.",
             "4. Each character receives the first 10 distinct eligible Traditional forms in ascending MOE rank. A shared word is stored once and joined by its rank-derived ID.",
-            "5. Multiple exact CC-CEDICT Simplified mappings remain null and are preserved in `conflicts[]`; dictionary pronunciations are all retained rather than ranked as a Taiwan primary reading.",
-            "6. Word Zhuyin is a deterministic conversion through the pinned Taiwan CNS syllable table. A non-unique or incomplete conversion remains a gap.",
+            "5. Every top-2,000 character with at least one eligible ranked-word link is joined to its canonical Taiwan CNS radical in character-frequency order. Empty radical lists are explicit and are never padded with obscure characters.",
+            "6. Multiple exact CC-CEDICT Simplified mappings remain null and are preserved in `conflicts[]`.",
+            "7. Exact Concised Dictionary Pinyin, Zhuyin, definitions, and entry IDs are canonical; Revised Dictionary rows fill exact-headword Concised omissions. Earlier CC-CEDICT/CNS readings remain conflict evidence when they differ.",
+            "8. For the 1,477 words absent from both official downloads, earlier readings remain provisional and definitions_zh_TW remains null with exact gaps.",
             "",
             "## Source limitations",
             "",
             f"- **{manifest['selection_skip_counts'].get('no_exact_cc_cedict_headword', 0):,}** MOE rows had no exact CC-CEDICT Traditional headword and were ineligible.",
             "- No approved HSK word-level source passed the source audit; `grading.hsk` remains null.",
-            "- Phase 5 stroke-order SVG work has not started.",
+            "- Phase 5 supplies full radical/character stroke-order SVG coverage in this snapshot.",
             "",
         ]
     )
@@ -647,7 +884,7 @@ def write_reports(
 
 def main() -> None:
     registry = phase3.load_registry()
-    words, characters, initial_errors = load_records()
+    words, characters, radicals, initial_errors = load_records()
     manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
     context = load_context(registry)
     specs: list[tuple[str, str, Callable[..., list[str]]]] = [
@@ -655,7 +892,9 @@ def main() -> None:
         ("P4-02 JSON Schema", "All word and enriched character records validate against their schemas.", check_schema),
         ("P4-03 Deterministic rebuild", "Every word exactly reproduces from the pinned source snapshots.", check_deterministic_words),
         ("P4-04 Ranked joins", "Every character has its first 10 distinct eligible MOE-ranked words, or an explicit short-list gap.", check_character_links),
+        ("P4-04b Radical examples", "Every eligible common character appears exactly once under its Taiwan CNS radical, in character-frequency order; uncovered radicals remain explicitly empty.", check_radical_examples),
         ("P4-05 English translations", "Every character exposes its exact Unihan English gloss with explicit provenance.", check_english_translations),
+        ("P4-05b Taiwan definitions", "Every available Taiwan definition exactly reproduces a decoded MOE cell and entry ID; dual-dictionary absences remain explicit gaps.", check_taiwan_definitions),
         ("P4-06 Provenance", "Every non-null word leaf is covered by an approved, license-verified source.", check_provenance),
         ("P4-07 Null/gap pairing", "Every word null and every unavailable grading/segmentation field has an exact gap.", check_null_gaps),
         ("P4-08 Unicode scope", "Word forms are NFC, constituents match, non-BMP round-trips, and forbidden blocks are absent.", check_unicode_scope),
@@ -667,13 +906,14 @@ def main() -> None:
     shared = {
         "words": words,
         "characters": characters,
+        "radicals": radicals,
         "initial_errors": initial_errors,
         "manifest": manifest,
         "registry": registry,
         "context": context,
     }
     checks = [(check_id, detail, function(**shared)) for check_id, detail, function in specs]
-    write_reports(words, characters, checks, manifest)
+    write_reports(words, characters, radicals, checks, manifest)
     failures = sum(bool(errors) for _, _, errors in checks)
     print(
         f"Phase 4 validation: {'PASS' if failures == 0 else 'FAIL'} "

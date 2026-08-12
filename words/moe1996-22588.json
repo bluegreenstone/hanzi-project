@@ -10,8 +10,8 @@
     {
       "reading": "mǎn guàn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        67520
+      "source_entry_ids": [
+        "012330072"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄇㄢˇ ㄍㄨㄢˋ",
       "pinyin": "mǎn guàn",
-      "source_entry_indices": [
-        67520
+      "source_entry_ids": [
+        "012330072"
       ]
     }
   ],
@@ -91,11 +91,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -110,5 +112,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.比喻達到最滿的數目。《韓非子．說林下》：「吾恐其以我滿貫也，遂去之。」\n2.麻將上指和牌者做成四人約定最高階的牌。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "012330072",
+      "verbatim": true
+    }
+  ]
 }

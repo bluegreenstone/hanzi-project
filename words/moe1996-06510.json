@@ -10,8 +10,8 @@
     {
       "reading": "hái tóng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        31522
+      "source_entry_ids": [
+        "270700002"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄏㄞˊ ㄊㄨㄥˊ",
       "pinyin": "hái tóng",
-      "source_entry_indices": [
-        31522
+      "source_entry_ids": [
+        "270700002"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "小孩、兒童。[例]孩童是國家未來的主人翁、社會的棟梁。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "270700002",
+      "verbatim": true
+    }
+  ]
 }

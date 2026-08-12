@@ -10,8 +10,8 @@
     {
       "reading": "xiǎn yǐng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        118952
+      "source_entry_ids": [
+        "071300077"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄒㄧㄢˇ ㄧㄥˇ",
       "pinyin": "xiǎn yǐng",
-      "source_entry_indices": [
-        118952
+      "source_entry_ids": [
+        "071300077"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "攝影沖洗過程中，將已曝光的底片，利用化學藥品處理，使原來看不見的潛影，變成可見的影像，此工作通常在暗室中進行。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "071300077",
+      "verbatim": true
+    }
+  ]
 }

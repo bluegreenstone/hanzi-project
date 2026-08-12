@@ -10,8 +10,8 @@
     {
       "reading": "xǐ liǎn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        64335
+      "source_entry_ids": [
+        "068270020"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄒㄧˇ ㄌㄧㄢˇ",
       "pinyin": "xǐ liǎn",
-      "source_entry_indices": [
-        64335
+      "source_entry_ids": [
+        "068270020"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "洗淨面孔。《紅樓夢》第六八回：「就叫我伏侍妹妹梳頭、洗臉，我也是願意的。」《文明小史》第一五回：「合船的人，已有大半起身，洗臉的洗臉，打鋪蓋的打鋪蓋。」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "068270020",
+      "verbatim": true
+    }
+  ]
 }

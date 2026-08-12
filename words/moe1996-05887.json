@@ -10,8 +10,8 @@
     {
       "reading": "shuǐ zhǒng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        62255
+      "source_entry_ids": [
+        "516300078"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄕㄨㄟˇ ㄓㄨㄥˇ",
       "pinyin": "shuǐ zhǒng",
-      "source_entry_indices": [
-        62255
+      "source_entry_ids": [
+        "516300078"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "由於血液或淋巴循環不良等，使液體在身體的細胞組織中發生異常的積聚現象，而引起全身或局部的腫脹症狀。通常心臟病、腎臟病患者有此症狀。[例]患有水腫的病人應減少鹽分的攝取。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "516300078",
+      "verbatim": true
+    }
+  ]
 }

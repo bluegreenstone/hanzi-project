@@ -10,8 +10,8 @@
     {
       "reading": "sù xiàng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        26167
+      "source_entry_ids": [
+        "565300003"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄙㄨˋ ㄒㄧㄤˋ",
       "pinyin": "sù xiàng",
-      "source_entry_indices": [
-        26167
+      "source_entry_ids": [
+        "565300003"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.以黏土、石膏、蠟或金屬等材料塑造而成的人或物的形象。[例]矗立在公園的藝術塑像成為這個城市的地標。\r\n2.利用黏土、石膏、蠟或金屬等材料塑造人或物的形象。[例]為了找尋可用來塑像的好泥土，他幾乎跑遍了世界各地。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "565300003",
+      "verbatim": true
+    }
+  ]
 }

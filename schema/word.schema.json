@@ -12,6 +12,7 @@
     "pinyin",
     "zhuyin",
     "definitions",
+    "definitions_zh_TW",
     "frequency",
     "grading",
     "segmentation_tool",
@@ -62,6 +63,16 @@
       "minItems": 1,
       "items": { "$ref": "#/$defs/definition" }
     },
+    "definitions_zh_TW": {
+      "oneOf": [
+        {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/taiwanDefinition" }
+        },
+        { "type": "null" }
+      ]
+    },
     "frequency": { "$ref": "#/$defs/frequency" },
     "grading": {
       "type": "object",
@@ -99,25 +110,53 @@
       "uniqueItems": true,
       "items": { "type": "integer", "minimum": 1 }
     },
+    "entryIds": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
     "pinyinReading": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["reading", "context", "source_entry_indices"],
+      "required": ["reading", "context"],
       "properties": {
         "reading": { "type": "string", "minLength": 1 },
         "context": { "const": "dictionary_entry" },
-        "source_entry_indices": { "$ref": "#/$defs/entryIndices" }
-      }
+        "source_entry_indices": { "$ref": "#/$defs/entryIndices" },
+        "source_entry_ids": { "$ref": "#/$defs/entryIds" }
+      },
+      "oneOf": [
+        {
+          "required": ["source_entry_indices"],
+          "not": { "required": ["source_entry_ids"] }
+        },
+        {
+          "required": ["source_entry_ids"],
+          "not": { "required": ["source_entry_indices"] }
+        }
+      ]
     },
     "zhuyinReading": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["reading", "pinyin", "source_entry_indices"],
+      "required": ["reading", "pinyin"],
       "properties": {
         "reading": { "type": "string", "minLength": 1 },
         "pinyin": { "type": "string", "minLength": 1 },
-        "source_entry_indices": { "$ref": "#/$defs/entryIndices" }
-      }
+        "source_entry_indices": { "$ref": "#/$defs/entryIndices" },
+        "source_entry_ids": { "$ref": "#/$defs/entryIds" }
+      },
+      "oneOf": [
+        {
+          "required": ["source_entry_indices"],
+          "not": { "required": ["source_entry_ids"] }
+        },
+        {
+          "required": ["source_entry_ids"],
+          "not": { "required": ["source_entry_indices"] }
+        }
+      ]
     },
     "definition": {
       "type": "object",
@@ -128,6 +167,26 @@
         "lang": { "const": "en" },
         "register": { "const": "modern" },
         "source_entry_indices": { "$ref": "#/$defs/entryIndices" }
+      }
+    },
+    "taiwanDefinition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "lang",
+        "register",
+        "source_id",
+        "source_entry_id",
+        "verbatim"
+      ],
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "lang": { "const": "zh-Hant-TW" },
+        "register": { "const": "dictionary" },
+        "source_id": { "type": "string", "minLength": 1 },
+        "source_entry_id": { "type": "string", "minLength": 1 },
+        "verbatim": { "const": true }
       }
     },
     "frequency": {
@@ -184,7 +243,7 @@
     "conflictValue": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["value", "source_ids", "source_entry_indices"],
+      "required": ["value", "source_ids"],
       "properties": {
         "value": true,
         "source_ids": {
@@ -193,8 +252,19 @@
           "uniqueItems": true,
           "items": { "type": "string", "minLength": 1 }
         },
-        "source_entry_indices": { "$ref": "#/$defs/entryIndices" }
-      }
+        "source_entry_indices": { "$ref": "#/$defs/entryIndices" },
+        "source_entry_ids": { "$ref": "#/$defs/entryIds" }
+      },
+      "oneOf": [
+        {
+          "required": ["source_entry_indices"],
+          "not": { "required": ["source_entry_ids"] }
+        },
+        {
+          "required": ["source_entry_ids"],
+          "not": { "required": ["source_entry_indices"] }
+        }
+      ]
     },
     "conflict": {
       "type": "object",
@@ -202,7 +272,9 @@
       "required": ["field", "resolution", "values", "detail"],
       "properties": {
         "field": { "type": "string", "minLength": 1 },
-        "resolution": { "const": "unresolved" },
+        "resolution": {
+          "enum": ["unresolved", "taiwan_moe_canonical"]
+        },
         "values": {
           "type": "array",
           "minItems": 2,

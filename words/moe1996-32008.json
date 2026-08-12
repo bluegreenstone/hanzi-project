@@ -10,8 +10,8 @@
     {
       "reading": "chǎo miàn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        69072
+      "source_entry_ids": [
+        "083080003"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄔㄠˇ ㄇㄧㄢˋ",
       "pinyin": "chǎo miàn",
-      "source_entry_indices": [
-        69072
+      "source_entry_ids": [
+        "083080003"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.用油加佐料炒過的麵條。\n2.炒熟的麵粉。通常用水調拌後食用。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "083080003",
+      "verbatim": true
+    }
+  ]
 }

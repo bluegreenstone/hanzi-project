@@ -9,8 +9,8 @@
     {
       "reading": "qiān",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        71753
+      "source_entry_ids": [
+        "3653"
       ]
     }
   ],
@@ -18,8 +18,8 @@
     {
       "reading": "ㄑㄧㄢ",
       "pinyin": "qiān",
-      "source_entry_indices": [
-        71753
+      "source_entry_ids": [
+        "3653"
       ]
     }
   ],
@@ -98,11 +98,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -117,5 +119,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.拉、挽、引領。[例]牽手、牽動、順手牽羊　◎\n2.連累、繫念。[例]牽涉、牽掛",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "3653",
+      "verbatim": true
+    }
+  ]
 }

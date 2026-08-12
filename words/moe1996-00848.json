@@ -9,8 +9,8 @@
     {
       "reading": "zhǐ",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        60166
+      "source_entry_ids": [
+        "4248"
       ]
     }
   ],
@@ -18,8 +18,8 @@
     {
       "reading": "ㄓˇ",
       "pinyin": "zhǐ",
-      "source_entry_indices": [
-        60166
+      "source_entry_ids": [
+        "4248"
       ]
     }
   ],
@@ -98,11 +98,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -117,5 +119,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.停住、不動。[例]停止、學無止境、適可而止\n2.不准、阻擋。[例]禁止\n3.態度、行為。[例]舉止、行止\n4.僅、只。[例]不止一次",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "4248",
+      "verbatim": true
+    }
+  ]
 }

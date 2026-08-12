@@ -9,15 +9,22 @@
     {
       "reading": "nǚ",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        29741
+      "source_entry_ids": [
+        "1731"
+      ]
+    },
+    {
+      "reading": "nǜ",
+      "context": "dictionary_entry",
+      "source_entry_ids": [
+        "1732"
       ]
     },
     {
       "reading": "rǔ",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        29742
+      "source_entry_ids": [
+        "5235"
       ]
     }
   ],
@@ -25,15 +32,22 @@
     {
       "reading": "ㄋㄩˇ",
       "pinyin": "nǚ",
-      "source_entry_indices": [
-        29741
+      "source_entry_ids": [
+        "1731"
+      ]
+    },
+    {
+      "reading": "ㄋㄩˋ",
+      "pinyin": "nǜ",
+      "source_entry_ids": [
+        "1732"
       ]
     },
     {
       "reading": "ㄖㄨˇ",
       "pinyin": "rǔ",
-      "source_entry_indices": [
-        29742
+      "source_entry_ids": [
+        "5235"
       ]
     }
   ],
@@ -113,11 +127,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -132,5 +148,118 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "nǚ",
+            "nǜ",
+            "rǔ"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "1731",
+            "1732",
+            "5235"
+          ]
+        },
+        {
+          "value": [
+            "nǚ",
+            "rǔ"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            29741,
+            29742
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    },
+    {
+      "field": "zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            {
+              "pinyin": "nǚ",
+              "reading": "ㄋㄩˇ"
+            },
+            {
+              "pinyin": "nǜ",
+              "reading": "ㄋㄩˋ"
+            },
+            {
+              "pinyin": "rǔ",
+              "reading": "ㄖㄨˇ"
+            }
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "1731",
+            "1732",
+            "5235"
+          ]
+        },
+        {
+          "value": [
+            {
+              "pinyin": "nǚ",
+              "reading": "ㄋㄩˇ"
+            },
+            {
+              "pinyin": "rǔ",
+              "reading": "ㄖㄨˇ"
+            }
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11",
+            "cns11643-attributes-2026-08-05"
+          ],
+          "source_entry_indices": [
+            29741,
+            29742
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE Concised Dictionary Zhuyin is canonical. The previous value was mechanically converted from CC-CEDICT Pinyin through the CNS syllable table and remains comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.女性、女人。與「男」相對。[例]才女、新女性\r\n2.女兒。[例]生兒育女\r\n3.二十八星宿之一，北方玄武宿的第二宿，共有四顆星。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "1731",
+      "verbatim": true
+    },
+    {
+      "text": "將女兒嫁與他人。[例]以女女人",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "1732",
+      "verbatim": true
+    },
+    {
+      "text": "你。同「汝」。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "5235",
+      "verbatim": true
+    }
+  ]
 }

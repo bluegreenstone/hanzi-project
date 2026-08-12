@@ -10,8 +10,8 @@
     {
       "reading": "táng cháo",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        21894
+      "source_entry_ids": [
+        "025820037"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄊㄤˊ ㄔㄠˊ",
       "pinyin": "táng cháo",
-      "source_entry_indices": [
-        21894
+      "source_entry_ids": [
+        "025820037"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "朝代名。（西元618～906）李淵代隋，國號唐，二十帝，二百八十九年。唐朝建都長安，與漢朝並稱為中國歷史上最富強的盛世。當時文化優越，版圖遼闊，聲威遠播，對鄰近諸國，有深遠的影響。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "025820037",
+      "verbatim": true
+    }
+  ]
 }

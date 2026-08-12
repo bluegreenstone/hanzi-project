@@ -10,8 +10,8 @@
     {
       "reading": "jiù shì",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        34933
+      "source_entry_ids": [
+        "057240042"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄐㄧㄡˋ ㄕˋ",
       "pinyin": "jiù shì",
-      "source_entry_indices": [
-        34933
+      "source_entry_ids": [
+        "057240042"
       ]
     }
   ],
@@ -91,11 +91,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -110,5 +112,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.表示確定語氣的詞。如：「這位就是新來的總經理。」《儒林外史》第二六回：「天老，這要娶他的人，就是我丈人抱養這個小孩子。」\n2.用於句末，表示訴求或應允。《二刻拍案驚奇》卷一〇：「大郎道：『這個卻不知道，叫他出來就是。』」《紅樓夢》第四六回：「有什麼不稱心之處，只管說與我，我包管你遂心如意就是了。」\n3.表示同意。如：「就是，就是，你真是一語中的！」《金瓶梅》第二四回：「惠蓮道：『賊囚根子！六月債兒熱還得快，就是，甚麼打緊？教你彫佛眼兒！便當你不掃，丟著，另教個小廝掃。他問我，只說得一聲。』」\n4.連詞：(1)表示假設。下半句常用「也」字相呼應。《初刻拍案驚奇》卷二〇：「今日為了父親，就是殺身，也說不得，何惜其他！」《儒林外史》第一一回：「就是如此，也只好慢慢勸他。」(2)表示轉折，猶言不過、只是。如：「這孩子真不錯，就是內向了一點。」《老殘遊記二編》第一回：「泰安的轎子像個圈椅一樣，就是沒有四條腿。」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "057240042",
+      "verbatim": true
+    }
+  ]
 }

@@ -10,12 +10,34 @@
     {
       "reading": "gōng fu",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        15072
+      "source_entry_ids": [
+        "246700004"
+      ]
+    },
+    {
+      "reading": "gōng fū",
+      "context": "dictionary_entry",
+      "source_entry_ids": [
+        "2467000041"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄍㄨㄥ ˙ㄈㄨ",
+      "pinyin": "gōng fu",
+      "source_entry_ids": [
+        "246700004"
+      ]
+    },
+    {
+      "reading": "ㄍㄨㄥ ㄈㄨ",
+      "pinyin": "gōng fū",
+      "source_entry_ids": [
+        "2467000041"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "skill",
@@ -99,15 +121,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "zhuyin": [
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "grading.hsk",
       "reason": "source_unavailable",
@@ -119,5 +142,55 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "gōng fu",
+            "gōng fū"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "246700004",
+            "2467000041"
+          ]
+        },
+        {
+          "value": [
+            "gōng fu"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            15072
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.本領、造詣。[例]他在國畫方面的功夫很了不得。\n\t\n2.時間、精力。[例]他花了很大的功夫才說服父母讓他去露營。\n",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "246700004",
+      "verbatim": true
+    },
+    {
+      "text": "武術。[例]功夫演員",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "2467000041",
+      "verbatim": true
+    }
+  ]
 }

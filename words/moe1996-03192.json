@@ -8,14 +8,22 @@
   ],
   "pinyin": [
     {
-      "reading": "lì hai",
+      "reading": "lì hài",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        17984
+      "source_entry_ids": [
+        "191000002"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄌㄧˋ ㄏㄞˋ",
+      "pinyin": "lì hài",
+      "source_entry_ids": [
+        "191000002"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "(used to describe sb or sth that makes a very strong impression, whether favorable or unfavorable) terrible; intense; severe; devastating; amazing; awesome; outstanding",
@@ -107,15 +115,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "zhuyin": [
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "grading.hsk",
       "reason": "source_unavailable",
@@ -127,5 +136,45 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "lì hài"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "191000002"
+          ]
+        },
+        {
+          "value": [
+            "lì hai"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            17984
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.猛烈、強烈。[例]他看了那幕驚險的鏡頭，心跳得很厲害。\n2.嚴重。[例]你燒得這麼厲害，應該趕緊去看醫生！\n3.高強。[例]他的劍法非常厲害，一般人根本不是他的對手。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "191000002",
+      "verbatim": true
+    }
+  ]
 }

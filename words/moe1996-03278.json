@@ -11,8 +11,8 @@
     {
       "reading": "jiào yù bù",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        50684
+      "source_entry_ids": [
+        "056750085"
       ]
     }
   ],
@@ -20,8 +20,8 @@
     {
       "reading": "ㄐㄧㄠˋ ㄩˋ ㄅㄨˋ",
       "pinyin": "jiào yù bù",
-      "source_entry_indices": [
-        50684
+      "source_entry_ids": [
+        "056750085"
       ]
     }
   ],
@@ -76,11 +76,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -95,5 +97,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "中央政府行政院的一部。掌理全國學術、文化及教育行政等事務。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "056750085",
+      "verbatim": true
+    }
+  ]
 }

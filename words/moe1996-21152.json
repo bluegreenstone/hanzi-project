@@ -9,9 +9,8 @@
     {
       "reading": "shū",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        75325,
-        75326
+      "source_entry_ids": [
+        "5110"
       ]
     }
   ],
@@ -19,9 +18,8 @@
     {
       "reading": "ㄕㄨ",
       "pinyin": "shū",
-      "source_entry_indices": [
-        75325,
-        75326
+      "source_entry_ids": [
+        "5110"
       ]
     }
   ],
@@ -173,11 +171,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -192,5 +192,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.使通暢。[例]疏通、疏導\r\n2.分散、散開。[例]疏散人群\r\n3.事物間空隙或間隔大的。與「密」相對。　◎\r\n4.不親近、不熟悉。[例]生疏、疏遠\r\n5.粗心、不注意的。[例]疏忽、疏失\r\n6.空虛、不實在。[例]空疏、才疏學淺\r\n7.粗糙、不精細的。[例]疏食\r\n8.一種古書上注解的文字。[例]注疏",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "5110",
+      "verbatim": true
+    }
+  ]
 }

@@ -9,8 +9,8 @@
     {
       "reading": "zuò",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        38234
+      "source_entry_ids": [
+        "5389"
       ]
     }
   ],
@@ -18,8 +18,8 @@
     {
       "reading": "ㄗㄨㄛˋ",
       "pinyin": "zuò",
-      "source_entry_indices": [
-        38234
+      "source_entry_ids": [
+        "5389"
       ]
     }
   ],
@@ -106,11 +106,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -125,5 +127,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.位子、席位。[例]入座、讓座、高朋滿座\n2.器物的托架。[例]底座、筆座、鐘座　△座子\n3.星星。[例]獅子座、獵戶座\n4.量詞。計算有底座或大型物體的單位。[例]一座山、兩座自鳴鐘",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "5389",
+      "verbatim": true
+    }
+  ]
 }

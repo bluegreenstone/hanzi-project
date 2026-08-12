@@ -8,19 +8,19 @@
   ],
   "pinyin": [
     {
-      "reading": "xiǎo jie",
+      "reading": "xiǎo jiě",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        34354
+      "source_entry_ids": [
+        "396300037"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄒㄧㄠˇ ˙ㄐㄧㄝ",
-      "pinyin": "xiǎo jie",
-      "source_entry_indices": [
-        34354
+      "reading": "ㄒㄧㄠˇ ㄐㄧㄝˇ",
+      "pinyin": "xiǎo jiě",
+      "source_entry_ids": [
+        "396300037"
       ]
     }
   ],
@@ -99,11 +99,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -118,5 +120,81 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "xiǎo jiě"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "396300037"
+          ]
+        },
+        {
+          "value": [
+            "xiǎo jie"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            34354
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    },
+    {
+      "field": "zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            {
+              "pinyin": "xiǎo jiě",
+              "reading": "ㄒㄧㄠˇ ㄐㄧㄝˇ"
+            }
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "396300037"
+          ]
+        },
+        {
+          "value": [
+            {
+              "pinyin": "xiǎo jie",
+              "reading": "ㄒㄧㄠˇ ˙ㄐㄧㄝ"
+            }
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11",
+            "cns11643-attributes-2026-08-05"
+          ],
+          "source_entry_indices": [
+            34354
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE Concised Dictionary Zhuyin is canonical. The previous value was mechanically converted from CC-CEDICT Pinyin through the CNS syllable table and remains comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.社交場合中對女性的稱呼。[例]小姐，請問博物館怎麼走？\r\n2.舊時僕人對主人女兒的稱呼。今亦用於敬稱他人的女兒。[例]大小姐、千金小姐",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "396300037",
+      "verbatim": true
+    }
+  ]
 }

@@ -43,15 +43,24 @@ def utc_now() -> str:
 
 
 def request_bytes(url: str) -> bytes:
-    request = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": USER_AGENT,
-            "Accept": "image/svg+xml,application/json;q=0.9,*/*;q=0.1",
-        },
-    )
-    with urllib.request.urlopen(request, timeout=60) as response:
-        return response.read()
+    for attempt in range(5):
+        request = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": USER_AGENT,
+                "Accept": "image/svg+xml,application/json;q=0.9,*/*;q=0.1",
+            },
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=60) as response:
+                return response.read()
+        except HTTPError as exc:
+            if exc.code != 429 or attempt == 4:
+                raise
+            retry_after = exc.headers.get("Retry-After")
+            delay = min(float(retry_after), 30.0) if retry_after else 4.0 * (attempt + 1)
+            time.sleep(delay)
+    raise RuntimeError("unreachable retry state")
 
 
 def wayback_original(original_url: str, expected_sha1: str) -> tuple[bytes, dict[str, str]]:

@@ -11,8 +11,8 @@
     {
       "reading": "bō shì dùn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        63871
+      "source_entry_ids": [
+        "000440093"
       ]
     }
   ],
@@ -20,8 +20,8 @@
     {
       "reading": "ㄅㄛ ㄕˋ ㄉㄨㄣˋ",
       "pinyin": "bō shì dùn",
-      "source_entry_indices": [
-        63871
+      "source_entry_ids": [
+        "000440093"
       ]
     }
   ],
@@ -76,11 +76,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -95,5 +97,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "城市名。位於美國麻薩諸塞州東部，瀕麻薩諸塞灣，為麻州州府所在地。人口超過二百七十五萬，是學術文化的重鎮。有哈佛等多所大學及博物館、美術館。其所成立的交響樂團為世界第一流。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "000440093",
+      "verbatim": true
+    }
+  ]
 }

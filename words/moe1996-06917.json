@@ -12,8 +12,8 @@
     {
       "reading": "zhōng guó yín háng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        3404
+      "source_entry_ids": [
+        "081300190"
       ]
     }
   ],
@@ -21,8 +21,8 @@
     {
       "reading": "ㄓㄨㄥ ㄍㄨㄛˊ ㄧㄣˊ ㄏㄤˊ",
       "pinyin": "zhōng guó yín háng",
-      "source_entry_indices": [
-        3404
+      "source_entry_ids": [
+        "081300190"
       ]
     }
   ],
@@ -77,11 +77,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -96,5 +98,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "民國元年（西元1912），由大清銀行改組而成。初為國家銀行性質，有代理國庫及發行鈔票的特權，中央銀行成立後，政府頒布新條例，特定為國際匯兌銀行。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "081300190",
+      "verbatim": true
+    }
+  ]
 }

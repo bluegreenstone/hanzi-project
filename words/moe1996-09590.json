@@ -9,19 +9,19 @@
   ],
   "pinyin": [
     {
-      "reading": "bā diǎn dàng",
+      "reading": "bā diǎn dǎng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        11660
+      "source_entry_ids": [
+        "0000100581"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄅㄚ ㄉㄧㄢˇ ㄉㄤˋ",
-      "pinyin": "bā diǎn dàng",
-      "source_entry_indices": [
-        11660
+      "reading": "ㄅㄚ ㄉㄧㄢˇ ㄉㄤˇ",
+      "pinyin": "bā diǎn dǎng",
+      "source_entry_ids": [
+        "0000100581"
       ]
     }
   ],
@@ -84,11 +84,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -103,5 +105,81 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "bā diǎn dǎng"
+          ],
+          "source_ids": [
+            "moe-tw-revised-dictionary-2015-20260625"
+          ],
+          "source_entry_ids": [
+            "0000100581"
+          ]
+        },
+        {
+          "value": [
+            "bā diǎn dàng"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            11660
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Revised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    },
+    {
+      "field": "zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            {
+              "pinyin": "bā diǎn dǎng",
+              "reading": "ㄅㄚ ㄉㄧㄢˇ ㄉㄤˇ"
+            }
+          ],
+          "source_ids": [
+            "moe-tw-revised-dictionary-2015-20260625"
+          ],
+          "source_entry_ids": [
+            "0000100581"
+          ]
+        },
+        {
+          "value": [
+            {
+              "pinyin": "bā diǎn dàng",
+              "reading": "ㄅㄚ ㄉㄧㄢˇ ㄉㄤˋ"
+            }
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11",
+            "cns11643-attributes-2026-08-05"
+          ],
+          "source_entry_indices": [
+            11660
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE Revised Dictionary Zhuyin is canonical. The previous value was mechanically converted from CC-CEDICT Pinyin through the CNS syllable table and remains comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "指國內電視臺於每晚八點播放的連續劇節目。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "0000100581",
+      "verbatim": true
+    }
+  ]
 }

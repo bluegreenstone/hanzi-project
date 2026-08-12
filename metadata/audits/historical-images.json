@@ -1,0 +1,1040 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-08-12T02:39:19Z",
+  "scope": "All historical assets in assets/manifest.json. File integrity, source identity-evidence strength, exact duplicates, and cross-radical reuse.",
+  "summary": {
+    "asset_count": 4668,
+    "published_asset_count": 2323,
+    "quarantined_asset_count": 455,
+    "provenance_alias_asset_count": 1676,
+    "retired_unverified_asset_count": 214,
+    "unique_sha256_count": 2969,
+    "published_unique_sha256_count": 2300,
+    "integrity_error_count": 0,
+    "by_historical_form": {
+      "bronze_金文": 316,
+      "liushutong_六書通": 3627,
+      "oracle_bone_甲骨文": 300,
+      "shuowen_seal_說文解字": 425
+    },
+    "published_by_historical_form": {
+      "bronze_金文": 166,
+      "liushutong_六書通": 1787,
+      "oracle_bone_甲骨文": 159,
+      "shuowen_seal_說文解字": 211
+    },
+    "by_review_status": {
+      "provenance_alias_exact_duplicate": 1676,
+      "quarantined_identity_unverified": 455,
+      "source_verified_mapping": 2323,
+      "superseded_unverified_community_vector": 214
+    },
+    "duplicate_hash_group_count": 23,
+    "all_asset_duplicate_hash_group_count": 1679,
+    "same_radical_duplicate_hash_group_count": 0,
+    "cross_radical_hash_group_count": 23,
+    "annotated_cross_radical_hash_group_count": 23
+  },
+  "source_quality": {
+    "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10": {
+      "tier": "taiwan_scholarly_database",
+      "identity_evidence": "Exact Traditional-character query plus source glyph code and bibliographic reference.",
+      "review_status": "source_verified_mapping",
+      "asset_count": 536
+    },
+    "codh-henrui-liushutong-te00008-21-series-2026-08-11": {
+      "tier": "scholarly_primary_scan_index",
+      "identity_evidence": "Exact Unicode character index, volume/page locator, and source crop.",
+      "review_status": "provenance_alias_exact_duplicate",
+      "asset_count": 3338
+    },
+    "codh-henrui-liushutong-te00010-2026-08-10": {
+      "tier": "scholarly_primary_scan_index",
+      "identity_evidence": "Exact Unicode character index, book/page locator, and source crop.",
+      "review_status": "provenance_alias_exact_duplicate",
+      "asset_count": 125
+    },
+    "commons-ancient-chinese-character-seal-files-2026-08-10": {
+      "tier": "community_vector_transcription",
+      "identity_evidence": "Commons filename and metadata; mapping needs a primary comparison.",
+      "review_status": "superseded_unverified_community_vector",
+      "asset_count": 10
+    },
+    "commons-ancient-chinese-historical-form-files-2026-08-10": {
+      "tier": "community_derivative_index",
+      "identity_evidence": "Community project table, filename suffix, and category only; no independent scholarly identity check recorded per asset.",
+      "review_status": "quarantined_identity_unverified",
+      "asset_count": 455
+    },
+    "commons-shuowen-540-svg-series-2026-08-10": {
+      "tier": "community_vector_transcription",
+      "identity_evidence": "Numbered Shuowen-radical mapping, but no primary-scan comparison recorded per asset.",
+      "review_status": "superseded_unverified_community_vector",
+      "asset_count": 200
+    },
+    "commons-shuowen-seal-files-2026-08-10": {
+      "tier": "community_vector_transcription",
+      "identity_evidence": "Commons filename and metadata; mapping needs a primary comparison.",
+      "review_status": "superseded_unverified_community_vector",
+      "asset_count": 4
+    }
+  },
+  "findings": [
+    {
+      "id": "HIST-001",
+      "severity": "high",
+      "confidence": "high",
+      "status": "mitigated_by_quarantine",
+      "title": "Community-derived historical glyphs lack independent identity verification",
+      "evidence": {
+        "affected_assets": 455,
+        "source_id": "commons-ancient-chinese-historical-form-files-2026-08-10",
+        "current_gate": "Excluded from release-facing records and release packaging; original bytes and metadata retained for audit."
+      },
+      "risk": "A correctly licensed and unmodified file can still depict the wrong character or the wrong historical script.",
+      "remediation": "Do not restore an asset until its mapping is matched to Academia Sinica, a primary scan, or another scholarly catalogue with a per-asset citation."
+    },
+    {
+      "id": "HIST-002",
+      "severity": "high",
+      "confidence": "high",
+      "status": "mitigated_by_annotation",
+      "title": "Exact image bytes are assigned to different Kangxi radicals",
+      "evidence": {
+        "cross_radical_hash_groups": 23,
+        "annotated_groups": 23,
+        "affected_assets": 46
+      },
+      "risk": "Some may be legitimate historical equivalences or scholarly cross-identifications. Without the explicit annotation, consumers could misread byte-identical evidence as independent forms.",
+      "remediation": "Keep the source-cross-identification visible unless a palaeographic review establishes that one mapping is erroneous or that the forms should be modeled as an explicit equivalence."
+    },
+    {
+      "id": "HIST-003",
+      "severity": "medium",
+      "confidence": "high",
+      "status": "mitigated_by_alias_deduplication",
+      "title": "Exact duplicate image files inflate historical-form counts",
+      "evidence": {
+        "published_same_radical_duplicate_hash_groups": 0,
+        "provenance_alias_assets": 1676
+      },
+      "risk": "Coverage and variant counts overstate distinct visual evidence, especially where paired CODH volume identifiers serve identical bytes.",
+      "remediation": "Continue counting the canonical asset once while preserving exact duplicate edition/source records as release-excluded provenance aliases."
+    },
+    {
+      "id": "HIST-004",
+      "severity": "high",
+      "confidence": "high",
+      "status": "mitigated_by_official_replacement_and_gap_model",
+      "title": "Community-rendered Commons seal forms lacked an independent identity comparison",
+      "evidence": {
+        "retired_commons_assets": 214,
+        "published_exact_query_sinica_assets": 211,
+        "official_exact_query_gaps": 3
+      },
+      "risk": "A modern community vector can be licensed and consistently numbered while still being the wrong glyph for the corpus's Traditional-primary radical.",
+      "remediation": "Keep all 214 Commons vectors release-excluded. Publish only the 211 exact-character Academia Sinica results and preserve 亠, 爿, and 靑 as explicit zero-result query gaps."
+    }
+  ],
+  "integrity_errors": [],
+  "cross_radical_duplicate_groups": [
+    {
+      "sha256": "2c0f2343dce97acf4edaf1f2a1f7f590970b5174efb1f3012865d1fbc211d9bd",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-007",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-007"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-007.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X1118_Y0935.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-007",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-007"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-007.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X1118_Y0935.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "37e47131fcc05c7dd33d20dd3ccf5efa6e99e6b02d5706cca76cebfd9f1b34f7",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-016",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-016"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-016.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X1448_Y2650.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-016",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-016"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-016.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X1448_Y2650.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "39295633cdfbefbb99c63dff5558aa075183e6adb1d7b3d7d889b0eda761cf01",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-009",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-009"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-009.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X1121_Y3392.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-009",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-009"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-009.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X1121_Y3392.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "47c6884bc9b2989dc7f7dfebc73b54e140294ecf00f2441fa03a08a8b42f8371",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-001",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-001"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-001.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X0805_Y2391.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-001",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-001"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-001.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X0805_Y2391.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "4dc39d56cebfe8ecea668f51049a51fcafab3f4bbe809d2e6d532898cb6b388b",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-013",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-013"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-013.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X1421_Y1502.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-013",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-013"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-013.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X1421_Y1502.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "605b0def566e20094aa0a480a98161b46ed6688a5d91f28cec3b3da88c99f6b8",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-006",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-006"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-006.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X1116_Y1799.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-006",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-006"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-006.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X1116_Y1799.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "67948a497a99fa9b97383fdd1ee806807faa6de59a7eec771cb06e3b6e8bc09d",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-008",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-008"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-008.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X1118_Y2834.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-008",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-008"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-008.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X1118_Y2834.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "70a5182574cfabfc57da3e2d0549a0a12cedb5a4e86341e90db42bf8addbc8da",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-020",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-020"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-020.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X1734_Y2501.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-020",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-020"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-020.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X1734_Y2501.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "793ba25836a7b18cbb9e1ab8e2a311a9c136c8b0b20e81ce3008c9d5d25e24be",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-011",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-011"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-011.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X1146_Y3695.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-011",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-011"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-011.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X1146_Y3695.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "7a54794114535706a811e4ecffc1d8ba7f6dfe869718d75905f154370699be8f",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-010",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-010"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-010.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X1125_Y2236.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-010",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-010"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-010.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X1125_Y2236.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "9083066ee7669d1e0cdeac59844fe622e67931cb26a2e129e0005be3c1144513",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-012",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-012"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-012.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X1391_Y1065.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-012",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-012"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-012.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X1391_Y1065.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "90dae6081acca887b2c9bee36eba5c874b0bb15879798153f6234025ccb1ae16",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-004",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-004"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-004.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X0826_Y0774.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-004",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-004"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-004.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X0826_Y0774.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "96aec886b18a48098178a88473f50ce711c964acb7e71a1e112594348c52ec72",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-015",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-015"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-015.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X1445_Y2932.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-015",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-015"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-015.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X1445_Y2932.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "a3ed19f3382a2f0c44602560ffaef2ca3b0cd272c84c6fe1f6e845d27b8bd478",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-014",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-014"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-014.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X1433_Y3513.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-014",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-014"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-014.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X1433_Y3513.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "b1ef7f5a1cf3a491413cf82ff9996d8eaff01b48299efa89f287bea74da107f1",
+      "assets": [
+        {
+          "asset_id": "sinica-bronze-U+5E7A-representative",
+          "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+          "kangxi_number": 52,
+          "primary": "幺",
+          "historical_form": "bronze_金文",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 95,
+              "primary": "玄",
+              "asset_id": "sinica-bronze-U+7384-representative"
+            }
+          ],
+          "local_path": "assets/bronze/U+5E7A/sinica-bronze-U+5E7A-representative.png",
+          "source_file": "31.F6BD"
+        },
+        {
+          "asset_id": "sinica-bronze-U+7384-representative",
+          "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+          "kangxi_number": 95,
+          "primary": "玄",
+          "historical_form": "bronze_金文",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 52,
+              "primary": "幺",
+              "asset_id": "sinica-bronze-U+5E7A-representative"
+            }
+          ],
+          "local_path": "assets/bronze/U+7384/sinica-bronze-U+7384-representative.png",
+          "source_file": "31.F6BD"
+        }
+      ]
+    },
+    {
+      "sha256": "b313abf83e05498635c81c01a5e0e9ca071c8c52364b83e25ba8579c46311cb2",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-002",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-002"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-002.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X0810_Y1968.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-002",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-002"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-002.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X0810_Y1968.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "c0bba334ca32a6d16e4b1533fc02df10518f763318747b7bb8788ea824c19afc",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-003",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-003"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-003.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X0821_Y1374.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-003",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-003"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-003.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X0821_Y1374.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "d91f1330d47d0dc5a8653cef071adef84f5c66dcca09a20b36171e08df8f564a",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-018",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-018"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-018.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X1451_Y3823.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-018",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-018"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-018.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X1451_Y3823.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "e68893e24fbc7cc72f47d0c7e347781c58f1cf82906c7b8dd845e6f3624d137e",
+      "assets": [
+        {
+          "asset_id": "sinica-oracle-U+56D7-representative",
+          "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+          "kangxi_number": 31,
+          "primary": "囗",
+          "historical_form": "oracle_bone_甲骨文",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 72,
+              "primary": "日",
+              "asset_id": "sinica-oracle-U+65E5-representative"
+            }
+          ],
+          "local_path": "assets/oracle/U+56D7/sinica-oracle-U+56D7-representative.png",
+          "source_file": "42.ED44"
+        },
+        {
+          "asset_id": "sinica-oracle-U+65E5-representative",
+          "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+          "kangxi_number": 72,
+          "primary": "日",
+          "historical_form": "oracle_bone_甲骨文",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 31,
+              "primary": "囗",
+              "asset_id": "sinica-oracle-U+56D7-representative"
+            }
+          ],
+          "local_path": "assets/oracle/U+65E5/sinica-oracle-U+65E5-representative.png",
+          "source_file": "42.ED44"
+        }
+      ]
+    },
+    {
+      "sha256": "ea7e623150d8524cb34f35a0a5e3d96e00b9213c2cf0952ead8f8f16bda28b13",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-019",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-019"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-019.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X1724_Y1208.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-019",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-019"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-019.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X1724_Y1208.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "eea34ea545657cf0e6fb6d386a104a99f0296b60f9a3fa937e57ab87b1682321",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-005",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-005"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-005.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X1108_Y1217.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-005",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-005"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-005.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X1108_Y1217.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "eee3d803529120394dc6de61ff475331418d61c1b1f0341c8c16ebbe8321ccd9",
+      "assets": [
+        {
+          "asset_id": "sinica-bronze-U+56D7-representative",
+          "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+          "kangxi_number": 31,
+          "primary": "囗",
+          "historical_form": "bronze_金文",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 72,
+              "primary": "日",
+              "asset_id": "sinica-bronze-U+65E5-representative"
+            }
+          ],
+          "local_path": "assets/bronze/U+56D7/sinica-bronze-U+56D7-representative.png",
+          "source_file": "36.F46D"
+        },
+        {
+          "asset_id": "sinica-bronze-U+65E5-representative",
+          "source_id": "academia-sinica-xiaoxuetang-historical-glyphs-2026-08-10",
+          "kangxi_number": 72,
+          "primary": "日",
+          "historical_form": "bronze_金文",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 31,
+              "primary": "囗",
+              "asset_id": "sinica-bronze-U+56D7-representative"
+            }
+          ],
+          "local_path": "assets/bronze/U+65E5/sinica-bronze-U+65E5-representative.png",
+          "source_file": "36.F46D"
+        }
+      ]
+    },
+    {
+      "sha256": "fdde381ef577c51599912c9550565ce5383b10ffab86209a0dcbd1dd58543b59",
+      "assets": [
+        {
+          "asset_id": "codh-liushutong-TE00008-U+4EBA-017",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 9,
+          "primary": "人",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 10,
+              "primary": "儿",
+              "asset_id": "codh-liushutong-TE00008-U+513F-017"
+            }
+          ],
+          "local_path": "assets/liushutong/U+4EBA/codh-liushutong-TE00008-U+4EBA-017.jpg",
+          "source_file": "U+4EBA_TE00008_0027_2_X1451_Y2059.jpg"
+        },
+        {
+          "asset_id": "codh-liushutong-TE00008-U+513F-017",
+          "source_id": "codh-henrui-liushutong-te00008-21-series-2026-08-11",
+          "kangxi_number": 10,
+          "primary": "儿",
+          "historical_form": "liushutong_六書通",
+          "identity_status": "source_cross_identified",
+          "cross_identified_with": [
+            {
+              "kangxi_number": 9,
+              "primary": "人",
+              "asset_id": "codh-liushutong-TE00008-U+4EBA-017"
+            }
+          ],
+          "local_path": "assets/liushutong/U+513F/codh-liushutong-TE00008-U+513F-017.jpg",
+          "source_file": "U+513F_TE00008_0027_2_X1451_Y2059.jpg"
+        }
+      ]
+    }
+  ],
+  "same_radical_duplicate_groups": []
+}

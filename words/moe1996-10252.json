@@ -8,33 +8,33 @@
   ],
   "pinyin": [
     {
-      "reading": "sūn zǐ",
+      "reading": "sūn zi",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        31536
+      "source_entry_ids": [
+        "5689000021"
       ]
     },
     {
-      "reading": "sūn zi",
+      "reading": "sūn zǐ",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        31537
+      "source_entry_ids": [
+        "568900002"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄙㄨㄣ ㄗˇ",
-      "pinyin": "sūn zǐ",
-      "source_entry_indices": [
-        31536
+      "reading": "ㄙㄨㄣ ˙ㄗ",
+      "pinyin": "sūn zi",
+      "source_entry_ids": [
+        "5689000021"
       ]
     },
     {
-      "reading": "ㄙㄨㄣ ˙ㄗ",
-      "pinyin": "sūn zi",
-      "source_entry_indices": [
-        31537
+      "reading": "ㄙㄨㄣ ㄗˇ",
+      "pinyin": "sūn zǐ",
+      "source_entry_ids": [
+        "568900002"
       ]
     }
   ],
@@ -106,11 +106,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -125,5 +127,23 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.人名。即孫武。春秋時齊國人，生卒年不詳，著有兵法，嘗為吳王闔閭練兵。\n2.書名。春秋孫武撰，一卷，十三篇。為古代的兵書，內容分析戰爭形勢，探討軍事作戰策略、方式，被推崇為兵經。　△孫子兵法",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "568900002",
+      "verbatim": true
+    },
+    {
+      "text": "稱謂：(1) 稱兒子的兒子，今亦稱女兒的兒子。[例]張奶奶時常帶著孫子到公園玩耍。 (2) 泛稱兒女的子女。[例]老壽星呵呵的笑說：「我一共有十個兒女，五十個孫子。」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "5689000021",
+      "verbatim": true
+    }
+  ]
 }

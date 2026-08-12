@@ -10,12 +10,34 @@
     {
       "reading": "xīn si",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        40709
+      "source_entry_ids": [
+        "4042000961"
+      ]
+    },
+    {
+      "reading": "xīn sī",
+      "context": "dictionary_entry",
+      "source_entry_ids": [
+        "404200095"
       ]
     }
   ],
-  "zhuyin": null,
+  "zhuyin": [
+    {
+      "reading": "ㄒㄧㄣ ˙ㄙ",
+      "pinyin": "xīn si",
+      "source_entry_ids": [
+        "4042000961"
+      ]
+    },
+    {
+      "reading": "ㄒㄧㄣ ㄙ",
+      "pinyin": "xīn sī",
+      "source_entry_ids": [
+        "404200095"
+      ]
+    }
+  ],
   "definitions": [
     {
       "gloss": "mind",
@@ -91,15 +113,16 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "zhuyin": [
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
-    {
-      "field": "zhuyin",
-      "reason": "not_attested",
-      "detail": "No complete word reading can be converted through the pinned CNS Bopomofo-to-Pinyin table."
-    },
     {
       "field": "grading.hsk",
       "reason": "source_unavailable",
@@ -111,5 +134,55 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "xīn si",
+            "xīn sī"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "404200095",
+            "4042000961"
+          ]
+        },
+        {
+          "value": [
+            "xīn si"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            40709
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "精神、思慮。[例]為了辦好這次慈善義賣會，主辦人挖空心思籌劃。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "404200095",
+      "verbatim": true
+    },
+    {
+      "text": "1.心機、想法。[例]他這麼做到底存的是什麼心思？\n\t\n2.心情、興致。[例]許多事情都還沒做完，他怎麼會有心思去玩呢？\n",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "4042000961",
+      "verbatim": true
+    }
+  ]
 }

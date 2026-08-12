@@ -10,8 +10,8 @@
     {
       "reading": "liú bāng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        14950
+      "source_entry_ids": [
+        "035670007"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄌㄧㄡˊ ㄅㄤ",
       "pinyin": "liú bāng",
-      "source_entry_indices": [
-        14950
+      "source_entry_ids": [
+        "035670007"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -94,5 +96,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "人名。（西元前247～前195）字季，沛縣豐邑人，漢代開國之君，也是中國第一位平民皇帝。在位十二年。初為泗上亭長，秦末群雄並起，劉亦起於沛縣，故時人稱之為「沛公」。劉氏先項羽入關中，降秦王嬰，除秦苛法，與父老約法三章。項羽封劉為漢王。後劉邦定三秦，俟時機成熟，滅羽而有天下，國號漢，定都於長安。廟號高祖。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "035670007",
+      "verbatim": true
+    }
+  ]
 }

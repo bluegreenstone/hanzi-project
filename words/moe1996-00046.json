@@ -9,8 +9,8 @@
     {
       "reading": "hěn",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        39829
+      "source_entry_ids": [
+        "2780"
       ]
     }
   ],
@@ -18,8 +18,8 @@
     {
       "reading": "ㄏㄣˇ",
       "pinyin": "hěn",
-      "source_entry_indices": [
-        39829
+      "source_entry_ids": [
+        "2780"
       ]
     }
   ],
@@ -82,11 +82,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -101,5 +103,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "甚、非常，表示程度高。[例]這場午後雷陣雨很快就停了。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "2780",
+      "verbatim": true
+    }
+  ]
 }

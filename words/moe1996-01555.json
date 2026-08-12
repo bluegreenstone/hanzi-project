@@ -10,8 +10,8 @@
     {
       "reading": "gōng yuán",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        11755
+      "source_entry_ids": [
+        "247200121"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄍㄨㄥ ㄩㄢˊ",
       "pinyin": "gōng yuán",
-      "source_entry_indices": [
-        11755
+      "source_entry_ids": [
+        "247200121"
       ]
     }
   ],
@@ -83,11 +83,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -102,5 +104,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "經過造園處理或保留其自然狀態，以作為公眾戶外遊憩及享受大自然的特定場所。[例]陽明山國家公園的花季，每年都吸引大批的賞花人潮。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "247200121",
+      "verbatim": true
+    }
+  ]
 }

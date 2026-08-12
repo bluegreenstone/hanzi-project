@@ -10,8 +10,8 @@
     {
       "reading": "zhè jiāng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        64848
+      "source_entry_ids": [
+        "076830005"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄓㄜˋ ㄐㄧㄤ",
       "pinyin": "zhè jiāng",
-      "source_entry_indices": [
-        64848
+      "source_entry_ids": [
+        "076830005"
       ]
     }
   ],
@@ -75,11 +75,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -99,5 +101,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.河川名。位於浙江省境內，由新安江及蘭溪會合而成，東流入海，其各段分別稱為桐江、富春江、錢塘江。因江流曲折如「之」字形，故也稱為「之江」。\n2.省名。參見「浙江省」條。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "076830005",
+      "verbatim": true
+    }
+  ]
 }

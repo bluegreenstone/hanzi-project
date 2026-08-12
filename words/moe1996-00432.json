@@ -10,8 +10,8 @@
     {
       "reading": "wǎng lù",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        86117
+      "source_entry_ids": [
+        "640900001"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄨㄤˇ ㄌㄨˋ",
       "pinyin": "wǎng lù",
-      "source_entry_indices": [
-        86117
+      "source_entry_ids": [
+        "640900001"
       ]
     }
   ],
@@ -91,11 +91,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -110,5 +112,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.由電阻、電感、電容、電晶體等電子元件構成的複雜電路。[例]如果把ＩＣ版放大千倍來看，可以發現其中的網路是十分複雜的。\n2.利用電纜線或現成的電信通訊線路，配合網路卡或數據機，將伺服器與各單獨電腦連接起來，在軟體的運作下，達成資訊傳輸、資料共享等功能。此種系統即稱為「網路」。[例]區域網路、網際網路",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "640900001",
+      "verbatim": true
+    }
+  ]
 }

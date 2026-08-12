@@ -9,8 +9,8 @@
     {
       "reading": "xià",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        1857
+      "source_entry_ids": [
+        "3907"
       ]
     }
   ],
@@ -18,8 +18,8 @@
     {
       "reading": "ㄒㄧㄚˋ",
       "pinyin": "xià",
-      "source_entry_indices": [
-        1857
+      "source_entry_ids": [
+        "3907"
       ]
     }
   ],
@@ -154,11 +154,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -173,5 +175,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.上的相反。與「上」相對：(1) 位居低處。[例]山下、樓下、下面　◎　(2) 次序在後的。[例]下集、下卷、下篇　(3) 等級低的。[例]下級、下等　(4) 品質差的。[例]下策　(5) 泛指一切由高往下的動作。[例]下降、下蛋、下雨、下棋、下車、下令\n2.離開。[例]下工、下班、下課\n3.進入、前往。[例]下鄉、下獄、下江南\n4.運用、使用。[例]下工夫\n5.攻克。[例]連下數城\n6.低於某種標準。[例]不下千萬人\n7.方面、方位。[例]四下裡\n8.接名詞後，表示時間、空間：(1) 表示在某個範圍中間。[例]言下、意下、目下　(2) 表示在某段時間內。[例]年下、時下\n9.接動詞後，表示動作狀態：(1) 表示動作的因果關係。[例]在老師鼓勵下，我終於成功了。　(2) 表示動作的成果。[例]打下基礎、痛下針砭　(3) 表示動作的趨向。與來、去連用。[例]爬下來、走下去\n10. 量詞。計算動作次數的單位。[例]打十下手心。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "3907",
+      "verbatim": true
+    }
+  ]
 }

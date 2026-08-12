@@ -25,9 +25,9 @@ import validate_phase2 as validate2  # noqa: E402
 import validate_phase4 as validate4  # noqa: E402
 
 
-MANIFEST_PATH = ROOT / "phase5-manifest.json"
-VALIDATION_REPORT_PATH = ROOT / "validation-report.md"
-GAPS_REPORT_PATH = ROOT / "gaps-report.md"
+MANIFEST_PATH = ROOT / "metadata" / "manifests" / "phase5.json"
+VALIDATION_REPORT_PATH = ROOT / "docs" / "validation.md"
+GAPS_REPORT_PATH = ROOT / "docs" / "gaps.md"
 PHASE_REPORT_PATH = ROOT / "phase5-report.md"
 SVG_NS = "{http://www.w3.org/2000/svg}"
 PATH_ID_RE = re.compile(r"^stroke-(U\+[0-9A-F]{4,6})-([0-9]+)$")
@@ -95,7 +95,7 @@ def load_context(
     builder.audit_cns_type_documentation(registry, cns_path)
     unihan_path = phase3.acquired_path(registry, phase3.UNIHAN_ID)
     graphics = builder.parse_graphics(registry, graphics_path)
-    _, _, sequences = phase3.parse_cns(registry, cns_path)
+    _, _, sequences, _ = phase3.parse_cns(registry, cns_path)
     cps = {ord(record["primary"]["char"]) for record in radicals} | {
         int(record["codepoint"][2:], 16) for record in characters
     }
@@ -326,6 +326,14 @@ def phase5_gaps(record: dict[str, Any]) -> list[dict[str, str]]:
     ]
 
 
+def canonical_gaps(gaps: list[dict[str, str]]) -> list[dict[str, str]]:
+    """Compare gaps by content; later integrations may canonicalize list order."""
+    return sorted(
+        gaps,
+        key=lambda gap: (gap.get("field", ""), gap.get("reason", ""), gap.get("detail", "")),
+    )
+
+
 def check_radical_joins(
     radicals: list[dict[str, Any]], context: dict[str, Any], **_: Any
 ) -> list[str]:
@@ -341,7 +349,7 @@ def check_radical_joins(
             errors.append(f"radical {record['kangxi_number']}: stroke order differs")
         if phase5_sources(record) != sources:
             errors.append(f"radical {record['kangxi_number']}: Phase 5 sources differ")
-        if phase5_gaps(record) != gaps:
+        if canonical_gaps(phase5_gaps(record)) != canonical_gaps(gaps):
             errors.append(f"radical {record['kangxi_number']}: Phase 5 gaps differ")
     return errors
 
@@ -382,7 +390,7 @@ def check_character_joins(
                 errors.append(f"{record['codepoint']}: reconstructed stroke order differs")
             if phase5_sources(record) != sources:
                 errors.append(f"{record['codepoint']}: reconstruction provenance differs")
-            if phase5_gaps(record) != gaps:
+            if canonical_gaps(phase5_gaps(record)) != canonical_gaps(gaps):
                 errors.append(f"{record['codepoint']}: exact-source gap differs")
             continue
         order, sources, gaps = expected_order(cp, row, record["total_strokes"], context)
@@ -390,7 +398,7 @@ def check_character_joins(
             errors.append(f"{record['codepoint']}: stroke order differs")
         if phase5_sources(record) != sources:
             errors.append(f"{record['codepoint']}: Phase 5 sources differ")
-        if phase5_gaps(record) != gaps:
+        if canonical_gaps(phase5_gaps(record)) != canonical_gaps(gaps):
             errors.append(f"{record['codepoint']}: Phase 5 gaps differ")
     return errors
 
@@ -451,8 +459,8 @@ def check_prior_phase_regression(
     radicals: list[dict[str, Any]], characters: list[dict[str, Any]], **_: Any
 ) -> list[str]:
     errors: list[str] = []
-    phase2_manifest = json.loads((ROOT / "phase2-manifest.json").read_text())
-    phase4_manifest = json.loads((ROOT / "phase4-manifest.json").read_text())
+    phase2_manifest = json.loads((ROOT / "metadata" / "manifests" / "phase2.json").read_text())
+    phase4_manifest = json.loads((ROOT / "metadata" / "manifests" / "phase4.json").read_text())
     phase2_digest = phase2.deterministic_record_digest(
         [validate2.phase2_projection(record) for record in radicals]
     )
@@ -634,7 +642,7 @@ def write_reports(
         "",
         "## Phase boundary",
         "",
-        "Phase 6 validation and packaging has not started.",
+        "Phase 6 validation and deterministic packaging are complete in this snapshot.",
         "",
     ]
     PHASE_REPORT_PATH.write_text("\n".join(phase_lines), encoding="utf-8")

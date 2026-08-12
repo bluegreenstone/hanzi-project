@@ -10,15 +10,8 @@
     {
       "reading": "yān huǒ",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        70086
-      ]
-    },
-    {
-      "reading": "yān huo",
-      "context": "dictionary_entry",
-      "source_entry_indices": [
-        70087
+      "source_entry_ids": [
+        "607900006"
       ]
     }
   ],
@@ -26,15 +19,8 @@
     {
       "reading": "ㄧㄢ ㄏㄨㄛˇ",
       "pinyin": "yān huǒ",
-      "source_entry_indices": [
-        70086
-      ]
-    },
-    {
-      "reading": "ㄧㄢ ˙ㄏㄨㄛ",
-      "pinyin": "yān huo",
-      "source_entry_indices": [
-        70087
+      "source_entry_ids": [
+        "607900006"
       ]
     }
   ],
@@ -122,11 +108,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -141,5 +129,88 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "pinyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            "yān huǒ"
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "607900006"
+          ]
+        },
+        {
+          "value": [
+            "yān huo",
+            "yān huǒ"
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11"
+          ],
+          "source_entry_indices": [
+            70086,
+            70087
+          ]
+        }
+      ],
+      "detail": "The exact Taiwan MOE Concised Dictionary headword reading is canonical for this Traditional-first corpus. The differing CC-CEDICT reading set is retained as regional or lexical comparison evidence."
+    },
+    {
+      "field": "zhuyin",
+      "resolution": "taiwan_moe_canonical",
+      "values": [
+        {
+          "value": [
+            {
+              "pinyin": "yān huǒ",
+              "reading": "ㄧㄢ ㄏㄨㄛˇ"
+            }
+          ],
+          "source_ids": [
+            "moe-tw-concised-dictionary-2014-20260626"
+          ],
+          "source_entry_ids": [
+            "607900006"
+          ]
+        },
+        {
+          "value": [
+            {
+              "pinyin": "yān huo",
+              "reading": "ㄧㄢ ˙ㄏㄨㄛ"
+            },
+            {
+              "pinyin": "yān huǒ",
+              "reading": "ㄧㄢ ㄏㄨㄛˇ"
+            }
+          ],
+          "source_ids": [
+            "cc-cedict-editor-2026-08-11",
+            "cns11643-attributes-2026-08-05"
+          ],
+          "source_entry_indices": [
+            70086,
+            70087
+          ]
+        }
+      ],
+      "detail": "The Taiwan MOE Concised Dictionary Zhuyin is canonical. The previous value was mechanically converted from CC-CEDICT Pinyin through the CNS syllable table and remains comparison evidence."
+    }
+  ],
+  "definitions_zh_TW": [
+    {
+      "text": "1.煮飯的炊煙和柴火。[例]她看起來超凡脫俗，像是不食人間煙火的仙子。\n2.一種以火硝為主，並摻雜其他藥物製成的物品。燃燒時噴射出各種變幻燦爛的形狀，供遊戲觀賞之用。[例]黑漆漆的天空，被燃燒的煙火點綴得光明燦爛。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "607900006",
+      "verbatim": true
+    }
+  ]
 }

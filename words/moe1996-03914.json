@@ -7,35 +7,33 @@
   ],
   "pinyin": [
     {
-      "reading": "liáng",
+      "reading": "liàng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        65623,
-        65624
+      "source_entry_ids": [
+        "2039"
       ]
     },
     {
-      "reading": "liàng",
+      "reading": "liáng",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        65625
+      "source_entry_ids": [
+        "2029"
       ]
     }
   ],
   "zhuyin": [
     {
-      "reading": "ㄌㄧㄤˊ",
-      "pinyin": "liáng",
-      "source_entry_indices": [
-        65623,
-        65624
+      "reading": "ㄌㄧㄤˋ",
+      "pinyin": "liàng",
+      "source_entry_ids": [
+        "2039"
       ]
     },
     {
-      "reading": "ㄌㄧㄤˋ",
-      "pinyin": "liàng",
-      "source_entry_indices": [
-        65625
+      "reading": "ㄌㄧㄤˊ",
+      "pinyin": "liáng",
+      "source_entry_ids": [
+        "2029"
       ]
     }
   ],
@@ -116,11 +114,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-concised-dictionary-2014-20260626"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-concised-dictionary-2014-20260626"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-concised-dictionary-2014-20260626"
     ]
   },
   "gaps": [
@@ -135,5 +135,23 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.微寒。[例]涼水、涼風、陰涼\n2.冷清、不熱鬧。[例]荒涼、淒涼\n3.失望、灰心。[例]聽他這麼一說，我的心涼了半截。\n4.風寒。[例]受涼、著涼\n5.淡薄。[例]世態炎涼\n6.朝代名。東晉十六國中，先後據有今甘肅之地者，國號皆稱為「涼」，有前涼、後涼等。",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "2029",
+      "verbatim": true
+    },
+    {
+      "text": "將物品放在通風處，使熱度降低。[例]暴涼",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-concised-dictionary-2014-20260626",
+      "source_entry_id": "2039",
+      "verbatim": true
+    }
+  ]
 }

@@ -10,8 +10,8 @@
     {
       "reading": "jiē zhe",
       "context": "dictionary_entry",
-      "source_entry_indices": [
-        47795
+      "source_entry_ids": [
+        "055390071"
       ]
     }
   ],
@@ -19,8 +19,8 @@
     {
       "reading": "ㄐㄧㄝ ˙ㄓㄜ",
       "pinyin": "jiē zhe",
-      "source_entry_indices": [
-        47795
+      "source_entry_ids": [
+        "055390071"
       ]
     }
   ],
@@ -163,11 +163,13 @@
       "cc-cedict-editor-2026-08-11"
     ],
     "pinyin": [
-      "cc-cedict-editor-2026-08-11"
+      "moe-tw-revised-dictionary-2015-20260625"
     ],
     "zhuyin": [
-      "cc-cedict-editor-2026-08-11",
-      "cns11643-attributes-2026-08-05"
+      "moe-tw-revised-dictionary-2015-20260625"
+    ],
+    "definitions_zh_TW": [
+      "moe-tw-revised-dictionary-2015-20260625"
     ]
   },
   "gaps": [
@@ -182,5 +184,15 @@
       "detail": "The MOE release publishes word-frequency rows but does not identify a named segmentation tool."
     }
   ],
-  "conflicts": []
+  "conflicts": [],
+  "definitions_zh_TW": [
+    {
+      "text": "1.接住。如：「小心接著，別弄壞了！」《鏡花緣》第三十五回：「宮娥拾過，又斟一杯。林之洋接著，心中更覺發慌，登時又把酒灑了。」\n2.緊跟著。如：「看戰友一個個衝向前去，他接著也興起了鬥志」《二十年目睹之怪現狀》第一六回：「這一聲響不打緊，偏又接著外面人聲鼎沸起來，嚇得我吃了一大驚！」",
+      "lang": "zh-Hant-TW",
+      "register": "dictionary",
+      "source_id": "moe-tw-revised-dictionary-2015-20260625",
+      "source_entry_id": "055390071",
+      "verbatim": true
+    }
+  ]
 }
